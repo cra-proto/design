@@ -25,7 +25,7 @@
 	background: inherit!important;
 	border-bottom: 5px solid #6f6f6f;
 }
-.menu-inverse #wb-sm .wb-navcurr {
+.menu-inverse #wb-sm .menu>li a.wb-navcurr {
 	border-bottom: 5px solid #333;
 }
 .menu-inverse #wb-sm .menu>li {
