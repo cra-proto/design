@@ -46,7 +46,10 @@
 .menu-inverse .menu-header a, .menu-inverse .menu-header a:visited {
     display: inline-block;
     text-decoration: none;
+    color: #284162;
 }
+
+
 .menu-inverse .menu-header a:active, .menu-inverse .menu-header a:focus, .menu-inverse .menu-header a:hover {
     text-decoration: underline;
 }
