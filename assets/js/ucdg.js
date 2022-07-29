@@ -1,6 +1,3 @@
-//Loading scripts
-window.onload = menuFooterInject;
-
 
 //Function to add title and menu of guide and footer
 function menuFooterInject() {
@@ -24,4 +21,4 @@ var request = new XMLHttpRequest();
     };
     request.send();
 })(0, index.length);
-}
+
