@@ -34,7 +34,7 @@
 .menu-inverse #wb-sm .menu>li:last-child {
 	border-right: 0px solid transparent;
 }
-#wb-sm h2.menu-header {
+.menu-inverse #wb-sm h2.menu-header {
 	clip: inherit;
 	height: initial;
 	margin: inherit;
@@ -43,6 +43,11 @@
 	transform: translate(0, -50%);
 	width: initial;
 }
+.menu-inverse .app-name, .app-name:visited {
+    display: inline-block;
+    text-decoration: none;
+}
+
 /*For mobile design */
 .menu-inverse .wb-mb-links {
 	border-bottom: 1px solid #6f6f6f;
