@@ -5,7 +5,7 @@ window.onload = menuFooterInject;
 //Function to add title and menu of guide and footer
 function menuFooterInject() {
 	"use strict";
-		var index = ["/design/assets/includes/menu-ucdg.html", "/design/assets/includes/footer-ucdg.html"];
+		var index = ["/design/assets/includes/menu-include.html", "/design/assets/includes/footer-include.html"];
 		var injectSpot = ["menu-include", "footer-include"];
 var request = new XMLHttpRequest();
 (function loop(i, length) {
