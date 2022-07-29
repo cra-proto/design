@@ -1,0 +1,61 @@
+.menu-inverse #wb-sm {
+	background-color: transparent;
+}
+.menu-inverse #wb-bc ol {
+	border-top: 1px solid #6f6f6f;
+	margin-top: 0;
+	padding: 15px 13px;
+}
+.menu-inverse #wb-sm .menu>li a {
+	color: inherit;
+	font-size: 20px;
+}
+.menu-inverse #wb-sm .menu {
+	border-right: 0px;
+	text-shadow: none;
+}
+.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected, .menu-inverse #wb-sm .menu .wb-navcurr {
+	background-color: inherit!important;
+	color: inherit!important;
+}
+.menu-inverse #wb-sm .menu>li a {
+	border-bottom: 5px solid transparent;
+}
+.menu-inverse #wb-sm .menu>li a:focus, .menu-inverse #wb-sm .menu>li a:hover {
+	background: inherit!important;
+	border-bottom: 5px solid #6f6f6f;
+}
+.menu-inverse #wb-sm .wb-navcurr {
+	border-bottom: 5px solid #333;
+}
+.menu-inverse #wb-sm .menu>li {
+	border-left: 0px solid transparent;
+}
+.menu-inverse #wb-sm .menu>li:last-child {
+	border-right: 0px solid transparent;
+}
+#wb-sm h2.menu-header {
+	clip: inherit;
+	height: initial;
+	margin: inherit;
+	overflow: inherit;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: initial;
+}
+/*For mobile design */
+.menu-inverse .wb-mb-links {
+	border-bottom: 1px solid #6f6f6f;
+}
+.menu-inverse #mb-pnl .modal-header:before {
+	border-bottom: 0!important;
+	border-left: 0;
+	border-top: 0;
+}
+.menu-inverse #mb-pnl .modal-header {
+	background: #26374a;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	-webkit-box-shadow: inherit;
+	box-shadow: inherit;
+}
