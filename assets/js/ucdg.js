@@ -1,6 +1,5 @@
 
 //Function to add title and menu of guide and footer
-function menuFooterInject() {
 	"use strict";
 		var index = ["/design/assets/includes/menu-include.html", "/design/assets/includes/footer-include.html"];
 		var injectSpot = ["menu-include", "footer-include"];
