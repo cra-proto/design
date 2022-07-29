@@ -47,7 +47,9 @@
     display: inline-block;
     text-decoration: none;
 }
-
+.menu-inverse .app-name:active, .menu-inverse .app-name:focus, .app-name:hover {
+    text-decoration: underline;
+}
 /*For mobile design */
 .menu-inverse .wb-mb-links {
 	border-bottom: 1px solid #6f6f6f;
