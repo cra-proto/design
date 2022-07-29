@@ -43,11 +43,11 @@
 	transform: translate(0, -50%);
 	width: initial;
 }
-.menu-inverse .app-name, .app-name:visited {
+.menu-inverse .menu-header a, .menu-inverse .menu-header a:visited {
     display: inline-block;
     text-decoration: none;
 }
-.menu-inverse .app-name:active, .menu-inverse .app-name:focus, .app-name:hover {
+.menu-inverse .menu-header a:active, .menu-inverse .menu-header a:focus, .menu-inverse .menu-header a:hover {
     text-decoration: underline;
 }
 /*For mobile design */
