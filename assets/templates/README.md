@@ -1,5 +1,5 @@
 List of templates including:
-<ul><li>topic-1.html: Used for main page</li>
-<li>topic-2.html: user for process main page</li>
-<li>content.html: Basic content page (include new step design)</li>
+<ul><li>topic-1.html: Used for phase pages (in process)</li>
+<li>content-1.html: Used for activities pages</li>
+
 </ul>
