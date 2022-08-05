@@ -1,7 +1,10 @@
 
 //Function to add title and menu of guide and footer
 	"use strict";
-		var index = ["/design/assets/includes/menu-include.html", "/design/assets/includes/footer-include.html"];
+		if (document.documentElement.lang === "en") {
+		var index = ["/wet4/development/cxo149/gcweb/nutheme/designs/various/gcmenu-include-en.html", "/wet4/development/cxo149/gcweb/nutheme/designs/various/gcfooter-include-en.html"];
+}
+if (document.documentElement.lang === "fr") {var index = ["/wet4/development/cxo149/gcweb/nutheme/designs/various/gcmenu-include-fr.html", "/wet4/development/cxo149/gcweb/nutheme/designs/various/gcfooter-include-fr.html"];}
 		var injectSpot = ["menu-include", "footer-include"];
 var request = new XMLHttpRequest();
 (function loop(i, length) {
