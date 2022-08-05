@@ -38,9 +38,6 @@
         </div>
       </div>
     </section>
-    <div class="row">
-      <div class="brand col-xs-7 col-md-3"><img src="/design/assets/images/cra-arc-e.png" alt="" class="img-responsive"><span class="wb-inv"> Canada Revenue Agency / <span lang="fr">Revenu du Agence du Canada</span></span></div>
-    </div>
     <div id="menu-include"></div>
   </div>
   <div class="container">
@@ -66,15 +63,44 @@
     <h2 class="wb-inv">List of activities</h2>
     <div class="row">
       <div class="col-md-3">
-        <details class="mrgn-bttm-lg provisional wb-details-close" open>
-          <summary class="wb-toggle" data-toggle='{"persist": "local"}'>
-            <h4 class="h5">Filter by topic</h4>
-          </summary>
-          <p class="mrgn-tp-md">Use filters to below options to change your results int the following catalogue</p>
+<div class="visible-md visible-lg">
           <form class="wb-tables-filter" data-bind-to="table1">
             <div class="form-group">
               <fieldset class="legend-brdr-bttm">
-                <legend><span class="field-name">Topics</span></legend>
+                <legend><span class="field-name">Filter by topic</span></legend>
+                <ul class="list-unstyled lst-spcd-2">
+                  <li class="checkbox gc-chckbxrdio">
+                    <input type="checkbox" id="dt_topic1" name="dt_topic" value="create-analyze" data-column="2">
+                    <label for="dt_topic1">Creating and analyzing data</label>
+                  </li>
+                  <li class="checkbox gc-chckbxrdio">
+                    <input type="checkbox" id="dt_topic2"  name="dt_topic" value="ident-tasks" data-column="2">
+                    <label for="dt_topic2">Identifying tasks</label>
+                  </li>
+                  <li class="checkbox gc-chckbxrdio">
+                    <input type="checkbox" id="dt_topicX"  name="dt_topic" value="value here" data-column="2">
+                    <label for="dt_topicX">...</label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" aria-controls="dataset-filter1">Filter</button>
+            </div>
+            <div class="form-group">
+              <button type="reset" class="btn btn-link p-0">Reset</button>
+            </div>
+          </form>
+	      </div>
+	      
+        <details class="mrgn-bttm-lg hidden-md hidden-lg">
+          <summary class="wb-toggle" data-toggle='{"persist": "local"}'>
+            <h4 class="h5">Filter by topic</h4>
+          </summary>
+          <form class="wb-tables-filter" data-bind-to="table1">
+            <div class="form-group">
+              <fieldset class="legend-brdr-bttm">
+                <legend class="wb-inv"><span class="field-name">Topics</span></legend>
                 <ul class="list-unstyled lst-spcd-2">
                   <li class="checkbox gc-chckbxrdio">
                     <input type="checkbox" id="dt_topic1" name="dt_topic" value="create-analyze" data-column="2">
