@@ -72,6 +72,35 @@
 	-webkit-box-shadow: inherit;
 	box-shadow: inherit;
 }
+#mb-pnl {
+	position: static;
+	min-width: 100%;
+	padding-left: 0px;
+}
+.pnl-btn {
+	margin-top: -55px;
+}
+#mb-pnl .modal-body {
+	background: #4d4d4d;
+	padding-top: 0em;
+	top: 0em;
+}
+#mb-pnl .modal-header, #mb-pnl .modal-footer, #mb-pnl button.mfp-close {
+	display: none;
+}
+#mb-pnl .info-pnl, #mb-pnl .sm-pnl {
+	background: #4d4d4d;
+}
+#mb-pnl .info-pnl, #mb-pnl .sm-pnl {
+	border-top: 1px solid #fff;
+}
+#mb-pnl a:focus, #mb-pnl a:hover, #mb-pnl summary:focus, #mb-pnl summary:hover {
+	background-color: #333;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+#mb-pnl summary:focus, #mb-pnl summary:hover {
+	background-color: #333;
+}
 /*create step list design (both default and lead zero) */
 ol.lst-stps, .lst-stps {
 	counter-reset: item;
