@@ -44,4 +44,4 @@ $(document).on( "wb-ready.wb", function() {
 		console.log("it's closed");
 	});
 });
-	   })( jQuery, wb );
+	   });
