@@ -26,7 +26,7 @@ var request = new XMLHttpRequest();
 //function to create inline overlay and to delay button switch to close menu (due to propagation in close event that cannot be properly stopped by JS
 //script also pre-emptively opens details menu by default
 
-	$(document).ready(function(event){
+	window.onload = function(){
 	$("#mb-pnl .mb-menu details").attr("open", "open");
 	$("#mb-pnl .mb-menu details>ul").attr("aria-hidden", "false");	
 	$(document).on( "opened.wb-overlay", "#mb-pnl", function() {
@@ -43,5 +43,5 @@ var request = new XMLHttpRequest();
 		};
 		console.log("it's closed");
 	});
-});
+};
 
