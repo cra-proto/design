@@ -100,7 +100,16 @@
 #mb-pnl summary:focus, #mb-pnl summary:hover {
 	background-color: #333;
 }
-
+.menu-inverse #wb-sm .menu>li>.sm a:focus, .menu-inverse #wb-sm .menu>li>.sm a:hover {
+    background-color: #333;
+    outline: 5px auto -webkit-focus-ring-color;
+border-bottom: 0px solid transparent;
+}
+#wb-sm .sm.open {
+    background: ##4d4d4d;
+    border-bottom: 1px solid #243850;
+  
+}
 /*create step list design (both default and lead zero) */
 ol.lst-stps, .lst-stps {
 	counter-reset: item;
