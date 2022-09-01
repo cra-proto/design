@@ -16,11 +16,11 @@
 	transform: translate(0, -50%);
 	width: initial;
 }
-.menu-inverse #wb-sm h2.menu-header a, .menu-inverse #wb-sm h2.menu-header a:visited {
+.menu-inverse .menu-header a, .menu-inverse .menu-header a:visited {
 	text-decoration: none;
 	color: #4d4d4d;
 }
-.menu-inverse #wb-sm h2.menu-header a:active, .menu-inverse #wb-sm h2.menu-header a:focus, .menu-inverse #wb-sm h2.menu-header a:hover {
+.menu-inverse .menu-header a:active, .menu-inverse .menu-header a:focus, .menu-inverse .menu-header a:hover {
 	color: #343333;
 	text-decoration: underline;
 }
