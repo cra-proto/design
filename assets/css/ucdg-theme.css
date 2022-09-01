@@ -2,6 +2,11 @@
 .menu-inverse #wb-sm {
 	background-color: transparent;
 }
+.menu-inverse #wb-bc ol {
+	border-top: 1px solid #eee;
+	margin-top: 0;
+	padding: 15px 13px;
+	}
 .menu-inverse #wb-sm h2.menu-header {
 	clip: inherit;
 	height: initial;
