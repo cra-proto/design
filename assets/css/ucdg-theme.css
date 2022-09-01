@@ -45,8 +45,12 @@
 	background: #f5f5f5!important;
 	border-bottom: 5px solid #6f6f6f;
 }
-.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected, .menu-inverse #wb-sm .menu .wb-navcurr {
+.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected {
 	background: #f5f5f5!important;
+}
+.menu-inverse #wb-sm .menu>li a.wb-navcurr {
+	border-bottom: 5px solid #333;
+	color: inherit!important;
 }
 .menu-inverse #wb-sm .sm.open {
 	background: #4d4d4d;
