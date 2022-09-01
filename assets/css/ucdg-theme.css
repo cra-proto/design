@@ -2,40 +2,6 @@
 .menu-inverse #wb-sm {
 	background-color: transparent;
 }
-.menu-inverse #wb-bc ol {
-	border-top: 1px solid #eee;
-	margin-top: 0;
-	padding: 15px 13px;
-}
-.menu-inverse #wb-sm .menu>li a {
-	color: inherit;
-	font-size: 20px;
-}
-.menu-inverse #wb-sm .menu {
-	border-right: 0px;
-	text-shadow: none;
-}
-.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected, .menu-inverse #wb-sm .menu .wb-navcurr {
-	background-color: inherit!important;
-	color: inherit!important;
-}
-.menu-inverse #wb-sm .menu>li a {
-	border-bottom: 5px solid transparent;
-}
-.menu-inverse #wb-sm .menu>li a:focus, .menu-inverse #wb-sm .menu>li a:hover {
-	background: #f5f5f5!important;
-	border-bottom: 5px solid #6f6f6f;
-	color: #333;
-}
-.menu-inverse #wb-sm .menu>li a.wb-navcurr {
-	border-bottom: 5px solid #333;
-}
-.menu-inverse #wb-sm .menu>li {
-	border-left: 0px solid transparent;
-}
-.menu-inverse #wb-sm .menu>li:last-child {
-	border-right: 0px solid transparent;
-}
 .menu-inverse #wb-sm h2.menu-header {
 	clip: inherit;
 	height: initial;
@@ -45,32 +11,51 @@
 	transform: translate(0, -50%);
 	width: initial;
 }
-.menu-inverse .menu-header a, .menu-inverse .menu-header a:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: #4d4d4d;
+.menu-inverse #wb-sm h2.menu-header a, .menu-inverse #wb-sm h2.menu-header a:visited {
+	text-decoration: none;
+	color: #4d4d4d;
 }
-
-
-.menu-inverse .menu-header a:active, .menu-inverse .menu-header a:focus, .menu-inverse .menu-header a:hover {
-    text-decoration: underline;
+.menu-inverse #wb-sm h2.menu-header a:active, .menu-inverse #wb-sm h2.menu-header a:focus, .menu-inverse #wb-sm h2.menu-header a:hover {
+	color: #343333;
+	text-decoration: underline;
 }
-/*For mobile design */
-.menu-inverse .wb-mb-links {
-	border-bottom: 1px solid #eee;
+.menu-inverse #wb-sm .menu {
+	border-right: 0px;
+	text-shadow: none;
 }
-.menu-inverse #mb-pnl .modal-header:before {
-	border-bottom: 0!important;
-	border-left: 0;
-	border-top: 0;
+.menu-inverse #wb-sm .menu>li {
+	border-left: none;
 }
-.menu-inverse #mb-pnl .modal-header {
-	background: #26374a;
-	border-bottom: 1px solid #fff;
-	border-top: 1px solid #fff;
-	-webkit-box-shadow: inherit;
-	box-shadow: inherit;
+.menu-inverse #wb-sm .menu>li:last-child {
+	border-right: none;
 }
+.menu-inverse #wb-sm .menu>li a {
+	font-size: 20px;
+}
+.menu-inverse #wb-sm .menu>li>a {
+	border-bottom: 5px solid transparent;
+	color: #333;
+}
+.menu-inverse #wb-sm .menu>li>a:hover, .menu-inverse #wb-sm .menu>li>a:focus {
+	background: #f5f5f5!important;
+	border-bottom: 5px solid #6f6f6f;
+}
+.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected, .menu-inverse #wb-sm .menu .wb-navcurr {
+	background: #f5f5f5!important;
+}
+.menu-inverse #wb-sm .sm.open {
+	background: #4d4d4d;
+	border: 1px solid #f5f5f5;
+}
+.menu-inverse #wb-sm .sm.open li a, .menu-inverse #wb-sm .sm.open li summary {
+	color: #fff;
+	padding: 0 10px 0 10px;
+}
+#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover {
+	background: #333!important;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+/*Mobile design */
 #mb-pnl {
 	position: static;
 	min-width: 100%;
@@ -84,7 +69,7 @@
 	padding-top: 0em;
 	top: 0em;
 }
-#mb-pnl .modal-header, #mb-pnl .modal-footer, #mb-pnl button.mfp-close, #mb-pnl .lng-ofr {
+#mb-pnl .modal-header, #mb-pnl .modal-footer, #mb-pnl button.mfp-close {
 	display: none;
 }
 #mb-pnl .info-pnl, #mb-pnl .sm-pnl {
@@ -93,22 +78,12 @@
 #mb-pnl .info-pnl, #mb-pnl .sm-pnl {
 	border-top: 1px solid #fff;
 }
+#mb-pnl [role=menu] a:hover, #mb-pnl [role=menu] a:focus, #mb-pnl summary:focus, #mb-pnl summary:hover, #mb-pnl summary [role=menu] li::focus, #mb-pnl summary [role=menu] li:hover {
+ background-color: #333;
+}
 #mb-pnl a:focus, #mb-pnl a:hover, #mb-pnl summary:focus, #mb-pnl summary:hover {
 	background-color: #333;
 	outline: 5px auto -webkit-focus-ring-color;
-}
-#mb-pnl summary:focus, #mb-pnl summary:hover {
-	background-color: #333;
-}
-.menu-inverse #wb-sm .menu>li>.sm a:focus, .menu-inverse #wb-sm .menu>li>.sm a:hover {
-    background-color: #333;
-    outline: 5px auto -webkit-focus-ring-color;
-border-bottom: 0px solid transparent;
-}
-#wb-sm .sm.open {
-    background: ##4d4d4d;
-    border-bottom: 1px solid #243850;
-  
 }
 /*create step list design (both default and lead zero) */
 ol.lst-stps, .lst-stps {
