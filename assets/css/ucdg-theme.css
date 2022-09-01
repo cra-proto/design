@@ -63,7 +63,7 @@
 }
 .menu-inverse #wb-sm .sm.open li a, .menu-inverse #wb-sm .sm.open li summary {
 	color: #fff;
-	padding: 0 10px 0 10px;
+	padding: 5px 20px 5px 20px;
 }
 #wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover {
 	background: #333!important;
