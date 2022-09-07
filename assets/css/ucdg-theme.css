@@ -71,9 +71,11 @@
 	color: #fff;
 	padding: 10px 20px 15px 20px;
 }
-#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover {
+#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover, #wb-sm .menu>li a.wb-navcurr:hover, #wb-sm .menu>li a.wb-navcurr:focus {
 	background: #333!important;
+	color: #fff!important;
 	outline: 5px auto -webkit-focus-ring-color;
+	
 }
 /*Mobile design */
 #mb-pnl {
@@ -116,10 +118,6 @@ display: none;
 	color: #333;
 }
 
-#mb-pnl a:focus, #mb-pnl a:hover, #mb-pnl summary:focus, #mb-pnl summary:hover {
-    background-color: #333;
-    outline: 5px auto -webkit-focus-ring-color;
-}
 
 #mb-pnl a:focus, #mb-pnl details[open]>summary {
      border-bottom-left-radius: 4px;
