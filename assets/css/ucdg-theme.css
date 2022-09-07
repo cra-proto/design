@@ -71,7 +71,7 @@
 	color: #fff;
 	padding: 10px 20px 15px 20px;
 }
-#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover, #wb-sm .menu>li a.wb-navcurr:hover, #wb-sm .menu>li a.wb-navcurr:focus {
+#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover, #wb-sm .menu>li .open a.wb-navcurr:hover, #wb-sm .menu>li .open a.wb-navcurr:focus {
 	background: #333!important;
 	color: #fff!important;
 	outline: 5px auto -webkit-focus-ring-color;
