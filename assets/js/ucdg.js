@@ -27,8 +27,7 @@ var request = new XMLHttpRequest();
 //script also pre-emptively opens details menu by default
 
 	window.onload = function(){
-	$("#mb-pnl .mb-menu details").attr("open", "open");
-	$("#mb-pnl .mb-menu details>ul").attr("aria-hidden", "false");	
+	
 	$(document).on( "opened.wb-overlay", "#mb-pnl", function() {
 		const myTimeout = setTimeout(showClose, 200);
 		function showClose() {
@@ -43,5 +42,9 @@ var request = new XMLHttpRequest();
 		};
 		console.log("it's closed");
 	});
+	$( ".wb-menu" ).on( "wb-ready.wb-menu", function( event ) {
+		$("#mb-pnl .mb-menu details").attr("open", "open");
+	$("#mb-pnl .mb-menu details>ul").attr("aria-hidden", "false");	
+});	
 };
 
