@@ -45,17 +45,19 @@
 	background: #f5f5f5!important;
 	border-bottom: 5px solid #6f6f6f;
 }
+#wb-sm .menu .active, #wb-sm .menu .selected, #wb-sm .menu .wb-navcurr {
+    background: #243850!important;
+    color: #333!important;
+}
+
 .menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected {
 	background: #f5f5f5!important;
+	color: #333;
 }
 .menu-inverse #wb-sm .menu>li>a.wb-navcurr {
 	border-bottom: 5px solid #333;
-	color: inherit!important;
 }
 
-.menu-inverse #wb-sm .menu>li>ul[role=menu] a.wb-navcurr {
-	background-color: #f5f5f5!important;
-}
 .menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected {
     background: #243850!important;
     color: #333!important;
