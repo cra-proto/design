@@ -58,11 +58,6 @@
 	border-bottom: 5px solid #333;
 }
 
-.menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected {
-    background: #243850!important;
-    color: #333!important;
-
-}
 
 .menu-inverse #wb-sm .sm.open {
 	background: #4d4d4d;
