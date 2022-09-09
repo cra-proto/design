@@ -112,7 +112,7 @@ display: none;
 }
 #mb-pnl nav a.wb-navcurr, #mb-pnl nav summary.wb-navcurr {
    background: #f5f5f5;
-    border-radius: 4px;
+   /* border-radius: 4px; */
 	color: #333;
 }
 
