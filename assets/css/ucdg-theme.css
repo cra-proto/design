@@ -45,11 +45,10 @@
 	background: #f5f5f5!important;
 	border-bottom: 5px solid #6f6f6f;
 }
-#wb-sm .menu .active, #wb-sm .menu .selected, #wb-sm .menu .wb-navcurr {
+.menu-inverse#wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected, .menu-inverse #wb-sm .menu .wb-navcurr {
     background: #f5f5f5!important;
     color: #333!important;
 } 
-
 .menu-inverse #wb-sm .menu .active, .menu-inverse #wb-sm .menu .selected {
 	background: #f5f5f5!important;
 	color: #333;
@@ -57,8 +56,6 @@
 .menu-inverse #wb-sm .menu>li>a.wb-navcurr {
 	border-bottom: 5px solid #333;
 }
-
-
 .menu-inverse #wb-sm .sm.open {
 	background: #4d4d4d;
 }
@@ -66,58 +63,56 @@
 	color: #fff;
 	padding: 10px 20px 15px 20px;
 }
-#wb-sm .menu>li a:focus, #wb-sm .menu>li a:hover {
+.menu-inverse #wb-sm .menu>li a:focus, .menu-inverse #wb-sm .menu>li a:hover {
 	background: #333!important;
-	
 	outline: 5px auto -webkit-focus-ring-color;
-	
 }
 #wb-sm .menu>li .open a.wb-navcurr:hover, #wb-sm .menu>li .open a.wb-navcurr:focus {
 color: #fff!important;	
 }
 /*Mobile design */
-#mb-pnl {
+.menu-inverse #mb-pnl {
 	position: static;
 	min-width: 100%;
 	padding-left: 0px;
 	margin-left: -5px;
 }
-.pnl-btn {
+.menu-inverse .pnl-btn {
 	margin-top: -55px;
 }
-#mb-pnl .modal-body {
+.menu-inverse #mb-pnl .modal-body {
 	background: #4d4d4d;
 	padding-top: 0em;
 	top: 0em;
 }
-#mb-pnl .lng-ofr  {
+.menu-inverse #mb-pnl .lng-ofr  {
 display: none;	
 }	
 	
-#mb-pnl .modal-header, #mb-pnl .modal-footer, #mb-pnl button.mfp-close {
+.menu-inverse #mb-pnl .modal-header, .menu-inverse #mb-pnl .modal-footer, .menu-inverse #mb-pnl button.mfp-close {
 	display: none;
 }
-#mb-pnl .info-pnl, #mb-pnl .sm-pnl {
+.menu-inverse #mb-pnl .info-pnl, #mb-pnl .sm-pnl {
 	background: #4d4d4d;
 }
-#mb-pnl .info-pnl, #mb-pnl .sm-pnl {
+.menu-inverse #mb-pnl .info-pnl, #mb-pnl .sm-pnl {
 	border-top: 1px solid #fff;
 }
-#mb-pnl [role=menu] a:hover, #mb-pnl [role=menu] a:focus, #mb-pnl summary:focus, #mb-pnl summary:hover, #mb-pnl summary [role=menu] li::focus, #mb-pnl summary [role=menu] li:hover {
+.menu-inverse #mb-pnl [role=menu] a:hover, .menu-inverse #mb-pnl [role=menu] a:focus, .menu-inverse #mb-pnl summary:focus, .menu-inverse #mb-pnl summary:hover, .menu-inverse #mb-pnl summary [role=menu] li::focus, .menu-inverse #mb-pnl summary [role=menu] li:hover {
  background-color: #333;
 }
-#mb-pnl a:focus, #mb-pnl a:hover, #mb-pnl summary:focus, #mb-pnl summary:hover {
+.menu-inverse #mb-pnl a:focus, .menu-inverse #mb-pnl a:hover, .menu-inverse #mb-pnl summary:focus, .menu-inverse #mb-pnl summary:hover {
 	background-color: #333;
 	outline: 5px auto -webkit-focus-ring-color;
 }
-#mb-pnl nav a.wb-navcurr, #mb-pnl nav summary.wb-navcurr {
+.menu-inverse #mb-pnl nav a.wb-navcurr, .menu-inverse #mb-pnl nav summary.wb-navcurr {
    background: #f5f5f5;
    /* border-radius: 4px; */
 	color: #333;
 }
 
 
-#mb-pnl a:focus, #mb-pnl details[open]>summary {
+.menu-inverse #mb-pnl a:focus, .menu-inverse #mb-pnl details[open]>summary {
      border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
