@@ -63,7 +63,7 @@
 	color: #fff;
 	padding: 10px 20px 15px 20px;
 }
-.menu-inverse #wb-sm .menu>li a:focus, .menu-inverse #wb-sm .menu>li a:hover {
+.menu-inverse #wb-sm .menu .sm>li a:focus, .menu-inverse #wb-sm .menu .sm>li a:hover {
 	background: #333!important;
 	outline: 5px auto -webkit-focus-ring-color;
 }
