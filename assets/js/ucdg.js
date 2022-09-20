@@ -23,4 +23,28 @@ var request = new XMLHttpRequest();
     };
     request.send();
 })(0, index.length);
+//function to create inline overlay and to delay button switch to close menu (due to propagation in close event that cannot be properly stopped by JS
+//script also pre-emptively opens details menu by default
+
+	window.onload = function(){
+	
+	$(document).on( "opened.wb-overlay", "#mb-pnl", function() {
+		const myTimeout = setTimeout(showClose, 200);
+		function showClose() {
+			$("#mb-tggl-open, #mb-tggl-close").toggle();
+		};
+	console.log("it's open");
+	});
+	$(document).on( "closed.wb-overlay", "#mb-pnl", function() {
+		const myTimeout = setTimeout(showOpen, 200);
+		function showOpen() {
+			$("#mb-tggl-close, #mb-tggl-open").toggle();
+		};
+		console.log("it's closed");
+	});
+	$( ".wb-menu" ).on( "wb-ready.wb-menu", function( event ) {
+		$("#mb-pnl .mb-menu details").attr("open", "open");
+	$("#mb-pnl .mb-menu details>ul").attr("aria-hidden", "false");	
+});	
+};
 
