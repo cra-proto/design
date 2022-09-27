@@ -14,13 +14,16 @@ var request = new XMLHttpRequest();
     var url = index[i];
 
     request.open("GET", url, true);
-    request.onreadystatechange = function() {
-        if(request.readyState === XMLHttpRequest.DONE && request.status === 200) {
+     request.onreadystatechange = function() {
+        if(request.readyState === XMLHttpRequest.DONE)
+		{	
+			if (request.status === 200) {
     document.getElementById(injectSpot[i]).innerHTML = request.responseText;
             loop(i + 1, length);
         }
+	}
     };
-    request.send();
+    request.send(null);
 })(0, index.length);
 //function to create inline overlay and to delay button switch to close menu (due to propagation in close event that cannot be properly stopped by JS
 //script also pre-emptively opens details menu by default
