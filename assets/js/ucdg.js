@@ -14,7 +14,7 @@ var request = new XMLHttpRequest();
     var url = index[i];
 
     request.open("GET", url, true);
-     request.onreadystatechange = function() {
+      request.onload = () => { {
         if(request.readyState === XMLHttpRequest.DONE)
 		{	
 			if (request.status === 200) {
