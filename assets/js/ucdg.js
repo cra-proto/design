@@ -16,8 +16,7 @@ var request = new XMLHttpRequest();
     request.open("GET", url, true);
     request.onreadystatechange = function() {
         if(request.readyState === XMLHttpRequest.DONE && request.status === 200) {
-    document.getElementById(injectSpot[i]).innerHTML =
-      this.responseText;
+    document.getElementById(injectSpot[i]).innerHTML = this.responseText;
             loop(i + 1, length);
         }
     };
