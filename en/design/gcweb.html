@@ -72,7 +72,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="container">
         <div class="col-sm-3">
         <div id="tbl-filter">
         <ul id="" class="list-unstyled  mrgn-tp-lg mrgn-lft-md"  data-wb-actionmng='[
@@ -112,26 +112,27 @@
         <div class="mrgn-bttm-lg mrgn-tp-md">
             
         <div id="all" class="items">
-        <h2 class="mrgn-tp-0">All design system elements</h2>
+        <h2 class="mrgn-tp-0 mrgn-bttm-lg">All design system elements</h2>
         <p>Includes all <a href="#components">components</a>, <a href="#templates">templates</a>, and <a href="#basics">design basics</a>.</p>
         </div>
 
         <div id="components" class="items hidden">
-        <h2 class="mrgn-tp-0">Components</h2>
+        <h2 class="mrgn-tp-0 mrgn-bttm-lg">Components</h2>
         <p>Standardized reusable ways of organizing and displaying content within web pages</p>
         </div>
 
         <div id="templates" class="items hidden">
-        <h2 class="mrgn-tp-0">Templates</h2>
+        <h2 class="mrgn-tp-0 mrgn-bttm-lg">Templates</h2>
         <p>Define how to layout content, components, image and other design elements on a page or in a set of related pages</p>
         </div>
 
         <div id="basics" class="items hidden">
-        <h2 class="mrgn-tp-0">Design basics</h2>
+        <h2 class="mrgn-tp-0 mrgn-bttm-lg">Design basics</h2>
         <p>Rules on typography, spacing, colour usage and other design foundations that are used across all web content</p>
         </div>
 
-        <div class="col-sm-7 mrgn-tp-md mrgn-bttm-md">
+        <div class="row">
+        <div class="mrgn-lft-none mrgn-tp-lg mrgn-bttm-lg">
         <details>
             <summary>What are GC core, CRA-specific and CRA variant elements?</summary>
             <h3>GC core</h3>
@@ -141,6 +142,7 @@
             <h3>CRA-variants</h3>
             <p>A variant of GC components that add additional guidance or detail on the use of those components for CRA content</p>
         </details>
+        </div>
         </div>
         <table class="wb-tables tbl-gridify brdr-0" data-wb-urlmapping='{
                     "back": [{ "action": "run", "trggroup": "clearFilter" },
@@ -155,7 +157,7 @@
                         { "data": "TITLE", "className": "nws-tbl-ttl h4" },
                         { "data": "TEASER",  "className": "nws-tbl-desc" },
                         { "data": "TYPE", "visible": false },
-                        { "data": "CATEGORY", "className": "nws-tbl-cat" },
+                        { "data": "CATEGORY", "className": "row nws-tbl-cat" },
                         { "data": "TAGS", "visible": false }
                     ]
                 }'>
