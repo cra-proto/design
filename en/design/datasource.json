@@ -1,10 +1,10 @@
 {
     "data": [{
-      "IMAGE": "<img alt=\"Banner: Alerts\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/alerts.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://design.canada.ca/common-design-patterns/contextual-alerts.html\">Alerts</a>", 
-      "TEASER": "<p>Colour coded messages that provide contextual feedback on user actions or important changes to information or service availability</p>", 
-      "TYPE": "Components", 
-      "CATEGORY": "<div class=\"col-sm-5\"><div class=\"well well-sm\">GC core compoment</div></div>", 
+      "IMAGE": "<img alt=\"Banner: Alerts\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/alerts.jpg\">",
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://design.canada.ca/common-design-patterns/contextual-alerts.html\">Alerts</a>",
+      "TEASER": "<p>Colour coded messages that provide contextual feedback on user actions or important changes to information or service availability</p>",
+      "TYPE": "Components",
+      "CATEGORY": "<div class=\"col-sm-5\"><div class=\"well well-sm\">GC core compoment</div></div>",
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: And/or design\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/and_or.jpg\">", 
