@@ -18,14 +18,14 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/archived/archived-en.html\">Archived content</a>", 
       "TEASER": "<p>Identifies web pages that have been archived online</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Overlay, Invisible, Visible, Show, Hidden, Close, Exit, Deleted"
     }, {
       "IMAGE": "<img alt=\"Banner: Badges\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/badges.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/badges-en.html\">Badges</a>", 
       "TEASER": "<p>Numerical indicators that highlight the number of updates, new or unread items associated with a link</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Links, Counter, Number"
     }, {
       "IMAGE": "<img alt=\"Banner: Basic page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/basic.jpg\">", 
@@ -39,7 +39,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/borders-en.html\">Borders</a>", 
       "TEASER": "<p>Add single or multiple borders to design elements, remove borders or sharpen corners that appear in design components such as a \"well\"</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Horizontal rule, Rounded, Sharpened corners"
     }, {
       "IMAGE": "<img alt=\"Banner: Buttons\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/buttons.jpg\">", 
@@ -53,7 +53,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/cal-events/cal-events-en.html\">Calendar</a>", 
       "TEASER": "<p>Interface for navigating a chronological list of events</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Tables, Dates"
     }, {
       "IMAGE": "<img alt=\"Banner: Carousel\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/carousel.jpg\">", 
@@ -74,7 +74,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/code-en.html\">Code</a>", 
       "TEASER": "<p>Emulate source code and display in monospace font</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Coding, Prettify"
     }, {
       "IMAGE": "<img alt=\"Banner: Colour\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/colour.jpg\">", 
@@ -95,42 +95,42 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/country-content/country-content-en.html\">Country identifier</a>", 
       "TEASER": "<p>Loads or replaces an element's content based upon the user's country</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Location"
     }, {
       "IMAGE": "<img alt=\"Banner: Data Ajax\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/ajax.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-ajax/data-ajax-en.html\">Data Ajax</a>", 
       "TEASER": "<p>Allows parts of one webpage to load or update within a second webpage (repurpose content)</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "insert, content, call, loader, wrapper"
     }, {
       "IMAGE": "<img alt=\"Banner: Data inview\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/data_inview.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-inview/data-inview-en.html\">Data inview</a>", 
       "TEASER": "<p>Displays an overlay when a section moves out of the viewport</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Overlay, Visible, Invisible, Show, Hidden, Close, Exit, Bar, Navigation"
     }, {
       "IMAGE": "<img alt=\"Banner: Data picture\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/data_picture.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-picture/data-picture-en.html\">Data picture</a>", 
       "TEASER": "<p>Allow a web page to specify different image sources to display based on media queries</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Images, Resolutions"
     }, {
       "IMAGE": "<img alt=\"Banner: Dismissable content\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/dismissable.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/dismissable-content/dismissable-content-en.html\">Dismissable content</a>", 
       "TEASER": "<p>Allow the user to dismiss non-primary content that they only need to see once</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Dismiss, hide, secondary content"
     }, {
       "IMAGE": "<img alt=\"Banner: Equal height (Equalize)\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/equalize.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/equalheight/equalheight-en.html\">Equal height (Equalize)</a>", 
       "TEASER": "<p>Equalize the height of elements on the same baseline</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Panels, Wells, Borders"
     }, {
       "IMAGE": "<img alt=\"Banner: Expand/hide\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/expand_hide.jpg\">", 
@@ -144,7 +144,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/feedback/feedback-en.html\">Feedback</a>", 
       "TEASER": "<p>Allows users to provide feedback or report any problems they experience with a specific Web page or the Web site in general</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Errors, validation, issues, comments, mistakes"
     }, {
       "IMAGE": "<img alt=\"Banner: Footnotes\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/footnotes.jpg\">", 
@@ -172,14 +172,14 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/grids-en.html\">Grids</a>", 
       "TEASER": "<p>Create page layouts using a series of rows and columns that house content</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Responsive, Viewports, Devices, Resolution"
     }, {
       "IMAGE": "<img alt=\"Banner: Headings\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/headings.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/headings-en.html\">Headings</a>", 
       "TEASER": "<p>Create titles for content that are large, bold, hierachical and concise</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Size, Text, Titles"
     }, {
       "IMAGE": "<img alt=\"Banner: Icons\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/icons.jpg\">", 
@@ -214,21 +214,21 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/visible-en.html\">Invisible and visible content</a>", 
       "TEASER": "<p>Used to show or hide content, including styles specific to assistive technology (aid screen-reader users), responsive design, general usage and print</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Printing, Hidden, Devices, Viewports, Resolution"
     }, {
       "IMAGE": "<img alt=\"Banner: Keyboard keys\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/keyboard.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/keyboard-en.html\">Keyboard keys</a>", 
       "TEASER": "<p>Mimic the keys of a computer keyboard</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Labels\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/labels.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/labels-en.html\">Labels</a>", 
       "TEASER": "<p>Call attention to a section of content by adding short, text-based bits of supporting information</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: Layout\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/layout.jpg\">", 
@@ -242,28 +242,28 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/links-en.html\">Links</a>", 
       "TEASER": "<p>Coding a word, phrase, or image to allow the user to to navigate, query or interact with the content</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Hyperlinks"
     }, {
       "IMAGE": "<img alt=\"Banner: Lists\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/lists.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/lists-en.html\">Lists</a>", 
       "TEASER": "<p>Display a number of connected items in a consecutive manner, usually one below the other</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Ordered, Unordered, Icons, Definition, Alpha, Roman, Columns, Bullets, Steps"
     }, {
       "IMAGE": "<img alt=\"Banner: Margin proximity\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/margin.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/proximity-en.html\">Margin proximity</a>", 
       "TEASER": "<p>Increase or descrease the white space between elements to suggest whether items are related or unrelated</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Spacing, Margins, Left, Right, Top, Bottom"
     }, {
       "IMAGE": "<img alt=\"Banner: Math calculations and equations\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/math.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/mathml/mathml-en.html\">Math calculations and equations</a>", 
       "TEASER": "<p>Display mathematical formulas within a page</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Variables, Calculations"
     }, {
       "IMAGE": "<img alt=\"Banner: Opacity\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/opacity.jpg\">", 
@@ -277,35 +277,35 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/pagination-en.html\">Pagination</a>", 
       "TEASER": "<p>For long documents broken up over several pages, allows user to navigate between pages using either the \"Next\", \"Previous\", or (if present) the numeric pagination hyperlinks</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Buttons, Links, Navigation"
     }, {
       "IMAGE": "<img alt=\"Banner: Panels\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/panels.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/panels-en.html\">Panels</a>", 
       "TEASER": "<p>Create a visual grouping of content using different colour themed options, as well as distinct header and footer</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Boxes, Menu, Navigation, Layout"
     }, {
       "IMAGE": "<img alt=\"Banner: Popups\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/popups.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/lightbox/lightbox-en.html\">Popups</a>", 
       "TEASER": "<p>Display images and other content in a dialog box, either individually or as part of a gallery</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "lightbox, overlay, modal, gallery"
     }, {
       "IMAGE": "<img alt=\"Banner: Quotations\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/blockquote.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/quotations-en.html\">Quotations</a>", 
       "TEASER": "<p>Cite a group of words by someone other than the original author or speaker</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "blockquote"
     }, {
       "IMAGE": "<img alt=\"Banner: Session timeout\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/timeout.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/session-timeout/session-timeout-en.html\">Session timeout</a>", 
       "TEASER": "<p>Warn users when their session is about to expire</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "exit, redirect, time out"
     }, {
       "IMAGE": "<img alt=\"Banner: Tabbed interface\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/tabs.jpg\">", 
@@ -326,7 +326,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/tables-en.html\">Tables</a>", 
       "TEASER": "<p>Organize data into rows and columns in order to create data cells</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Tabular, Zebra striping, Hover, Responsive, Colour, Table validator"
     }, {
       "IMAGE": "<img alt=\"Banner: Text editing effects\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text_editing.jpg\">", 
@@ -347,7 +347,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/toggle/toggle-en.html\">Toggle</a>", 
       "TEASER": "<p>Allow an element to be toggled between on and off states</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "expand, hide, collapse, accordion, exhide"
     }, {
       "IMAGE": "<img alt=\"Banner: Topic page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/topic.jpg\">", 
@@ -368,7 +368,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/variables-en.html\">Variables</a>", 
       "TEASER": "<p>Use when there is reference to a variable like \"x\", \"n\" or \"y\" within a sentence (a non-mathematical phrase)</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Calculations"
     }, {
       "IMAGE": "<img alt=\"Banner: Video and audio\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/video_audio.jpg\">", 
@@ -382,7 +382,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/wells-en.html\">Wells</a>", 
       "TEASER": "<p>Spotlight content by placing it in a light grey box</p>", 
       "TYPE": "Components", 
-      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET4 component</div></div>", 
+      "CATEGORY": " <div class=\"mrgn-tp-md col-sm-10\"><div class=\"well well-sm\">WET component</div></div>", 
       "TAGS": "Layout, Boxes"
     }]
   }
