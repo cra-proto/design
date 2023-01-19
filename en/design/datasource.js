@@ -200,7 +200,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/mandatory-templates/institutional-profile-pages.html\">Institutional profile page</a>", 
       "TEASER": "<p>Mandatory landing page for Government of Canada institutions and organizations</p>", 
       "TYPE": "Templates", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core  template</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core template</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Interactive questions (field flow)\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/fieldflow.jpg\">", 
@@ -354,7 +354,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/mandatory-templates/theme-topic.html\">Topic page</a>", 
       "TEASER": "<p>Provides navigation to topics and destination pages that support task completion</p>", 
       "TYPE": "Templates", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core  template</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core template</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Typography\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/typography.jpg\">", 
