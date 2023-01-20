@@ -201,7 +201,7 @@
             $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
         });
         $( ".wb-tables" ).on( "wb-ready.wb-tables", function( event ) {
-            console.log("updated");
+            $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
         });
     </script>
     <div id="footer-include"></div>
