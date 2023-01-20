@@ -235,7 +235,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/layout.html\">Layout</a>", 
       "TEASER": "<p>Layout for canada.ca web pages, including header, footer, widths and breakpoints</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>" 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Links\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/links.jpg\">", 
@@ -270,7 +270,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/opacity-en.html\">Opacity</a>", 
       "TEASER": "<p>Apply a transparency to a foreground item so the background becomes visible</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>" 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>", 
       "TAGS": "invisible"
     }, {
       "IMAGE": "<img alt=\"Banner: Pagination\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/pagination.jpg\">", 
@@ -333,14 +333,14 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/text_editing.html\">Text editing effects</a>", 
       "TEASER": "<p>Use of effects like marked text, deleted text and strikethrough text</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>" 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>", 
       "TAGS": "Edits, Versions, Documents"
     }, {
       "IMAGE": "<img alt=\"Banner: Text formatting\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/text.html\">Text formatting</a>", 
       "TEASER": "<p>Text emphasis, sizing, colours, alignment, wrapping and truncating</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>" 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>", 
       "TAGS": "bold, italics, underline, align, left, right, center, wrap, truncate"
     }, {
       "IMAGE": "<img alt=\"Banner: Toggle\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/toggle.jpg\">", 
@@ -361,7 +361,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/typography.html\">Typography</a>", 
       "TEASER": "<p>Fonts for headings and body text, line lengths and link appearance</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>" 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-md mrgn-tp-md\">Design basic</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Variables\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/variables.jpg\">", 
