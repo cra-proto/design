@@ -4,7 +4,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/contextual-alerts.html\">Alerts</a>", 
       "TEASER": "<p>Colour coded messages that provide contextual feedback on user actions or important changes to information or service availability</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: And/or design\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/and_or.jpg\">", 
@@ -46,7 +46,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/buttons.html\">Buttons</a>", 
       "TEASER": "<p>Create a call to action that entices the user to submit content from a form, or to take users to a webpage that provides additional information</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Colour, Links"
     }, {
       "IMAGE": "<img alt=\"Banner: Calendar\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/calendar.jpg\">", 
@@ -60,14 +60,14 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/carousels.html\">Carousel</a>", 
       "TEASER": "<p>Tab or cycle through content in a slide show format</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Tabs, Invisible, Slideshow, Show, Images, Slider, Details, Summary, Expand, Gallery"
     }, {
       "IMAGE": "<img alt=\"Banner: Charts and graphs\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/charts.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/charts-graphs.html\">Charts and graphs</a>", 
       "TEASER": "<p>Visualization techniques for communicating data or statistics</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Graphics, Pie, Bar, Values"
     }, {
       "IMAGE": "<img alt=\"Banner: Code\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/code.jpg\">", 
@@ -137,7 +137,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/collapsible-content.html\">Expand/hide</a>", 
       "TEASER": "<p>Accordion style that allows the user to show or hide secondary content upon request</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Accordion, collapse, hidden, options"
     }, {
       "IMAGE": "<img alt=\"Banner: Feedback\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/feedback.jpg\">", 
@@ -151,21 +151,21 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://wet-boew.github.io/v4.0-ci/demos/footnotes/footnotes-en.html\">Footnotes</a>", 
       "TEASER": "<p>Create a note a reference, citation, or comment that displays at the bottom of the page</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "WET component", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">WET component</span>", 
       "TAGS": "References, Links, Cites"
     }, {
       "IMAGE": "<img alt=\"Banner: Forms and form elements\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/forms.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/checkboxes-radio-buttons.html\">Forms and form elements</a>", 
       "TEASER": "<p>Build a form to collect and transmit information from users in a pre-defined format</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "feedback, validation checkboxes, radio buttons, labels, input, selects, textarea, file, date picker, submit, clear, auto-complete"
     }, {
       "IMAGE": "<img alt=\"Banner: GC subway page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/subway.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/subway-navigation.html\">GC subway page</a>", 
       "TEASER": "<p>Use to break up long and complex content related to a single task by breaking it into sub-tasks</p>", 
       "TYPE": "Templates", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Grids\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/grids.jpg\">", 
@@ -186,14 +186,14 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/icons.html\">Icons</a>", 
       "TEASER": "<p>Use one of the two icon sets, Glyphicons or Font Awesome for decorative purposes</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Colour, Images, Fonts"
     }, {
       "IMAGE": "<img alt=\"Banner: Images\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/images.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/images.html\">Images</a>", 
       "TEASER": "<p>Visual content that complements or enhances text, including photographs, graphics, drawings, or diagrams</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Thumbnais, Responsive, Photos, Visual, Decorative"
     }, {
       "IMAGE": "<img alt=\"Banner: Institutional profile page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/institutional.jpg\">", 
@@ -207,7 +207,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/interactive-questions.html\">Interactive questions (field flow)</a>", 
       "TEASER": "<p>Present people with a sequence of simple questions that leads to the specific answer they need to continue with or complete their task</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "decision tree"
     }, {
       "IMAGE": "<img alt=\"Banner: Invisible and visible content\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/invisible_visible.jpg\">", 
@@ -312,7 +312,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/tabbed-interface.html\">Tabbed interface</a>", 
       "TEASER": "<p>Separate related content into different panes that are viewable one at a time when the respective tab is clicked</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "expand, hide, tabs, invisible"
     }, {
       "IMAGE": "<img alt=\"Banner: Table of contents\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/toc.jpg\">", 
@@ -375,7 +375,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/multimedia.html\">Video and audio</a>", 
       "TEASER": "<p>Add video clips and audio recordings to complement or enhance text</p>", 
       "TYPE": "Components", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core compoment</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-md mrgn-tp-md\">GC core component</span>", 
       "TAGS": "Multimedia player, transcripts, closed captions, licensing"
     }, {
       "IMAGE": "<img alt=\"Banner: Wells\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/wells.jpg\">", 
