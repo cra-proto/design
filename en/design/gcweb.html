@@ -196,8 +196,10 @@
            $("tr").addClass("col-xs-11 col-sm-5 brdr-tp brdr-bttm brdr-lft brdr-rght brdr-rds-0 position-relative eqht-trgt mrgn-lft-md mrgn-rght-md mrgn-bttm-lg");
        });
     </script>
-    <script defer="defer">
-    $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
+    <script>
+        $( document ).on( "wb-ready.wb", function( event ) {
+            $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
+        });
     </script>
     <div id="footer-include"></div>
     </body>
