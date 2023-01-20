@@ -132,7 +132,7 @@
         </div>
 
         <div class="row">
-        <div class="mrgn-lft-md mrgn-tp-lg mrgn-bttm-lg">
+        <div class="col-xs-11 mrgn-lft-md mrgn-tp-lg mrgn-bttm-lg">
         <details>
             <summary>What are GC core, CRA-specific and CRA variant elements?</summary>
             <h3>GC core</h3>
@@ -171,7 +171,7 @@
                     <th>Tags</th>
                 </tr>
             </thead>
-          <tbody class="mrgn-tp-md row wb-eqht-grd">
+          <tbody class="mrgn-tp-md row wb-eqht">
           
           </tbody>
         </table>
@@ -195,6 +195,9 @@
        $( ".wb-tables" ).on( "wb-ready.wb-tables", function( event ) {
            $("tr").addClass("col-xs-11 col-sm-5 brdr-tp brdr-bttm brdr-lft brdr-rght brdr-rds-0 position-relative eqht-trgt mrgn-lft-md mrgn-rght-md mrgn-bttm-lg");
        });
+    </script>
+    <script defer="defer">
+    $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
     </script>
     <div id="footer-include"></div>
     </body>
