@@ -67,7 +67,7 @@
             <div class="mrgn-lft-md mrgn-rght-md">
               <h1 property="name" id="wb-cont" class="brdr-0 mrgn-tp-md">GCWeb design system</h1>
               <p class="mrgn-tp-md">GCWeb templates and components are normally used for <a href="https://canada.ca">Canada.ca</a>. In this design system, you can find components, templates and design basics that are for all Canada.ca, as well as ones specific to CRA web pages.</p>
-              <p class="mrgn-bttm-md">To learn more about how the design systems are structured and which design systems to select for your project, read the <a href="#">design system overview</a></p>
+              <p class="mrgn-bttm-md">To learn more about how the design systems are structured and which design systems to select for your project, read the <a href="#">design system overview</a>.</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,6 @@
                 { "trggroup":"clearFilter", "action": "addClass", "source": ".items ", "class": "hidden" },{ "trggroup":"clearFilter", "action": "addClass", "source": "#tbl-filter li>div>span", "class": "invisible" },
                 { "trggroup":"clearFilter", "action": "tblfilter", "source": "#dataset-filter", "column": 3, "value": "" },
                 {"trggroup":"clearFilter", "action": "removeClass", "source": "#tbl-filter li>div>button>span", "class": "h5" }
-                
             ]'>
             <li><div class="d-flex align-items-center"><span class="hghlght h2 mrgn-tp-0 mrgn-bttm-0">|</span><button type="button" class="btn-link p-0 text-left" data-wb-doaction='[
                     { "action": "run", "trggroup": "clearFilter" },
@@ -113,7 +112,19 @@
             
         <div id="all" class="items">
         <h2 class="mrgn-tp-0 mrgn-bttm-lg">All design system elements</h2>
-        <p>Includes all <a href="#components">components</a>, <a href="#templates">templates</a>, and <a href="#basics">design basics</a>.</p>
+        <p>Includes all <a href="#" data-wb-doaction='[
+            { "action": "run", "trggroup": "clearFilter" },
+            { "action": "tblfilter", "source": "#dataset-filter", "column": 3, "value": "Components" },
+            { "action": "removeClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(1)>div>span", "class": "invisible" }, { "action": "removeClass", "source": "#components", "class": "hidden" }, { "action": "addClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(1)>div>button>span", "class": "h5" }
+        ]'>components</a>, <a href="#templates" data-wb-doaction='[
+        { "action": "run", "trggroup": "clearFilter" },
+        { "action": "tblfilter", "source": "#dataset-filter", "column": 3, "value": "Templates" },
+        { "action": "removeClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(2)>div>span", "class": "invisible" }, { "action": "removeClass", "source": "#templates", "class": "hidden" }, { "action": "addClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(2)>div>button>span", "class": "h5" }
+    ]'>templates</a>, and <a href="#basics" data-wb-doaction='[
+    { "action": "run", "trggroup": "clearFilter" },
+    { "action": "tblfilter", "source": "#dataset-filter", "column": 3, "value": "Basics" },
+    { "action": "removeClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(3)>div>span", "class": "invisible" }, { "action": "removeClass", "source": "#basics", "class": "hidden" }, { "action": "addClass", "source": "#tbl-filter> ul>li>ul>li:nth-child(3)>div>button>span", "class": "h5" }
+]'>design basics</a>.</p>
         </div>
 
         <div id="components" class="items hidden">
@@ -154,10 +165,10 @@
                     "ordering":false, "paging": false,
                     "columns": [
                         { "data": "IMAGE", "className": "nws-tbl-img" },
-                        { "data": "TITLE", "className": "nws-tbl-ttl h4" },
-                        { "data": "TEASER", "className": "nws-tbl-desc" },
+                        { "data": "TITLE", "className": "mrgn-lft-lg mrgn-rght-lg nws-tbl-ttl h4" },
+                        { "data": "TEASER", "className": "mrgn-lft-lg mrgn-rght-lg nws-tbl-desc" },
                         { "data": "TYPE", "visible": false },
-                        { "data": "CATEGORY", "className": "row mrgn-bttm-md nws-tbl-cat" },
+                        { "data": "CATEGORY", "className": "row  mrgn-lft-lg mrgn-rght-lg mrgn-bttm-lg nws-tbl-cat" },
                         { "data": "TAGS", "visible": false }
                     ]
                 }'>
@@ -193,7 +204,7 @@
     <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
     <script>
        $( ".wb-tables" ).on( "wb-ready.wb-tables", function( event ) {
-           $("tr").addClass("col-xs-11 col-sm-5 brdr-tp brdr-bttm brdr-lft brdr-rght brdr-rds-0 position-relative eqht-trgt mrgn-lft-md mrgn-rght-md mrgn-bttm-lg");
+           $("tr").addClass("col-xs-11 col-sm-5 brdr-tp brdr-bttm brdr-lft brdr-rght brdr-rds-0 position-relative eqht-trgt p-0 mrgn-lft-0 mrgn-rght-0 mrgn-bttm-lg");
        });
     </script>
     <script defer="defer">
