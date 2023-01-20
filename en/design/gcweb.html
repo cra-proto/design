@@ -31,7 +31,7 @@
     <!--Custom UCDG script //-->
     <script src="../../assets/js/ucdg.js"></script>
     </head>
-    <body  vocab="http://schema.org/" typeof="WebPage" class="cnt-wdth-lmtd">
+    <body vocab="http://schema.org/" typeof="WebPage" class="cnt-wdth-lmtd">
     <ul id="wb-tphp">
       <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
       <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>
@@ -63,7 +63,7 @@
     <main property="mainContentOfPage">
       <div class="provisional bg-cover" data-bgimg-srcset="../../assets/images/banners/process-991.png 991w, ../../assets/images/banners/process-1400.png 1400w, ../../assets/images/banners/process-1700.png 1700w, ../../assets/images/banners/process-1900.png 1900w">
         <div class="container p-sm-3">
-          <div class="well col-md-8 brdr-0 brdr-rds-0  mrgn-tp-xl">
+          <div class="well col-md-8 brdr-0 brdr-rds-0 mrgn-tp-xl">
             <div class="mrgn-lft-md mrgn-rght-md">
               <h1 property="name" id="wb-cont" class="brdr-0 mrgn-tp-md">GCWeb design system</h1>
               <p class="mrgn-tp-md">GCWeb templates and components are normally used for <a href="https://canada.ca">Canada.ca</a>. In this design system, you can find components, templates and design basics that are for all Canada.ca, as well as ones specific to CRA web pages.</p>
@@ -75,7 +75,7 @@
       <div class="container">
         <div class="col-sm-4">
         <div id="tbl-filter">
-        <ul id="" class="list-unstyled  mrgn-tp-lg mrgn-lft-md"  data-wb-actionmng='[
+        <ul id="" class="list-unstyled mrgn-tp-md mrgn-lft-0" data-wb-actionmng='[
                 { "trggroup":"clearFilter", "action": "addClass", "source": ".items ", "class": "hidden" },{ "trggroup":"clearFilter", "action": "addClass", "source": "#tbl-filter li>div>span", "class": "invisible" },
                 { "trggroup":"clearFilter", "action": "tblfilter", "source": "#dataset-filter", "column": 3, "value": "" },
                 {"trggroup":"clearFilter", "action": "removeClass", "source": "#tbl-filter li>div>button>span", "class": "h5" }
@@ -150,14 +150,14 @@
                 aria-live="polite"
                 data-wb-tables='{
                     "bDeferRender": true,
-                    "ajaxSource": "datasource.js",
+                    "ajaxSource": "gcwebsysdata.js",
                     "ordering":false, "paging": false,
                     "columns": [
                         { "data": "IMAGE", "className": "nws-tbl-img" },
                         { "data": "TITLE", "className": "nws-tbl-ttl h4" },
-                        { "data": "TEASER",  "className": "nws-tbl-desc" },
+                        { "data": "TEASER", "className": "nws-tbl-desc" },
                         { "data": "TYPE", "visible": false },
-                        { "data": "CATEGORY", "className": "row nws-tbl-cat" },
+                        { "data": "CATEGORY", "className": "row mrgn-bttm-md nws-tbl-cat" },
                         { "data": "TAGS", "visible": false }
                     ]
                 }'>
