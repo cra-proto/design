@@ -8,7 +8,7 @@
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: And/or design\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/and_or.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/and_or.html\">And/or design</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/and_or.html\">And/or design</a>", 
       "TEASER": "<p>Use to clearly demonstrate that there are options or that there are content blocks that are complimentary/associated.</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA core component</span>", 
@@ -81,11 +81,11 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/styles/colours.html\">Colour</a>", 
       "TEASER": "<p>Mandatory colours for canada.ca web content</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Contact us\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/contact_us.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/contact_us.html\">Contact us</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/contact_us.html\">Contact us</a>", 
       "TEASER": "<p>Provide access to multiple contact options and present them consistently in a variety of contexts</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA core component</span>", 
@@ -161,13 +161,6 @@
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core component</span>", 
       "TAGS": "feedback, validation checkboxes, radio buttons, labels, input, selects, textarea, file, date picker, submit, clear, auto-complete"
     }, {
-      "IMAGE": "<img alt=\"Banner: GC subway page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/subway.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/subway-navigation.html\">GC subway page</a>", 
-      "TEASER": "<p>Use to break up long and complex content related to a single task by breaking it into sub-tasks</p>", 
-      "TYPE": "Templates", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core component</span>", 
-      "TAGS": ""
-    }, {
       "IMAGE": "<img alt=\"Banner: Grids\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/grids.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/grids-en.html\">Grids</a>", 
       "TEASER": "<p>Create page layouts using a series of rows and columns that house content</p>", 
@@ -232,10 +225,10 @@
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: Layout\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/layout.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/layout.html\">Layout</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"core/layout.html\">Layout</a>", 
       "TEASER": "<p>Layout for canada.ca web pages, including header, footer, widths and breakpoints</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Links\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/links.jpg\">", 
@@ -270,7 +263,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/opacity-en.html\">Opacity</a>", 
       "TEASER": "<p>Apply a transparency to a foreground item so the background becomes visible</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": "invisible"
     }, {
       "IMAGE": "<img alt=\"Banner: Pagination\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/pagination.jpg\">", 
@@ -308,6 +301,13 @@
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core component</span>", 
       "TAGS": "exit, redirect, time out"
     }, {
+      "IMAGE": "<img alt=\"Banner: GC subway page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/subway.jpg\">", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/subway-navigation.html\">GC subway page</a>", 
+      "TEASER": "<p>Use to break up long and complex content related to a single task by breaking it into sub-tasks</p>", 
+      "TYPE": "Templates", 
+      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">GC variant component</span>", 
+      "TAGS": ""
+    }, {
       "IMAGE": "<img alt=\"Banner: Tabbed interface\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/tabs.jpg\">", 
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://design.canada.ca/common-design-patterns/tabbed-interface.html\">Tabbed interface</a>", 
       "TEASER": "<p>Separate related content into different panes that are viewable one at a time when the respective tab is clicked</p>", 
@@ -316,7 +316,7 @@
       "TAGS": "expand, hide, tabs, invisible"
     }, {
       "IMAGE": "<img alt=\"Banner: Table of contents\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/toc.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/toc.html\">Table of contents</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/toc.html\">Table of contents</a>", 
       "TEASER": "<p>Provide an outline for the content of a page that has multiple subsections</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA core component</span>", 
@@ -330,17 +330,17 @@
       "TAGS": "Tabular, Zebra striping, Hover, Responsive, Colour, Table validator"
     }, {
       "IMAGE": "<img alt=\"Banner: Text editing effects\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text_editing.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/text_editing.html\">Text editing effects</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/text_editing.html\">Text editing effects</a>", 
       "TEASER": "<p>Use of effects like marked text, deleted text and strikethrough text</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": "Edits, Versions, Documents"
     }, {
       "IMAGE": "<img alt=\"Banner: Text formatting\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/text.html\">Text formatting</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"components/text.html\">Text formatting</a>", 
       "TEASER": "<p>Text emphasis, sizing, colours, alignment, wrapping and truncating</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": "bold, italics, underline, align, left, right, center, wrap, truncate"
     }, {
       "IMAGE": "<img alt=\"Banner: Toggle\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/toggle.jpg\">", 
@@ -358,10 +358,10 @@
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Typography\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/typography.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/typography.html\">Typography</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" target=\"_blank\" rel=\"noopener\" href=\"core/typography.html\">Typography</a>", 
       "TEASER": "<p>Fonts for headings and body text, line lengths and link appearance</p>", 
       "TYPE": "Basics", 
-      "CATEGORY": "<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>", 
+      "CATEGORY": "<!--<span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Design basic</span>-->", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Variables\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/variables.jpg\">", 
