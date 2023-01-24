@@ -208,6 +208,12 @@
        });
     </script>
     <script defer="defer">
+        $( ".wb-tables" ).on( "wb-ready.wb-tables", function( event ) {
+            $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
+        });
+        $( document ).on( "wb-ready.wb", function( event ) {
+            $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
+        });
         $( window ).on("load", function() { 
             $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
         });
