@@ -305,7 +305,7 @@
       "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/subway.html\">GC subway page</a>", 
       "TEASER": "<p>Use to break up long and complex content related to a single task by breaking it into sub-tasks</p>", 
       "TYPE": "Templates", 
-      "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">GC variant component</span>", 
+      "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">CRA-variant</span>", 
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Tabbed interface\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/tabs.jpg\">", 
