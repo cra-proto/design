@@ -214,6 +214,9 @@
         $( document ).on( "wb-ready.wb", function( event ) {
             $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
         });
+        $( window ).on("load", function() { 
+            $( ".wb-eqht" ).trigger( "wb-update.wb-eqht" );
+        });
     </script>
     <div id="footer-include"></div>
     </body>
