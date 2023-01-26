@@ -8,7 +8,7 @@
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: And/or design\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/and_or.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/and_or.html\">And/or design</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"and-or/index.html\">And/or design</a>", 
       "TEASER": "<p>Use to clearly demonstrate that there are options or that there are content blocks that are complimentary/associated.</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA-specific</span>", 
