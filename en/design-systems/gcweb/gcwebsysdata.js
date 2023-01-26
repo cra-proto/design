@@ -85,7 +85,7 @@
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Contact us\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/contact_us.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/contact_us.html\">Contact us</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"contact-us/index.html\">Contact us</a>", 
       "TEASER": "<p>Provide access to multiple contact options and present them consistently in a variety of contexts</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA-specific</span>", 
@@ -225,7 +225,7 @@
       "TAGS": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Banner: Layout\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/layout.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"core/layout.html\">Layout</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"layout/index.html\">Layout</a>", 
       "TEASER": "<p>Layout for canada.ca web pages, including header, footer, widths and breakpoints</p>", 
       "TYPE": "Basics", 
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span>", 
@@ -302,7 +302,7 @@
       "TAGS": "exit, redirect, time out"
     }, {
       "IMAGE": "<img alt=\"Banner: GC subway page\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/templates/images/subway.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/subway.html\">GC subway page</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"subway/index.html\">GC subway page</a>", 
       "TEASER": "<p>Use to break up long and complex content related to a single task by breaking it into sub-tasks</p>", 
       "TYPE": "Templates", 
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">CRA-variant</span>", 
@@ -316,7 +316,7 @@
       "TAGS": "expand, hide, tabs, invisible"
     }, {
       "IMAGE": "<img alt=\"Banner: Table of contents\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/toc.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/toc.html\">Table of contents</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"toc/index.html\">Table of contents</a>", 
       "TEASER": "<p>Provide an outline for the content of a page that has multiple subsections</p>", 
       "TYPE": "Components", 
       "CATEGORY": "<span class=\"label label-primary mrgn-lft-0 mrgn-tp-md\">CRA-specific</span>", 
@@ -330,14 +330,14 @@
       "TAGS": "Tabular, Zebra striping, Hover, Responsive, Colour, Table validator"
     }, {
       "IMAGE": "<img alt=\"Banner: Text editing effects\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text_editing.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/text_editing.html\">Text editing effects</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"text-editing-effects/index.html\">Text editing effects</a>", 
       "TEASER": "<p>Use of effects like marked text, deleted text and strikethrough text</p>", 
       "TYPE": "Basics", 
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span>", 
       "TAGS": "Edits, Versions, Documents"
     }, {
       "IMAGE": "<img alt=\"Banner: Text formatting\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/components/images/components/text.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"components/text.html\">Text formatting</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"text-formatting/index.html\">Text formatting</a>", 
       "TEASER": "<p>Text emphasis, sizing, colours, alignment, wrapping and truncating</p>", 
       "TYPE": "Basics", 
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span>", 
@@ -358,7 +358,7 @@
       "TAGS": ""
     }, {
       "IMAGE": "<img alt=\"Banner: Typography\" class=\"img-responsive hidden-xs\" src=\"https://test.canada.ca/cra-arc/ucdg/components/wet4/core/images/typography.jpg\">", 
-      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"core/typography.html\">Typography</a>", 
+      "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"typography/index.html\">Typography</a>", 
       "TEASER": "<p>Fonts for headings and body text, line lengths and link appearance</p>", 
       "TYPE": "Basics", 
       "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span>", 
