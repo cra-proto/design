@@ -252,13 +252,6 @@
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Ordered, Unordered, Icons, Definition, Alpha, Roman, Columns, Bullets, Steps"
     }, {
-      "IMAGE": "<img alt=\"Bannière: Navigation de style métro\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/subway-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"metro/index.html\">Navigation de style métro</a>", 
-      "TAQUIN": "<p>Diviser un contenu long et complexe lié à une même tâche en le fractionnant en sous-tâches</p>", 
-      "TAPEZ": "Modeles", 
-      "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Variantes de l'ARC</span>", 
-      "BALISES": ""
-    }, {
       "IMAGE": "<img alt=\"Bannière: Mise en forme du texte\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/text-fr.jpg\">", 
       "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"mise-en-forme-du-texte/index.html\">Mise en forme du texte</a>", 
       "TAQUIN": "<p>Accentuation, taille, couleur, alignement, renvoi à la ligne et tronquage du texte</p>", 
@@ -271,6 +264,13 @@
       "TAQUIN": "<p>Mise en page des pages Web de Canada.ca, y compris la bannière, le pied de page, la largeur et les points d'interruption</p>", 
       "TAPEZ": "Base", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
+      "BALISES": ""
+    }, {
+      "IMAGE": "<img alt=\"Bannière: Navigation de style métro\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/subway-fr.jpg\">", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"metro/index.html\">Navigation de style métro</a>", 
+      "TAQUIN": "<p>Diviser un contenu long et complexe lié à une même tâche en le fractionnant en sous-tâches</p>", 
+      "TAPEZ": "Modeles", 
+      "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Variantes de l'ARC</span>", 
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Notes de bas de page\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/footnotes-fr.jpg\">", 
