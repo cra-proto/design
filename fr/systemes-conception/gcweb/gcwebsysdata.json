@@ -189,9 +189,9 @@
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Errors, validation, issues, comments, mistakes"
     }, {
-      "IMAGE": "<img alt=\"Bannière: Forms and form elements\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/forms-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-fr.html\">Forms and form elements</a>", 
-      "TAQUIN": "<p>Build a form to collect and transmit information from users in a pre-defined format</p>", 
+      "IMAGE": "<img alt=\"Bannière: Formulaires et éléments de formulaire\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/forms-fr.jpg\">", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-fr.html\">Formulaires et éléments de formulaire </a>", 
+      "TAQUIN": "<p>Créer un formulaire pour recueillir et transmettre les renseignements entrés par les utilisateurs dans un format prédéfini</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "feedback, validation checkboxes, radio buttons, labels, input, selects, textarea, file, date picker, submit, clear, auto-complete"
