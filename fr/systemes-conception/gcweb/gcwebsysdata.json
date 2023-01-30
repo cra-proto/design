@@ -190,7 +190,7 @@
       "BALISES": "Errors, validation, issues, comments, mistakes"
     }, {
       "IMAGE": "<img alt=\"Bannière: Forms and form elements\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/forms-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://conception.canada.ca/configurations-conception-communes/cases-cocher-boutons-radio.html\">Forms and form elements</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-fr.html\">Forms and form elements</a>", 
       "TAQUIN": "<p>Build a form to collect and transmit information from users in a pre-defined format</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
