@@ -155,7 +155,7 @@
     "TAGS": "References, Links, Cites"
   }, {
     "IMAGE": "<img alt=\"Banner: Forms and form elements\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/forms-en.jpg\">", 
-    "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://design.canada.ca/common-design-patterns/checkboxes-radio-buttons.html\">Forms and form elements</a>", 
+    "TITLE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html\">Forms and form elements</a>", 
     "TEASER": "<p>Build a form to collect and transmit information from users in a pre-defined format</p>", 
     "TYPE": "Components", 
     "CATEGORY": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">GC core</span>", 
