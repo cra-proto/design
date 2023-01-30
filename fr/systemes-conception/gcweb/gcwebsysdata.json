@@ -255,7 +255,7 @@
       "IMAGE": "<img alt=\"Bannière: Navigation de style métro\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/subway-fr.jpg\">", 
       "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"metro/index.html\">Navigation de style métro</a>", 
       "TAQUIN": "<p>Diviser un contenu long et complexe lié à une même tâche en le fractionnant en sous-tâches</p>", 
-      "TAPEZ": "Modèles", 
+      "TAPEZ": "Modeles", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span><br><span class=\"label label-info mrgn-lft-0 mrgn-tp-md\">Variantes de l'ARC</span>", 
       "BALISES": ""
     }, {
@@ -290,21 +290,21 @@
       "IMAGE": "<img alt=\"Bannière: Page d'accueil institutionnelle\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/institutional-fr.jpg\">", 
       "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://conception.canada.ca/modeles-obligatoire/pages-profil-institutionnel.html\">Page d'accueil institutionnelle</a>", 
       "TAQUIN": "<p>Page d'accueil obligatoire pour les institutions et les organisations du gouvernement du Canada</p>", 
-      "TAPEZ": "Modèles", 
+      "TAPEZ": "Modeles", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Page de base\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/basic-fr.jpg\">", 
       "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://conception.canada.ca/modeles-recommandes/generique.html\">Page de base</a>", 
       "TAQUIN": "<p>Mise en page de base pour les pages de contenu de Canada.ca qui peut être combinée avec des composantes appropriées</p>", 
-      "TAPEZ": "Modèles", 
+      "TAPEZ": "Modeles", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Page de sujet\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/topic-fr.jpg\">", 
       "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://conception.canada.ca/modeles-obligatoire/theme-sujet.html\">Page de sujet</a>", 
       "TAQUIN": "<p>Permettre de naviguer vers les sujets et les pages de destination qui aident à réaliser une tâche</p>", 
-      "TAPEZ": "Modèles", 
+      "TAPEZ": "Modeles", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": ""
     }, {
