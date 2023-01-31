@@ -2,10 +2,10 @@
 "use strict";
 var index = [];
 if (document.documentElement.lang === "en") {
-	index = ["/design/assets/includes/menu-include-en.html", "/design/assets/includes/footer-include-en.html"];
+	index = ["/design-test/assets/includes/menu-include-en.html", "/design-test/assets/includes/footer-include-en.html"];
 }
 if (document.documentElement.lang === "fr") {
-	index = ["/design/assets/includes/menu-include-fr.html", "/design/assets/includes/footer-include-fr.html"];
+	index = ["/design-test/assets/includes/menu-include-fr.html", "/design-test/assets/includes/footer-include-fr.html"];
 }
 var injectSpot = ["menu-include", "footer-include"];
 var request = new XMLHttpRequest();
