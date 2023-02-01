@@ -1,7 +1,7 @@
 {
     "data": [{
       "IMAGE": "<img alt=\"Bannière: Affichage des données\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/data_inview-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-inview/data-inview-fr.html\">Affichage des données</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-inview/data-inview-en.html\">Affichage des données (anglais seulement)</a>", 
       "TAQUIN": "<p>Ajouter une superposition lorsqu'une section sort de la fenêtre d'affichage</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -22,28 +22,28 @@
       "BALISES": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Bannière: Appel de données Ajax\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/ajax-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-ajax/data-ajax-fr.html\">Appel de données Ajax</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-ajax/data-ajax-en.html\">Appel de données Ajax (anglais seulement)</a>", 
       "TAQUIN": "<p>Permettre à des parties d'une page Web de se charger ou de se mettre à jour dans une deuxième page Web (réutilisation du contenu)</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "insert, content, call, loader, wrapper"
     }, {
       "IMAGE": "<img alt=\"Bannière: Badges\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/badges-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/badges-fr.html\">Badges</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/badges-en.html\">Badges (anglais seulement)</a>", 
       "TAQUIN": "<p>Des indicateurs numériques qui mettent en évidence le nombre de mises à jour, d'éléments nouveaux ou non lus associés à un lien</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Links, Counter, Number"
     }, {
       "IMAGE": "<img alt=\"Bannière: Basculer\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/toggle-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/toggle/toggle-fr.html\">Basculer</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/toggle/toggle-en.html\">Basculer (anglais seulement)</a>", 
       "TAQUIN": "<p>Permettre à un élément de basculer entre l'état actif et l'état inactif</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "expand, hide, collapse, accordion, exhide"
     }, {
       "IMAGE": "<img alt=\"Bannière: Bordures\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/borders-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/borders-fr.html\">Bordures</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/borders-en.html\">Bordures (anglais seulement)</a>", 
       "TAQUIN": "<p>Ajouter une ou plusieurs bordures à des éléments de conception, supprimer des bordures ou tailler les coins qui font partie de composantes de conception comme les « puits »</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -57,14 +57,14 @@
       "BALISES": "Colour, Links"
     }, {
       "IMAGE": "<img alt=\"Bannière: Calculs et équations mathématiques\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/math-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/mathml/mathml-fr.html\">Calculs et équations mathématiques</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/mathml/mathml-en.html\">Calculs et équations mathématiques (anglais seulement)</a>", 
       "TAQUIN": "<p>Afficher les formules mathématiques dans une page</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Variables, Calculations"
     }, {
       "IMAGE": "<img alt=\"Bannière: Calendrier\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/calendar-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/cal-events/cal-events-fr.html\">Calendrier</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/cal-events/cal-events-en.html\">Calendrier (anglais seulement)</a>", 
       "TAQUIN": "<p>Interface permettant de naviguer dans une liste chronologique d'événements</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -78,14 +78,14 @@
       "BALISES": "Tabs, Invisible, Slideshow, Show, Images, Slider, Details, Summary, Expand, Gallery"
     }, {
       "IMAGE": "<img alt=\"Bannière: Citations\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/blockquote-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/quotations-fr.html\">Citations</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/quotations-en.html\">Citations (anglais seulement)</a>", 
       "TAQUIN": "<p>Citer une phrase appartenant à quelqu'un d'autre que l'auteur ou le locuteur original</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "blockquote"
     }, {
       "IMAGE": "<img alt=\"Bannière: Code\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/code-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/code-fr.html\">Code</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/code-en.html\">Code (anglais seulement)</a>", 
       "TAQUIN": "<p>Émuler un code source et l'afficher dans une police de caractères à espacement fixe</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -106,21 +106,21 @@
       "BALISES": "interactive questions, my account, my business acount, online, phone, tty, call, telephone numbers, hours"
     }, {
       "IMAGE": "<img alt=\"Bannière: Contenu archivé\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/archived-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/archived/archived-fr.html\">Contenu archivé</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/archived/archived-en.html\">Contenu archivé (anglais seulement)</a>", 
       "TAQUIN": "<p>Identifier les pages Web qui ont été archivées en ligne</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Overlay, Invisible, Visible, Show, Hidden, Close, Exit, Deleted"
     }, {
       "IMAGE": "<img alt=\"Bannière: Contenu écartable\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/dismissable-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/dismissable-content/dismissable-content-fr.html\">Contenu écartable</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/dismissable-content/dismissable-content-en.html\">Contenu écartable (anglais seulement)</a>", 
       "TAQUIN": "<p>Permettre à l'utilisateur d'écarter du contenu non principal qu'il doit voir seulement une fois</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Dismiss, hide, secondary content"
     }, {
       "IMAGE": "<img alt=\"Bannière: Contenu visible et invisible\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/invisible_visible.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/visible-fr.html\">Contenu visible et invisible</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/visible-en.html\">Contenu visible et invisible (anglais seulement)</a>", 
       "TAQUIN": "<p>Afficher ou masquer du contenu, y compris les styles spécifiques aux technologies d'assistance (soutenir les utilisateurs de lecteurs d'écran), à la conception réactive, à l'utilisation générale et à l'impression</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -148,56 +148,56 @@
       "BALISES": "Edits, Versions, Documents"
     }, {
       "IMAGE": "<img alt=\"Bannière: Égalisation des hauteurs (égaliser)\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/equalize-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/equalheight/equalheight-fr.html\">Égalisation des hauteurs (égaliser)</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/equalheight/equalheight-en.html\">Égalisation des hauteurs (égaliser) (anglais seulement)</a>", 
       "TAQUIN": "<p>Égaliser la hauteur des éléments situés sur la même ligne de base</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Panels, Wells, Borders"
     }, {
       "IMAGE": "<img alt=\"Bannière: En-têtes\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/headings-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/headings-fr.html\">En-têtes</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/headings-en.html\">En-têtes (anglais seulement)</a>", 
       "TAQUIN": "<p>Créer des sous-titres de contenu qui sont grands, gras, hiérarchiques et concis</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Size, Text, Titles"
     }, {
       "IMAGE": "<img alt=\"Bannière: Étiquettes\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/labels-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/labels-fr.html\">Étiquettes</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/labels-en.html\">Étiquettes (anglais seulement)</a>", 
       "TAQUIN": "<p>Attirer l'attention sur une section du contenu en ajoutant des informations complémentaires courtes et textuelles.</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Colour, Attention"
     }, {
       "IMAGE": "<img alt=\"Bannière: Expiration de la session\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/timeout-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/session-timeout/session-timeout-fr.html\">Expiration de la session</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/session-timeout/session-timeout-en.html\">Expiration de la session (anglais seulement)</a>", 
       "TAQUIN": "<p>Prévenir les utilisateurs lorsque leur session est sur le point d'expirer</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "exit, redirect, time out"
     }, {
       "IMAGE": "<img alt=\"Bannière: Fenêtres contextuelles\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/popups-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/lightbox/lightbox-fr.html\">Fenêtres contextuelles</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/lightbox/lightbox-en.html\">Fenêtres contextuelles (anglais seulement)</a>", 
       "TAQUIN": "<p>Afficher des images et d'autres contenus dans une boîte de dialogue, soit individuellement ou dans une galerie</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "lightbox, overlay, modal, gallery"
     }, {
       "IMAGE": "<img alt=\"Bannière: Formulaire de rétroaction\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/feedback-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/feedback/feedback-fr.html\">Formulaire de rétroaction</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/feedback/feedback-en.html\">Formulaire de rétroaction (anglais seulement)</a>", 
       "TAQUIN": "<p>Permettre aux utilisateurs de fournir une rétroaction ou de signaler un problème rencontré sur une page Web spécifique ou sur le site Web en général</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Errors, validation, issues, comments, mistakes"
     }, {
       "IMAGE": "<img alt=\"Bannière: Formulaires et éléments de formulaire\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/forms-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-fr.html\">Formulaires et éléments de formulaire </a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html\">Formulaires et éléments de formulaire (anglais seulement)</a>", 
       "TAQUIN": "<p>Créer un formulaire pour recueillir et transmettre les renseignements entrés par les utilisateurs dans un format prédéfini</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "feedback, validation checkboxes, radio buttons, labels, input, selects, textarea, file, date picker, submit, clear, auto-complete"
     }, {
       "IMAGE": "<img alt=\"Bannière: Grilles\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/grids.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/grids-fr.html\">Grilles</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/grids-en.html\">Grilles (anglais seulement)</a>", 
       "TAQUIN": "<p>Créer des mises en page à l'aide d'une série de lignes et de colonnes qui renferment du contenu</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -211,14 +211,14 @@
       "BALISES": "Colour, Images, Fonts"
     }, {
       "IMAGE": "<img alt=\"Bannière: Identificateur de pays\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/country-en.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/country-content/country-content-fr.html\">Identificateur de pays</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/country-content/country-content-en.html\">Identificateur de pays (anglais seulement)</a>", 
       "TAQUIN": "<p>Charger ou remplacer le contenu d'un élément en fonction du pays de l'utilisateur</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Location"
     }, {
       "IMAGE": "<img alt=\"Bannière: Image relative aux données\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/data_picture.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-picture/data-picture-fr.html\">Image relative aux données</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/docs/ref/data-picture/data-picture-en.html\">Image relative aux données (anglais seulement)</a>", 
       "TAQUIN": "<p>Permettre à une page Web de spécifier différentes sources d'images à afficher en se basant sur les requêtes de média</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -239,14 +239,14 @@
       "BALISES": "expand, hide, tabs, invisible"
     }, {
       "IMAGE": "<img alt=\"Bannière: Liens\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/links-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/links-fr.html\">Liens</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/links-en.html\">Liens (anglais seulement)</a>", 
       "TAQUIN": "<p>Coder un mot, une phrase ou une image pour permettre à l'utilisateur de naviguer, de consulter ou d'interagir avec le contenu</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Hyperlinks"
     }, {
       "IMAGE": "<img alt=\"Bannière: Listes\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/lists-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/lists-fr.html\">Listes</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/lists-en.html\">Listes (anglais seulement)</a>", 
       "TAQUIN": "<p>Afficher un certain nombre d'éléments reliés entre eux de manière consécutive, généralement les uns en dessous des autres</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -274,14 +274,14 @@
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Notes de bas de page\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/footnotes-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/footnotes/footnotes-fr.html\">Notes de bas de page</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/v4.0-ci/demos/footnotes/footnotes-en.html\">Notes de bas de page (anglais seulement)</a>", 
       "TAQUIN": "<p>Créer une note, une référence, une citation ou un commentaire qui s'affiche en bas de la page</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "References, Links, Cites"
     }, {
       "IMAGE": "<img alt=\"Bannière: Opacité\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/opacity.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/opacity-fr.html\">Opacité</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/opacity-en.html\">Opacité (anglais seulement)</a>", 
       "TAQUIN": "<p>Appliquer de la transparence à un élément de premier plan pour que l'arrière-plan devienne visible</p>", 
       "TAPEZ": "Base", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -309,28 +309,28 @@
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Pagination\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/pagination-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/pagination-fr.html\">Pagination</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/pagination-en.html\">Pagination (anglais seulement)</a>", 
       "TAQUIN": "<p>Pour les longs documents répartis sur plusieurs pages, permettre à l'utilisateur de naviguer entre les pages en utilisant les hyperliens « Suivant », « Précédent » ou (s'il y a lieu) les hyperliens de pagination numériques</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Buttons, Links, Navigation"
     }, {
       "IMAGE": "<img alt=\"Bannière: Panneaux\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/panels-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/panels-fr.html\">Panneaux</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/panels-en.html\">Panneaux (anglais seulement)</a>", 
       "TAQUIN": "<p>Créer un regroupement visuel de contenu à l'aide de différents thèmes de couleurs, ainsi que des en-têtes et pieds de page distincts</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Boxes, Menu, Navigation, Layout"
     }, {
       "IMAGE": "<img alt=\"Bannière: Proximité des marges\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/margin-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/proximity-fr.html\">Proximité des marges</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/proximity-en.html\">Proximité des marges (anglais seulement)</a>", 
       "TAQUIN": "<p>Augmenter ou diminuer l'espace vide entre les éléments pour permettre de savoir si les éléments sont liés ou non</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Spacing, Margins, Left, Right, Top, Bottom"
     }, {
       "IMAGE": "<img alt=\"Bannière: Puits\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/wells-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/wells-fr.html\">Puits</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/wells-en.html\">Puits (anglais seulement)</a>", 
       "TAQUIN": "<p>Mettre du contenu en évidence en le plaçant dans une case gris clair</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -351,14 +351,14 @@
       "BALISES": "On this page"
     }, {
       "IMAGE": "<img alt=\"Bannière: Tableaux\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/tables-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/tables-fr.html\">Tableaux</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/tables-en.html\">Tableaux (anglais seulement)</a>", 
       "TAQUIN": "<p>Organiser des données en lignes et en colonnes afin de créer des cellules de données</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
       "BALISES": "Tabular, Zebra striping, Hover, Responsive, Colour, Table validator"
     }, {
       "IMAGE": "<img alt=\"Bannière: Touches de clavier\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/keyboard-fr.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/keyboard-fr.html\">Touches de clavier</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/keyboard-en.html\">Touches de clavier (anglais seulement)</a>", 
       "TAQUIN": "<p>Reproduire les touches d'un clavier d'ordinateur</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
@@ -372,7 +372,7 @@
       "BALISES": ""
     }, {
       "IMAGE": "<img alt=\"Bannière: Variables\" class=\"img-responsive hidden-xs\" src=\"../../../assets/images/banners/gcweb/variables.jpg\">", 
-      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/variables-fr.html\">Variables</a>", 
+      "TITRE": "<h3 class=\"mrgn-tp-md\"><a class=\"stretched-link\" href=\"https://wet-boew.github.io/wet-boew-styleguide/design/variables-en.html\">Variables (anglais seulement)</a>", 
       "TAQUIN": "<p>À utiliser quand il y a une référence à une variable comme « x », « n » ou « o » dans une phrase (une expression non mathématique)</p>", 
       "TAPEZ": "Composantes", 
       "CATEGORIE": "<span class=\"label label-default mrgn-lft-0 mrgn-tp-md\">Éléments de base du GC</span>", 
