@@ -109,10 +109,10 @@ function gtag(){dataLayer.push(arguments);}
 <details id="app1">
 <summary>Apparence</summary>
 <div class="panel panel-body brdr-0 brdr-rds-0">
-<span class="" id="text0"><p>Texte régulier</p></span>
-<span class="hidden" id="text6"><p>Texte régulier et <strong>texte en gras</strong></p></span>
-<span class="hidden" id="text7"><p>Texte régulier et <em>texte en italique</em></p></span>
-<span class="hidden" id="text5"><p>Texte régulier et <u>texte souligné</u></p></span>
+<p id="text0">Texte régulier</p>
+<p class="hidden" id="text6">Texte régulier et <strong>texte en gras</strong></p>
+<p class="hidden" id="text7">Texte régulier et <em>texte en italique</em></p>
+<p class="hidden" id="text5">Texte régulier et <u>texte souligné</u></p>
 </div>
 </details>
 <!-- Field flow code -->
@@ -120,7 +120,6 @@ function gtag(){dataLayer.push(arguments);}
 <summary>Code HTML</summary>
 <pre><code><span class="cl-text0" id="def">&lt;p&gt;Texte régulier&lt;/p&gt;</span><span class="hidden cl-text6">&lt;p&gt;Texte régulier et <strong>&lt;strong&gt;</strong>texte en gras<strong>&lt;/strong&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text7">&lt;p&gt;Texte régulier et <strong>&lt;em&gt;</strong>texte en italique<strong>&lt;/em&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text5">&lt;p&gt;Texte régulier et <strong>&lt;u&gt;</strong>texte souligné<strong>&lt;/u&gt;</strong>&lt;/p&gt;</span>
 </code></pre>
-</details>
 </details>
 </div>
 </div>
@@ -210,7 +209,6 @@ function gtag(){dataLayer.push(arguments);}
 <pre><code>&lt;p class="<strong><span class="hidden cl-text-left">text-left</span><span class="hidden cl-text-center">text-center</span><span class="hidden cl-text-right">text-right</span></strong>"&gt;Votre texte...&lt;/p&gt;
 </code></pre>
 </details>
-</details>
 </div>
 </div>
 </div>
@@ -272,7 +270,7 @@ function gtag(){dataLayer.push(arguments);}
 <details id="app1">
 <summary>Apparence</summary>
 <div class="panel panel-body brdr-0 brdr-rds-0">
-<p class="" id="def1">Taille de texte par défaut</p>
+<p id="def1">Taille de texte par défaut</p>
 <p class="hidden h1" id="size1">Taille de texte H1</p>
 <p class="hidden h2" id="size2">Taille de texte H2</p>
 <p class="hidden lead" id="lead">Texte de grande taille </p>
@@ -288,15 +286,14 @@ function gtag(){dataLayer.push(arguments);}
 <pre><code><span class="cl-def1" id="defhidden">&lt;p&gt;Size default&lt;/p&gt;</span><span class="hidden cl-h1">&lt;p class="h1"&gt;Size H1&lt;/p&gt;</span><span class="hidden cl-h2">&lt;p class="h2"&gt;Size H2&lt;/p&gt;</span><span class="hidden cl-h3">&lt;p class="h3"&gt;Size H3&lt;/p&gt;</span><span class="hidden cl-h4">&lt;p class="h4"&gt;Size H4&lt;/p&gt;</span><span class="hidden cl-h5">&lt;p class="h5"&gt;Size H5&lt;/p&gt;</span><span class="hidden cl-lead">&lt;p class="lead"&gt;Size lead&lt;/p&gt;</span><span class="hidden cl-small1">&lt;p class="<strong>small</strong>"&gt;Size small (CSS)&lt;/p&gt;
 <strong>&lt;small&gt;</strong>Size small (element)<strong>&lt;/small&gt;</strong></span>
 </code></pre>
-<span class="hidden" id="small2">
+<div class="hidden" id="small2">
 <p><strong>Coding considerations:</strong></p>
          <ul class="fa-ul">
              <li><span class="fas fa-check fa-li text-success"></span>Use the <code>.small</code>  <abbr title="cascading style sheet">CSS</abbr> to<strong> style text and reduce it in  size and impact</strong></li>
 			 <li><span class="fas fa-check fa-li text-success"></span>Use the <code>&lt;small&gt;</code> element to <strong>  define small text</strong>, for example side-comments, disclaimers and "fine" print, including copyright and legal text</li>
         
          </ul>
-		 </span>
-</details>
+		 </div>
 </details>
 </div>
 </div>
@@ -399,7 +396,6 @@ function gtag(){dataLayer.push(arguments);}
 <li><span class="fas fa-check fa-li text-success"></span>Wrap text in a <code>&lt;span&gt;</code> tag if a style does not appear as it is meant to, due to specificity reasons</li>
 </ul>
 
-</details>
 </details>
 </div>
 </div>
@@ -512,7 +508,6 @@ function gtag(){dataLayer.push(arguments);}
 <pre><code>&lt;p<strong><span class="hidden cl-wb-elps"> class="wb-elps"</span></strong>&gt;La date limite pour produire vos impôts de cette année est le <span class="hidden cl-nowrap"><strong>&lt;span class="nowrap"&gt;</strong></span>30 avril 2021.<span class="hidden cl-nowrap"><strong>&lt;/span&gt;</strong></span>&lt;/p&gt;
 </code></pre>
 </details>
-</details>
 </div>
 </div>
 </div>
@@ -561,8 +556,6 @@ function gtag(){dataLayer.push(arguments);}
 <li><span class="fas fa-times fa-li text-danger"></span>N'utilisez pas ce style pour des phrases, car il peut cacher des informations à une personne voyante.</li>
 <li><span class="fas fa-times fa-li text-danger"></span>Ne l'utilisez pas à la place de <a href="https://wet-boew.github.io/v4.0-ci/demos/equalheight/equalheight-en.html">Égalisation des hauteurs (égaliser) (anglais seulement)</a> lorsque vous essayez d'obtenir une hauteur égale sur une ligne de grille.</li>
 </ul>
-</dd>
-</dl>
 </div>
 </div>
 <h2 id="h-6">Composantes complémentaires</h2>
