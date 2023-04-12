@@ -518,15 +518,15 @@
 
                       <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h1stacked", "live": true}]'>H1 - superposé</li>
 
-                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h1", "class": "hidden", "live": true}, {"action": "addClass", "source": "#hidden1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h1", "live": true}]'>H1 - régulier</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h1", "class": "hidden", "live": true}, {"action": "addClass", "source": ".cl-h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h1", "live": true}]'>H1 - régulier</li>
 
-                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h2", "class": "hidden", "live": true}, {"action": "addClass", "source": "#hidden1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h2", "live": true}]'>H2</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h2", "class": "hidden", "live": true}, {"action": "addClass", "source": ".cl-h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h2", "live": true}]'>H2</li>
 
-                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h3", "class": "hidden", "live": true}, {"action": "addClass", "source": "#hidden1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h3", "live": true}]'>H3</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h3", "class": "hidden", "live": true}, {"action": "addClass", "source": ".cl-h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h3", "live": true}]'>H3</li>
 
-                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h4", "class": "hidden", "live": true}, {"action": "addClass", "source": "#hidden1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h4", "live": true}]'>H4</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h4", "class": "hidden", "live": true}, {"action": "addClass", "source": ".cl-h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h4", "live": true}]'>H4</li>
 
-                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h5", "class": "hidden", "live": true}, {"action": "addClass", "source": "#hidden1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h5, .h5-wrnng", "live": true}]'>H5</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#h5", "class": "hidden", "live": true}, {"action": "addClass", "source": ".cl-h1stacked", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-h5, .h5-wrnng", "live": true}]'>H5</li>
 
                     </ul>
 
@@ -594,11 +594,19 @@
                 <details id="app2">
 
                   <summary>Code HTML </summary>
-
-                  <pre><code><span class="cl-h1stacked" id="hidden1">&lt;p class="lead mrgn-tp-md mrgn-bttm-0 text-muted" aria-hidden="true"&gt;Titre de la page parent&lt;/p&gt;
-&lt;h1 class="gc-thickline mrgn-tp-0" id="wb-cont"&gt;En-tête H1&lt;span class="wb-inv"&gt; – Titre de la page parent&lt;/span&gt;&lt;/h1&gt;</span><span class="hidden cl-h1">&lt;h1 class="gc-thickline" id="wb-cont"&gt;En-tête H1<span class="hidden cl-small"></span>&lt;/h1&gt;</span><span class="hidden cl-h2">&lt;h2&gt;En-tête H2&lt;/h2&gt;</span><span class="hidden cl-h3">&lt;h3&gt;En-tête H3&lt;/h3&gt;</span><span class="hidden cl-h4">&lt;h4&gt;En-tête H4&lt;/h4&gt;</span><span class="hidden cl-h5">&lt;h5&gt;En-tête H5&lt;/h5&gt;</span></code>
+<div class="cl-h1stacked">
+                  <h3 class="mrgn-tp-sm">Superposé - Sujet</h3>
+                </div>
+                <pre><code><span class="cl-h1stacked" id="hidden1">&lt;title&gt;En-tête H1 - Titre de la page parent&lt;/title&gt;
+		...
+		&lt;p class="lead mrgn-tp-md mrgn-bttm-0 text-muted" aria-hidden="true"&gt;Titre de la page parent&lt;/p&gt;
+		&lt;h1 class="gc-thickline mrgn-tp-0" id="wb-cont"&gt;En-tête H1&lt;span class="wb-inv"&gt; – Titre de la page parent&lt;/span&gt;&lt;/h1&gt;</span><span class="hidden cl-h1">&lt;h1 class="gc-thickline" id="wb-cont"&gt;En-tête H1<span class="hidden cl-small"></span>&lt;/h1&gt;</span><span class="hidden cl-h2">&lt;h2&gt;En-tête H2&lt;/h2&gt;</span><span class="hidden cl-h3">&lt;h3&gt;En-tête H3&lt;/h3&gt;</span><span class="hidden cl-h4">&lt;h4&gt;En-tête H4&lt;/h4&gt;</span><span class="hidden cl-h5">&lt;h5&gt;En-tête H5&lt;/h5&gt;</span></code>
 
 </pre>
+			<div class="cl-h1stacked">
+                  <h3 class="mrgn-tp-sm">Superposé - Navigation de style métro</h3>
+                  <p>Consultez le: <a href="../metro/index.html">Subway</a></p>
+                </div>
 
                   <div class="alert alert-warning hidden h5-wrnng">
 
