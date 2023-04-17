@@ -77,7 +77,12 @@
                </div>
             </div>
             <div class="all-pre wb-prettify">
-			
+			<p>There are 3 types of lists:</p>
+			<ul class="mrgn-bttm-lg">
+			<li>Bulleted (undordered) lists for when the list item order <strong>does not</strong> explicitly matter</li>
+			<li>Numbered, alpha or roman (ordered) lists for when the list item order <strong>does</strong> explicitly matter </li>
+			<li>Description lists for terms with their associated descriptions </li>
+			</ul>
                <h2 class="h3 mrgn-tp-md">On this page</h2>
                <ul>
                   <li><a href="#h-1">Lead-in to a list</a> 
@@ -634,133 +639,6 @@
                   </div>
                </div>
                
-              <h3 id="h-2-7">Enhancement: Create an interactive checklist</h3><p>Checklists help people break down complex eligibility lists to ensure that they meet all criteria.</p>
-			 <p>Since coding them is more complex and does require custom JavaScript, you must contact <a href="mailto:weboptimizg@cra-arc.gc.ca">weboptimizg@cra-arc.gc.ca</a> before implementing.</p>
-			  <h4>Supporting research</h4>
-	
-<p>In the last couple of years, the Digital Transformation Office (DTO) has been studying the use of interactive checklists to simplify the way we present eligibility criteria.</p>
-Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html">Using interactive checklists to simplify eligibility criteria</a> </p>
-			  <div class="row">
-			  <div class="col-md-6">
-			 
-			  <h4 class="text-muted">Correct use</h4>
-			 <ul class="fa-ul">
-                  <li><span class="fas fa-check fa-li text-success"></span>Lead-in with an opening sentence that informs the users that they must meet <strong>all</strong> the criteria</li>
-			 <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (age, timelines, basic situation etc) and progress to more complex criteria</li>
-			 <li><span class="fas fa-check fa-li text-success"></span>Have 3 dynamically changing alerts:
-			 <ul>
-			 <li>When no boxes checked, use the following template: 
-                    <div class="alert alert-info provisional">
-                        <h4>You need all of the above to be eligible</h4>
-                       
-                            <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
-                            <p>(Further information here)</p>
-                       
-                    </div>
-                    
-                    </li>
-					<li>When some boxes are checked, use the following template:
-                    <div class="alert alert-warning  provisional">
-                        <h4>You need all of the above to be eligible</h4>
-                        
-                            <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
-                            <p>(Further information here)</p>
-                       
-                    </div></li>
-			 <li>When all boxes checked, use the following template: 
-                    <div class="alert alert-success provisional">
-                        <h4>You may be eligible for (situation)</h4>
-                      
-                            <p>(Further information here)</p>
-                       
-                    </div></li>
-			
-			 </ul>
-			 </li>
-			 
-			 </ul>
-			 
-			 </div>
-			 <div class="col-md-6">
-			 <div class="panel panel-default brdr-rds-0">
-			 <div class="panel-heading"><h4 class="panel-title">Demo</h4></div>
-			 <div class="panel-body">
-			 <section class="chcklst chcklst1">
-                   
-                    <p class="lead">You must meet <strong>all</strong> of the following criteria in order to qualify:</p>
-                    <ul class="checkbox-zebra gc-chckbxrdio">
-                        <li class="checkbox" id="chbx-p1-age">
-                            <input type="checkbox" id="checkbox1" class="action-checkbox-1 cb-dmm">
-                            <label for="checkbox1">(Criteria 1)</label>
-                        </li>
-                        <li class="checkbox" id="chbx-p1-dental-care">
-                            <input type="checkbox" id="checkbox2" class="action-checkbox-1 cb-dmm">
-                            <label for="checkbox2">
-                                <p>(Criteria 2)</p>
-                                <details class="mrgn-rght-md mrgn-tp-md">
-                                    <summary>(Further information if needed)</summary>
-                                    <p>(Details here)</p>
-                                </details>
-                            </label>
-                        </li>
-                        
-                        <li class="checkbox" id="chbx-p1-ccb">
-                            <input type="checkbox" id="checkbox3" class="action-checkbox-1 cb-dmm">
-                            <label for="checkbox3">
-                                <div class="cnjnctn-type-or mrgn-tp-0 brdr-lft-0">
-                                    <div class="cnjnctn-col">
-                                        <p>(Criteria 3A)</p>
-                                        <details class="mrgn-bttm-md">
-                                            <summary>(Further information if needed)</summary>
-                                      <p>(Details here)</p>
-                                        </details>
-                                    </div>
-                                    <div class="cnjnctn-col">
-                                        <p>(Criteria 3B)</p>
-                                        <details>
-                                           <summary>(Further information if needed)</summary>
-                                    <p>(Details here)</p>
-                                        </details>
-                                    </div>
-                                </div>
-                            </label>
-                        </li>
-                        
-                    </ul>
-                    <!--No boxes checked-->
-                    <div class="alert alert-info provisional" id="action-no-msg-1">
-                        <h4>You need all of the above to be eligible</h4>
-                        <div>
-                            <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
-                            <p>(Further information here)</p>
-                        </div>
-                    </div>
-                    <!--All boxes checked-->
-                    <div class="alert alert-success hidden provisional" id="action-msg1-1">
-                        <h4>You may be eligible for (situation)</h4>
-                        <div>
-                            <p>(Further information here)</p>
-                        </div>
-                    </div>
-                    <!--Some boxes checked-->
-                    <div class="alert alert-warning hidden provisional" id="action-msg2-1">
-                        <h4>You need all of the above to be eligible</h4>
-                        <div>
-                            <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
-                            <p>(Further information here)</p>
-                        </div>
-                    </div>
-                </section>
-				 </div>
-			  </div>
-			  </div>
-			  </div>
-
-
-               
-               
-               
-               
               
 			  <h3 id="h-2-4">Enhancement: Apply and/or pattern</h3>
 			  <p>Use the and/or design to clearly demonstrate that there are options or that there are content blocks that are complimentary/associated.</p>
@@ -1038,6 +916,133 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
                      <div class="mrgn-tp-md "></div>
                   </div>
                </div>
+              <h3 id="h-2-7">Enhancement: Create an interactive checklist</h3><p>Checklists help people break down complex eligibility lists to ensure that they meet all criteria.</p>
+			 <p>Since coding them is more complex and does require custom JavaScript, you must contact <a href="mailto:weboptimizg@cra-arc.gc.ca">weboptimizg@cra-arc.gc.ca</a> before implementing.</p>
+			  <h4>Supporting research</h4>
+	
+<p>In the last couple of years, the Digital Transformation Office (DTO) has been studying the use of interactive checklists to simplify the way we present eligibility criteria.</p>
+Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html">Using interactive checklists to simplify eligibility criteria</a> </p>
+			  <div class="row">
+			  <div class="col-md-6">
+			 
+			  <h4 class="text-muted">Correct use</h4>
+			 <ul class="fa-ul">
+                  <li><span class="fas fa-check fa-li text-success"></span>Lead-in with an opening sentence that informs the users that they must meet <strong>all</strong> the criteria</li>
+			 <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (age, timelines, basic situation etc) and progress to more complex criteria</li>
+			 <li><span class="fas fa-check fa-li text-success"></span>Have 3 dynamically changing alerts:
+			 <ul>
+			 <li>When no boxes checked, use the following template: 
+                    <div class="alert alert-info provisional">
+                        <h4>You need all of the above to be eligible</h4>
+                       
+                            <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
+                            <p>(Further information here)</p>
+                       
+                    </div>
+                    
+                    </li>
+					<li>When some boxes are checked, use the following template:
+                    <div class="alert alert-warning  provisional">
+                        <h4>You need all of the above to be eligible</h4>
+                        
+                            <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
+                            <p>(Further information here)</p>
+                       
+                    </div></li>
+			 <li>When all boxes checked, use the following template: 
+                    <div class="alert alert-success provisional">
+                        <h4>You may be eligible for (situation)</h4>
+                      
+                            <p>(Further information here)</p>
+                       
+                    </div></li>
+			
+			 </ul>
+			 </li>
+			 
+			 </ul>
+			 
+			 </div>
+			 <div class="col-md-6">
+			 <div class="panel panel-default brdr-rds-0">
+			 <div class="panel-heading"><h4 class="panel-title">Demo</h4></div>
+			 <div class="panel-body">
+			 <section class="chcklst chcklst1">
+                   
+                    <p class="lead">You must meet <strong>all</strong> of the following criteria in order to qualify:</p>
+                    <ul class="checkbox-zebra gc-chckbxrdio">
+                        <li class="checkbox" id="chbx-p1-age">
+                            <input type="checkbox" id="checkbox1" class="action-checkbox-1 cb-dmm">
+                            <label for="checkbox1">(Criteria 1)</label>
+                        </li>
+                        <li class="checkbox" id="chbx-p1-dental-care">
+                            <input type="checkbox" id="checkbox2" class="action-checkbox-1 cb-dmm">
+                            <label for="checkbox2">
+                                <p>(Criteria 2)</p>
+                                <details class="mrgn-rght-md mrgn-tp-md">
+                                    <summary>(Further information if needed)</summary>
+                                    <p>(Details here)</p>
+                                </details>
+                            </label>
+                        </li>
+                        
+                        <li class="checkbox" id="chbx-p1-ccb">
+                            <input type="checkbox" id="checkbox3" class="action-checkbox-1 cb-dmm">
+                            <label for="checkbox3">
+                                <div class="cnjnctn-type-or mrgn-tp-0 brdr-lft-0">
+                                    <div class="cnjnctn-col">
+                                        <p>(Criteria 3A)</p>
+                                        <details class="mrgn-bttm-md">
+                                            <summary>(Further information if needed)</summary>
+                                      <p>(Details here)</p>
+                                        </details>
+                                    </div>
+                                    <div class="cnjnctn-col">
+                                        <p>(Criteria 3B)</p>
+                                        <details>
+                                           <summary>(Further information if needed)</summary>
+                                    <p>(Details here)</p>
+                                        </details>
+                                    </div>
+                                </div>
+                            </label>
+                        </li>
+                        
+                    </ul>
+                    <!--No boxes checked-->
+                    <div class="alert alert-info provisional" id="action-no-msg-1">
+                        <h4>You need all of the above to be eligible</h4>
+                        <div>
+                            <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
+                            <p>(Further information here)</p>
+                        </div>
+                    </div>
+                    <!--All boxes checked-->
+                    <div class="alert alert-success hidden provisional" id="action-msg1-1">
+                        <h4>You may be eligible for (situation)</h4>
+                        <div>
+                            <p>(Further information here)</p>
+                        </div>
+                    </div>
+                    <!--Some boxes checked-->
+                    <div class="alert alert-warning hidden provisional" id="action-msg2-1">
+                        <h4>You need all of the above to be eligible</h4>
+                        <div>
+                            <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
+                            <p>(Further information here)</p>
+                        </div>
+                    </div>
+                </section>
+				 </div>
+			  </div>
+			  </div>
+			  </div>
+
+
+               
+               
+               
+               
               
 			   <h2 id="h-3">Numbered, alpha or roman (ordered) list</h2>
 			   <h3 id="h-3-1">Basic: Numbered, alpha or roman list</h3>
