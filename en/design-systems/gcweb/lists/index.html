@@ -78,10 +78,10 @@
             </div>
             <div class="all-pre wb-prettify">
 			<p>There are 3 types of lists:</p>
-			<ul class="mrgn-bttm-lg">
-			<li>Bulleted (undordered) lists for when the list item order <strong>does not</strong> explicitly matter</li>
-			<li>Numbered, alpha or roman (ordered) lists for when the list item order <strong>does</strong> explicitly matter </li>
-			<li>Description lists for terms with their associated descriptions </li>
+			<ul class="mrgn-bttm-lg fa-ul">
+			<li><span class="fas fa-list-ul fa-lg fa-li"></span>Bulleted (undordered) lists for when the list item order <strong>does not</strong> explicitly matter</li>
+			<li><span class="fas fa-list-ol fa-lg fa-li"></span>Numbered, alpha or roman (ordered) lists for when the list item order <strong>does</strong> explicitly matter </li>
+			<li><span class="fas fa-th-list fa-lg fa-li"></span>Description lists for terms with their associated descriptions </li>
 			</ul>
                <h2 class="h3 mrgn-tp-md">On this page</h2>
                <ul>
@@ -232,6 +232,8 @@
 			  <p><span class="bg-warning">Don't end the list items with any punctuation</span></p>
 			  </dd>
 			  </dl>
+			  <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -305,7 +307,7 @@
                
 			   <h3 id="h-2-2">Enhancement: Use icons instead of bullets</h3>
 			   
-               <p>Replace bullets with icons from the <a href="https://fontawesome.com/v5/search?o=r&m=free">Font Awesome icon set</a> (version 5.15.4 "Free" set, which has 1608 icons)</p>
+               <p>Replace bullets with icons from the <a href="https://fontawesome.com/v5/search?o=r&m=free">Font Awesome icon set</a> (version 5.15.4 "Free" set, which has 1608 icons). Using icons is rare, as there are limited icons that match your list content. </p>
 			   
 			   <details><summary>Example 1 - Using the <strong>same</strong> icons on the list items</summary>
 			   <dl class="dl-horizontal">
@@ -351,7 +353,7 @@
 			   </dd>
 			   </dl>
 			   </details>
-			   <p>Using icons is rare, as there are limited icons that match your list content.  However, one of the most frequent use of this feature is when using the checkmark or an X mark icons</p>
+			   <p>One of the most frequent use of this feature is when using the checkmark or an X mark icons</p>
 			   <h4 class="mrgn-bttm-md">When using the checkmark and X icons</h4>
 			    <div class="row">
                   <div class="col-sm-7">
@@ -442,16 +444,18 @@
                   <div class="col-sm-5">
                      <h5 class="text-muted">Incorrect use</h5>
                      <ul class="fa-ul">
-                        <li><span class="fas fa-times fa-li text-danger"></span>Do not use in a list explaining the contents of a page or section</li>
+                        <li><span class="fas fa-times fa-li text-danger"></span>Do not use in a table of contents</li>
                         <li><span class="fas fa-times fa-li text-danger"></span>Do not use for actions that you might do</li>
                         <li><span class="fas fa-times fa-li text-danger"></span>Do not use if there is no clear call to action</li>
-                        <li><span class="fas fa-times fa-li text-danger"></span>Do not use outside of a list (paragraph)</li>
+                        <li><span class="fas fa-times fa-li text-danger"></span>Do not use outside of a list (for example, do not insert checkmarks and X icons into a pragraph)</li>
                         <li><span class="fas fa-times fa-li text-danger"></span>Do not use in conjunction with another graphic or image</li>
                         <li><span class="fas fa-times fa-li text-danger"></span>Do not use as a header, with bullets included beneath</li>
                         <li><span class="fas fa-times fa-li text-danger"></span>Do not use for theoretical information</li>
                      </ul>
                   </div>
                </div>
+			   <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -461,8 +465,10 @@
                               <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
                               <p><span class="mrgn-tp-0 h4">Options</span></p>
                               <ul>
-                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#iconsa", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-iconsa", "live": true}, { "action": "addClass", "source":"#lista, #listhtml", "class": " hidden"}]'>Checkmarks and X marks</li>
-                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#lista", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-lista", "live": true}]'>Default</li>
+							  <li data-wb-fieldflow='[{"action": "removeClass", "source": "#lista", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-lista", "live": true}, { "action": "addClass", "source":"#lista, #iconshtml", "class": " hidden"}]'>Default</li>
+							  <li data-wb-fieldflow='[{"action": "removeClass", "source": "#iconsa", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-iconsa", "live": true}]'>Checkmarks and X marks</li>
+                                 
+                                 
                               </ul>
                            </div>
                         </div>
@@ -476,7 +482,7 @@
                               <details id="app13">
                                  <summary>Appearance</summary>
                                  <div class="panel panel-body brdr-0 brdr-rds-0">
-                                    <span class="hidden cl-lista" id="lista">
+                                    <span class="cl-lista" id="lista">
                                        <ul>
                                           <li>List item 1</li>
                                           <li>List item 2</li>
@@ -484,7 +490,7 @@
                                           <li>List item 4</li>
                                        </ul>
                                     </span>
-                                    <span class="" id="iconsa">
+                                    <span class="hidden " id="iconsa">
                                        <ul class="fa-ul">
                                           <li><span class="fas fa-check text-success fa-li"></span>List item 1</li>
                                           <li><span class="fas fa-check text-success fa-li"></span>List item 2</li>
@@ -498,11 +504,11 @@
                               <details id="app14">
                                  <summary>HTML code</summary>
                                  <div class="mrgnlft-md mrgn-rght-md">
-                                    <pre><code><span class="hidden cl-lista">&lt;ul&gt;
+                                    <pre><code><span class="cl-lista" id="listhtml">&lt;ul&gt;
   &lt;li&gt;List item 1&lt;/li&gt;
   &lt;li&gt;List item 2&lt;/li&gt;
   &lt;li&gt;List item 3&lt;/li&gt;
-&lt;/ul&gt;</span><span id="listhtml" class="cl-iconsa">&lt;ul class="<strong>fa-ul</strong>"&gt;
+&lt;/ul&gt;</span><span  class="hidden cl-iconsa">&lt;ul class="<strong>fa-ul</strong>"&gt;
    &lt;li&gt;&lt;span class="fas fa-check text-success <strong>fa-li</strong>"&gt;&lt;/span&gt;List item 1&lt;/li&gt;
    &lt;li&gt;&lt;span class="fas fa-check text-success <strong>fa-li</strong>"&gt;&lt;/span&gt;List item 2&lt;/li&gt;
    &lt;li&gt;&lt;span class="fas fa-times text-danger <strong>fa-li</strong>"&gt;&lt;/span&gt;List item 3&lt;/li&gt;
@@ -531,7 +537,8 @@
                   <li><span class="fas fa-check fa-li text-success"></span>Apply to  bulleted (unordered) list elements</li>
                   <li><span class="fas fa-check fa-li text-success"></span>Test the design in different screen resolutions to optimize the number of columns for each device (phone/tablet/computer)</li>
                </ul>
-			  
+			   <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -641,7 +648,7 @@
                
               
 			  <h3 id="h-2-4">Enhancement: Apply and/or pattern</h3>
-			  <p>Use the and/or design to clearly demonstrate that there are options or that there are content blocks that are complimentary/associated.</p>
+			  <p>Use the and/or design to clearly demonstrate that there are options or that there are content blocks that are complementary or associated.</p>
 			  <p>Refer to: <a href="and-or/index.html">And/or design</a> for full details</p>
 			  <dl class="dl-horizontal">
 			  <dt>"And" pattern</dt><dd>
@@ -744,6 +751,8 @@
                      </ul>
                   </li>
                </ul>
+			    <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -928,7 +937,8 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
 			  <h4 class="text-muted">Correct use</h4>
 			 <ul class="fa-ul">
                   <li><span class="fas fa-check fa-li text-success"></span>Lead-in with an opening sentence that informs the users that they must meet <strong>all</strong> the criteria</li>
-			 <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (age, timelines, basic situation etc) and progress to more complex criteria</li>
+				  <li><span class="fas fa-check fa-li text-success"></span>Start with the criteria that will elimiate the largest number of people, to reduce the number of unnecessary questions people will answer before determining that they do not qualify</li>
+			 <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (such as age, timelines, basic situation) and progress to more complex criteria</li>
 			 <li><span class="fas fa-check fa-li text-success"></span>Have 3 dynamically changing alerts:
 			 <ul>
 			 <li>When no boxes checked, use the following template: 
@@ -1086,13 +1096,7 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
 						<li><span class="fas fa-check fa-li text-success"></span>Used mainly in legal documents </li>
                      </ul>
                   </dd>
-			   <dt>Tone</dt><dd>
-			   <ul class="fa-ul">
-			     <li><span class="bg-warning"><span class="fas fa-check fa-li text-success"></span>Use positive statements as much as possible</span></li>
-                
-                  <li><span class="bg-warning"><span class="fas fa-check fa-li text-success"></span>Place negatively phrased items together, if you must use them</span></li>
-			   </ul>
-			   </dd>
+		
 			   <dt>Capitalization</dt>
 			  <dd>
 				<p>Capitalize the first word of every list item. This improves the user's ability to scan, as mentioned in the article <a href="https://www.nngroup.com/articles/presenting-bulleted-lists/">7 Tips for Presenting Bulleted Lists in Digital Content</a>, by the Nielsen Norman Group.</p>
@@ -1101,6 +1105,8 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
 			  <p><span class="bg-warning">Don't end the list items with any punctuation</span></p>
 			  </dd>
 			  </dl>
+			   <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -1188,6 +1194,8 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
                      </ul>
                   </div>
                </div>
+			    <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
@@ -1197,9 +1205,10 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
                            <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#stepsol, #stepsdiv", "class": "hidden"} ]}'>
                               <p><span class="h4">Headings</span></p>
                               <ul>
-                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-steps1", "live": true}]'>No headings (using ordered list)</li>
-                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsolh, #stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-olh", "live": true}]'>With headings (using ordered list)</li>
-                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsdiv", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-div", "live": true}]'>With headings (using section/div)</li>
+                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-steps1", "live": true}]'>Ordered list without headings</li>
+                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsolh, #stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-olh", "live": true}]'>Ordered list with headings </li>
+								 <!--
+                                 <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsdiv", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-div", "live": true}]'>With headings (using section/div)</li> -->
                               </ul>
                            </div>
                         </div>
@@ -1353,6 +1362,8 @@ Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html
 			  </dd>
 			  </dl>
 			   </dl>
+			    <h4>Appearance and code</h4>
+			  <p>Design treatments can be applied.  Review the options and get the code.</p>
                <div class="row">
                   <!-- Field flow options -->
                   <div class="col-md-4 ds-modifier">
