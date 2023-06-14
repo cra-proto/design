@@ -90,37 +90,20 @@ function gtag(){dataLayer.push(arguments);}
         </div>
       </div>
 	</section>
-	<section class="brdr-tp brdr-bttm">
-	  <div class="container pb-4">
+	<section class="well well-sm brdr-0 brdr-rds-0" >
+	  <div class="container pb-4" data-wb-jsonmanager='{"url": "../assets/files/changes/whats_new_ucdg.json","name": "newupdate","patches": [{ "op": "wb-first", "path": "/rootArray", "set": "/first" }],"wraproot": "rootArray"}'>
 		  <h2>What's new</h2>
-		    <table class="table wb-tables  brdr-0 mrgn-bttm-lg" data-wb-tables='{"sorting": false, "dom": "",  "pageLength": 1}'  data-wb-json='{
-	"url": "../assets/files/changes/whats_new_ucdg.json",
-	"source": "#table2",
-	"mapping": [
-		{ "selector": ".nws-tbl-date", "value": "/date_en"},
-		{ "selector": ".nws-tbl-ttl", "value": "/title_en"}
-	]
-}' id="table1">
-        <caption class="wb-inv">
-        Latest update for user-centered design guide
-        </caption>
-        <thead class="wb-inv">
-          <tr>
-            <th scope="col">Date</th>
-            <th scope="col">Title</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
-      <template id="table2">
-        <table>
-          <tr>
-            <td class="nws-tbl-date nowrap brdr-0 h5 p-0"></td>
-            <td class="nws-tbl-ttl brdr-0 p-0"></td>
-          </tr>
-        </table>
-      </template>
+		   <p><span data-wb-json='[
+				{
+					"url": "#[newupdate]/first/date_en",
+					"type": "replace"
+				}
+			]'></span>: <span data-wb-json='[
+				{
+					"url": "#[newupdate]/first/title_en",
+					"type": "replace"
+				}
+			]'></span></p>
 		  <p class="mrgn-tp-lg">Get the latest <a href="changes/index.html">updates to the user-centred design guide</a></p>		  
 		  
 		</div>
