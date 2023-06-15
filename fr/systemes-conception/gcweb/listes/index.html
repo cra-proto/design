@@ -1049,7 +1049,7 @@
                                 </ul>
                                 <!--No boxes checked-->
                                 <div class="alert alert-info provisional" id="action-no-msg-1">
-                                    <h4>Vous devez répondre à tous les critères ci-dessus pour être admissible.</h4>
+                                    <h4>Vous devez répondre à <strong>tous</strong> les critères ci-dessus pour être admissible.</h4>
                                     <div>
                                         <p>Pour être admissible à (situation), vous devez répondre à <strong>tous</strong> les critères ci-dessus.</p>
                                         <p>(Plus d'informations ici)</p>
@@ -1475,6 +1475,24 @@
     <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
     <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
     <script src="../../../../assets/js/components.js"></script>
+    <script>
+        $(".action-checkbox-1").change(function() {
+            if ($('.action-checkbox-1:checked').length == $('.action-checkbox-1').length) {
+                $("#action-msg1-1").removeClass("hidden").addClass("visible");
+                $("#action-no-msg-1, #action-msg2-1").addClass("hidden").removeClass("visible");
+            }
+
+            if ($('.action-checkbox-1:checked').length !== $('.action-checkbox-1').length) {
+                $("#action-msg1-1, #action-no-msg-1").addClass("hidden").removeClass("visible");
+                $("#action-msg2-1").removeClass("hidden").addClass("visible");
+            }
+
+            if ($('.action-checkbox-1:checked').length == 0) {
+                $("#action-msg1-1, #action-msg2-1").addClass("hidden").removeClass("visible");
+                $("#action-no-msg-1").removeClass("hidden").addClass("visible");
+            }
+        })
+</script> 
     <div id="footer-include"></div>
 </body>
 
