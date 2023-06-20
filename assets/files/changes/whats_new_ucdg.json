@@ -12,7 +12,7 @@
     "date_fr": "",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "writing",
+    "keywords_en": "writing, design-system",
     "keywords_fr": ""
   },
   {
@@ -32,7 +32,7 @@
     "keywords_fr": ""
   },
   {
-    "title_en": "Added How to Implement section to doormats",
+    "title_en": "Added 'How to implement' section to doormats",
     "title_fr": "",
     "description_en": "Added a new section to the doormats page where you can try out the different design options - one column, two columns, three columns, as well as variations like stylized steps, dropdowns and adding headings.",
     "description_fr": "",
@@ -157,6 +157,22 @@
     "modified_en": "Updated",
     "modified_fr": "Mises à jour",
     "keywords_en": "design-system, writing",
+    "keywords_fr": ""
+  },
+  {
+    "title_en": "New blog post on using artificial intelligence (AI) in content design",
+    "title_fr": "",
+    "description_en": "Artificial intelligence can't replace a human content designer, but it can give us a helping hand. Read about some of the ways our content design team is experimenting with artificial intelligence to speed up and improve our content design process.",
+    "description_fr": "",
+    "linkText_en": "Using artificial intelligence (AI) in content design",
+    "linkUrl_en": "en/blog/ai-content-design.html",
+    "linkText_fr": "",
+    "linkUrl_fr": "",
+    "date_en": "May 31, 2023",
+    "date_fr": "",
+    "modified_en": "New",
+    "modified_fr": "Nouveau",
+    "keywords_en": "blog",
     "keywords_fr": ""
   },
   {
