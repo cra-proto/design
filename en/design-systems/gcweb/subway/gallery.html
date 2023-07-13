@@ -33,7 +33,7 @@ function gtag(){dataLayer.push(arguments);}
 <!--Custom UCDG script //-->
 <script src="../../../../assets/js/ucdg.js"></script>
 </head>
-<body  vocab="http://schema.org/" typeof="WebPage" class="cnt-wdth-lmtd">
+<body  vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
   <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
   <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>
@@ -69,6 +69,334 @@ function gtag(){dataLayer.push(arguments);}
   <p class="lead mrgn-tp-md mrgn-bttm-0 text-muted">CRA user-centred design guide</p>
   <h1 class="gc-thickline mrgn-tp-0">Subway</h1>
 </div>
+<div class="row">
+<div class="col-md-8">
+<p >The subway navigation pattern is used to help people accomplish a single task that is broken into steps. It is ideal for presenting services and processes.</p>
+
+<h2 >On this page</h2>
+
+<ul>
+
+  <li><a href="#h-1">When to use</a></li>
+
+  <li><a href="#h-2">What to avoid</a></li>
+ <li><a href="#h-3">Content and design</a></li>
+  <li><a href="#h-4">Research and blog posts</a></li>
+   <li><a href="#h-5">Examples</a></li>
+
+</ul>
+
+<h2 id="h-1">When to use</h2>
+
+<ul>
+
+  <li>To break up long and complex content into pages that each focus on a specific step or answer people need before moving on to the next step or section</li>
+
+  <li>To provide navigation between the related pages that reflects the journey that the user would go through</li>
+
+</ul>
+
+<h2 id="h-2">What to avoid</h2>
+
+<ul>
+
+  <li>Do not use for any reason except to guide the user through a single task that is broken into steps</li>
+
+  <li>Do not give the steps numbers
+
+  <ul>
+
+    <li>Testing has shown that Canadians are less likely to get to the section they need if the elements are numbered</li>
+
+  </ul>
+</li>
+  <li>Do not use side-steps unless a step:
+
+  <ul>
+
+    <li>Has additional steps that the user must take</li>
+
+    <li>Has content for specific audiences or scenarios that doesn&rsquo;t apply to all users</li>
+
+  </ul>
+</li>
+  <li>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
+
+</ul>
+
+<h2 id="h-3">Content and design</h2>
+
+<p >Before you start, plan the architecture for your content. Keep the number of main task steps to a reasonable number (aim to have no more than 8) and determine if you need any side-step pages.</p>
+
+<p >There are three page types within the subway pattern:</p>
+
+<ul class="mrgn-bttm-lg">
+
+  <li>Index page (mandatory)</li>
+
+  <li>Step pages (mandatory)</li>
+
+  <li>Side-step pages (optional)</li>
+
+</ul>
+
+
+<h3>Steps</h3>
+<ol class="lst-stps ld-zr">
+
+  <li>
+
+    <h4><mark>Create an</mark> Index page</h5>
+
+  
+
+
+
+<h4 >When to use</h4>
+
+<p >Use as the landing page for a set of related pages that use the subway navigation.</p>
+
+<h5>How to implement</h5>
+
+<ul>
+
+  <li>Provides a unique H1 followed by a short description of the service or process</li>
+
+  <li>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</li>
+
+  <li>The steps are linked together in the centre of the page using a subway pattern</li>
+
+  <li>This page is the anchor link in the breadcrumb for all step pages</li>
+
+</ul>
+<p >Supportive information is an optional element that can be included if necessary.</p>
+<h5>Design options</h5>
+
+<p >iframe/Code</p>
+
+</li>
+
+  <li>
+
+    <h4  ><mark>Create a</span> Step page</h4>
+
+
+<h4 >When to use</h4>
+
+<p >Use on each page tied by the subway navigation.</p>
+
+<h4 >How to implement</h4>
+
+<ul>
+
+  <li>This page&rsquo;s title element must include both this page name and the index page name</li>
+
+  <ul>
+
+    <li>Example: &lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</li>
+
+  </ul>
+
+  <li>Provide a subway navigation menu on the right side of the page that:</li>
+
+  <ul>
+
+    <li>Has a header called &ldquo;Sections&rdquo;</li>
+
+    <li>Includes a subway pattern that connects the step pages together</li>
+
+    <ul>
+
+      <li>
+
+        <p  >Fill in the circle for the page that the user is on
+
+      </li>
+
+    </ul>
+
+    <li>Has plain language, task-based content that helps the user to complete the step</li>
+
+    <ul>
+
+      <li>
+
+        <p  >Can be combined with other relevant patterns, such as the <a href=https://design.canada.ca/common-design-patterns/interactive-questions.html>interactive questions pattern</a> to help guide the user through the step
+
+      </li>
+
+    </ul>
+
+    <li>Includes a button on the bottom right with the name of the next step and a right pointing arrow</li>
+
+  </ul>
+
+</ul>
+
+<h4>Design options</h4>
+
+<p >iframe/Code</p>
+
+</li>
+
+  <li>
+
+    <h4  ><mark>Optionally create</mark> Side-step pages <del>(optional)</del></h4>
+
+
+
+<h4 >When to use</h4>
+
+<p >Side-step pages are an optional element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
+
+<h4>How to implement</h4>
+
+<ul>
+
+  <li>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</li>
+
+  <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. &lt;title&gt;side-step page – Index page&lt;/title&gt;). This should be taken into consideration when naming the side-step pages.</li>
+
+  <li>The task step page which introduces the side-steps should be brief in information and proceed straight to the navigation to the side-steps. Since the page already has links to the side-step pages in the subway menu on the right, there is no need to show the side-step navigation in the main navigation on this page.</li>
+
+  <ul>
+
+    <li>Alternatively, the side-step pages can be linked in context of the parent step page&rsquo;s content</li>
+
+  </ul>
+
+</ul>
+
+<p >There are two types of side-steps</p>
+
+<ol>
+
+  <li>Connected side-steps</li>
+
+  <li>Non-connected side-steps</li>
+
+</ol>
+<div class="wb-tabs">
+	<div class="tabpanels">
+		<details id="details-panel1">
+			<summary>Connected side-steps</summary>
+			<p>
+				...
+			</p>
+		</details>
+		<details id="details-panel2" open="open">
+			<summary>Non-connected side-steps</summary>
+			<p >When to use</p>
+
+<p >Use to break up a large step into smaller steps.</p>
+
+<h6 >Step page for connected side-step pages</h6>
+
+<p >How to implement</p>
+
+<ul>
+
+  <li>Use the stylized list steps pattern in the content area</li>
+
+  <li>Expand the right subway menu to include the side-steps</li>
+
+  <li>Include a connecting line between the side-steps</li>
+
+</ul>
+
+<h4>Design options</h4>
+
+<p >iframe/Code</p>
+
+<h5 >Connected side-step page</h5>
+
+<p >How to implement</p>
+
+<ul>
+
+  <li>Navigation with pagination should lead to the next side-step item</li>
+
+  <li>The last side-step item will paginate up to the next step item</li>
+
+</ul>
+
+<p >Design options</p>
+
+<p >iframe/Code</p>
+		</details>
+		
+	</div>
+
+	
+</div>
+
+<h5></h5>
+
+
+
+<h4 ></h4>
+
+<p >When to use</p>
+
+<p >Break up a large step into smaller pieces of mutually exclusive information, such as unrelated sub-tasks or content that relates to a specific audience.</p>
+
+<h5 >Step page for non-connected side-steps</h5>
+
+<p >How to implement</p>
+
+<p >In the main content area, the task step index page uses the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern</a>, 2 across with links and doormats</p>
+
+<ul>
+
+  <li>Expand the right subway menu to include the side-steps</li>
+
+  <li>Do not include a connecting line between the side-steps</li>
+
+</ul>
+
+<p >Design options</p>
+
+<p >iframe/Code</p>
+
+<h5 >Non-connected side-step pages</h5>
+
+<p >How to implement</p>
+
+<ul>
+
+  <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
+
+</ul>
+
+<p >Design options</p>
+
+<p >iframe/Code</p>
+
+<h3 >Supportive information (optional)</h3>
+
+<p >Supportive information is an optional element. It includes links to information that is associated with the content but not part of a task step. It should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following. Do not use if the supportive information only applies to a few pages only and not the entire task itself.</p>
+
+<p >How to implement</p>
+
+<ul>
+
+  <li>The links can appear on the main page (after the subway menu), and below the subway menu in desktop, or at the bottom of the page in mobile</li>
+
+  <li>They should be clearly separated from the subway menu and de-emphasized, for example by using a smaller font size</li>
+
+  <li>There should be a clear heading and link text that doesn&rsquo;t distract users from the task</li>
+
+  <li>Use to link to information that supports the task (for example statistics or a database), but not to other related information that the user doesn&rsquo;t need (for example a legislative act)</li>
+
+</ul>
+
+<p >Design options</p>
+
+<p >iframe/Code</p>
+
+<h2 >Research and blog posts</h2>
+
+<p >This pattern was developed with CRA during an optimization project on the Canada Child Benefit. It has been further tested on numerous other benefit programs, including the covid-19 benefits. It works well on mobile devices and is an effective way to show the relationship between related pages.</p>
 <h2>Creating the "happy path"</h2>
 <p>The subway pattern creates a "happy path" of information architecture, to move the user through....</p>
 <ol class="lst-stps">
@@ -85,8 +413,9 @@ function gtag(){dataLayer.push(arguments);}
 <li><h3>Who it's for</h3>
 <p>(Details here)</p></li>
 </ol>
-
-<h2>Examples</h2>
+</div>
+</div>
+<h2 id="h-5">Examples</h2>
 
 <section id="filteredAppsList" class="wb-tagfilter provisional">
 		
