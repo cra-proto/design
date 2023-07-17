@@ -435,6 +435,7 @@
                 if ( focusReset === true ) {
                     $( ":focus" ).one( "focusout", function( event ) {
                         event.stopPropagation();
+                        document.getSelection().removeAllRanges();
                         updateAll();
                     } );
                 }
