@@ -1,679 +1,530 @@
 <!DOCTYPE html><!--[if lt IE 9]>
 <html class="no-js lt-ie9" lang="en" dir="ltr">
    <![endif]--><!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr">
-<!--<![endif]-->
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NEXGY36077"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-           gtag('config', 'G-NEXGY36077');
-</script>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+   <html class="no-js" lang="en" dir="ltr">
+      <!--<![endif]-->
+      <head>
+         <!-- Google tag (gtag.js) -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEXGY36077"></script>
+         <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+                       gtag('js', new Date());
+                       gtag('config', 'G-NEXGY36077');
+         </script>
+         <meta charset="utf-8">
+         <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
             wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-<title>Subway – CRA user-centred design guide</title>
-<meta content="width=device-width,initial-scale=1" name="viewport">
-<meta name="dcterms.language" title="ISO639-2/T" content="eng">
-<meta name="dcterms.title" content="Text formatting">
-<meta name="dcterms.description" content="Text emphasis, sizing, colours, alignment, wrapping and truncating">
-<meta name="robots" content="noindex, nofollow">
-<!--[if gte IE 9 | !IE ]><!-->
-<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
-<!--Custom UCDG styles //-->
-<link rel="stylesheet" href="../../../../assets/css/ucdg-theme.css">
-<link href="https://www.canada.ca/etc/designs/canada/wet-boew/m%C3%A9li-m%C3%A9lo/2023-10-mount-revelstoke.min.css" rel="stylesheet">
-<noscript>
-<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
-</noscript>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!--Custom UCDG script //-->
-<script src="../../../../assets/js/ucdg.js"></script>
-</head>
-<body  vocab="http://schema.org/" typeof="WebPage">
-<ul id="wb-tphp">
-  <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
-  <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>
-</ul>
-<header class="menu-inverse">
-  <div id="wb-bnr" class="container">
-    <section id="wb-lng" class="text-right">
-      <h2 class="wb-inv">Language selection</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="list-inline margin-bottom-none">
-            <li><a lang="fr" href="../../../../fr/systemes-conception/gcweb/metro/index.html">Français</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <div id="menu-include"></div>
-  </div>
-  <div class="container">
-    <nav id="wb-bc" property="breadcrumb">
-      <h2>You are here:</h2>
-      <ol class="breadcrumb">
-        <li><a href="../../../index.html">User-Centred Design Guide</a></li>
-        <li><a href="../../index.html">Design systems</a></li>
-        <li><a href="../index.html">GCWeb design system</a></li>
+         <title>Subway – CRA user-centred design guide</title>
+         <meta content="width=device-width,initial-scale=1" name="viewport">
+         <meta name="dcterms.language" title="ISO639-2/T" content="eng">
+         <meta name="dcterms.title" content="Text formatting">
+         <meta name="dcterms.description" content="Text emphasis, sizing, colours, alignment, wrapping and truncating">
+         <meta name="robots" content="noindex, nofollow">
+         <!--[if gte IE 9 | !IE ]><!-->
+         <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+         <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
+         <!--Custom UCDG styles //-->
+         <link rel="stylesheet" href="../../../../assets/css/ucdg-theme.css">
+         <link href="https://www.canada.ca/etc/designs/canada/wet-boew/m%C3%A9li-m%C3%A9lo/2023-10-mount-revelstoke.min.css" rel="stylesheet">
+         <noscript>
+            <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
+         </noscript>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+         <!--Custom UCDG script //-->
+         <script src="../../../../assets/js/ucdg.js"></script>
+      </head>
+      <body  vocab="http://schema.org/" typeof="WebPage">
+         <ul id="wb-tphp">
+            <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
+            <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>
+         </ul>
+         <header class="menu-inverse">
+            <div id="wb-bnr" class="container">
+               <section id="wb-lng" class="text-right">
+                  <h2 class="wb-inv">Language selection</h2>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <ul class="list-inline margin-bottom-none">
+                           <li><a lang="fr" href="../../../../fr/systemes-conception/gcweb/metro/index.html">Français</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </section>
+               <div id="menu-include"></div>
+            </div>
+            <div class="container">
+               <nav id="wb-bc" property="breadcrumb">
+                  <h2>You are here:</h2>
+                  <ol class="breadcrumb">
+                     <li><a href="../../../index.html">User-Centred Design Guide</a></li>
+                     <li><a href="../../index.html">Design systems</a></li>
+                     <li><a href="../index.html">GCWeb design system</a></li>
+                  </ol>
+               </nav>
+            </div>
+         </header>
+         <main property="mainContentOfPage" class="container">
+            <h1 property="name" class="wb-inv" id="wb-cont" dir="ltr">Subway – CRA user-centred design guide</h1>
+            <div aria-hidden="true">
+               <p class="lead mrgn-tp-md mrgn-bttm-0 text-muted">CRA user-centred design guide</p>
+               <h1 class="gc-thickline mrgn-tp-0">Subway</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-8">
+                  <p >The subway navigation pattern is used to help people accomplish a single task that is broken into steps. It is ideal for presenting services and processes.</p>
+                  <h2 >On this page</h2>
+                  <ul>
+                     <li><a href="#h-1">When to use</a></li>
+                     <li><a href="#h-2">What to avoid</a></li>
+                     <li><a href="#h-3">Content and design</a></li>
+                     <li><a href="#h-4">Examples</a></li>
+                     <li><a href="#h-5">Research and blog posts</a></li>
+                  </ul>
+                  <h2 id="h-1">When to use</h2>
+                  <ul>
+                     <li>To break up long and complex content into pages that each focus on a specific step or answer people need before moving on to the next step or section</li>
+                     <li>To provide navigation between the related pages that reflects the journey that the user would go through</li>
+                  </ul>
+                  <h2 id="h-2">What to avoid</h2>
+                  <ul>
+                     <li>Do not use for any reason except to guide the user through a single task that is broken into steps</li>
+                     <li>
+                        Do not give the steps numbers
+                        <ul>
+                           <li>Testing has shown that Canadians are less likely to get to the section they need if the elements are numbered</li>
+                        </ul>
+                     </li>
+                     <li>
+                        Do not use side-steps unless a step:
+                        <ul>
+                           <li>Has additional steps that the user must take</li>
+                           <li>Has content for specific audiences or scenarios that doesn&rsquo;t apply to all users</li>
+                        </ul>
+                     </li>
+                     <li>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
+                  </ul>
+                  <h2 id="h-3">Content and design</h2>
+                  <p >Before you start, plan the architecture for your content. Keep the number of main task steps to a reasonable number (aim to have no more than 8) and determine if you need any side-step pages.</p>
+                  <p >There are three page types within the subway pattern:</p>
+               </div>
+            </div>
+            <ul class="list-unstyled cnjnctn-type-and cnjnctn-sm">
+               <li class="cnjnctn-col-40">
+                  <p><mark>First level of information architecture (IA):</mark><br> Index page <strong>(mandatory)</strong></p>
+                  <a class="wb-lbx thumbnail" href="index-e.jpeg" title="Screenshot">
+                  <img src="index-e.jpeg" alt="Screenshot" class="img-responsive" />
+                  </a>
+               </li>
+               <li class="cnjnctn-col-40">
+                  <p><mark>Second level of information architecture (IA):</mark><br>Step pages <strong>(mandatory)</strong></p>
+                  <a class="wb-lbx thumbnail" href="step-e.jpeg" title="Screenshot">
+                  <img src="step-e.jpeg" alt="Screenshot" class="img-responsive" />
+                  </a>
+               </li>
+               <li class="cnjnctn-col">
+                  <p><mark>Third level of information architecture (IA):</mark><br>Side-step pages <strong>(optional)</strong></p>
+                  <div class="well brdr-rds-0">
+                     <p>There are 2 options:</p>
+                     <ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
+                        <li class="cnjnctn-col">
+                           <p>Non-connected page</p>
+                           <a class="wb-lbx thumbnail" href="non-connected-e.jpeg" title="Screenshot">
+                           <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive" />
+                           </a>
+                        </li>
+                        <li class="cnjnctn-col">
+                           <p>Connected page</p>
+                           <a class="wb-lbx thumbnail" href="connected-e.jpeg" title="Screenshot">
+                           <img src="connected-e.jpeg" alt="Screenshot" class="img-responsive" />
+                           </a>
+                        </li>
+                     </ul>
+               </li>
+            </ul>
+            </div>
+            <h3>Steps</h3>
+            <ol class="lst-stps ld-zr">
+            <li>
+               <h4><mark> Determine the information architecture</mark></h4>
+               <p>The flow of content creates a "happy path" for the user to navigate the content in the following order:</p>
+			   
+			   <ol class="lst-stps-sub">
+        <li><h5>Start by introducing the concept</h5>
+		 <p>This is where you give a small introduction statement. Ideally this is one small paragraph, but sometimes can be </p>
+		 <ul>
+			   <li>Simple introduction: <a href="">DTC</a></li>
+			   <li>Simple, but more detail needed, introduct: <a href="">DTC</a></li>
+			   <li>Complex introduction: <a href="">DTC</a></li>
+			   </ul></li>
+         <li><h5>Then explain who it's for</h5>
+		 <p>(Details here)</p></li>
+		<li><h5>Then explain what the user has to do</h5>
+		 <p>(Details here)</p></li>
+		<li><h5>Wrap-up with any activities that occur after the core activity is done</h5>
+		 <p>(Details here)</p></li>
+		<li><h5>Provide contact details (optional)</h5>
+		 <p>(Details here)</p></li>
       </ol>
-    </nav>
-  </div>
-</header>
-<main property="mainContentOfPage" class="container">
-<h1 property="name" class="wb-inv" id="wb-cont" dir="ltr">Subway – CRA user-centred design guide</h1>
-<div aria-hidden="true">
-  <p class="lead mrgn-tp-md mrgn-bttm-0 text-muted">CRA user-centred design guide</p>
-  <h1 class="gc-thickline mrgn-tp-0">Subway</h1>
-</div>
-<div class="row">
-<div class="col-md-8">
-<p >The subway navigation pattern is used to help people accomplish a single task that is broken into steps. It is ideal for presenting services and processes.</p>
-
-<h2 >On this page</h2>
-
-<ul>
-
-  <li><a href="#h-1">When to use</a></li>
-
-  <li><a href="#h-2">What to avoid</a></li>
- <li><a href="#h-3">Content and design</a></li>
-  
-   <li><a href="#h-4">Examples</a></li>
-   <li><a href="#h-5">Research and blog posts</a></li>
-
-</ul>
-
-<h2 id="h-1">When to use</h2>
-
-<ul>
-
-  <li>To break up long and complex content into pages that each focus on a specific step or answer people need before moving on to the next step or section</li>
-
-  <li>To provide navigation between the related pages that reflects the journey that the user would go through</li>
-
-</ul>
-
-<h2 id="h-2">What to avoid</h2>
-
-<ul>
-
-  <li>Do not use for any reason except to guide the user through a single task that is broken into steps</li>
-
-  <li>Do not give the steps numbers
-
-  <ul>
-
-    <li>Testing has shown that Canadians are less likely to get to the section they need if the elements are numbered</li>
-
-  </ul>
-</li>
-  <li>Do not use side-steps unless a step:
-
-  <ul>
-
-    <li>Has additional steps that the user must take</li>
-
-    <li>Has content for specific audiences or scenarios that doesn&rsquo;t apply to all users</li>
-
-  </ul>
-</li>
-  <li>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
-
-</ul>
-
-<h2 id="h-3">Content and design</h2>
-
-<p >Before you start, plan the architecture for your content. Keep the number of main task steps to a reasonable number (aim to have no more than 8) and determine if you need any side-step pages.</p>
-
-<p >There are three page types within the subway pattern:</p>
-</div>
-</div>
-<ul class="list-unstyled cnjnctn-type-and cnjnctn-sm">
-  <li class="cnjnctn-col-40"><p>Index page (mandatory)</p>
- <img src="index-e.jpeg" alt="Screenshot" class="img-responsive"></li>
-
-    <li class="cnjnctn-col-40"><p>Step pages (mandatory)</p>
-	 
-                                 <img src="step-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
-                              </li>
-
-    <li class="cnjnctn-col"><p>Side-step pages (optional)</p>
-	<div class="well">
-	<p>There are 2 options:</p>
-	<ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
-  <li class="cnjnctn-col"><p>Non-connected page</p>
-
-                                 <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
-                              </li>
-
-    <li class="cnjnctn-col"><p>Connected page</p>
-	
-	 
-                                 <img src="connected-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
-                              </li>
-	</ul>
-	</li>
-	
-
-</ul>
-
-  </div>
-
-<h3>Steps</h3>
-<ol class="lst-stps ld-zr">
-
-<li><h4><mark>Determine the information architecture</mark></h4>
-<p>The flow of content creates a "happy path" for the user to navigate the content in the following order:</p>
-<dl class="dl-horizontal">
-<dt>Introduce the concept</dt><dd>
-<p>This is where you give a small introduction statement. Ideally this is one small paragraph, but sometimes can be </p>
-</dd>
-<dt>Explain who it's for</dt><dd>
-<p>(Details here)</p></dd>
-<dt>Explain what the user has to do</dt><dd>
-<p>(Details here)</p></dd>
-<dt>Explain if any activities that occure after the core activity is done</dt><dd>
-<p>(Details here)</p></dd>
-<dt>Provide contact details</dt><dd>
-<p>(Details here)</p></dd>
-</dl>
-  <li>
-
-    <h4><mark>Create the index page</mark></h5>
-<div class="row">
-<div class="col-md-8">
-  
-
-
-<h5 >When to use</h5>
-
-<p >Use as the landing page for a set of related pages that use the subway navigation.</p>
-
-<h5>How to implement</h5>
-
-<ul>
-
-  <li>Provides a unique H1 followed by a short description of the service or process</li>
-
-  <li>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</li>
-
-  <li>The steps are linked together in the centre of the page using a subway pattern</li>
-
-  <li>This page is the anchor link in the breadcrumb for all step pages</li>
-
-</ul>
-<p >Supportive information is an optional element that can be included if necessary.</p>
-<h3 >Supportive information (optional)</h3>
-
-<p >Supportive information is an optional element. It includes links to information that is associated with the content but not part of a task step. It should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following. Do not use if the supportive information only applies to a few pages only and not the entire task itself.</p>
-
-<p >How to implement</p>
-
-<ul>
-
-  <li>The links can appear on the main page (after the subway menu), and below the subway menu in desktop, or at the bottom of the page in mobile</li>
-
-  <li>They should be clearly separated from the subway menu and de-emphasized, for example by using a smaller font size</li>
-
-  <li>There should be a clear heading and link text that doesn&rsquo;t distract users from the task</li>
-
-  <li>Use to link to information that supports the task (for example statistics or a database), but not to other related information that the user doesn&rsquo;t need (for example a legislative act)</li>
-
-</ul>
-</div>
-
- <div class="col-md-4 ">
+              
+            <li>
+               <h4>
+               <mark>Create the index page</mark></h5>
+               <div class="row">
+                  <div class="col-md-8">
+                     <h5 >When to use</h5>
+                     <p >Use as the landing page for a set of related pages that use the subway navigation.</p>
+                     <h5>How to implement</h5>
+                     <ul>
+                        <li>Provides a unique H1 followed by a short description of the service or process</li>
+                        <li>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</li>
+                        <li>The steps are linked together in the centre of the page using a subway pattern</li>
+                        <li>This page is the anchor link in the breadcrumb for all step pages</li>
+                     </ul>
+                     <p >Supportive information is an optional element that can be included if necessary.</p>
+                     <h3 >Supportive information (optional)</h3>
+                     <p >Supportive information is an optional element. It includes links to information that is associated with the content but not part of a task step. It should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following. Do not use if the supportive information only applies to a few pages only and not the entire task itself.</p>
+                     <p >How to implement</p>
+                     <ul>
+                        <li>The links can appear on the main page (after the subway menu), and below the subway menu in desktop, or at the bottom of the page in mobile</li>
+                        <li>They should be clearly separated from the subway menu and de-emphasized, for example by using a smaller font size</li>
+                        <li>There should be a clear heading and link text that doesn&rsquo;t distract users from the task</li>
+                        <li>Use to link to information that supports the task (for example statistics or a database), but not to other related information that the user doesn&rsquo;t need (for example a legislative act)</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 ">
                      <div class="thumbnail p-sm-3">
-                    
-                           <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
-						    <ul class="list-unstyled mrgn-bttm-md">
-						   <li>
-                              <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a></li>
-							  <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
-							  <li class="mrgn-tp-md">Screenshot:
-							  
-                                 <img src="index-e.jpeg" alt="Screenshot" class="img-responsive">
-                              
-							  </li>
-							  </ul>
-                         
-                              
-                         
-                        
-						  
+                        <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
+                        <ul class="list-unstyled mrgn-bttm-md">
+                           <li>
+                              <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
+                           </li>
+                           <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
+                           <li class="mrgn-tp-md">Screenshot:
+                              <img src="index-e.jpeg" alt="Screenshot" class="img-responsive">
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <h4  ><mark>Create all the  step pages</mark></h4>
+               <div class="row">
+               <div class="col-md-8">
+                  <h4 >When to use</h4>
+                  <p >Use on each page tied by the subway navigation.</p>
+                  <h4 >How to implement</h4>
+                  <ul>
+                     <li>This page&rsquo;s title element must include both this page name and the index page name</li>
+                     <ul>
+                        <li>Example: &lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</li>
+                     </ul>
+                     <li>Provide a subway navigation menu on the right side of the page that:</li>
+                     <ul>
+                        <li>Has a header called &ldquo;Sections&rdquo;</li>
+                        <li>Includes a subway pattern that connects the step pages together</li>
+                        <ul>
+                           <li>
+                              <p  >Fill in the circle for the page that the user is on
+                           </li>
+                        </ul>
+                        <li>Has plain language, task-based content that helps the user to complete the step</li>
+                        <ul>
+                           <li>
+                              <p  >Can be combined with other relevant patterns, such as the <a href=https://design.canada.ca/common-design-patterns/interactive-questions.html>interactive questions pattern</a> to help guide the user through the step
+                           </li>
+                        </ul>
+                        <li>Includes a button on the bottom right with the name of the next step and a right pointing arrow</li>
+                     </ul>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4 ">
+                  <div class="thumbnail p-sm-3">
+                     <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
+                     <ul class="list-unstyled mrgn-bttm-md">
+                        <li>
+                           <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
+                        </li>
+                        <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
+                        <li class="mrgn-tp-md">Screenshot:
+                           <img src="step-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <h4  ><mark>Create any side-step pages, if needed </mark></h4>
+               <div class="row">
+                  <div class="col-md-8">
+                     <h4 >When to use</h4>
+                     <p >Side-step pages are an optional element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
+                     <h4>How to implement</h4>
+                     <ul>
+                        <li>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</li>
+                        <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. &lt;title&gt;side-step page – Index page&lt;/title&gt;). This should be taken into consideration when naming the side-step pages.</li>
+                        <li>
+                           The task step page which introduces the side-steps should be brief in information and proceed straight to the navigation to the side-steps. Since the page already has links to the side-step pages in the subway menu on the right, there is no need to show the side-step navigation in the main navigation on this page.
+                           <ul>
+                              <li>Alternatively, the side-step pages can be linked in context of the parent step page's content</li>
+                           </ul>
+                        </li>
+                     </ul>
+                     <p >There are two types of side-steps<mark>:</mark></p>
+                     <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
+                        <li class="cnjnctn-col"><a href="#non-connected">Non-connected side-steps</a></li>
+                        <li class="cnjnctn-col"><a href="#connected">Connected side-steps</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="wb-tabs mrgn-bttm-lg">
+                  <div class="tabpanels">
+                     <details id="tab1">
+                        <summary>Non-connected side-steps</summary>
+                        <div class="row" id="non-connected">
+                           <div class="col-md-8">
+                             <p >How to implement</p>
+<ul>
+   <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
+</ul>
                            </div>
-                          
-                          
+                           <div class="col-md-4 ">
+                              <div class="thumbnail p-sm-3">
+                                 <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
+                                 <ul class="list-unstyled mrgn-bttm-md">
+                                    <li>
+                                       <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
+                                    </li>
+                                    <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
+                                    <li class="mrgn-tp-md">Screenshot:
+                                       <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive ">
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </details>
+                     <details id="tab2">
+                        <summary>Connected side-steps</summary>
+						<div class="row" id="connected">
+						  <div class="col-md-8">
+                             <p >How to implement</p>
+<ul>
+   <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
+</ul>
+                           </div>
+                           <div class="col-md-4 ">
+                              <div class="thumbnail p-sm-3">
+                                 <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
+                                 <ul class="list-unstyled mrgn-bttm-md">
+                                    <li>
+                                       <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
+                                    </li>
+                                    <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
+                                    <li class="mrgn-tp-md">Screenshot:
+                                       <img src="connected-e.jpeg" alt="Screenshot" class="img-responsive ">
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </details>
+                  </div>
+               </div>
+               <h2 id="h-4">Examples</h2>
+               <section id="filteredAppsList" class="wb-tagfilter provisional">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <h3 class="mrgn-tp-0"><span class="fas fa-filter"></span> Filter options</h3>
+                        <div class="form-group ">
+                           <fieldset>
+                              <legend class="mrgn-bttm-0"><span class="field-name"><small>Navigation structure</small></span></legend>
+                              <ul class="list-unstyled">
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="" checked> All sections
+                                    </label>
+                                 </li>
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="a">Introduce the concept
+                                    </label>
+                                 </li>
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="b">Who it's for
+                                    </label>
+                                 </li>
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="c">What the user has to do
+                                    </label>
+                                 </li>
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="d">After the core activity is done
+                                    </label>
+                                 </li>
+                                 <li class="radio">
+                                    <label>
+                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="e"> Contact details
+                                    </label>
+                                 </li>
+                              </ul>
+                           </fieldset>
                         </div>
                      </div>
-
-</li>
-
-  <li>
-
-  
-    <h4  ><mark>Create all the  step pages</mark></h4>
-
-<div class="row">
-<div class="col-md-8">
-<h4 >When to use</h4>
-
-<p >Use on each page tied by the subway navigation.</p>
-
-<h4 >How to implement</h4>
-
-<ul>
-
-  <li>This page&rsquo;s title element must include both this page name and the index page name</li>
-
-  <ul>
-
-    <li>Example: &lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</li>
-
-  </ul>
-
-  <li>Provide a subway navigation menu on the right side of the page that:</li>
-
-  <ul>
-
-    <li>Has a header called &ldquo;Sections&rdquo;</li>
-
-    <li>Includes a subway pattern that connects the step pages together</li>
-
-    <ul>
-
-      <li>
-
-        <p  >Fill in the circle for the page that the user is on
-
-      </li>
-
-    </ul>
-
-    <li>Has plain language, task-based content that helps the user to complete the step</li>
-
-    <ul>
-
-      <li>
-
-        <p  >Can be combined with other relevant patterns, such as the <a href=https://design.canada.ca/common-design-patterns/interactive-questions.html>interactive questions pattern</a> to help guide the user through the step
-
-      </li>
-
-    </ul>
-
-    <li>Includes a button on the bottom right with the name of the next step and a right pointing arrow</li>
-
-  </ul>
-  </li>
-  </ul>
-
-
-</div>
-
- <div class="col-md-4 ">
-                     <div class="thumbnail p-sm-3">
-                    
-                           <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
-						    <ul class="list-unstyled mrgn-bttm-md">
-						   <li>
-                              <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a></li>
-							  <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
-							  <li class="mrgn-tp-md">Screenshot:
-							  
-                                 <img src="step-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
-                              
-							  </li>
-							  </ul>
-                         
-                              
-                         
-                        
-						  
+                     <div class="col-xs-12 col-sm-8 col-lg-9">
+                        <div class="row wb-eqht-grd wb-tagfilter-items">
+                           <div class="col-sm-6" >
+                              <div class="well brdr-rds-0 hght-inhrt">
+                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a></h3>
+                                 <ul>
+                                    <li data-wb-tags="a">(main index page)</li>
+                                    <li data-wb-tags="a">What is the DTC</li>
+                                    <li data-wb-tags="b">
+                                       Who is eligible
+                                       <details class="max-content">
+                                          <summary>Sub-list</summary>
+                                          <ul class="fa-ul">
+                                             <li>Walking</li>
+                                             <li>Mental functions</li>
+                                             <li>Dressing</li>
+                                             <li>Feeding</li>
+                                             <li>Eliminating (bowel or bladder functions)</li>
+                                             <li>Hearing</li>
+                                             <li>Speaking</li>
+                                             <li>Vision</li>
+                                             <li>Life-sustaining therapy</li>
+                                          </ul>
+                                       </details>
+                                    </li>
+                                    <li data-wb-tags="c">How to apply</li>
+                                    <li data-wb-tags="d">Our review and decision</li>
+                                    <li data-wb-tags="d">Claiming the credit</li>
+                                    <li data-wb-tags="e">Contact us</li>
+                                 </ul>
+                              </div>
                            </div>
-                          
-                          
-                        </div>
-
-</li>
-
-  <li>
-
-    <h4  ><mark>Create any side-step pages, if needed </mark></h4>
-
-<div class="row">
-<div class="col-md-8">
-
-<h4 >When to use</h4>
-
-<p >Side-step pages are an optional element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
-
-<h4>How to implement</h4>
-
-<ul>
-
-  <li>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</li>
-
-  <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. &lt;title&gt;side-step page – Index page&lt;/title&gt;). This should be taken into consideration when naming the side-step pages.</li>
-
-  <li>The task step page which introduces the side-steps should be brief in information and proceed straight to the navigation to the side-steps. Since the page already has links to the side-step pages in the subway menu on the right, there is no need to show the side-step navigation in the main navigation on this page.
-
-  <ul>
-
-    <li>Alternatively, the side-step pages can be linked in context of the parent step page&rsquo;s content</li>
-
-  </ul>
-</li>
-</ul>
-
-<p >There are two types of side-steps<mark>:</mark></p>
-<ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
-	<li class="cnjnctn-col"><a href="#non-connected">Non-connected side-steps</a></li>
-	<li class="cnjnctn-col"><a href="#connected">Connected side-steps</a></li>
-	</ul>
-</div>
-</div>
-<div class="wb-tabs mrgn-bttm-lg">
-	<div class="tabpanels">
-		
-		<details id="non-connected">
-			<summary>Non-connected side-steps</summary>
-			<div class="row">
-<div class="col-md-8">
-			<p >When to use</p>
-
-<p >Use to break up a large step into smaller steps.</p>
-
-<h6 >Step page for connected side-step pages</h6>
-
-<p >How to implement</p>
-
-<ul>
-
-  <li>Use the stylized list steps pattern in the content area</li>
-
-  <li>Expand the right subway menu to include the side-steps</li>
-
-  <li>Include a connecting line between the side-steps</li>
-
-</ul>
-</div>
-
- <div class="col-md-4 ">
-                     <div class="thumbnail p-sm-3">
-                    
-                           <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
-						    <ul class="list-unstyled mrgn-bttm-md">
-						   <li>
-                              <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a></li>
-							  <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
-							  <li class="mrgn-tp-md">Screenshot:
-							  
-                                 <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive " data-emptytext="Image">
-                              
-							  </li>
-							  </ul>
-                         
-                              
-                         
-                        
-						  
+                           <div class="col-sm-6" >
+                              <div class="well brdr-rds-0 hght-inhrt">
+                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></h3>
+                                 <ul>
+                                    <li data-wb-tags="a">(main index page)</li>
+                                    <li data-wb-tags="b">
+                                       Who can apply
+                                       <details class="max-content">
+                                          <summary>Sub-list</summary>
+                                          <ul>
+                                             <li>Additional payment if dental costs are over $650</li>
+                                          </ul>
+                                       </details>
+                                    </li>
+                                    <li data-wb-tags="b">How much you can get</li>
+                                    <li data-wb-tags="c">Get ready to apply</li>
+                                    <li data-wb-tags="c">How to apply</li>
+                                    <li data-wb-tags="d">Return a payment</li>
+                                    <li data-wb-tags="e">Contact us</li>
+                                 </ul>
+                              </div>
                            </div>
-                          
-                          
+                           <div class="col-sm-6" >
+                              <div class="well   hght-inhrt">
+                                 <h3 class="mrgn-tp-0" ><a href="https://web.archive.org/web/20221230001937/https://www.canada.ca/en/services/taxes/child-and-family-benefits/top-up-canada-housing-benefit.html">One-time top-up to the Canada Housing Benefit</a> <span class="label label-warning small">Archived link</span></h3>
+                                 <ul>
+                                    <li data-wb-tags="a">(main index page)</li>
+                                    <li data-wb-tags="b">
+                                       Who can apply
+                                       <details class="max-content">
+                                          <summary>Sub-list</summary>
+                                          <ul>
+                                             <li>What is eligible rent</li>
+                                             <li>Estimate your income and rent</li>
+                                          </ul>
+                                       </details>
+                                    </li>
+                                    <li data-wb-tags="c">Get ready to apply</li>
+                                    <li data-wb-tags="c">How to apply</li>
+                                    <li data-wb-tags="d">
+                                       After you apply
+                                       <details class="max-content">
+                                          <summary>Sub-list</summary>
+                                          <ul>
+                                             <li>When to expect your payment</li>
+                                             <li>If your application is selected for review</li>
+                                             <li>If you disagree with the decision</li>
+                                             <li>Return the payment</li>
+                                          </ul>
+                                       </details>
+                                    </li>
+                                    <li data-wb-tags="e">Contact the CRA</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 " >
+                              <div class="well brdr-rds-0 hght-inhrt">
+                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html">Canada Child Benefit</a></h3>
+                                 <ul>
+                                    <li data-wb-tags="a">(main index page)</li>
+                                    <li data-wb-tags="b">Who can apply</li>
+                                    <li data-wb-tags="b">How much you can get</li>
+                                    <li data-wb-tags="c">Apply</li>
+                                    <li data-wb-tags="d">Payment dates</li>
+                                    <li data-wb-tags="d">Keep getting your payment</li>
+                                    <li data-wb-tags="e">Contact the CRA</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 " >
+                              <div class="well brdr-rds-0 hght-inhrt">
+                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&ED) tax incentives</a></h3>
+                                 <ul>
+                                    <li data-wb-tags="a">(main index page)</li>
+                                    <li data-wb-tags="a">What are SR&ED tax incentives</li>
+                                    <li data-wb-tags="b">What work is eligible</li>
+                                    <li data-wb-tags="c">
+                                       How to prepare your claim
+                                       <details class="max-content">
+                                          <summary>Sub-list</summary>
+                                          <ul>
+                                             <li>Get an investment tax credit (ITC)Get ready to claim</li>
+                                             <li>Group work into SR&ED projects</li>
+                                             <li>Get the T661 expenditures claim form</li>
+                                             <li>Calculate allowable expenditures</li>
+                                             <li>Calculate pool of deductible expenditures</li>
+                                             <li>Calculate qualified expenditures</li>
+                                             <li>Get an investment tax credit (ITC)</li>
+                                          </ul>
+                                       </details>
+                                    </li>
+                                    <li data-wb-tags="c">Submit your claim</li>
+                                    <li data-wb-tags="d">After you claim</li>
+                                    <li data-wb-tags="e">Contact us</li>
+                                 </ul>
+                              </div>
+                           </div>
                         </div>
-						 </div>
-
-
-
-
-
-		</details>
-		<details id="connected">
-			<summary>Connected side-steps</summary>
-			<p >How to implement</p>
-
-<ul>
-
-  <li>Navigation with pagination should lead to the next side-step item</li>
-
-  <li>The last side-step item will paginate up to the next step item</li>
-
-</ul>
-		</details>
-	</div>
-
-	
-</div>
-
-
-
-
-
-
-
-
-
-<h2 id="h-4">Examples</h2>
-
-<section id="filteredAppsList" class="wb-tagfilter provisional">
-		
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-lg-3">
-				<h3 class="mrgn-tp-0"><span class="fas fa-filter"></span> Filter options</h3>
-				
-					<div class="form-group ">
-						<fieldset>
-							<legend class="mrgn-bttm-0"><span class="field-name"><small>Navigation structure</small></span></legend>
-							
-							<ul class="list-unstyled">
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="" checked> All sections
-								</label>
-							</li>
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="a">Introduce the concept
-								</label>
-							</li>
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="b">Who it's for
-								</label>
-							</li>
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="c">What the user has to do
-								</label>
-							</li>
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="d">After the core activity is done
-								</label>
-							</li>
-							<li class="radio">
-								<label>
-									<input type="radio" name="platform" class="wb-tagfilter-ctrl" value="e"> Contact details
-								</label>
-							</li>
-						</ul>
-						
-						
-							
-						</fieldset>
-					</div>
-				
-			</div>
-			<div class="col-xs-12 col-sm-8 col-lg-9">
-				<div class="row wb-eqht-grd wb-tagfilter-items">
-					<div class="col-sm-6" >
-						<div class="well brdr-rds-0 hght-inhrt">
-							<h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a></h3>
-							<ul>
-							
-							<li data-wb-tags="a">(main index page)</li>
-							
-
-<li data-wb-tags="a">What is the DTC</li>
-<li data-wb-tags="b">Who is eligible
-<details class="max-content"><summary>Sub-list</summary>
-<ul class="fa-ul">
-<li>Walking</li>
-<li>Mental functions</li>
-<li>Dressing</li>
-<li>Feeding</li>
-<li>Eliminating (bowel or bladder functions)</li>
-<li>Hearing</li>
-<li>Speaking</li>
-<li>Vision</li>
-<li>Life-sustaining therapy</li></ul>
-</details>
-</li>
-
-<li data-wb-tags="c">How to apply</li>
-<li data-wb-tags="d">Our review and decision</li>
-<li data-wb-tags="d">Claiming the credit</li>
-<li data-wb-tags="e">Contact us</li>
- 
-							</ul>
-						</div>
-						
-					</div>
-					<div class="col-sm-6" >
-						<div class="well brdr-rds-0 hght-inhrt">
-							<h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></h3>
-							<ul>
-							
-							<li data-wb-tags="a">(main index page)</li>
-							
-
-
-<li data-wb-tags="b">Who can apply
-<details class="max-content"><summary>Sub-list</summary>
-<ul>
-<li>Additional payment if dental costs are over $650</li>
-</ul></details></li>
-<li data-wb-tags="b">How much you can get</li>
-<li data-wb-tags="c">Get ready to apply</li>
-<li data-wb-tags="c">How to apply</li>
-<li data-wb-tags="d">Return a payment</li>
-<li data-wb-tags="e">Contact us</li>
-
-							</ul>
-						</div>
-						
-					</div>
-					<div class="col-sm-6" >
-						<div class="well   hght-inhrt">
-							<h3 class="mrgn-tp-0" ><a href="https://web.archive.org/web/20221230001937/https://www.canada.ca/en/services/taxes/child-and-family-benefits/top-up-canada-housing-benefit.html">One-time top-up to the Canada Housing Benefit</a> <span class="label label-warning small">Archived link</span></h3>
-							<ul>
-							
-							<li data-wb-tags="a">(main index page)</li>
-							
-
-
-<li data-wb-tags="b">Who can apply
-<details class="max-content"><summary>Sub-list</summary>
-<ul>
-<li>What is eligible rent</li>
-<li>Estimate your income and rent</li>
-</ul></details></li>
-
-<li data-wb-tags="c">Get ready to apply</li>
-<li data-wb-tags="c">How to apply</li>
-<li data-wb-tags="d">After you apply
-<details class="max-content"><summary>Sub-list</summary>
-<ul>
-<li>When to expect your payment</li>
-<li>If your application is selected for review</li>
-<li>If you disagree with the decision</li>
-<li>Return the payment</li>
-
-</ul></details></li>
-<li data-wb-tags="e">Contact the CRA</li>
-
-							</ul>
-						</div>
-						
-					</div>
-					<div class="col-sm-6 " >
-						<div class="well brdr-rds-0 hght-inhrt">
-							<h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html">Canada Child Benefit</a></h3>
-							<ul>
-							
-							<li data-wb-tags="a">(main index page)</li>
-							
-
-
-<li data-wb-tags="b">Who can apply</li>
-<li data-wb-tags="b">How much you can get</li>
-<li data-wb-tags="c">Apply</li>
-<li data-wb-tags="d">Payment dates</li>
-<li data-wb-tags="d">Keep getting your payment</li>
-<li data-wb-tags="e">Contact the CRA</li>
-
-							</ul>
-						</div>
-						
-					</div>
-					<div class="col-sm-6 " >
-						<div class="well brdr-rds-0 hght-inhrt">
-							<h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&ED) tax incentives</a></h3>
-							<ul>
-							
-							<li data-wb-tags="a">(main index page)</li>
-							<li data-wb-tags="a">What are SR&ED tax incentives</li>
-
-
-<li data-wb-tags="b">What work is eligible</li>
-<li data-wb-tags="c">How to prepare your claim
-<details class="max-content"><summary>Sub-list</summary>
-<ul>
-<li>Get an investment tax credit (ITC)Get ready to claim</li>
-<li>Group work into SR&ED projects</li>
-<li>Get the T661 expenditures claim form</li>
-<li>Calculate allowable expenditures</li>
-<li>Calculate pool of deductible expenditures</li>
-<li>Calculate qualified expenditures</li>
-<li>Get an investment tax credit (ITC)</li>
-
-</ul></details></li>
-<li data-wb-tags="c">Submit your claim</li>
-<li data-wb-tags="d">After you claim</li>
-<li data-wb-tags="e">Contact us</li>
-
-							</ul>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<h2 id="h-6">Research and blog posts</h2>
-
-<p >This pattern was developed with CRA during an optimization project on the Canada Child Benefit. It has been further tested on numerous other benefit programs, including the covid-19 benefits. It works well on mobile devices and is an effective way to show the relationship between related pages.</p>
-
-  <div class="container">
-    <div class="pagedetails">
-      <dl id="wb-dtmd">
-        <dt>Date modified:&#32;</dt>
-        <dd>
-          <time property="dateModified">2023-01-23</time>
-        </dd>
-      </dl>
-    </div>
-  </div>
-</main>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script> 
-<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script> 
-<script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
-<div id="footer-include"></div>
-</body>
-</html>
+                     </div>
+                  </div>
+               </section>
+               <h2 id="h-6">Research and blog posts</h2>
+               <p >This pattern was developed with CRA during an optimization project on the Canada Child Benefit. It has been further tested on numerous other benefit programs, including the covid-19 benefits. It works well on mobile devices and is an effective way to show the relationship between related pages.</p>
+               <div class="container">
+                  <div class="pagedetails">
+                     <dl id="wb-dtmd">
+                        <dt>Date modified:&#32;</dt>
+                        <dd>
+                           <time property="dateModified">2023-01-23</time>
+                        </dd>
+                     </dl>
+                  </div>
+               </div>
+         </main>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script> 
+         <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script> 
+         <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
+         <div id="footer-include"></div>
+      </body>
+   </html>
