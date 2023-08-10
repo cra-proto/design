@@ -145,7 +145,7 @@
             </div>
             <h3>Steps</h3>
             <ol class="lst-stps ld-zr">
-            <li>
+            <li class="bg-warning">
                <h4><mark> Determine the information architecture</mark></h4>
                <p>The flow of content creates a "happy path" for the user to navigate the content in the following order:</p>
                <ol class="lst-stps-sub">
@@ -153,38 +153,34 @@
                      <h5>Start by introducing the concept</h5>
                      <p>Create a small introductory  statement that explains what the product or activity is.</p>
                      <ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
-                        <li class="cnjnctn-col">
-                           <h6 class="text-muted h5">Typical design</h6>
-                           <p>This is the most common. Typically the introductory statement fits on the index page.  It is a short paragraph or two, and is the first thing to appear on the index page, above the subway navigation.</p>
-                           </p>  For example: </p>
-                           <ul>
-                              <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></li>
-                           </ul>
+                        <li class="cnjnctn-col-60">
+                           <h6 class="text-muted h5">Easy to description concept</h6>
+                           <p>Typically the introductory statement fits on the index page.  It is a short paragraph or two, and is the first thing to appear on the index page, above the subway navigation.</p>
                            <p>	For example:</p>
                            <ul>
+                              <li> <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></li>
+                         
                               <li>
                                  <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/file-information-returns-slip-summaries.html">File information returns (slips and summaries)</a>
                               </li>
                            </ul>
                         </li>
                         <li class="cnjnctn-col">
-                           <h6 class="text-muted h5">Complex design</h6>
+                           <h6 class="text-muted h5">Complex concept</h6>
                            <p>Sometimes the concept is too complex to reasonably describe on the index page.  When this happens, feature basic details on the index page and use the first step page in the subway to provide more detail.</p>
                            <p>	For example:</p>
                            <ul>
-                              <li>
+                              <li>Index page teaser: 
                                  <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a>
                                  <ul>
-                                    <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit/about-dtc.html">What is the DTC</a></li>
+                                    <li>Full description: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit/about-dtc.html">What is the DTC</a></li>
                                  </ul>
                               </li>
-                           </ul>
-                           <p>	For example:</p>
-                           <ul>
-                              <li>
+                         
+                              <li class="mrgn-tp-lg">Index page teaser: 
                                  <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&ED) tax incentives</a>
                                  <ul>
-                                    <li><a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/what-are-sred-tax-incentives.html">What are SR&ED tax incentives</a></li>
+                                    <li>Full description:  <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/what-are-sred-tax-incentives.html">What are SR&ED tax incentives</a></li>
                                  </ul>
                               </li>
                            </ul>
@@ -290,7 +286,7 @@
                         <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
                         <ul class="list-unstyled mrgn-bttm-md">
                            <li>
-                              <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
+                              <a href="https://wet-boew.github.io/GCWeb/components/gc-subway/index-en.html" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
                            </li>
                            <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
                            <li class="mrgn-tp-md">Screenshot:
@@ -311,7 +307,7 @@
                   <ul>
                      <li>This page&rsquo;s title element must include both this page name and the index page name</li>
                      <ul>
-                        <li>Example: &lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</li>
+                        <li>Example: <code>&lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</code></li>
                      </ul>
                      <li>Provide a subway navigation menu on the right side of the page that:</li>
                      <ul>
@@ -328,7 +324,7 @@
                               <p  >Can be combined with other relevant patterns, such as the <a href=https://design.canada.ca/common-design-patterns/interactive-questions.html>interactive questions pattern</a> to help guide the user through the step
                            </li>
                         </ul>
-                        <li>Includes a button on the bottom right with the name of the next step and a right pointing arrow</li>
+                        <li><span class="bg-danger">Includes a button on the bottom right with the name of the next step and a right pointing arrow</span></li>
                      </ul>
                      </li>
                   </ul>
@@ -357,7 +353,7 @@
                      <h4>How to implement</h4>
                      <ul>
                         <li>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</li>
-                        <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. &lt;title&gt;side-step page – Index page&lt;/title&gt;). This should be taken into consideration when naming the side-step pages.</li>
+                        <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. <code>&lt;title&gt;side-step page – Index page&lt;/title&gt;</code>). This should be taken into consideration when naming the side-step pages.</li>
                         <li>
                            The task step page which introduces the side-steps should be brief in information and proceed straight to the navigation to the side-steps. Since the page already has links to the side-step pages in the subway menu on the right, there is no need to show the side-step navigation in the main navigation on this page.
                            <ul>
