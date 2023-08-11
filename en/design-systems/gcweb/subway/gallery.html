@@ -72,7 +72,7 @@
             </div>
             <div class="row">
                <div class="col-md-8">
-                  <p >The subway navigation pattern is used to help people accomplish a <del>single  task that is </del><mark>series of related tasks that are</mark> broken into steps. It is ideal for presenting services and processes.</p>
+                  <p >The subway navigation pattern is used to help people accomplish a <del>single  task that is </del><mark>series of related tasks that are</mark> broken into steps. It is ideal for presenting <mark>specific</mark> services and processes.</p>
                   <h2 >On this page</h2>
                   <ul>
                      <li><a href="#h-1">When to use</a></li>
@@ -84,11 +84,12 @@
                   <h2 id="h-1">When to use</h2>
                   <ul>
                      <li>To break up long and complex content into pages that each focus on a specific step or answer people need before moving on to the next step or section</li>
-                     <li>To provide navigation between the related pages that reflects the journey that the user would go through</li>
+                     <li>To provide <mark>persistent</mark> navigation between the related pages that reflects the journey that the user would go through</li>
                   </ul>
                   <h2 id="h-2">What to avoid</h2>
                   <ul>
                      <li>Do not use for any reason except to guide the user through a single task that is broken into steps</li>
+					 <li><mark>Do not have any subway link that takes the users away from the subway pattern</mark></li>
                      <li>
                        <del> Do not give the steps numbers
                         <ul>
@@ -150,40 +151,41 @@
             <ol class="lst-stps ld-zr">
             <li class="bg-warning">
                <h4><mark> Determine the information architecture</mark></h4>
-               <p>The flow of content creates a "happy path" for the user to navigate the content in the following order:</p>
+               <p>The flow of content across the various subway pages creates a "happy path" for the user to view the content in  logical progression.</p>
                <ol class="lst-stps-sub">
                   <li>
-                     <h5>Start by introducing the concept</h5>
+                     <h5>Introduce the concept</h5>
+					 
                      <p>Create a small introductory  statement that explains what the product or activity is.</p>
                      <ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
                         <li class="cnjnctn-col-60">
-                           <h6 class="text-muted h5">Easy to description concept</h6>
+                           <h6 class="text-muted h5">When it can be consisely described</h6>
                            <p>Typically the introductory statement fits on the index page.  It is a short paragraph or two, and is the first thing to appear on the index page, above the subway navigation.</p>
                            <p>	For example:</p>
                            <ul>
                               <li> <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></li>
                          
                               <li>
-                                 <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/file-information-returns-slip-summaries.html">File information returns (slips and summaries)</a>
+                                 <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-workers-benefit.html">Canada Workers Benefit</a>
                               </li>
                            </ul>
                         </li>
                         <li class="cnjnctn-col">
-                           <h6 class="text-muted h5">Complex concept</h6>
+                           <h6 class="text-muted h5">When it's complicated to describe</h6>
                            <p>Sometimes the concept is too complex to reasonably describe on the index page.  When this happens, feature basic details on the index page and use the first step page in the subway to provide more detail.</p>
                            <p>	For example:</p>
                            <ul>
-                              <li>Index page teaser: 
+                              <li>Index page only offers a teaser: 
                                  <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a>
                                  <ul>
-                                    <li>Full description: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit/about-dtc.html">What is the DTC</a></li>
+                                    <li>Full description is here: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit/about-dtc.html">What is the DTC</a></li>
                                  </ul>
                               </li>
                          
-                              <li class="mrgn-tp-lg">Index page teaser: 
+                              <li class="mrgn-tp-lg">Index page only offers a teaser:
                                  <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&ED) tax incentives</a>
                                  <ul>
-                                    <li>Full description:  <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/what-are-sred-tax-incentives.html">What are SR&ED tax incentives</a></li>
+                                    <li>Full description is here:  <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/what-are-sred-tax-incentives.html">What are SR&ED tax incentives</a></li>
                                  </ul>
                               </li>
                            </ul>
@@ -191,7 +193,7 @@
                      </ul>
                   </li>
                   <li>
-                     <h5>Then explain who it's for</h5>
+                     <h5>Explain who it's for</h5>
                      <p>This is often where eligibility information goes.  Typcailly, there is only <strong>one</strong> page that features eligibility information,  but there are times when it's best to spread the content over multiple pages. Common label items include: </p>
                      <ul>
                         <li>Who can apply</li>
@@ -226,7 +228,7 @@
                      </ul>
                   </li>
                   <li>
-                     <h5>Then explain what the user has to do</h5>
+                     <h5>Explain what the user has to do</h5>
                      <p>This where the core activity goes.  Common label items include: </p>
                      <ul>
                         <li>Get ready to apply</li>
@@ -267,6 +269,17 @@
                      <h5 >When to use</h5>
                      <p >Use as the landing page for a set of related pages that use the subway navigation.</p>
                      <h5>How to implement</h5>
+					 <dl class="dl-horizontal bg-warning">
+					 <dt><code>title</code> tag</dt><dd></dd>
+					  <dt><code>h1</code> heading</dt><dd></dd>
+					  <dt>Breadcrumb</dt><dd></dd>
+					   <dt>Content</dt><dd></dd>
+					  <dt>Subway navigation</dt><dd></dd>
+					  <dt>Supportive links</dt><dd></dd>
+					   <dt>Pagination</dt><dd></dd>
+					   
+					 </dl>
+					 
                      <ul>
                         <li>Provides a unique H1 followed by a short description of the service or process</li>
                         <li>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</li>
