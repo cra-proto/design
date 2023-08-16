@@ -106,7 +106,7 @@
                         </ul>
 						</del>
                      </li>
-                     <li>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
+                    
                   </ul>
                   <h2 id="h-3">Content and design</h2>
                   <p >Before you start, plan the architecture for your content. Keep the number of main task steps to a reasonable number (aim to have no more than 8) and determine if you need any side-step pages.</p>
@@ -258,31 +258,31 @@
                      <h5>How to implement</h5>
 					 <dl class="dl-horizontal bg-warning">
 					 <dt><code>title</code> tag</dt><dd></dd>
-					  <dt><code>h1</code> heading</dt><dd></dd>
-					  <dt>Breadcrumb</dt><dd></dd>
-					   <dt>Content</dt><dd></dd>
-					  <dt>Subway navigation</dt><dd></dd>
-					  <dt>Supportive links</dt><dd></dd>
-					   <dt>Pagination</dt><dd></dd>
-					   
-					 </dl>
-					 
-                     <ul>
-                        <li>Provides a unique H1 followed by a short description of the service or process</li>
-                        <li>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</li>
-                        <li>The steps are linked together in the centre of the page using a subway pattern</li>
-                        <li>This page is the anchor link in the breadcrumb for all step pages</li>
-                     </ul>
-                     <p >Supportive information is an optional element that can be included if necessary.</p>
-                     <h3 >Supportive information (optional)</h3>
-                     <p >Supportive information is an optional element. It includes links to information that is associated with the content but not part of a task step. It should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following. Do not use if the supportive information only applies to a few pages only and not the entire task itself.</p>
+					  <dt><code>h1</code> heading</dt><dd>Provides a unique H1 within the context of the entire Canada.ca website. It must be specific enough that it does not overlap any other Governement of Canada page.</dd>
+					  <dt>Breadcrumb</dt><dd>This page is the anchor link in the breadcrumb for all step pages</dd>
+					   <dt>Content area</dt><dd><ul>
+					   <li>Includes a short description of the service or process</li>
+					   <li>Inclues the subway steps linked together in the centre of the page using a subway pattern</dd>
+					  <dt>Subway navigation</dt><dd>Includes a list of links to each step that follows the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern </a>requirements for link text and link descriptions</dd>
+					  <dt>Supportive links</dt><dd> <p >Supportive information is an optional element. It includes links to information that is associated with the content but not part of a task step. It should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following. Do not use if the supportive information only applies to a few pages only and not the entire task itself.</p>
                      <p >How to implement</p>
                      <ul>
                         <li>The links can appear on the main page (after the subway menu), and below the subway menu in desktop, or at the bottom of the page in mobile</li>
                         <li>They should be clearly separated from the subway menu and de-emphasized, for example by using a smaller font size</li>
                         <li>There should be a clear heading and link text that doesn&rsquo;t distract users from the task</li>
                         <li>Use to link to information that supports the task (for example statistics or a database), but not to other related information that the user doesn&rsquo;t need (for example a legislative act)</li>
-                     </ul>
+                     </ul></dd>
+					   <dt>Pagination</dt><dd><ul><li><span class=fas fa-arrow-left"></span> Backwards: None</li>
+					  <li><span class=fas fa-arrow-right"></span> Forwards: None</li>
+					  </ul>
+					   None Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</dd>
+					   
+					 </dl>
+					 
+                    
+                    
+                   
+                    
                   </div>
                   <div class="col-md-4 ">
                      <div class="thumbnail p-sm-3">
