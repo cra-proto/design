@@ -89,7 +89,7 @@
                   <h2 id="h-2">What to avoid</h2>
                   <ul>
                      <li>Do not use for any reason except to guide the user through a  <del>single  task that is </del><mark>series of related tasks that are</mark>  broken into steps</li>
-                     <li><mark>Do not drop the subway menu from one pager to another, as it is persisent and must appear on every page</mark>
+                     <li><mark>Do not hide the subway menu from one pager to another, as it must be persisent and appear on every page</mark>
 					</li>
                      <li>
                         <del>
@@ -111,7 +111,7 @@
                   </ul>
                   <h2 id="h-3">Content and design</h2>
                   <p >Before you start, plan the architecture for your content. Keep the number of main task steps to a reasonable number (aim to have no more than 8) and determine if you need any side-step pages.</p>
-                  <p >There are three page types within the subway pattern:</p>
+                  <p ><mark>There are 3 page types within the subway pattern:</mark></p>
                </div>
             </div>
             <ul class="list-unstyled cnjnctn-type-and cnjnctn-sm bg-warning">
@@ -130,7 +130,7 @@
                <li class="cnjnctn-col">
                   <p><mark>Third level of information architecture (IA):</mark><br>Side-step pages <strong>(optional)</strong></p>
                   <div class="well brdr-rds-0">
-                     <p>If a specific section of content is too complex to effectively fit on a single step page, you can create a sub-level of IA under that specific step to house the content.  There are 2 options:</p>
+                     <p>If a section of content is too complex to effectively fit on a single step page, you can create a sub-level of IA under that specific step to house the content.  There are 2 options:</p>
                      <ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
                         <li class="cnjnctn-col">
                            <p>Non-connected page</p>
@@ -198,6 +198,7 @@
                         <ul>
                            <li>Who can apply</li>
                            <li>Who can claim</li>
+						   <li>Who can file</li>
                            <li>How much you can get</li>
                            <li>Determine if you need to register</li>
                            <li>Periods you can apply for</li>
@@ -206,8 +207,8 @@
                            <li>
                               Who is eligible
                               <details class="max-content">
-                                 <summary>Use "Who is eligible" as a last resort</summary>
-                                 <p>Use the plain language terms "apply" or "claim" instead of "eligble".  However, in rare situations, "eligible" may be used if the other terms might cause user confusion for that product or service.</p>
+                                 <summary>"Who is eligible" should rarely be used</summary>
+                                 <p>Use the plain language terms "apply" or "claim" instead of "eligble".  However, in rare situations, "eligible" may be used if the other terms might cause user confusion.</p>
                               </details>
                            </li>
                         </ul>
@@ -217,11 +218,15 @@
                         <p>This where the core activity goes.  The core activitiy is typically the main apply, claim, register, file, or submit task. Common label items include: </p>
                         <ul>
                            <li>Get ready to apply</li>
+						   <li>Get ready to claim</li>
+						    <li>Get ready to file</li>
                            <li>When to apply</li>
-                           <li>Calculate your subsidy amount</li>
-                           <li>Calculate your expenses</li>
+						   <li>When to claim</li>
+						   <li>When to file</li>
+                           <li>Calculate your [x]</li>
                            <li>How to apply</li>
                            <li>How to claim</li>
+						   <li>How to file</li>
                         </ul>
                      </li>
                      <li>
@@ -231,7 +236,8 @@
                            <li>Validating your application</li>
                            <li>Our review and decision</li>
                            <li>After you apply</li>
-                           <li>After you claim</li>
+						   <li>After you claim</li>
+						   <li>After you file</li>
                            <li>When and how to get your payment</li>
                            <li>Impact on your taxes</li>
                            <li>Change or cancel your claim</li>
@@ -247,21 +253,22 @@
                         </ul>
                      </li>
                   </ol>
+				  </li>
                <li>
                   <h4>
                   <mark>Create the index page</mark></h5>
+				      <p ><mark>This is the main landing page for the product or service.  Use this page to introduce the suite of subway pages.</mark></p>
                   <div class="row">
 				  <div class="col-md-4">
               <p><a class="wb-lbx thumbnail p-sm-3" href="index-e.jpeg" title="Screenshot">Screenshot: Index page 
                   <img src="index-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md" /></a></p>
                </div>
                      <div class="col-md-8">
-                        <p >Use as the landing page for a set of related pages that use the subway navigation.</p>
+                    
                         <dl class="dl-horizontal bg-warning">
-                           <dt><code>title</code> tag</dt>
-                           <dd>[Service name] - Canada.ca</dd>
+                         
                            <dt><code>h1</code> heading</dt>
-                           <dd>Provides a unique H1 within the context of the entire Canada.ca website. It must be specific enough that it does not overlap any other Governement of Canada page.</dd>
+                           <dd>Create a heading that is 100% unique within the context of the entire Canada.ca website. It must be specific enough that it does not overlap any other Governement of Canada page that has been created by any other department or agency.</dd>
                            <dt>Breadcrumb</dt>
                            <dd>This page is the parent page, or level-up page, for <del>all</del> <mark>subsequent</mark> step pages</dd>
                            <dt>Content area</dt>
@@ -270,13 +277,14 @@
                <li>Must include a <strong>short description</strong> of the service or process below the main heading </li>
                <li>Must include a subway navigation that includes both the <strong>link and link description</strong></li>
 			   <li><p> May include <strong>supportive links</strong> to products or pages outside the subway.  These links:<ul>
-			   <li>Should be avoided whenever possible, since it can distract a user from the task and pull them away from the task that they should be following</li>
+			   <li>Should be avoided whenever possible, since it can distract a user from the task <del>and pull them away from the task that they should be following</del></li>
+			    <li>Apply to the entire service or process </li>
 			   <li>Appear below the subway menu, under its own  heading called "Related"
 			   <ul>
-			   <li>If the supportive links can be bundled together into groups, you can rename "Relatede" and placed them under specifically named headings</li>
+			   <li>If there are several supportive links and they can be bundled together into groups, you can create multiple specific headings to place the supportive links under instead of using the singlar "Related" heading</li>
 			   </ul>
 			   </li>
-			   <li>Apply to the entire service or process </li>
+			  
 
 
                
@@ -284,17 +292,22 @@
                
               
                </ul></li></ul></dd>
-               <dt>Subway navigation</dt><dd>Includes a list of links to each step that follows the <a href=../doormats/index.html>doormats</a> pattern for link text and link descriptions</dd>
+               <dt>Subway navigation</dt><dd><ul>
+			   <li>Is located in the main content section</li>
+<li>Has links to only the first level of IA</li>
+<li>Below each links is  a brief description of what the user can find on each page, following the  <a href=../doormats/index.html>doormats</a> goverance</dd>
              
-               <dt>Pagination buttons</dt><dd><ul><li><span class=fas fa-arrow-left"></span> Backwards: None</li>
-               <li><span class=fas fa-arrow-right"></span> Forwards: None</li>
+               <dt>Pagination buttons</dt><dd><ul class="fa-ul"><li><span class="fas fa-arrow-left fa-li"></span> Backwards:<ul><li> None, since this is the root page for this product or service</li></ul></li>
+               <li><span class="fas fa-arrow-right fa-li"></span> Forwards: <ul><li> None, since the user should make a choice from the subway menu that is promintently featured in the content area</li></ul></li>
                </ul>
              </dd>
+			   <dt><code>title</code> tag</dt>
+                           <dd><p>Format as: <code>[Service name] - Canada.ca</code></p></dd>
                </dl>
                </div>
                
                </div>
-			               <h3>Appearance and code</h3>
+			               <h5>Appearance and code</h5>
             <div class="wb-tabs">
                <div class="tabpanels">
                   <details id="index-appearance">
@@ -354,21 +367,22 @@
                </li>
                <li>
                   <h4 ><mark>Create all the  step pages</mark></h4>
+				  <p >Use on each page tied by the subway navigation.</p>
                   <div class="row">
 				  <div class="col-md-4 ">
-            <p class="small"><a class="wb-lbx thumbnail"  href="step-e.jpeg" title="Screenshot: Step page ">Screenshot: Step page 
+             <p><a class="wb-lbx thumbnail p-sm-3"   href="step-e.jpeg" title="Screenshot: Step page ">Screenshot: Step page 
                   <img src="step-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md" /></a></p>
                </div>
                   <div class="col-md-8">
-                     <p >Use on each page tied by the subway navigation.</p>
+                     
                      <dl class="dl-horizontal bg-warning">
-                        <dt><code>title</code> tag</dt>
-                        <dd><p>This page&rsquo;s title element must include both this page name and the index page name</p>
-               <ul>
-               <li>Example: <code>&lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</code></li>
-               </ul></dd>
-                        <dt><code>h1</code> heading</dt>
-                        <dd>Since the service name will already be featured with the two H1 design, there is not need to duplicate text or terms around in the service name.  The step page should be as concise as possible.  For example: 
+                        
+                        <dt><code>h1</code> headings</dt>
+                        <dd>The steps pages in a subway have 2 main headings (<code>h1</code>):
+<ul><li><strong>First <code>h1</code> heading :</strong> Matches the <code>h1</code> on the index page</li>
+<li><strong>Second <code>h1</code> heading:</strong> </li>
+</ul>
+</li>						Since the service name will already be featured with the two H1 design, there is not need to duplicate text or terms around in the service name.  The step page should be as concise as possible.  For example: 
 						<ul class="fa-ul">
 						<li><span class="fas fa-check text-success fa-li"></span>Do: How to apply
 						<li><span class="fas fa-times text-danger fa-li"></span>Don't:  How to apply for [x]</dd>
@@ -393,6 +407,11 @@
                <li><span class=fas fa-arrow-right"></span> Forwards: ???</li>
                </ul>
                None </dd>
+			   <dt><code>title</code> tag</dt>
+                        <dd><p>This page&rsquo;s title element must include both this page name and the index page name</p>
+               <ul>
+               <li>Example: <code>&lt;title&gt;Step page – Index page – Canada.ca&lt;/title&gt;</code></li>
+               </ul></dd>
                </dl>
                <ul>
                
@@ -422,7 +441,7 @@
                <li class="cnjnctn-col"><h5>The <code>lst-stps</code> design</h5></li>
                </ul>
                </div>
-                <h3>Appearance and code</h3>
+                <h5>Appearance and code</h5>
             <div class="wb-tabs">
                <div class="tabpanels">
                   <details id="step-appearance">
