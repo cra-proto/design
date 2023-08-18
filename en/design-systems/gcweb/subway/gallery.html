@@ -282,7 +282,7 @@
 						   </dd>
                            <dt>Breadcrumb</dt>
                            <dd><ul>
-						   <li>The last link in the breadcrumb must be the parent page of the subway index page</li>
+						   <li>The last breadcrumb items must link to the index pages's IA parent page </li>
 	<li>To make sure sure the content is not orphaned in the IA, the parent page must also link back to the subway index page</li></ul></dd>
                            <dt>Content area</dt>
                            <dd>
@@ -401,29 +401,49 @@
                         
                         <dt><code>h1</code> headings</dt>
                         <dd>The steps pages in a subway have 2 first-level (<code>h1</code>) headings:
-<ul><li><strong>First <code>h1</code> heading :</strong> This is the smaller dark grey heading and must match the <code>h1</code> on the index page</li>
+<ul><li><strong>First <code>h1</code> heading:</strong> This is the smaller dark grey heading and must match the <code>h1</code> on the index page</li>
 <li><strong>Second <code>h1</code> heading:</strong> 
 
 						This is the larger black heading and...</li></ul></dd>
                         <dt>Breadcrumb</dt>
                         <dd>The subway's index page must be the parent page in the breadcrumb</dd>
                         <dt>Content area</dt>
-                        <dd>Place content into the page.  Common design components include: 
-						<ul>
-						<li><a href="../toc/index.html">Table of contents</a></li>
-						<li><a href="../headings-titles/index.html">Headings</a></li>
-						<li><a href="../lists/index.html">Lists</a></li>
-						<li><a href="../links/index.html">Links</a></li>
-						</ul></dd>
+                        <dd><ul>
+						<li><strong>Typical:</strong> The page is exclusively a content page.  Adhere to <a href="#">writing concepts</a> and use <a href="">components</a> to structure and design the content</li>
+						 <li><strong>Rare:</strong>  The page is principally a content page but is also a navgation page to side-steps</li>
+						 <li><strong>Rare:</strong>  The page is principally a navigation page to side-steps
+               <ul class="cnjnctn-type-or cnjnctn mrgn-bttm-md">
+               <li class="cnjnctn-col"><h5>Typical link designs</h5>
+               <p>Sometimes content in the sub-step is core content the user needs to know and sometimes it's more peripheral or tertiary </li>
+               <li class="cnjnctn-col"><h5>The <code>lst-stps</code> design</h5>
+			   <h5>Steps</h5>
+			   <ol class="lst-stps">
+			   <li><a href="#">[First task]</a></li>
+			      <li><a href="#">[Second task]</a></li>
+				     <li><a href="#">[Third task]</a></li>
+					    <li><a href="#">[Fourth task]</a></li>
+						</ol>
+						</li>
+               </ul>
+			   
+			   <p>Example: <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/sred-claim.html">How to prepare your claim - Scientific Research and Experimental Development (SR&ED) tax incentives</a></p></dd>
                         <dt>Subway navigation</dt>
-                        <dd></dd>
+                        <dd><ul>
+             
+               <li>Has a header called "Sections"</li>
+               <li>Has a vertical line that connects the step pages together</li>
+			   <li>Has a solid fill circle on the active page</li>
+			    <li>Has plain language, task-based content that helps the user to complete the step</li>
+              
+               </ul>
+              </dd>
                         <dt>Supportive links</dt>
-                        <dd></dd>
+                        <dd>Show appear within the content area at the point of need</dd>
                         <dt>Pagination buttons</dt>
                         <dd>
                            <ul>
                <li><span class=fas fa-arrow-left"></span> <ul><li>Backwards: None<p>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
-               <li><span class=fas fa-arrow-right"></span> Forwards: ???</li>
+               <li><span class=fas fa-arrow-right"></span> Forwards: Is a button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
                </ul>
                None </dd>
 			   <dt><code>title</code> tag</dt>
@@ -434,31 +454,8 @@
                </dl>
                <ul>
                
-               <li>Provide a subway navigation menu on the right side of the page that:</li>
-               <ul>
-               <li>Has a header called &ldquo;Sections&rdquo;</li>
-               <li>Includes a subway pattern that connects the step pages together</li>
-               <ul>
-               <li>
-               <p  >Fill in the circle for the page that the user is on
-               </li>
-               </ul>
-               <li>Has plain language, task-based content that helps the user to complete the step</li>
-               <ul>
-               <li>
-               <p  >Can be combined with other relevant patterns, such as the <a href=https://design.canada.ca/common-design-patterns/interactive-questions.html>interactive questions pattern</a> to help guide the user through the step
-               </li>
-               </ul>
-               <li><span class="bg-danger">Includes a button on the bottom right with the name of the next step and a right pointing arrow</span></li>
-               </ul>
-               </li>
-               </ul>
-               <p><mark>If the step-page is doubling as navigation page to get to sub-step pages, there are different ways to feature the link.</mark></p>
-               <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md bg-warning">
-               <li class="cnjnctn-col"><h5>Typical link designs</h5>
-               <p>Sometimes content in the sub-step is core content the user needs to know and sometimes it's more peripheral or tertiary </li>
-               <li class="cnjnctn-col"><h5>The <code>lst-stps</code> design</h5></li>
-               </ul>
+               
+             
                </div>
                 <h5>Appearance and code</h5>
             <div class="wb-tabs">
