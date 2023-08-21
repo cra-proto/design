@@ -30,7 +30,7 @@
          <noscript>
             <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
          </noscript>
-         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
          <!--Custom UCDG script //-->
          <script src="../../../../assets/js/ucdg.js"></script>
       </head>
@@ -342,17 +342,17 @@
                            <h2>Sections</h2>
                            <dl>
                               <dt><a href="section1-en.html">[Page 1]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                               <dt><a href="section2-en.html">[Page 2]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                               <dt><a href="section3-en.html">[Page 3]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                               <dt><a href="section4-en.html">[Page 4]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                               <dt><a href="section5-en.html">[Page 5]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                               <dt><a href="section6-en.html">[Page 6]</a></dt>
-                              <dd>Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                              <dd>Short description</dd>
                            </dl>
                         </nav>
                      </main>
@@ -367,17 +367,17 @@
 		&lt;h2&gt;Sections&lt;/h2&gt;
 		&lt;dl&gt;
 			&lt;dt&gt;&lt;a href="section1-en.html"&gt;[Page 1]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 			&lt;dt&gt;&lt;a href="section2-en.html"&gt;[Page 2]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 			&lt;dt&gt;&lt;a href="section3-en.html"&gt;[Page 3]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 			&lt;dt&gt;&lt;a href="section4-en.html"&gt;[Page 4]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 			&lt;dt&gt;&lt;a href="section5-en.html"&gt;[Page 5]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 			&lt;dt&gt;&lt;a href="section6-en.html"&gt;[Page 6]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Page description. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/dd&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
 		&lt;/dl&gt;
 	&lt;/nav&gt;
 	...
@@ -408,25 +408,81 @@
                         <dt>Breadcrumb</dt>
                         <dd>The subway's index page must be the parent page in the breadcrumb</dd>
                         <dt>Content area</dt>
-                        <dd><ul>
-						<li><strong>Typical:</strong> The page is exclusively a content page.  Adhere to <a href="#">writing concepts</a> and use <a href="">components</a> to structure and design the content</li>
-						 <li><strong>Rare:</strong>  The page is principally a content page but is also a navgation page to side-steps</li>
-						 <li><strong>Rare:</strong>  The page is principally a navigation page to side-steps
-               <ul class="cnjnctn-type-or cnjnctn mrgn-bttm-md">
-               <li class="cnjnctn-col"><h5>Typical link designs</h5>
-               <p>Sometimes content in the sub-step is core content the user needs to know and sometimes it's more peripheral or tertiary </li>
-               <li class="cnjnctn-col"><h5>The <code>lst-stps</code> design</h5>
-			   <h5>Steps</h5>
-			   <ol class="lst-stps">
-			   <li><a href="#">[First task]</a></li>
-			      <li><a href="#">[Second task]</a></li>
-				     <li><a href="#">[Third task]</a></li>
-					    <li><a href="#">[Fourth task]</a></li>
+                        <dd><p>Everthing in the content area must adhere to:</p>
+<ul class="mrgn-bttm-md"><li><a href="../../writing/index.html">writing</a> rules</li>
+<li><a href="../index.html">design system components</a> for styling</li>
+</ul>
+						<p>If the page is also the parent page to side-steps, there are several design treatment options: </p> 
+						<details><summary>Prominent navigation links</summary>
+						<p id="prominent">If a step page has side-steps, then the content area primarily focuses on the navigation to the side steps. </p>
+						<p>There are 2 ways to display the navigation:</p>
+						<ul class="fa-ul">
+						<li class="panel panel-default"><span class="fas fa-border-all fa-li fa-lg"></span> <div class="panel-body">When the tasks are not all required or applicable to all users: 
+						<ul class="fa-ul">
+								<li><span class="fas fa-check text-success fa-li"></span> Use the grid system to create link tiles that also include <a href="../doormats/index.html">doormat</a> description text</li>
+								<li><span class="fas fa-eye text-muted fa-li"></span> <strong>Live example:</strong> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/who-claim.html">Who can claim - Home office expenses for employees</a></li>
+								</ul>
+								<hr>
+								<div class="wb-eqht row">
+
+                <div class="col-md-6">
+                    <h3><a href="#">[Link 1]</a></h3>
+                      <p>Short description</p>
+                </div>
+
+               <div class="col-md-6">
+                    <h3><a href="#">[Link 2]</a></h3>
+                      <p>Short description</p>
+                </div>
+				<div class="col-md-6">
+                    <h3><a href="#">[Link 3]</a></h3>
+                      <p>Short description</p>
+                </div>
+				<div class="col-md-6">
+                    <h3><a href="#">[Link 4]</a></h3>
+                      <p>Short description</p>
+                </div>
+
+            </div>
+						</div></li>
+						<li class="panel panel-default"><span class="fas fa-list-ol fa-li fa-lg"></span> <div class="panel-body">When the tasks are sequential:
+							<ul class="fa-ul"><li><span class="fas fa-check text-success fa-li"></span> Introduce with the heading "Steps"</li>
+								<li><span class="fas fa-check text-success fa-li"></span> Use <a href="../lists/index.html#h-3-2">stylized steps</a> that include <a href="../doormats/index.html">doormat</a> description text</li>
+								<li><span class="fas fa-eye text-muted fa-li"></span> <strong>Live example:</strong> <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/sred-claim.html">How to prepare your claim - Scientific Research and Experimental Development (SR&ED) tax incentives</a></li>
+								</ul>
+								<hr>
+								<h2>Steps</h2>
+						 <ol class="lst-stps">
+			   <li><h3><a href="#">[First task]</a></h3>
+			   <p>Short description</p></li>
+			      <li><h3><a href="#">[Second task]</a></h3>
+				  <p>Short description</p></li>
+				     <li><h3><a href="#">[Third task]</a></h3><p>Short description</p></li>
+					    <li><h3><a href="#">[Fourth task]</a></h3><p>Short description</p></li>
 						</ol>
-						</li>
-               </ul>
-			   
-			   <p>Example: <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/sred-claim.html">How to prepare your claim - Scientific Research and Experimental Development (SR&ED) tax incentives</a></p></dd>
+						</div>
+						
+						 
+						 </li>
+						
+						 </ul>
+						</details>
+						<details><summary>Subtle navigation links</summary>
+						<p id="subtle">On <strong>rare occasions</strong>, a step page will be both a content page and still need to be a navigation page to the side-steps. This is only for when the step page features the common task, while the side-step features the supportive or tertiary content. In this situation, create the content as normal and then feature the link(s) to the side-step pages at the point-of-need in the content.</p>
+						<ul class="fa-ul">
+								
+								<li><span class="fas fa-eye text-muted fa-li"></span> <strong>Live example (step page):</strong> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/calculate-expenses.html">Calculate your expenses - Home office expenses for employees</a>
+								<ul class="fa-ul">
+								<li><span class="fas fa-eye text-muted fa-li"></span> <strong>Live example (side-step page):</strong> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/calculate-expenses/how-calculated.html">How the claim is calculated - Home office expenses for employees</a></li>
+								</ul>
+								</li>
+								
+								</ul>
+						</details>
+						
+						
+						
+			  </dd>
                         <dt>Subway navigation</dt>
                         <dd><ul>
              
@@ -438,14 +494,23 @@
                </ul>
               </dd>
                         <dt>Supportive links</dt>
-                        <dd>Show appear within the content area at the point of need</dd>
+                        <dd>Appear within the content area at the point of need</dd>
                         <dt>Pagination buttons</dt>
                         <dd>
-                           <ul>
-               <li><span class=fas fa-arrow-left"></span> <ul><li>Backwards: None<p>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
-               <li><span class=fas fa-arrow-right"></span> Forwards: Is a button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+                           <ul class="fa-ul">
+               <li><span class="fas fa-arrow-left"></span> Backwards: None<p>Do not use &ldquo;previous&rdquo; buttons for user to navigate backwards in the process, as you want to encourage users to move forwards</li>
+               <li><span class="fas fa-arrow-right"></span> Forwards depends on if the step page is:  
+			   <ul>
+			   <li>A regular content page: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+			   <li>Featuring  <a href="#prominent">prominent navigation links</a>: Do not include a pagination button, as the user should choose from the links in the prominent navigation menu</li>
+			 
+			   <li>Featuring <a href="#subtle">subtle navigation links</a>: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+			   
+			  
+			   </ul>
+			   </li>
                </ul>
-               None </dd>
+             </dd>
 			   <dt><code>title</code> tag</dt>
                         <dd><p>This page&rsquo;s title element must include both this page name and the index page name</p>
                <ul>
@@ -458,6 +523,7 @@
              
                </div>
                 <h5>Appearance and code</h5>
+				
             <div class="wb-tabs">
                <div class="tabpanels">
                   <details id="step-appearance">
@@ -480,15 +546,17 @@
 	<h1 property="name" id="wb-cont" class="gc-thickline">[Page 1]</h1>
 
 	<!-- 3: Page content -->
-	<p>Page content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
-	...
+	<p>(Page content)</p>
+	
 
 	<!-- 4: Document navigation -->
 	<nav class="gc-subway-pagination">
+	<p><strong><span class="fas fa-bell"></span> Reminder:</strong> You wouldn't include the pagintation button if this step page had  <a href="#prominent">prominent navigation links</a> featured in the content area</p>
 		<h2 class="wb-inv">Document navigation</h2>
 		<ul class="pager">
 			<li class="next"><a href="section2-en.html" rel="next"><span class="wb-inv">Next: </span>[Page 2]</a></li>
 		</ul>
+		
 	</nav>
 
 </main>
@@ -534,9 +602,25 @@
                   <h4  ><mark>Create any side-step pages, if needed </mark></h4>
                   <div class="row">
                      <div class="col-md-8">
-                        <h4 >When to use</h4>
+                        
                         <p >Side-step pages are an optional element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
-                        <h4>How to implement</h4>
+						  <p >There are two types of side-steps<mark>:</mark></p>
+                        <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
+                           <li class="cnjnctn-col"><a href="#non-connected">Non-connected side-steps</a>
+						   <p>For when the side-step pages are ...</p></li>
+                           <li class="cnjnctn-col"><a href="#connected">Connected side-steps</a>
+						   <p>For when the side-step pages are sequential...</p></li>
+                        </ul>
+						</div></div>
+						<ol class="lst-stps-sub">
+						<li> <h5 id="non-connected">Non-connected side-steps</h5><div class="row">
+				  <div class="col-md-4 ">
+             <p><a class="wb-lbx thumbnail p-sm-3"   href="step-e.jpeg" title="Screenshot: Step page ">Screenshot: Step page 
+                  <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md" /></a></p>
+               </div>
+                  <div class="col-md-8">
+                     
+                      
                         <ul>
                            <li>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</li>
                            <li>This page&rsquo;s title element must include both this page name and the index page name, and not the step page name (e.g. <code>&lt;title&gt;side-step page – Index page&lt;/title&gt;</code>). This should be taken into consideration when naming the side-step pages.</li>
@@ -547,13 +631,14 @@
                               </ul>
                            </li>
                         </ul>
-                        <p >There are two types of side-steps<mark>:</mark></p>
-                        <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
-                           <li class="cnjnctn-col"><a href="#non-connected">Non-connected side-steps</a></li>
-                           <li class="cnjnctn-col"><a href="#connected">Connected side-steps</a></li>
-                        </ul>
-                     </div>
-                  </div>
+						</div>
+						</div>
+                      </li>
+					  <li><h5>Connected side-steps</h5></li>
+					  </ol>
+					  </li>
+					  </ol>
+                     
                   <div class="wb-tabs mrgn-bttm-lg">
                      <div class="tabpanels">
                         <details id="tab1">
