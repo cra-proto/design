@@ -89,7 +89,7 @@
                   <h2 id="h-2">What to avoid</h2>
                   <ul>
                      <li>Do not use for any reason except to guide the user through a  <del>single  task that is </del><mark>series of related tasks that are</mark>  broken into steps</li>
-                     <li><mark>Do not hide the subway menu from one pager to another, as it must be persisent and appear on every page</mark>
+                     
 					</li>
                      <li>
                         <del>
@@ -252,6 +252,11 @@
                            <li>Contact us</li>
                         </ul>
                      </li>
+					 <li>
+                        <h5>Ensure the subway navigation is persistent</h5>
+                        <p>The subway navigation is a persistent design and must follow the users across all pages in the subway suite. If you are linking across different servers (for example, some pages are static content pages on canada.ca while another is a calculator page on an application server), you must still maintain the subway across the suite of pages.  If you must drop the subway navigation at any point in the flow, there you can't use the subway pattern. </p>
+                        
+                     </li>
                   </ol>
 				  </li>
                <li>
@@ -412,7 +417,303 @@
 <ul class="mrgn-bttm-md"><li><a href="../../writing/index.html">writing</a> rules</li>
 <li><a href="../index.html">design system components</a> for styling</li>
 </ul>
-						<p>If the page is also the parent page to side-steps, there are several design treatment options: </p> 
+						
+						
+						
+						
+			  </dd>
+                        <dt>Subway navigation</dt>
+                        <dd><ul>
+             
+               <li>Has a header called "Sections"</li>
+               <li>Has a vertical line that connects the step pages together</li>
+			   <li>Has a solid fill circle on the active page</li>
+			    <li>Has plain language, task-based content that helps the user to complete the step</li>
+              
+               </ul>
+              </dd>
+                        <dt>Supportive links</dt>
+                        <dd>Appear within the content area at the point of need</dd>
+                        <dt>Pagination buttons</dt>
+                        <dd>
+                           <ul class="fa-ul">
+               <li><span class="fas fa-arrow-left"></span> Backwards: Do not use a previous button as you want to encourage users to move forward</li>
+               <li><span class="fas fa-arrow-right"></span> Whether a forward button is used depends on if the step page is:  
+			   <ul>
+			   <li>A regular content page: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+			   <li>Featuring  <a href="#prominent">prominent navigation links</a>: Do not include a pagination button, as the user should choose from the links in the prominent navigation menu</li>
+			 
+			   <li>Featuring <a href="#subtle">subtle navigation links</a>: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+			   
+			  
+			   </ul>
+			   </li>
+               </ul>
+             </dd>
+			   <dt><code>title</code> tag</dt>
+                        <dd>Format:  <code>&lt;title&gt;[Step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
+               </dl>
+               <ul>
+               
+               
+             
+               </div>
+                <h5>Appearance and code</h5>
+				
+            <div class="wb-tabs">
+               <div class="tabpanels">
+                  <details id="step-appearance">
+                     <summary>Appearance</summary>
+                     <main class="panel-body">
+	<div class="gc-subway-wrapper"><nav class="gc-subway provisional wb-init gc-subway-inited no-blink" id="wb-auto-4">
+	<hgroup><h1>[Service name]</h1><p class="h3 hidden-xs visible-md visible-lg mrgn-tp-0">Sections</p></hgroup>
+	<ul>
+		<li><a href="section1-en.html" class="active hidden-xs hidden-sm" tabindex="0" aria-current="page">[Page 1]</a><a href="section1-en.html#wb-cont" class="active hidden-md hidden-lg" tabindex="0" aria-current="page">[Page 1]</a></li>
+		<li><a href="section2-en.html" class="hidden-xs hidden-sm">[Page 2]</a><a href="section2-en.html#wb-cont" class="hidden-md hidden-lg">[Page 2]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 3]</a><a href="#" class="hidden-md hidden-lg">[Page 3]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 4]</a><a href="#" class="hidden-md hidden-lg">[Page 4]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 5]</a><a href="#" class="hidden-md hidden-lg">[Page 5]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
+	</ul>
+</nav></div>
+<section class="gc-subway-section"><hgroup><p>[Service name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 1]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+	<h2 class="wb-inv">Document navigation</h2>
+	<ul class="pager">
+		<li class="next"><a href="section2-en.html" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 2]</a><a href="section2-en.html#wb-cont" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 2]</a></li>
+	</ul>
+</nav></section>
+
+</main>
+                  </details>
+                  <details id="step-code">
+                     <summary>Code</summary>
+                   <pre><code class="language-html" data-lang="html"><span class="nt">&lt;main&gt;</span>
+	<span class="c">&lt;!-- 1: GC Subway navigation --&gt;</span>
+	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway provisional"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;h1&gt;</span>[Service or product name]<span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;ul&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section1-en.html"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span><span class="nt">&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section3-en.html"</span><span class="nt">&gt;</span>[Page 3]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section4-en.html"</span><span class="nt">&gt;</span>[Page 4]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section5-en.html"</span><span class="nt">&gt;</span>[Page 5]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section6-en.html"</span><span class="nt">&gt;</span>[Page 6]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+		<span class="nt">&lt;/ul&gt;</span>
+	<span class="nt">&lt;/nav&gt;</span>
+
+	<span class="c">&lt;!-- 2: Title --&gt;</span>
+	<span class="nt">&lt;h1</span> <span class="na">property=</span><span class="s">"name"</span> <span class="na">id=</span><span class="s">"wb-cont"</span> <span class="na">class=</span><span class="s">"gc-thickline"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/h1&gt;</span>
+
+	<span class="c">&lt;!-- 3: Page content --&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Page content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.<span class="nt">&lt;/p&gt;</span>
+	...
+
+	<span class="c">&lt;!-- 4: Document navigation --&gt;</span>
+	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway-pagination"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Document navigation<span class="nt">&lt;/h2&gt;</span>
+		<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"pager"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"next"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span> <span class="na">rel=</span><span class="s">"next"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Next: <span class="nt">&lt;/span&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+		<span class="nt">&lt;/ul&gt;</span>
+	<span class="nt">&lt;/nav&gt;</span>
+
+	
+<span class="nt">&lt;/main&gt;</span></code></pre>
+                  </details>
+               </div>
+            </div>
+               </li>
+               <li>
+                  <h4  ><mark>Create side-step pages, if needed </mark></h4>
+				  
+                  <div class="row">
+                     <div class="col-md-8">
+                       
+                        <p >Side-step pages are an <strong>optional</strong> element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
+						  <p >There are 2 types of side-steps:</p>
+                       
+						</div></div>
+						 <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
+                           <li class="cnjnctn-col">
+						   <p class="pull-left">Non-connected side-steps for when the side-step pages are <strong>not</strong> part of a sequential flow</p>
+						   
+						    <nav class="gc-subway provisional wb-init gc-subway-inited no-blink pull-right" id="wb-auto-4">
+	<hgroup><h1>[Service name]</h1><p class="h3 hidden-xs visible-md visible-lg mrgn-tp-0">Sections</p></hgroup>
+	<ul>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 1]</a><a href="#" class="hidden-md hidden-lg">[Page 1]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 2]</a><a href="#" class="hidden-md hidden-lg">[Page 2]</a></li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 3]</a><a href="#" class="hidden-md hidden-lg">[Page 3]</a>
+			<ul class="noline">
+				<li><a href="#" class="active hidden-xs hidden-sm" tabindex="0" aria-current="page">[Page 3a]</a><a href="#" class="active hidden-md hidden-lg" tabindex="0" aria-current="page">[Page 3a]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3b]</a><a href="#" class="hidden-md hidden-lg">[Page 3b]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3c]</a><a href="#" class="hidden-md hidden-lg">[Page 3c]</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 4]</a><a href="#" class="hidden-md hidden-lg">[Page 4]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 5]</a><a href="#" class="hidden-md hidden-lg">[Page 5]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
+	</ul>
+</nav>
+
+</li>
+                           <li class="cnjnctn-col">
+						   <p class="pull-left">Connected side-steps for when the side-step pages are part of a sequential flow</p>
+						   <nav class="gc-subway provisional wb-init gc-subway-inited no-blink pull-right" id="wb-auto-4">
+	<hgroup><h1>[Service name]</h1><p class="h3 hidden-xs visible-md visible-lg mrgn-tp-0">Sections</p></hgroup>
+	<ul>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 1]</a><a href="#" class="hidden-md hidden-lg">[Page 1]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 2]</a><a href="#" class="hidden-md hidden-lg">[Page 2]</a></li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 3]</a><a href="#" class="hidden-md hidden-lg">[Page 3]</a>
+			<ul>
+				<li><a href="#" class="active hidden-xs hidden-sm" tabindex="0" aria-current="page">[Page 3a]</a><a href="#" class="active hidden-md hidden-lg" tabindex="0" aria-current="page">[Page 3a]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3b]</a><a href="#" class="hidden-md hidden-lg">[Page 3b]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3c]</a><a href="#" class="hidden-md hidden-lg">[Page 3c]</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 4]</a><a href="#" class="hidden-md hidden-lg">[Page 4]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 5]</a><a href="#" class="hidden-md hidden-lg">[Page 5]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
+	</ul>
+</nav></li>
+                        </ul>
+					
+<dl class="dl-horizontal bg-warning">
+                         
+                           <dt><code>h1</code> heading</dt>
+                           <dd></dd>
+                           <dt>Breadcrumb</dt>
+                           <dd>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</dd>
+                           <dt>Content area</dt>
+                          <dd>			   </dd>
+               <dt>Subway navigation</dt><dd>			   </dd>
+             
+               <dt>Pagination buttons</dt><dd>			   </dd>
+			   <dt><code>title</code> tag</dt>
+                           <dd>Format:  <code>&lt;title&gt;[Side-step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
+               </dl>
+
+                     
+					  <h5>Appearance and code</h5>
+            <div class="wb-tabs">
+               <div class="tabpanels">
+                  <details id="nonconnected-appearance">
+                     <summary>Appearance: Non-connected</summary>
+                     <main class="panel-body">
+                        <div class="gc-subway-wrapper"><nav class="gc-subway provisional wb-init gc-subway-inited no-blink" id="wb-auto-4">
+	<hgroup><h1>[Service name]</h1><p class="h3 hidden-xs visible-md visible-lg mrgn-tp-0">Sections</p></hgroup>
+	<ul>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 1]</a><a href="#" class="hidden-md hidden-lg">[Page 1]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 2]</a><a href="#" class="hidden-md hidden-lg">[Page 2]</a></li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 3]</a><a href="#" class="hidden-md hidden-lg">[Page 3]</a>
+			<ul class="noline">
+				<li><a href="#" class="active hidden-xs hidden-sm" tabindex="0" aria-current="page">[Page 3a]</a><a href="#" class="active hidden-md hidden-lg" tabindex="0" aria-current="page">[Page 3a]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3b]</a><a href="#" class="hidden-md hidden-lg">[Page 3b]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3c]</a><a href="#" class="hidden-md hidden-lg">[Page 3c]</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 4]</a><a href="#" class="hidden-md hidden-lg">[Page 4]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 5]</a><a href="#" class="hidden-md hidden-lg">[Page 5]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
+	</ul>
+</nav></div>
+<section class="gc-subway-section"><hgroup><p>[Service name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+	<h2 class="wb-inv">Document navigation</h2>
+	<ul class="pager">
+		<li class="previous"><a href="#" rel="prev" class="hidden-xs hidden-sm"><span class="wb-inv">Previous: </span>[Page 3]</a><a href="#" rel="prev" class="hidden-md hidden-lg"><span class="wb-inv">Previous: </span>[Page 3]</a></li>
+		<li class="next"><a href="#" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 3b]</a><a href="#" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 3b]</a></li>
+	</ul>
+</nav></section>
+                     </main>
+                  </details>
+				  <details id="connected-appearance">
+                     <summary>Appearance: Connected</summary>
+                     <main class="panel-body">
+                        <div class="gc-subway-wrapper"><nav class="gc-subway provisional wb-init gc-subway-inited no-blink" id="wb-auto-4">
+	<hgroup><h1>[Service name]</h1><p class="h3 hidden-xs visible-md visible-lg mrgn-tp-0">Sections</p></hgroup>
+	<ul>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 1]</a><a href="#" class="hidden-md hidden-lg">[Page 1]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 2]</a><a href="#" class="hidden-md hidden-lg">[Page 2]</a></li>
+		<li>
+			<a href="#" class="hidden-xs hidden-sm">[Page 3]</a><a href="#" class="hidden-md hidden-lg">[Page 3]</a>
+			<ul>
+				<li><a href="#" class="active hidden-xs hidden-sm" tabindex="0" aria-current="page">[Page 3a]</a><a href="#" class="active hidden-md hidden-lg" tabindex="0" aria-current="page">[Page 3a]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3b]</a><a href="#" class="hidden-md hidden-lg">[Page 3b]</a></li>
+				<li><a href="#" class="hidden-xs hidden-sm">[Page 3c]</a><a href="#" class="hidden-md hidden-lg">[Page 3c]</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 4]</a><a href="#" class="hidden-md hidden-lg">[Page 4]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 5]</a><a href="#" class="hidden-md hidden-lg">[Page 5]</a></li>
+		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
+	</ul>
+</nav></div>
+<section class="gc-subway-section"><hgroup><p>[Service name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+	<h2 class="wb-inv">Document navigation</h2>
+	<ul class="pager">
+		<li class="previous"><a href="#" rel="prev" class="hidden-xs hidden-sm"><span class="wb-inv">Previous: </span>[Page 3]</a><a href="#" rel="prev" class="hidden-md hidden-lg"><span class="wb-inv">Previous: </span>[Page 3]</a></li>
+		<li class="next"><a href="#" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 3b]</a><a href="#" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 3b]</a></li>
+	</ul>
+</nav></section>
+                     </main>
+                  </details>
+                  <details id="nonconnected-code">
+                     <summary>Code: Non-connected</summary>
+                        <pre><code>&lt;main&gt;
+  &lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Service or product name]&lt;/h1&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+	&lt;!-- GC Subway navigation --&gt;
+	&lt;nav class="gc-subway provisional"&gt;
+		&lt;h2&gt;Sections&lt;/h2&gt;
+		&lt;dl&gt;
+			&lt;dt&gt;&lt;a href="section1-en.html"&gt;[Page 1]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section2-en.html"&gt;[Page 2]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section3-en.html"&gt;[Page 3]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section4-en.html"&gt;[Page 4]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section5-en.html"&gt;[Page 5]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section6-en.html"&gt;[Page 6]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+		&lt;/dl&gt;
+	&lt;/nav&gt;
+	...
+&lt;/main&gt;</code></pre>
+                 
+                  </details>
+				  <details id="connected-code">
+                     <summary>Code: Connected</summary>
+                        <pre><code>&lt;main&gt;
+  &lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Service or product name]&lt;/h1&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+	&lt;!-- GC Subway navigation --&gt;
+	&lt;nav class="gc-subway provisional"&gt;
+		&lt;h2&gt;Sections&lt;/h2&gt;
+		&lt;dl&gt;
+			&lt;dt&gt;&lt;a href="section1-en.html"&gt;[Page 1]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section2-en.html"&gt;[Page 2]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section3-en.html"&gt;[Page 3]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section4-en.html"&gt;[Page 4]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section5-en.html"&gt;[Page 5]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+			&lt;dt&gt;&lt;a href="section6-en.html"&gt;[Page 6]&lt;/a&gt;&lt;/dt&gt;
+			&lt;dd&gt;Short description&lt;/dd&gt;
+		&lt;/dl&gt;
+	&lt;/nav&gt;
+	...
+&lt;/main&gt;</code></pre>
+                 
+                  </details>
+               </div>
+            </div>
+					  <p>If the page is also the parent page to side-steps, there are several design treatment options: </p> 
 						<details><summary>Prominent navigation links</summary>
 						<p id="prominent">If a step page has side-steps, then the content area primarily focuses on the navigation to the side steps. </p>
 						<p>There are 2 ways to display the navigation:</p>
@@ -479,172 +780,7 @@
 								
 								</ul>
 						</details>
-						
-						
-						
-			  </dd>
-                        <dt>Subway navigation</dt>
-                        <dd><ul>
-             
-               <li>Has a header called "Sections"</li>
-               <li>Has a vertical line that connects the step pages together</li>
-			   <li>Has a solid fill circle on the active page</li>
-			    <li>Has plain language, task-based content that helps the user to complete the step</li>
-              
-               </ul>
-              </dd>
-                        <dt>Supportive links</dt>
-                        <dd>Appear within the content area at the point of need</dd>
-                        <dt>Pagination buttons</dt>
-                        <dd>
-                           <ul class="fa-ul">
-               <li><span class="fas fa-arrow-left"></span> Backwards: Do not use a previous button as you want to encourage users to move forward</li>
-               <li><span class="fas fa-arrow-right"></span> Whether a forward button is used depends on if the step page is:  
-			   <ul>
-			   <li>A regular content page: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
-			   <li>Featuring  <a href="#prominent">prominent navigation links</a>: Do not include a pagination button, as the user should choose from the links in the prominent navigation menu</li>
-			 
-			   <li>Featuring <a href="#subtle">subtle navigation links</a>: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
-			   
-			  
-			   </ul>
-			   </li>
-               </ul>
-             </dd>
-			   <dt><code>title</code> tag</dt>
-                        <dd>Format:  <code>&lt;title&gt;[Step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
-               </dl>
-               <ul>
-               
-               
-             
-               </div>
-                <h5>Appearance and code</h5>
-				
-            <div class="wb-tabs">
-               <div class="tabpanels">
-                  <details id="step-appearance">
-                     <summary>Appearance</summary>
-                     <main class="panel-body">
-	<!-- 1: GC Subway navigation -->
-	<nav class="gc-subway provisional">
-		<h1>[Service or product name]</h1>
-		<ul>
-			<li><a href="section1-en.html" class="active">[Page 1]</a></li>
-			<li><a href="section2-en.html">[Page 2]</a></li>
-			<li><a href="section3-en.html">[Page 3]</a></li>
-			<li><a href="section4-en.html">[Page 4]</a></li>
-			<li><a href="section5-en.html">[Page 5]</a></li>
-			<li><a href="section6-en.html">[Page 6]</a></li>
-		</ul>
-	</nav>
-
-	<!-- 2: Title -->
-	<h1 property="name" id="wb-cont" class="gc-thickline">[Page 1]</h1>
-
-	<!-- 3: Page content -->
-	<p>(Page content)</p>
-	
-
-	<!-- 4: Document navigation -->
-	<nav class="gc-subway-pagination">
-	<p><strong><span class="fas fa-bell"></span> Reminder:</strong> Don't include the pagintation button if this step page has  <a href="#prominent">prominent navigation links</a> featured in the content area</p>
-		<h2 class="wb-inv">Document navigation</h2>
-		<ul class="pager">
-			<li class="next"><a href="section2-en.html" rel="next"><span class="wb-inv">Next: </span>[Page 2]</a></li>
-		</ul>
-		
-	</nav>
-
-</main>
-                  </details>
-                  <details id="step-code">
-                     <summary>Code</summary>
-                   <pre><code class="language-html" data-lang="html"><span class="nt">&lt;main&gt;</span>
-	<span class="c">&lt;!-- 1: GC Subway navigation --&gt;</span>
-	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway provisional"</span><span class="nt">&gt;</span>
-		<span class="nt">&lt;h1&gt;</span>[Service or product name]<span class="nt">&lt;/h1&gt;</span>
-		<span class="nt">&lt;ul&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section1-en.html"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span><span class="nt">&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section3-en.html"</span><span class="nt">&gt;</span>[Page 3]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section4-en.html"</span><span class="nt">&gt;</span>[Page 4]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section5-en.html"</span><span class="nt">&gt;</span>[Page 5]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section6-en.html"</span><span class="nt">&gt;</span>[Page 6]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-		<span class="nt">&lt;/ul&gt;</span>
-	<span class="nt">&lt;/nav&gt;</span>
-
-	<span class="c">&lt;!-- 2: Title --&gt;</span>
-	<span class="nt">&lt;h1</span> <span class="na">property=</span><span class="s">"name"</span> <span class="na">id=</span><span class="s">"wb-cont"</span> <span class="na">class=</span><span class="s">"gc-thickline"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/h1&gt;</span>
-
-	<span class="c">&lt;!-- 3: Page content --&gt;</span>
-	<span class="nt">&lt;p&gt;</span>Page content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.<span class="nt">&lt;/p&gt;</span>
-	...
-
-	<span class="c">&lt;!-- 4: Document navigation --&gt;</span>
-	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway-pagination"</span><span class="nt">&gt;</span>
-		<span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Document navigation<span class="nt">&lt;/h2&gt;</span>
-		<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"pager"</span><span class="nt">&gt;</span>
-			<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"next"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span> <span class="na">rel=</span><span class="s">"next"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Next: <span class="nt">&lt;/span&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-		<span class="nt">&lt;/ul&gt;</span>
-	<span class="nt">&lt;/nav&gt;</span>
-
-	
-<span class="nt">&lt;/main&gt;</span></code></pre>
-                  </details>
-               </div>
-            </div>
-               </li>
-               <li>
-                  <h4  ><mark>Create any side-step pages, if needed </mark></h4>
-                  <div class="row">
-                     <div class="col-md-8">
-                        
-                        <p >Side-step pages are an optional element that can be added when needed to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
-						  <p >There are two types of side-steps<mark>:</mark></p>
-                        <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
-                           <li class="cnjnctn-col"><a href="#non-connected">Non-connected side-steps</a>
-						   <p>For when the side-step pages are ...</p></li>
-                           <li class="cnjnctn-col"><a href="#connected">Connected side-steps</a>
-						   <p>For when the side-step pages are sequential...</p></li>
-                        </ul>
-						</div></div>
-						<ol class="lst-stps-sub">
-						<li> <h5 id="non-connected">Non-connected side-steps</h5><div class="row">
-				  <div class="col-md-4 ">
-             <p><a class="wb-lbx thumbnail p-sm-3"   href="non-connected-e.jpeg" title="Screenshot: Step page ">Screenshot: Non-connected side-steps
-                  <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md" /></a></p>
-               </div>
-                  <div class="col-md-8">
-                     <dl class="dl-horizontal bg-warning">
-                         
-                           <dt><code>h1</code> heading</dt>
-                           <dd></dd>
-                           <dt>Breadcrumb</dt>
-                           <dd>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</dd>
-                           <dt>Content area</dt>
-                          <dd>			   </dd>
-               <dt>Subway navigation</dt><dd>			   </dd>
-             
-               <dt>Pagination buttons</dt><dd>			   </dd>
-			   <dt><code>title</code> tag</dt>
-                           <dd>Format:  <code>&lt;title&gt;[Side-step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
-               </dl>
-                      
-                        <ul>
-                           
-                           <li></li>
-                           <li>
-                              The task step page which introduces the side-steps should be brief in information and proceed straight to the navigation to the side-steps. Since the page already has links to the side-step pages in the subway menu on the right, there is no need to show the side-step navigation in the main navigation on this page.
-                              <ul>
-                                 <li>Alternatively, the side-step pages can be linked in context of the parent step page's content</li>
-                              </ul>
-                           </li>
-                        </ul>
-						</div>
-						</div>
-                      </li>
-					  <li><h5>Connected side-steps</h5></li>
+						</li>
 					  </ol>
 					  </li>
 					  </ol>
