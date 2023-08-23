@@ -324,8 +324,8 @@
 <li>Has links to the first level of IA only</li>
 <li>Below each links is  a brief description of what the user can find, following the  <a href=../doormats/index.html#h-3_3>doormat link description</a> rules</dd>
              
-               <dt>Pagination buttons</dt><dd><ul class="fa-ul"><li><span class="fas fa-arrow-left fa-li"></span> Backwards:<ul><li> None, since this is the root page for this product or service</li></ul></li>
-               <li><span class="fas fa-arrow-right fa-li"></span> Forwards: <ul><li> None, since the user should make a choice from the subway menu that is promintently featured in the content area</li></ul></li>
+               <dt>Pagination buttons</dt><dd><ul><li>Backwards button:<ul><li> None, since this is the root page for this product or service</li></ul></li>
+               <li>Forwards button: <ul><li> None, since the user should make a choice from the subway menu that is promintently featured in the content area</li></ul></li>
                </ul>
              </dd>
 			   <dt><code>title</code> tag</dt>
@@ -417,7 +417,7 @@
 <ul><li><a href="../../writing/index.html">writing</a> rules</li>
 <li><a href="../index.html">design system components</a> for styling</li>
 </ul>
-						
+	<p class="mrgn-tp-md">When there is a <a href="../toc/index.html">table of contents</a> on the page, consider placing a simple page summary  immediately below the main <code>h1</code> heading.  This can help a search engine algorigthm correctly describe the page in the search results.</p>					
 						
 						
 						
@@ -436,18 +436,17 @@
                         <dd>Appear within the content area at the point of need</dd>
                         <dt>Pagination buttons</dt>
                         <dd>
-                           <ul class="fa-ul">
-               <li><span class="fas fa-arrow-left"></span> Backwards: Do not use a previous button as you want to encourage users to move forward</li>
-               <li><span class="fas fa-arrow-right"></span> Whether a forward button is used depends on if the step page is:  
-			   <ul>
-			   <li>A regular content page: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
-			   <li>Featuring  <a href="#prominent">prominent navigation links</a>: Do not include a pagination button, as the user should choose from the links in the prominent navigation menu</li>
-			 
-			   <li>Featuring <a href="#subtle">subtle navigation links</a>: Place the button on the bottom right of the content, with the name of the next step and a right pointing arrow</li>
+                           <ul>
+               <li>Backwards button: Do not use a previous button as you want to encourage users to move forward</li>
+              <li>Forwards button:  
 			   
 			  
-			   </ul>
-			   </li>
+				<ul>
+				<li>Position on the bottom right of the content</li>
+					<li>Include a right arrow icon after the link text</li>
+					<li>Link to the next step page (if this is the last step then do not include any forward pagination)</li>
+					</ul>
+					</li>
                </ul>
              </dd>
 			   <dt><code>title</code> tag</dt>
@@ -476,7 +475,23 @@
 		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
 	</ul>
 </nav></div>
-<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 1]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 1]</h1></hgroup><p>Introductory statement (recommended for SEO)</p>
+            <h2 class="h3">On this page</h2>
+            <ul>
+               <li><a href="#h-1">Heading A</a></li>
+               <li><a href="#h-2">Heading B</a></li>
+               <li><a href="#h-3">Heading C</a></li>
+              
+			  
+            </ul>
+            <h2 id="h-1">Heading A</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-2">Heading B</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-3">Heading C</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            
+			<nav class="gc-subway-pagination">
 	<h2 class="wb-inv">Document navigation</h2>
 	<ul class="pager">
 		<li class="next"><a href="section2-en.html" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 2]</a><a href="section2-en.html#wb-cont" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 2]</a></li>
@@ -505,7 +520,7 @@
 	<span class="nt">&lt;h1</span> <span class="na">property=</span><span class="s">"name"</span> <span class="na">id=</span><span class="s">"wb-cont"</span> <span class="na">class=</span><span class="s">"gc-thickline"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/h1&gt;</span>
 
 	<span class="c">&lt;!-- 3: Page content --&gt;</span>
-	<span class="nt">&lt;p&gt;</span>Page content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Introductory statement (recommended for SEO)<span class="nt">&lt;/p&gt;</span>
 	...
 
 	<span class="c">&lt;!-- 4: Document navigation --&gt;</span>
@@ -523,7 +538,7 @@
             </div>
                </li>
                <li>
-                  <h4  ><mark>Create side-step pages, if needed </mark></h4>
+                  <h4  ><mark>If needed, create side-step pages and link to them from the step page </mark></h4>
 				  
                   <div class="row">
                      <div class="col-md-8">
@@ -578,16 +593,18 @@
 </nav></li>
                         </ul>
 					<ol class="lst-stps-sub">
-					<li><h5>Re-envision the parent step page</h5>
+					<li><h5>Determine how the step page will link to the side-step page</h5>
 					 
 						
-						<p>If a step page has side-steps, then the content area primarily focuses on the navigation to the side steps. </p>
+						<p>If you <a href="#h-3">create a step page</a> that has side-steps, then the content area design will change, as the primarily focus of that content area is to now feature the navigaiton to the side-steps. </p>
 						<p>There are 3 ways to display the navigation:</p>
+						
 						<ul class="fa-ul">
-						<li class="mrgn-bttm-lg"><span class="fas fa-th-large fa-li fa-lg"></span> <h5>As tiles</h5><p>When the tasks are not all required or applicable to all users:</p> 
+						<li class="mrgn-bttm-lg"><span class="fas fa-th-large fa-li fa-lg"></span> <h5>As tiles</h5><p>Use when there is no required sequential order to the side-steps or the items are not applicable to every user:</p> 
 						
 						<ul>
 								<li>Use the grid system to create link tiles that also include <a href="../doormats/index.html">doormat</a> description text</li>
+								<li>Do <strong>not</strong> include any pagination buttons, as the user should make a choice from the subway menu that is promintently featured in the tile navigation menu</li>
 								<li>Sample:
 								<div class="panel panel-default brdr-rds-0">
 								<div class="panel-body">
@@ -618,10 +635,10 @@
 								
 								</ul>
 								</li>
-						<li><span class="fas fa-list-ol fa-li fa-lg"></span> <h5>As a numbered list</h5><p>When the tasks are sequential:</p>
+						<li><span class="fas fa-list-ol fa-li fa-lg"></span> <h5>As a numbered list</h5><p>Use to create a step-by-step sub-process for content that is best viewed in a sequential order:</p>
 							<ul><li>Introduce with the heading "Steps"</li>
 								<li>Use <a href="../lists/index.html#h-3-2">stylized steps</a> that include <a href="../doormats/index.html">doormat</a> description text</li>
-								
+								<li>Do <strong>not</strong> include any pagination buttons, as the user should make a choice from the subway menu that is promintently featured in the numbered list navigation menu</li>
 								
 								<li>Sample: 
 								<div class="panel panel-default brdr-rds-0">
@@ -638,10 +655,11 @@
 						
 						</div><div class="panel-footer">Live example:</strong> <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/sred-claim.html">How to prepare your claim - Scientific Research and Experimental Development (SR&ED) tax incentives</a></div></div>
 						 </li>
+						 
 						 </ul>
 						 </li>
 						<li><h5><span class="fas fa-link fa-li fa-lg"></span> Subtle navigation links</h5>
-						<p>On <strong>rare occasions</strong>, a step page will be both a content page and still need to be a navigation page to the side-steps. This is only for when the step page features the common task, while the side-step features the supportive or tertiary content. In this situation, create the content as normal and then feature the link(s) to the side-step pages at the point-of-need in the content.</p>
+						<p>Use when the step page contains the primary content and the side-step page only features the supportive or tertiary content. This is done is <strong>rare</strong> situations, where the user can likely get what they need from the main step page, but for any appendix-like information, there the details are contained in the side-steps. In this situation, populate the step page content as normal, and then just feature the side-step links at the point-of-need in that content.</p>
 						<ul class="list-unstyled">
 								
 								<li><strong>Step page live example:</strong> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/calculate-expenses.html">Calculate your expenses - Home office expenses for employees</a>
@@ -659,21 +677,114 @@
 					</li>
 					<li><h5>Design the side-step pages</h5>
 					<p>asd</p>
-					
-<dl class="dl-horizontal bg-warning">
-                         
-                           <dt><code>h1</code> heading</dt>
-                           <dd></dd>
-                           <dt>Breadcrumb</dt>
-                           <dd>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</dd>
-                           <dt>Content area</dt>
-                          <dd>			   </dd>
-               <dt>Subway navigation</dt><dd>			   </dd>
+					<div class="row">
+				  <div class="col-md-4 ">
+             <p><a class="wb-lbx thumbnail p-sm-3 wb-init wb-lbx-inited" href="non-connected-e.jpeg" title="Screenshot: Step page " id="wb-auto-12">Screenshot: Non-connected page 
+                  <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md"></a></p>
+				  <hr>
+				  <p><a class="wb-lbx thumbnail p-sm-3 wb-init wb-lbx-inited" href="connected-e.jpeg" title="Screenshot: Step page " id="wb-auto-12">Screenshot: Connected page 
+                  <img src="connected-e.jpeg" alt="Screenshot" class="img-responsive mrgn-tp-md"></a></p>
+               </div>
+                  <div class="col-md-8">
+                     
+                     <dl class="dl-horizontal bg-warning">
+                        
+                        <dt><code>h1</code> headings</dt>
+                        <dd>The steps pages in a subway have 2 first-level (<code>h1</code>) headings:
+<ul><li><strong>First <code>h1</code> heading:</strong> This is the smaller dark grey heading and must match the <code>h1</code> on the index page</li>
+<li><strong>Second <code>h1</code> heading:</strong> 
+
+						This is the larger black heading and...</li></ul></dd>
+                        <dt>Breadcrumb</dt>
+                        <dd>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the side-steps (e.g. Index page &gt; Step page &gt; side-step page).</dd>
+                        <dt>Content area</dt>
+                        <dd><p>Everthing in the content area must adhere to:</p>
+<ul><li><a href="../../writing/index.html">writing</a> rules</li>
+<li><a href="../index.html">design system components</a> for styling</li>
+<li>Lead in an introductory statement, as this is often what a search engines will display in search results</li>
+</ul>
+<p class="mrgn-tp-md">When there is a <a href="../toc/index.html">table of contents</a> on the page, consider placing a simple page summary  immediately below the main <code>h1</code> heading.  This can help a search engine algorigthm correctly describe the page in the search results.</p>
+						
+						
+						
+						
+			  </dd>
+                        <dt>Subway navigation</dt>
+                        <dd><ul>
              
-               <dt>Pagination buttons</dt><dd>			   </dd>
+               <li>Has a header called "Sections"</li>
+               <li>Has a vertical line that connects the step pages together</li>
+			   <li>Has a solid fill circle on the active page</li>
+			    <li>Has plain language, task-based content that helps the user to complete the step</li>
+              
+               </ul>
+              </dd>
+                        <dt>Supportive links</dt>
+                        <dd>Appear within the content area at the point of need</dd>
+                        <dt>Pagination buttons</dt>
+                        <dd>
+						<ul>
+						<li><strong>Non-connected pagination:</strong>
+						<ul>
+               <li>Backwards button:  
+			   
+			  
+				<ul>
+				<li>Position on the bottom left of the content</li>
+					<li>Include a left arrow icon before the link text</li>
+					<li>Link back to the parent step page </li>
+					</ul>
+					</li>
+               <li>Forwards button:  
+			   
+			  
+				<ul>
+				<li>Position on the bottom right of the content</li>
+					<li>Include a right arrow icon after the link text</li>
+					<li>Link to the next natural step the user will take (often this is a level up to the next step page) </li>
+					</ul>
+					</li>
+			 
+			   
+			  
+			   </ul>
+			   </li>
+               <li><strong>Connected pagination:</strong>
+                           <ul>
+               <li>Backwards button:  
+			   
+			  
+				<ul>
+				<li>Position on the bottom left of the content</li>
+					<li>Include a left arrow icon before the link text</li>
+					<li>Link back to the parent step page </li>
+					</ul>
+					</li>
+               <li>Forwards button:  
+			   
+			  
+				<ul>
+				<li>Position on the bottom right of the content</li>
+					<li>Include a right arrow icon after the link text</li>
+					<li>Link to the next side-step page, or if this is the last side-step, then level up to the next step page </li>
+					</ul>
+					</li>
+			 
+               </ul>
+			   </li>
+			   </ul>
+             </dd>
 			   <dt><code>title</code> tag</dt>
-                           <dd>Format:  <code>&lt;title&gt;[Side-step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
+                        <dd>Format:  <code>&lt;title&gt;[Side-step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
                </dl>
+			  
+               <ul>
+               
+               
+             
+               </ul></div>
+			   </div>
+ 
 
                      
 					  <h5>Appearance and code</h5>
@@ -700,11 +811,25 @@
 		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
 	</ul>
 </nav></div>
-<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Introductory statement (recommended for SEO)</p>
+            <h2 class="h3">On this page</h2>
+            <ul>
+               <li><a href="#h-1">Heading A</a></li>
+               <li><a href="#h-2">Heading B</a></li>
+               <li><a href="#h-3">Heading C</a></li>
+              
+			  
+            </ul>
+            <h2 id="h-1">Heading A</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-2">Heading B</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-3">Heading C</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p><nav class="gc-subway-pagination">
 	<h2 class="wb-inv">Document navigation</h2>
 	<ul class="pager">
 		<li class="previous"><a href="#" rel="prev" class="hidden-xs hidden-sm"><span class="wb-inv">Previous: </span>[Page 3]</a><a href="#" rel="prev" class="hidden-md hidden-lg"><span class="wb-inv">Previous: </span>[Page 3]</a></li>
-		<li class="next"><a href="#" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 3b]</a><a href="#" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 3b]</a></li>
+		<li class="next"><a href="#" rel="next" class="hidden-xs hidden-sm"><span class="wb-inv">Next: </span>[Page 4]</a><a href="#" rel="next" class="hidden-md hidden-lg"><span class="wb-inv">Next: </span>[Page 3b]</a></li>
 	</ul>
 </nav></section>
                      </main>
@@ -730,7 +855,21 @@
 		<li><a href="#" class="hidden-xs hidden-sm">[Page 6]</a><a href="#" class="hidden-md hidden-lg">[Page 6]</a></li>
 	</ul>
 </nav></div>
-<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae. Nulla nec convallis felis. Ut pretium nisl nisi. Nam gravida gravida aliquet. Morbi tincidunt lorem in purus imperdiet, id rutrum mauris sodales. Vivamus nec mattis tellus. Nunc turpis dolor, malesuada non magna nec, scelerisque tristique velit.</p><p>Sed consectetur eu ligula a molestie. Vivamus convallis libero malesuada pharetra suscipit. In a pulvinar mi, quis aliquet mauris. Duis convallis nunc nunc, in euismod nisi volutpat sit amet. Integer convallis lacus non orci imperdiet, ac convallis massa mollis. Aliquam erat volutpat. Ut maximus euismod auctor. Ut ac gravida nunc. Nam non efficitur neque. Pellentesque tincidunt, libero luctus condimentum laoreet, turpis magna maximus nibh, at cursus lectus tellus in augue. Aenean scelerisque eros dui, at tincidunt eros tristique nec.</p><p>Duis vel lacus elit. Mauris rhoncus urna at enim fermentum, eget fermentum est ornare. Pellentesque porttitor bibendum venenatis. Nam tempor vel felis a fringilla. Integer dui nisl, sagittis nec risus a, fermentum euismod purus. Vivamus dictum, elit quis varius eleifend, purus leo scelerisque metus, id fermentum nulla neque eget elit. Etiam vel vestibulum justo, a scelerisque eros.</p><p>Nam elementum sit amet sem id finibus. Vivamus et sagittis dolor. Curabitur semper libero ac maximus viverra. Sed sed mollis nulla. Quisque ornare sapien dictum elit fermentum, ut efficitur sem placerat. Praesent nulla enim, venenatis at finibus quis, semper eu nisl. Nam finibus ante vel lacus accumsan, vitae tincidunt massa porta. Donec ullamcorper pharetra ex et dapibus. Pellentesque et viverra nibh. Pellentesque non ante sodales, interdum sapien vitae, gravida risus.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc aliquam felis massa, ut congue enim faucibus in. Vivamus rhoncus elit in pharetra bibendum. In fringilla justo non consectetur feugiat. Ut bibendum nisi lacus, eu dapibus massa semper sit amet. Fusce condimentum pretium libero eget fermentum. Duis feugiat velit at commodo accumsan. Nunc in felis leo.</p><nav class="gc-subway-pagination">
+<section class="gc-subway-section"><hgroup><p>[Service or product name]</p><h1 property="name" id="wb-cont" class="gc-thickline">[Page 3a]</h1></hgroup><p>Introductory statement (recommended for SEO)</p>
+            <h2 class="h3">On this page</h2>
+            <ul>
+               <li><a href="#h-1">Heading A</a></li>
+               <li><a href="#h-2">Heading B</a></li>
+               <li><a href="#h-3">Heading C</a></li>
+              
+			  
+            </ul>
+            <h2 id="h-1">Heading A</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-2">Heading B</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
+            <h2 id="h-3">Heading C</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p><nav class="gc-subway-pagination">
 	<h2 class="wb-inv">Document navigation</h2>
 	<ul class="pager">
 		<li class="previous"><a href="#" rel="prev" class="hidden-xs hidden-sm"><span class="wb-inv">Previous: </span>[Page 3]</a><a href="#" rel="prev" class="hidden-md hidden-lg"><span class="wb-inv">Previous: </span>[Page 3]</a></li>
@@ -803,278 +942,7 @@
 					  </li>
 					  </ol>
                      
-                  <div class="wb-tabs mrgn-bttm-lg">
-                     <div class="tabpanels">
-                        <details id="tab1">
-                           <summary>Non-connected side-steps</summary>
-                           <div id="non-connected">
-                              <div class="col-md-8">
-                                 <p >How to implement</p>
-                                 <ul>
-                                    <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
-                                 </ul>
-                                 <h4 >Non-connected side-steps</h4>
-                                 <p >When to use</p>
-                                 <p >Break up a large step into smaller pieces of mutually exclusive information, such as unrelated sub-tasks or content that relates to a specific audience.</p>
-                                 <h5 >Step page for non-connected side-steps</h5>
-                                 <p >How to implement</p>
-                                 <p >In the main content area, the task step index page uses the <a href=https://design.canada.ca/common-design-patterns/services-information.html>Services and information - Canada.ca design pattern</a>, 2 across with links and doormats</p>
-                                 <ul>
-                                    <li>Expand the right subway menu to include the side-steps</li>
-                                    <li>Do not include a connecting line between the side-steps</li>
-                                 </ul>
-                                 <p >Design options</p>
-                                 <p >iframe/Code</p>
-                                 <h5 >Non-connected side-step pages</h5>
-                                 <p >How to implement</p>
-                                 <ul>
-                                    <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
-                                 </ul>
-                                 <p >Design options</p>
-                                 <p >iframe/Code</p>
-                              </div>
-                              <div class="col-md-4 ">
-                                 <div class="thumbnail p-sm-3">
-                                    <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
-                                    <ul class="list-unstyled mrgn-bttm-md">
-                                       <li>
-                                          <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
-                                       </li>
-                                       <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
-                                       <li class="mrgn-tp-md">Screenshot:
-                                          <img src="non-connected-e.jpeg" alt="Screenshot" class="img-responsive ">
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </details>
-                        <details id="tab2">
-                           <summary>Connected side-steps</summary>
-                           <div  id="connected">
-                              <div class="col-md-8">
-                                 <p >How to implement</p>
-                                 <ul>
-                                    <li>Navigation with pagination should lead back (Previous) to the parent step page, and should lead to (Next) the next step item as the side-step pages are not in sequential order</li>
-                                 </ul>
-                                 <h4 >Connected side-steps</h4>
-                                 <p >When to use</p>
-                                 <p >Use to break up a large step into smaller steps.</p>
-                                 <h5 >Step page for connected side-step pages</h5>
-                                 <p >How to implement</p>
-                                 <ul>
-                                    <li>Use the stylized list steps pattern in the content area</li>
-                                    <li>Expand the right subway menu to include the side-steps</li>
-                                    <li>Include a connecting line between the side-steps</li>
-                                 </ul>
-                                 <p >Design options</p>
-                                 <p >iframe/Code</p>
-                                 <h5 >Connected side-step page</h5>
-                                 <p >How to implement</p>
-                                 <ul>
-                                    <li>Navigation with pagination should lead to the next side-step item</li>
-                                    <li>The last side-step item will paginate up to the next step item</li>
-                                 </ul>
-                                 <p >Design options</p>
-                                 <p >iframe/Code</p>
-                              </div>
-                              <div class="col-md-4 ">
-                                 <div class="thumbnail p-sm-3">
-                                    <h5 class="mrgn-tp-0" id="h-3"><del>Design options</del> Appearance and code</h5>
-                                    <ul class="list-unstyled mrgn-bttm-md">
-                                       <li>
-                                          <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-eye mrgn-rght-md"></span>View the demo</a>
-                                       </li>
-                                       <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4417/rc4417-12-13e.pdf" role="button"><span class="fas fa-code mrgn-rght-md"></span>Get the code</a></li>
-                                       <li class="mrgn-tp-md">Screenshot:
-                                          <img src="connected-e.jpeg" alt="Screenshot" class="img-responsive ">
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </details>
-                     </div>
-                  </div>
-               </li>
-            </ol>
-            <!--    <h2 id="h-4">Examples</h2>
-               <section id="filteredAppsList" class="wb-tagfilter provisional">
-                  <div class="row">
-                     <div class="col-xs-12 col-sm-4 col-lg-3">
-                        <h3 class="mrgn-tp-0"><span class="fas fa-filter"></span> Filter options</h3>
-                        <div class="form-group ">
-                           <fieldset>
-                              <legend class="mrgn-bttm-0"><span class="field-name"><small>Navigation structure</small></span></legend>
-                              <ul class="list-unstyled">
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="" checked> All sections
-                                    </label>
-                                 </li>
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="a">Introduce the concept
-                                    </label>
-                                 </li>
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="b">Who it's for
-                                    </label>
-                                 </li>
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="c">What the user has to do
-                                    </label>
-                                 </li>
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="d">After the core activity is done
-                                    </label>
-                                 </li>
-                                 <li class="radio">
-                                    <label>
-                                    <input type="radio" name="platform" class="wb-tagfilter-ctrl" value="e"> Contact details
-                                    </label>
-                                 </li>
-                              </ul>
-                           </fieldset>
-                        </div>
-                     </div>
-                     <div class="col-xs-12 col-sm-8 col-lg-9">
-                        <div class="row wb-eqht-grd wb-tagfilter-items">
-                           <div class="col-sm-6" >
-                              <div class="well brdr-rds-0 hght-inhrt">
-                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a></h3>
-                                 <ul>
-                                    <li data-wb-tags="a">(main index page)</li>
-                                    <li data-wb-tags="a">What is the DTC</li>
-                                    <li data-wb-tags="b">
-                                       Who is eligible
-                                       <details class="max-content">
-                                          <summary>Sub-list</summary>
-                                          <ul class="fa-ul">
-                                             <li>Walking</li>
-                                             <li>Mental functions</li>
-                                             <li>Dressing</li>
-                                             <li>Feeding</li>
-                                             <li>Eliminating (bowel or bladder functions)</li>
-                                             <li>Hearing</li>
-                                             <li>Speaking</li>
-                                             <li>Vision</li>
-                                             <li>Life-sustaining therapy</li>
-                                          </ul>
-                                       </details>
-                                    </li>
-                                    <li data-wb-tags="c">How to apply</li>
-                                    <li data-wb-tags="d">Our review and decision</li>
-                                    <li data-wb-tags="d">Claiming the credit</li>
-                                    <li data-wb-tags="e">Contact us</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-sm-6" >
-                              <div class="well brdr-rds-0 hght-inhrt">
-                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit.html">Canada Dental Benefit</a></h3>
-                                 <ul>
-                                    <li data-wb-tags="a">(main index page)</li>
-                                    <li data-wb-tags="b">
-                                       Who can apply
-                                       <details class="max-content">
-                                          <summary>Sub-list</summary>
-                                          <ul>
-                                             <li>Additional payment if dental costs are over $650</li>
-                                          </ul>
-                                       </details>
-                                    </li>
-                                    <li data-wb-tags="b">How much you can get</li>
-                                    <li data-wb-tags="c">Get ready to apply</li>
-                                    <li data-wb-tags="c">How to apply</li>
-                                    <li data-wb-tags="d">Return a payment</li>
-                                    <li data-wb-tags="e">Contact us</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-sm-6" >
-                              <div class="well   hght-inhrt">
-                                 <h3 class="mrgn-tp-0" ><a href="https://web.archive.org/web/20221230001937/https://www.canada.ca/en/services/taxes/child-and-family-benefits/top-up-canada-housing-benefit.html">One-time top-up to the Canada Housing Benefit</a> <span class="label label-warning small">Archived link</span></h3>
-                                 <ul>
-                                    <li data-wb-tags="a">(main index page)</li>
-                                    <li data-wb-tags="b">
-                                       Who can apply
-                                       <details class="max-content">
-                                          <summary>Sub-list</summary>
-                                          <ul>
-                                             <li>What is eligible rent</li>
-                                             <li>Estimate your income and rent</li>
-                                          </ul>
-                                       </details>
-                                    </li>
-                                    <li data-wb-tags="c">Get ready to apply</li>
-                                    <li data-wb-tags="c">How to apply</li>
-                                    <li data-wb-tags="d">
-                                       After you apply
-                                       <details class="max-content">
-                                          <summary>Sub-list</summary>
-                                          <ul>
-                                             <li>When to expect your payment</li>
-                                             <li>If your application is selected for review</li>
-                                             <li>If you disagree with the decision</li>
-                                             <li>Return the payment</li>
-                                          </ul>
-                                       </details>
-                                    </li>
-                                    <li data-wb-tags="e">Contact the CRA</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-sm-6 " >
-                              <div class="well brdr-rds-0 hght-inhrt">
-                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html">Canada Child Benefit</a></h3>
-                                 <ul>
-                                    <li data-wb-tags="a">(main index page)</li>
-                                    <li data-wb-tags="b">Who can apply</li>
-                                    <li data-wb-tags="b">How much you can get</li>
-                                    <li data-wb-tags="c">Apply</li>
-                                    <li data-wb-tags="d">Payment dates</li>
-                                    <li data-wb-tags="d">Keep getting your payment</li>
-                                    <li data-wb-tags="e">Contact the CRA</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-sm-6 " >
-                              <div class="well brdr-rds-0 hght-inhrt">
-                                 <h3 class="mrgn-tp-0" ><a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&ED) tax incentives</a></h3>
-                                 <ul>
-                                    <li data-wb-tags="a">(main index page)</li>
-                                    <li data-wb-tags="a">What are SR&ED tax incentives</li>
-                                    <li data-wb-tags="b">What work is eligible</li>
-                                    <li data-wb-tags="c">
-                                       How to prepare your claim
-                                       <details class="max-content">
-                                          <summary>Sub-list</summary>
-                                          <ul>
-                                             <li>Get an investment tax credit (ITC)Get ready to claim</li>
-                                             <li>Group work into SR&ED projects</li>
-                                             <li>Get the T661 expenditures claim form</li>
-                                             <li>Calculate allowable expenditures</li>
-                                             <li>Calculate pool of deductible expenditures</li>
-                                             <li>Calculate qualified expenditures</li>
-                                             <li>Get an investment tax credit (ITC)</li>
-                                          </ul>
-                                       </details>
-                                    </li>
-                                    <li data-wb-tags="c">Submit your claim</li>
-                                    <li data-wb-tags="d">After you claim</li>
-                                    <li data-wb-tags="e">Contact us</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section> 
-               -->
+       
             <h2 id="h-4">Research and blog posts</h2>
             <p >This pattern was developed with CRA during an optimization project on the Canada Child Benefit. It has been further tested on numerous other benefit programs, including the covid-19 benefits. It works well on mobile devices and is an effective way to show the relationship between related pages.</p>
             <div class="container">
