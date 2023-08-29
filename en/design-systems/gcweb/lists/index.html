@@ -796,9 +796,11 @@
                     <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#group1, #group2", "class": " hidden                  "} ]}'>
                       <p><span class="h4">Style</span></p>
                       <ul>
-                        <li data-wb-fieldflow='[{"action": "removeClass", "source": "#group1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-group1", "live": true}]'>Default</li>
-                        <li data-wb-fieldflow='[{"action": "removeClass", "source": "#group2", "class": "hidden", "live": true}, {"action": "addClass", "source": "#group1hidden", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-group2", "live": true}]'>With links</li>
-                      </ul>
+                        <p><span class="h4">Style</span></p>
+                        <ul>
+                          <li data-wb-fieldflow='[{"action": "removeClass", "source": "#group1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-group1", "live": true}]'>Default</li>
+                          <li data-wb-fieldflow='[{"action": "removeClass", "source": "#group2", "class": "hidden", "live": true}, {"action": "addClass", "source": "#group1hidden", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-group2", "live": true}]'>With links</li>
+                        </ul>
                     </div>
                   </div>
                   <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#info1, #active1, #warning1, #danger1, #info2, #active2, #warning2, #danger2", "class": "list-group-item-info list-group-item-success list-group-item-warning list-group-item-danger"} ]}'>
@@ -886,7 +888,7 @@
                       </span>
                       <span id="group2" class="hidden">
                         <div class="list-group" role="list">
-                          <a href="#" class="list-group-item" role="list-item" id="info2">
+                          <a href="#" class="list-group-item" role="list-item" id="info1">
                             <span class="hidden cl-head">
                               <h4 class="list-group-item-heading">Heading</h4>
                             </span>
@@ -896,7 +898,7 @@
                               <p class="list-group-item-text">List item</p>
                             </span>
                           </a>
-                          <a href="#" class="list-group-item" role="list-item" id="active2">
+                          <a href="#" class="list-group-item" role="list-item" id="active1">
                             <span class="hidden cl-head">
                               <h4 class="list-group-item-heading">Heading</h4>
                             </span>
@@ -906,7 +908,7 @@
                               <p class="list-group-item-text">List item</p>
                             </span>
                           </a>
-                          <a href="#" class="list-group-item" role="list-item" id="warning2">
+                          <a href="#" class="list-group-item" role="list-item" id="warning1">
                             <span class="hidden cl-head">
                               <h4 class="list-group-item-heading">Heading</h4>
                             </span>
@@ -915,7 +917,7 @@
                               <p class="list-group-item-text">List item</p>
                             </span>
                           </a>
-                          <a href="#" class="list-group-item" role="list-item" id="danger2">
+                          <a href="#" class="list-group-item" role="list-item" id="danger1">
                             <span class="hidden cl-head">
                               <h4 class="list-group-item-heading">Heading</h4>
                             </span>
@@ -956,134 +958,134 @@
             <!-- Field flow warnings -->
             <div class="mrgn-tp-md "></div>
           </div>
-        </div>
-        <h3 id="h-2-7">Enhancement: Create an interactive checklist</h3>
-        <p>Checklists help people break down complex eligibility lists to ensure that they meet all criteria.</p>
-        <p>Since coding them is more complex and requires custom JavaScript, you must contact <a href="mailto:weboptimizg@cra-arc.gc.ca">weboptimizg@cra-arc.gc.ca</a> before implementing.</p>
-        <h4>Supporting research</h4>
 
-        <p>The Digital Transformation Office (DTO) has been studying the use of interactive checklists to simplify the way we present eligibility criteria.</p>
-        Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html">Using interactive checklists to simplify eligibility criteria</a> </p>
-        <div class="row">
-          <div class="col-md-6">
+          <h3 id="h-2-7">Enhancement: Create an interactive checklist</h3>
+          <p>Checklists help people break down complex eligibility lists to ensure that they meet all criteria.</p>
+          <p>Since coding them is more complex and requires custom JavaScript, you must contact <a href="mailto:weboptimizg@cra-arc.gc.ca">weboptimizg@cra-arc.gc.ca</a> before implementing.</p>
+          <h4>Supporting research</h4>
 
-            <h4 class="text-muted">Correct use</h4>
-            <ul class="fa-ul">
-              <li><span class="fas fa-check fa-li text-success"></span>Lead with an opening sentence that informs the users that they must meet <strong>all</strong> the criteria</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Start with the criteria that will eliminate the largest number of people, to reduce the number of unnecessary questions people will answer before determining that they do not qualify</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (such as age, timelines, basic situation) and progress to more complex criteria</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Have 3 dynamically changing alerts:
-                <ul>
-                  <li>When no boxes checked, use the following template:
-                    <div class="alert alert-info provisional">
-                      <h4>You need all of the above to be eligible</h4>
+          <p>The Digital Transformation Office (DTO) has been studying the use of interactive checklists to simplify the way we present eligibility criteria.</p>
+          Refer to: <a href="https://blog.canada.ca/2020/11/12/interactive-checklists.html">Using interactive checklists to simplify eligibility criteria</a> </p>
+          <div class="row">
+            <div class="col-md-6">
 
-                      <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
-                      <p>(Further information here)</p>
+              <h4 class="text-muted">Correct use</h4>
+              <ul class="fa-ul">
+                <li><span class="fas fa-check fa-li text-success"></span>Lead with an opening sentence that informs the users that they must meet <strong>all</strong> the criteria</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Start with the criteria that will eliminate the largest number of people, to reduce the number of unnecessary questions people will answer before determining that they do not qualify</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Start with easier criteria (such as age, timelines, basic situation) and progress to more complex criteria</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Have 3 dynamically changing alerts:
+                  <ul>
+                    <li>When no boxes checked, use the following template:
+                      <div class="alert alert-info provisional">
+                        <h4>You need all of the above to be eligible</h4>
 
-                    </div>
+                        <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
+                        <p>(Further information here)</p>
 
-                  </li>
-                  <li>When some boxes are checked, use the following template:
-                    <div class="alert alert-warning  provisional">
-                      <h4>You need all of the above to be eligible</h4>
+                      </div>
 
-                      <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
-                      <p>(Further information here)</p>
-
-                    </div>
-                  </li>
-                  <li>When all boxes checked, use the following template:
-                    <div class="alert alert-success provisional">
-                      <h4>You may be eligible for (situation)</h4>
-
-                      <p>(Further information here)</p>
-
-                    </div>
-                  </li>
-
-                </ul>
-              </li>
-
-            </ul>
-
-          </div>
-          <div class="col-md-6">
-            <div class="panel panel-default brdr-rds-0">
-              <div class="panel-heading">
-                <h4 class="panel-title">Demo</h4>
-              </div>
-              <div class="panel-body">
-                <section class="chcklst chcklst1">
-
-                  <p class="lead">You must meet <strong>all</strong> of the following criteria in order to qualify:</p>
-                  <ul class="checkbox-zebra gc-chckbxrdio">
-                    <li class="checkbox" id="chbx-p1-age">
-                      <input type="checkbox" id="checkbox1" class="action-checkbox-1 cb-dmm">
-                      <label for="checkbox1">(Criteria 1)</label>
                     </li>
-                    <li class="checkbox" id="chbx-p1-dental-care">
-                      <input type="checkbox" id="checkbox2" class="action-checkbox-1 cb-dmm">
-                      <label for="checkbox2">
-                        <p>(Criteria 2)</p>
-                        <details class="mrgn-rght-md mrgn-tp-md">
-                          <summary>(Further information if needed)</summary>
-                          <p>(Details here)</p>
-                        </details>
-                      </label>
-                    </li>
+                    <li>When some boxes are checked, use the following template:
+                      <div class="alert alert-warning  provisional">
+                        <h4>You need all of the above to be eligible</h4>
 
-                    <li class="checkbox" id="chbx-p1-ccb">
-                      <input type="checkbox" id="checkbox3" class="action-checkbox-1 cb-dmm">
-                      <label for="checkbox3">
-                        <div class="cnjnctn-type-or mrgn-tp-0 brdr-lft-0">
-                          <div class="cnjnctn-col">
-                            <p>(Criteria 3A)</p>
-                            <details class="mrgn-bttm-md">
-                              <summary>(Further information if needed)</summary>
-                              <p>(Details here)</p>
-                            </details>
-                          </div>
-                          <div class="cnjnctn-col">
-                            <p>(Criteria 3B)</p>
-                            <details>
-                              <summary>(Further information if needed)</summary>
-                              <p>(Details here)</p>
-                            </details>
-                          </div>
-                        </div>
-                      </label>
+                        <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
+                        <p>(Further information here)</p>
+
+                      </div>
+                    </li>
+                    <li>When all boxes checked, use the following template:
+                      <div class="alert alert-success provisional">
+                        <h4>You may be eligible for (situation)</h4>
+
+                        <p>(Further information here)</p>
+
+                      </div>
                     </li>
 
                   </ul>
-                  <!--No boxes checked-->
-                  <div class="alert alert-info provisional" id="action-no-msg-1">
-                    <h4>You need all of the above to be eligible</h4>
-                    <div>
-                      <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
-                      <p>(Further information here)</p>
+                </li>
+
+              </ul>
+
+            </div>
+            <div class="col-md-6">
+              <div class="panel panel-default brdr-rds-0">
+                <div class="panel-heading">
+                  <h4 class="panel-title">Demo</h4>
+                </div>
+                <div class="panel-body">
+                  <section class="chcklst chcklst1">
+
+                    <p class="lead">You must meet <strong>all</strong> of the following criteria in order to qualify:</p>
+                    <ul class="checkbox-zebra gc-chckbxrdio">
+                      <li class="checkbox" id="chbx-p1-age">
+                        <input type="checkbox" id="checkbox1" class="action-checkbox-1 cb-dmm">
+                        <label for="checkbox1">(Criteria 1)</label>
+                      </li>
+                      <li class="checkbox" id="chbx-p1-dental-care">
+                        <input type="checkbox" id="checkbox2" class="action-checkbox-1 cb-dmm">
+                        <label for="checkbox2">
+                          <p>(Criteria 2)</p>
+                          <details class="mrgn-rght-md mrgn-tp-md">
+                            <summary>(Further information if needed)</summary>
+                            <p>(Details here)</p>
+                          </details>
+                        </label>
+                      </li>
+
+                      <li class="checkbox" id="chbx-p1-ccb">
+                        <input type="checkbox" id="checkbox3" class="action-checkbox-1 cb-dmm">
+                        <label for="checkbox3">
+                          <div class="cnjnctn-type-or mrgn-tp-0 brdr-lft-0">
+                            <div class="cnjnctn-col">
+                              <p>(Criteria 3A)</p>
+                              <details class="mrgn-bttm-md">
+                                <summary>(Further information if needed)</summary>
+                                <p>(Details here)</p>
+                              </details>
+                            </div>
+                            <div class="cnjnctn-col">
+                              <p>(Criteria 3B)</p>
+                              <details>
+                                <summary>(Further information if needed)</summary>
+                                <p>(Details here)</p>
+                              </details>
+                            </div>
+                          </div>
+                        </label>
+                      </li>
+
+                    </ul>
+                    <!--No boxes checked-->
+                    <div class="alert alert-info provisional" id="action-no-msg-1">
+                      <h4>You need all of the above to be eligible</h4>
+                      <div>
+                        <p>To be eligible for (situation), you must meet <strong>all</strong> of the above criteria.</p>
+                        <p>(Further information here)</p>
+                      </div>
                     </div>
-                  </div>
-                  <!--All boxes checked-->
-                  <div class="alert alert-success hidden provisional" id="action-msg1-1">
-                    <h4>You may be eligible for (situation)</h4>
-                    <div>
-                      <p>(Further information here)</p>
+                    <!--All boxes checked-->
+                    <div class="alert alert-success hidden provisional" id="action-msg1-1">
+                      <h4>You may be eligible for (situation)</h4>
+                      <div>
+                        <p>(Further information here)</p>
+                      </div>
                     </div>
-                  </div>
-                  <!--Some boxes checked-->
-                  <div class="alert alert-warning hidden provisional" id="action-msg2-1">
-                    <h4>You need all of the above to be eligible</h4>
-                    <div>
-                      <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
-                      <p>(Further information here)</p>
+                    <!--Some boxes checked-->
+                    <div class="alert alert-warning hidden provisional" id="action-msg2-1">
+                      <h4>You need all of the above to be eligible</h4>
+                      <div>
+                        <p>To be eligible for the (situation), you must meet all of the above criteria.</p>
+                        <p>(Further information here)</p>
+                      </div>
                     </div>
-                  </div>
-                </section>
+                  </section>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
 
 
@@ -1091,249 +1093,249 @@
 
 
 
-        <h2 id="h-3">Numbered, alpha or roman (ordered) list</h2>
-        <h3 id="h-3-1">Basic: Numbered, alpha or roman list</h3>
-        <p>Use an ordered list to list items when the order <strong>does</strong> matter.</p>
+          <h2 id="h-3">Numbered, alpha or roman (ordered) list</h2>
+          <h3 id="h-3-1">Basic: Numbered, alpha or roman list</h3>
+          <p>Use an ordered list to list items when the order <strong>does</strong> matter.</p>
 
-        <dl class="dl-horizontal">
-          <dt>Structure</dt>
-          <dd>
-            <p><strong>Numbered lists</strong></p>
+          <dl class="dl-horizontal">
+            <dt>Structure</dt>
+            <dd>
+              <p><strong>Numbered lists</strong></p>
 
-            <ul class="fa-ul">
-              <li>
-                <span class="fas fa-check fa-li text-success"></span>Use numbered lists to show:
-                <ul>
-                  <li>Ranking </li>
-                  <li>Order</li>
-                  <li>Priority </li>
-                  <li>Step-by-step instructions </li>
-                </ul>
+              <ul class="fa-ul">
+                <li>
+                  <span class="fas fa-check fa-li text-success"></span>Use numbered lists to show:
+                  <ul>
+                    <li>Ranking </li>
+                    <li>Order</li>
+                    <li>Priority </li>
+                    <li>Step-by-step instructions </li>
+                  </ul>
 
-              </li>
-            </ul>
-            <p><strong>Alpha lists</strong></p>
+                </li>
+              </ul>
+              <p><strong>Alpha lists</strong></p>
 
-            <ul class="fa-ul">
-              <li>
-                <span class="fas fa-check fa-li text-success"></span>Use to display letters instead of numbers
+              <ul class="fa-ul">
+                <li>
+                  <span class="fas fa-check fa-li text-success"></span>Use to display letters instead of numbers
 
-              </li>
+                </li>
 
-              <li><span class="fas fa-check fa-li text-success"></span>Try to avoid, as alpha lists are not a typical way of displaying information</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Used mainly in legal documents or for sub-steps when combined with numbers (such as steps 1a, 1b, 1c)</li>
-            </ul>
+                <li><span class="fas fa-check fa-li text-success"></span>Try to avoid, as alpha lists are not a typical way of displaying information</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Used mainly in legal documents or for sub-steps when combined with numbers (such as steps 1a, 1b, 1c)</li>
+              </ul>
 
-            <p><strong>Roman numeral lists</strong></p>
+              <p><strong>Roman numeral lists</strong></p>
 
-            <ul class="fa-ul">
-              <li>
-                <span class="fas fa-check fa-li text-success"></span>Use to display Roman (<abbr title="Roman numeral one two three four">I, II, III, IV</abbr> or <abbr title="Lower case Roman numeral one two three four">i, ii, iii, iv</abbr>…) instead of Arabic (1, 2, 3, 4…) numerals
+              <ul class="fa-ul">
+                <li>
+                  <span class="fas fa-check fa-li text-success"></span>Use to display Roman (<abbr title="Roman numeral one two three four">I, II, III, IV</abbr> or <abbr title="Lower case Roman numeral one two three four">i, ii, iii, iv</abbr>…) instead of Arabic (1, 2, 3, 4…) numerals
 
-              </li>
-              <li><span class="fas fa-check fa-li text-success"></span>Try to avoid, as many people do not understand Roman numerals</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Used mainly in legal documents </li>
-            </ul>
-          </dd>
+                </li>
+                <li><span class="fas fa-check fa-li text-success"></span>Try to avoid, as many people do not understand Roman numerals</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Used mainly in legal documents </li>
+              </ul>
+            </dd>
 
-          <dt>Capitalization</dt>
-          <dd>
-            <p>Capitalize the first word of every list item. This improves the user's ability to scan, as mentioned in the article <a href="https://www.nngroup.com/articles/presenting-bulleted-lists/">7 Tips for Presenting Bulleted Lists in Digital Content</a>, by the Nielsen Norman Group.</p>
-          </dd>
-          <dt>Punctuation</dt>
-          <dd>
-            <p>Don't end the list items with any punctuation</p>
-          </dd>
-        </dl>
-        <h4>Appearance and code</h4>
-        <p>Design treatments can be applied. Review the options and get the code.</p>
-        <div class="row">
-          <!-- Field flow options -->
-          <div class="col-md-4 ds-modifier">
-            <form>
-              <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
-              <div class="radioselected">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#ol1", "class": " lst-lwr-alph lst-upr-alph lst-lwr-rmn lst-upr-rmn               "} ]}'>
-                      <p><span class="h4">Style</span></p>
-                      <ul>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "", "live": true}, {"action": "toggle", "toggle": ".cl-", "live": true}]'>Default</li>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-lwr-alph", "live": true}, {"action": "toggle", "toggle": ".cl-lst-lwr-alph", "live": true}]'>Lower alpha</li>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-upr-alph", "live": true}, {"action": "toggle", "toggle": ".cl-lst-upr-alph", "live": true}]'>Upper alpha</li>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-lwr-rmn", "live": true}, {"action": "toggle", "toggle": ".cl-lst-lwr-rmn", "live": true}]'>Lower roman</li>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-upr-rmn", "live": true}, {"action": "toggle", "toggle": ".cl-lst-upr-rmn", "live": true}]'>Upper roman</li>
-                      </ul>
+            <dt>Capitalization</dt>
+            <dd>
+              <p>Capitalize the first word of every list item. This improves the user's ability to scan, as mentioned in the article <a href="https://www.nngroup.com/articles/presenting-bulleted-lists/">7 Tips for Presenting Bulleted Lists in Digital Content</a>, by the Nielsen Norman Group.</p>
+            </dd>
+            <dt>Punctuation</dt>
+            <dd>
+              <p>Don't end the list items with any punctuation</p>
+            </dd>
+          </dl>
+          <h4>Appearance and code</h4>
+          <p>Design treatments can be applied. Review the options and get the code.</p>
+          <div class="row">
+            <!-- Field flow options -->
+            <div class="col-md-4 ds-modifier">
+              <form>
+                <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
+                <div class="radioselected">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#ol1", "class": " lst-lwr-alph lst-upr-alph lst-lwr-rmn lst-upr-rmn               "} ]}'>
+                        <p><span class="h4">Style</span></p>
+                        <ul>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "", "live": true}, {"action": "toggle", "toggle": ".cl-", "live": true}]'>Default</li>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-lwr-alph", "live": true}, {"action": "toggle", "toggle": ".cl-lst-lwr-alph", "live": true}]'>Lower alpha</li>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-upr-alph", "live": true}, {"action": "toggle", "toggle": ".cl-lst-upr-alph", "live": true}]'>Upper alpha</li>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-lwr-rmn", "live": true}, {"action": "toggle", "toggle": ".cl-lst-lwr-rmn", "live": true}]'>Lower roman</li>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-upr-rmn", "live": true}, {"action": "toggle", "toggle": ".cl-lst-upr-rmn", "live": true}]'>Upper roman</li>
+                        </ul>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-xs-6">
-                    <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#ol1", "class": " lst-spcd                "} ]}'>
-                      <p><span class="h4">Spacing</span></p>
-                      <ul>
-                        <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-spcd", "live": true}, {"action": "toggle", "toggle": ".cl-ol-spcd", "live": true}]'>Added spacing</li>
-                      </ul>
+                    <div class="col-xs-6">
+                      <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#ol1", "class": " lst-spcd                "} ]}'>
+                        <p><span class="h4">Spacing</span></p>
+                        <ul>
+                          <li data-wb-fieldflow='[{"action": "addClass", "source": "#ol1", "class": "lst-spcd", "live": true}, {"action": "toggle", "toggle": ".cl-ol-spcd", "live": true}]'>Added spacing</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </form>
-          </div>
-          <!-- Field flow appearance -->
-          <div class="col-md-8">
-            <div class="ds-example">
-              <div class="wb-tabs">
-                <div class="tabpanels">
-                  <details id="app4">
-                    <summary>Appearance</summary>
-                    <div class="panel panel-body brdr-0 brdr-rds-0">
-                      <ol id="ol1">
-                        <li>List item 1</li>
-                        <li>List item 2</li>
-                        <li>List item 3</li>
-                      </ol>
-                    </div>
-                  </details>
-                  <!-- Field flow code -->
-                  <details id="app5">
-                    <summary>HTML code</summary>
-                    <pre><code>&lt;ol class="<strong><span class="hidden cl-lst-lwr-alph">lst-lwr-alph</span><span class="hidden cl-lst-upr-alph">lst-upr-alph</span><span class="hidden cl-lst-lwr-rmn">lst-lwr-rmn</span><span class="hidden cl-lst-upr-rmn">lst-upr-rmn</span><span class="hidden cl-ol-spcd"> lst-spcd</span></strong>"&gt;
+              </form>
+            </div>
+            <!-- Field flow appearance -->
+            <div class="col-md-8">
+              <div class="ds-example">
+                <div class="wb-tabs">
+                  <div class="tabpanels">
+                    <details id="app4">
+                      <summary>Appearance</summary>
+                      <div class="panel panel-body brdr-0 brdr-rds-0">
+                        <ol id="ol1">
+                          <li>List item 1</li>
+                          <li>List item 2</li>
+                          <li>List item 3</li>
+                        </ol>
+                      </div>
+                    </details>
+                    <!-- Field flow code -->
+                    <details id="app5">
+                      <summary>HTML code</summary>
+                      <pre><code>&lt;ol class="<strong><span class="hidden cl-lst-lwr-alph">lst-lwr-alph</span><span class="hidden cl-lst-upr-alph">lst-upr-alph</span><span class="hidden cl-lst-lwr-rmn">lst-lwr-rmn</span><span class="hidden cl-lst-upr-rmn">lst-upr-rmn</span><span class="hidden cl-ol-spcd"> lst-spcd</span></strong>"&gt;
     &lt;li&gt;List item 1&lt;/li&gt;
     &lt;li&gt;List item 2&lt;/li&gt;
     &lt;li&gt;List item 3&lt;/li&gt;
   &lt;/ol&gt;
   </code></pre>
-                  </details>
-                  </details>
+                    </details>
+                    </details>
 
+                  </div>
                 </div>
               </div>
+              <!-- Field flow warnings -->
+
             </div>
-            <!-- Field flow warnings -->
-
           </div>
-        </div>
 
 
 
-        <h3 id="h-3-2">Enhancement: Stylized steps</h3>
-        <p>Use when a task can be divided into steps and sub-steps.</p>
-        <div class="row">
-          <div class="col-sm-6">
-            <h4 class="text-muted">Correct use</h4>
-            <ul class="fa-ul">
-              <li><span class="fas fa-check fa-li text-success"></span>List items in the correct order for task completion</li>
-              <li><span class="fas fa-check fa-li text-success"></span>Start with an active verb (for example: open, complete, manage, know, close, send, keep, find, etc.)</li>
-              <li><span class="fas fa-check fa-li text-success"></span>If sub steps do not have to be in a specific order, bullet points are acceptable</li>
-            </ul>
+          <h3 id="h-3-2">Enhancement: Stylized steps</h3>
+          <p>Use when a task can be divided into steps and sub-steps.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4 class="text-muted">Correct use</h4>
+              <ul class="fa-ul">
+                <li><span class="fas fa-check fa-li text-success"></span>List items in the correct order for task completion</li>
+                <li><span class="fas fa-check fa-li text-success"></span>Start with an active verb (for example: open, complete, manage, know, close, send, keep, find, etc.)</li>
+                <li><span class="fas fa-check fa-li text-success"></span>If sub steps do not have to be in a specific order, bullet points are acceptable</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <h4 class="text-muted">Incorrect use</h4>
+              <ul class="fa-ul">
+                <li><span class="fas fa-times fa-li text-danger"></span>Do not use if the order of the list items does not matter</li>
+                <li><span class="fas fa-times fa-li text-danger"></span>Do not exceed 4 levels of sub steps</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-sm-6">
-            <h4 class="text-muted">Incorrect use</h4>
-            <ul class="fa-ul">
-              <li><span class="fas fa-times fa-li text-danger"></span>Do not use if the order of the list items does not matter</li>
-              <li><span class="fas fa-times fa-li text-danger"></span>Do not exceed 4 levels of sub steps</li>
-            </ul>
-          </div>
-        </div>
-        <h4>Appearance and code</h4>
-        <p>Design treatments can be applied. Review the options and get the code.</p>
-        <div class="row">
-          <!-- Field flow options -->
-          <div class="col-md-4 ds-modifier">
-            <form>
-              <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
-              <div class="radioselected">
-                <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#stepsol, #stepsdiv", "class": "hidden"} ]}'>
-                  <p><span class="h4">Headings</span></p>
-                  <ul>
-                    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-steps1", "live": true}]'>Ordered list without headings</li>
-                    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsolh, #stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-olh", "live": true}]'>Ordered list with headings </li>
-                    <!--
+          <h4>Appearance and code</h4>
+          <p>Design treatments can be applied. Review the options and get the code.</p>
+          <div class="row">
+            <!-- Field flow options -->
+            <div class="col-md-4 ds-modifier">
+              <form>
+                <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
+                <div class="radioselected">
+                  <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#stepsol, #stepsdiv", "class": "hidden"} ]}'>
+                    <p><span class="h4">Headings</span></p>
+                    <ul>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-steps1", "live": true}]'>Ordered list without headings</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsolh, #stepsol", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-olh", "live": true}]'>Ordered list with headings </li>
+                      <!--
                                    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#stepsdiv", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-div", "live": true}]'>With headings (using section/div)</li> -->
-                  </ul>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="radioselected">
-                <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#subol, #subdiv", "class": "hidden stps-strpd"}]}'>
-                  <p><span class="h4">Nested list</span></p>
+                <div class="radioselected">
+                  <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "addClass", "source":"#subol, #subdiv", "class": "hidden stps-strpd"}]}'>
+                    <p><span class="h4">Nested list</span></p>
+                    <ul>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "stps-strpd", "live": true}]'>Default</li>
+                      <li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "hidden stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-subol, .cl-subdiv", "live": true}]'>Add sub-steps</li>
+                      <!--<li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "hidden", "live": true}, {"action": "addClass", "source": "#subol, #subdiv", "class": "stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-subol, .cl-subdiv, .cl-subzebra", "live": true}]'>Add sub-steps with zebra striping</li>-->
+                    </ul>
+                  </div>
+                </div>
+                <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#stepsol, #stepsdiv, #subol, #subdiv", "class": "stps-strpd"} ]}'>
+                  <p><span class="h4">Zebra striping</span></p>
                   <ul>
-                    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "stps-strpd", "live": true}]'>Default</li>
-                    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "hidden stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-subol, .cl-subdiv", "live": true}]'>Add sub-steps</li>
-                    <!--<li data-wb-fieldflow='[{"action": "removeClass", "source": "#subol, #subdiv", "class": "hidden", "live": true}, {"action": "addClass", "source": "#subol, #subdiv", "class": "stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-subol, .cl-subdiv, .cl-subzebra", "live": true}]'>Add sub-steps with zebra striping</li>-->
+                    <li data-wb-fieldflow='[{"action": "addClass", "source": "#stepsol, #stepsdiv, #subol, #subdiv", "class": "stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-zebra, .cl-subzebra", "live": true}]'>Add zebra striping</li>
                   </ul>
                 </div>
-              </div>
-              <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"checkbox", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#stepsol, #stepsdiv, #subol, #subdiv", "class": "stps-strpd"} ]}'>
-                <p><span class="h4">Zebra striping</span></p>
-                <ul>
-                  <li data-wb-fieldflow='[{"action": "addClass", "source": "#stepsol, #stepsdiv, #subol, #subdiv", "class": "stps-strpd", "live": true}, {"action": "toggle", "toggle": ".cl-zebra, .cl-subzebra", "live": true}]'>Add zebra striping</li>
-                </ul>
-              </div>
-            </form>
-          </div>
-          <!-- Field flow appearance -->
-          <div class="col-md-8">
-            <div class="ds-example">
-              <div class="wb-tabs">
-                <div class="tabpanels">
-                  <details id="app1">
-                    <summary>Appearance</summary>
-                    <!-- Field flow warnings -->
-                    <div class="panel panel-body brdr-0 brdr-rds-0">
-                      <ol class="lst-stps" id="stepsol">
-                        <li>
-                          <h3 class="cl-olh hidden">Heading goes here</h3>
-                          <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
-                        </li>
-                        <li>
-                          <h3 class="cl-olh hidden">Heading goes here</h3>
-                          Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.
-                          <ol id="subol" class="hidden lst-stps-sub">
-                            <li>List item 2 sub item 1</li>
-                            <li>List item 2 sub item 2</li>
-                            <li>List item 2 sub item 3</li>
-                          </ol>
-                        </li>
-                        <li>
-                          <h3 class="cl-olh hidden">Heading goes here</h3>
-                          <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. </p>
-                          <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
-                        </li>
-                      </ol>
-                      <section class="hidden lst-stps" id="stepsdiv">
-                        <div class="lst-stps-itm">
-                          <h3><span class="wb-inv">Step 1</span> Heading goes here</h3>
-                          <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
-                        </div>
-                        <div class="lst-stps-itm">
-                          <h3><span class="wb-inv">Step 2</span> Heading goes here</h3>
-                          <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
-                          <section id="subdiv" class="lst-stps-sub hidden">
-                            <div class="lst-stps-itm">
-                              <h3><span class="wb-inv">Step 2a</span> Sub-heading goes here</h3>
-                              <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
-                            </div>
-                            <div class="lst-stps-itm">
-                              <h3><span class="wb-inv">Step 2b</span> Sub-heading goes here</h3>
-                              <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
-                            </div>
-                            <div class="lst-stps-itm">
-                              <h3><span class="wb-inv">Step 2c</span> Sub-heading goes here</h3>
-                              <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
-                            </div>
-                          </section>
-                        </div>
-                        <div class="lst-stps-itm">
-                          <h3><span class="wb-inv">Step 3</span> Heading goes here</h3>
-                          <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in.</p>
-                          <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
-                        </div>
-                      </section>
-                    </div>
-                  </details>
-                  <!-- Field flow code -->
-                  <details id="app2">
-                    <summary>HTML code</summary>
-                    <pre><code><span id="stepsol" class="cl-steps1">&lt;ol class="<strong>lst-stps<span class="hidden cl-zebra"> stps-strpd</span></strong>"&gt;
+              </form>
+            </div>
+            <!-- Field flow appearance -->
+            <div class="col-md-8">
+              <div class="ds-example">
+                <div class="wb-tabs">
+                  <div class="tabpanels">
+                    <details id="app1">
+                      <summary>Appearance</summary>
+                      <!-- Field flow warnings -->
+                      <div class="panel panel-body brdr-0 brdr-rds-0">
+                        <ol class="lst-stps" id="stepsol">
+                          <li>
+                            <h3 class="cl-olh hidden">Heading goes here</h3>
+                            <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
+                          </li>
+                          <li>
+                            <h3 class="cl-olh hidden">Heading goes here</h3>
+                            Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.
+                            <ol id="subol" class="hidden lst-stps-sub">
+                              <li>List item 2 sub item 1</li>
+                              <li>List item 2 sub item 2</li>
+                              <li>List item 2 sub item 3</li>
+                            </ol>
+                          </li>
+                          <li>
+                            <h3 class="cl-olh hidden">Heading goes here</h3>
+                            <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. </p>
+                            <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
+                          </li>
+                        </ol>
+                        <section class="hidden lst-stps" id="stepsdiv">
+                          <div class="lst-stps-itm">
+                            <h3><span class="wb-inv">Step 1</span> Heading goes here</h3>
+                            <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
+                          </div>
+                          <div class="lst-stps-itm">
+                            <h3><span class="wb-inv">Step 2</span> Heading goes here</h3>
+                            <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
+                            <section id="subdiv" class="lst-stps-sub hidden">
+                              <div class="lst-stps-itm">
+                                <h3><span class="wb-inv">Step 2a</span> Sub-heading goes here</h3>
+                                <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
+                              </div>
+                              <div class="lst-stps-itm">
+                                <h3><span class="wb-inv">Step 2b</span> Sub-heading goes here</h3>
+                                <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
+                              </div>
+                              <div class="lst-stps-itm">
+                                <h3><span class="wb-inv">Step 2c</span> Sub-heading goes here</h3>
+                                <p>Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in. Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei.</p>
+                              </div>
+                            </section>
+                          </div>
+                          <div class="lst-stps-itm">
+                            <h3><span class="wb-inv">Step 3</span> Heading goes here</h3>
+                            <p>Lorem ipsum dolor sit amet, esse autem per ex, nec in magna lorem. Ea nec error scriptorem referrentur, patrioque torquatos conclusionemque pri in.</p>
+                            <p>Sed sint debitis ad, mazim vitae temporibus qui ut, vel erat ponderum efficiendi ei. In idque euismod sed.</p>
+                          </div>
+                        </section>
+                      </div>
+                    </details>
+                    <!-- Field flow code -->
+                    <details id="app2">
+                      <summary>HTML code</summary>
+                      <pre><code><span id="stepsol" class="cl-steps1">&lt;ol class="<strong>lst-stps<span class="hidden cl-zebra"> stps-strpd</span></strong>"&gt;
     &lt;li&gt;<span class="cl-olh hidden"><br>    &lt;h3&gt;Heading goes here&lt;/h3&gt;<br>    </span>...<span class="cl-olh hidden"><br>  </span>&lt;/li&gt;
     &lt;li&gt;<span class="cl-olh hidden"><br>    &lt;h3&gt;Heading goes here&lt;/h3&gt;<br>    </span>...<span class="cl-olh hidden"><br>  </span><span class="hidden cl-subol"><br>    &lt;ol class="<strong>lst-stps-sub<span class="hidden cl-subzebra"> stps-strpd</span></strong>"&gt;
         &lt;li&gt;...&lt;/li&gt;
@@ -1369,83 +1371,83 @@
       &lt;p&gt;...&lt;/p&gt;
     &lt;/div&gt;
   &lt;/section&gt;</span></code></pre>
-                  </details>
+                    </details>
 
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
 
-        <h2 id="h-4">Description list</h2>
-        <p>Use to list terms with their associated descriptions or definitions.</p>
+          <h2 id="h-4">Description list</h2>
+          <p>Use to list terms with their associated descriptions or definitions.</p>
 
-        <dl class="dl-horizontal">
-          <dt>Structure</dt>
-          <dd>
-            <p>Made up of 2 parts:</p>
-            <ul>
-              <li>The term (single words or small phrases)</li>
-              <li>The description (can be range in size from a single statement to a large block of content)</li>
-            </ul>
+          <dl class="dl-horizontal">
+            <dt>Structure</dt>
+            <dd>
+              <p>Made up of 2 parts:</p>
+              <ul>
+                <li>The term (single words or small phrases)</li>
+                <li>The description (can be range in size from a single statement to a large block of content)</li>
+              </ul>
 
-          </dd>
+            </dd>
 
-          <dt>Capitalization</dt>
-          <dd>
-            <p>Capitalize the first word of the term and the first word of the description</p>
-          </dd>
-          <dt>Punctuation</dt>
-          <dd>
-            <ul>
-              <li>Don't use punctuation on the term</li>
-              <li>If the description is a single statement, do not end with punctuation</li>
-              <li>If the description is more than one sentence, end with punctuation
-          </dd>
-        </dl>
-        </dl>
-        <h4>Appearance and code</h4>
-        <p>Design treatments can be applied. Review the options and get the code.</p>
-        <div class="row">
-          <!-- Field flow options -->
-          <div class="col-md-4 ds-modifier">
-            <form>
-              <div class="radioselected">
-                <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#dl1", "class": " dl-horizontal brdr-0                 "} ]}'>
-                  <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
-                  <p><span class="mrgn-tp-0 h4">Options</span></p>
-                  <ul>
-                    <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "", "live": true}, {"action": "toggle", "toggle": ".cl-", "live": true}]'>Default</li>
-                    <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "dl-horizontal", "live": true}, {"action": "toggle", "toggle": ".cl-dl-horizontal", "live": true}]'>Horizontal</li>
-                    <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "dl-horizontal brdr-0", "live": true}, {"action": "toggle", "toggle": ".cl-dl-brdr", "live": true}]'>Horizontal without borders</li>
-                  </ul>
+            <dt>Capitalization</dt>
+            <dd>
+              <p>Capitalize the first word of the term and the first word of the description</p>
+            </dd>
+            <dt>Punctuation</dt>
+            <dd>
+              <ul>
+                <li>Don't use punctuation on the term</li>
+                <li>If the description is a single statement, do not end with punctuation</li>
+                <li>If the description is more than one sentence, end with punctuation
+            </dd>
+          </dl>
+          </dl>
+          <h4>Appearance and code</h4>
+          <p>Design treatments can be applied. Review the options and get the code.</p>
+          <div class="row">
+            <!-- Field flow options -->
+            <div class="col-md-4 ds-modifier">
+              <form>
+                <div class="radioselected">
+                  <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{ "action": "removeClass", "source":"#dl1", "class": " dl-horizontal brdr-0                 "} ]}'>
+                    <!--<p><span class="lead"><span class="fas fa-tools"></span> Modify the design</span></p>-->
+                    <p><span class="mrgn-tp-0 h4">Options</span></p>
+                    <ul>
+                      <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "", "live": true}, {"action": "toggle", "toggle": ".cl-", "live": true}]'>Default</li>
+                      <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "dl-horizontal", "live": true}, {"action": "toggle", "toggle": ".cl-dl-horizontal", "live": true}]'>Horizontal</li>
+                      <li data-wb-fieldflow='[{"action": "addClass", "source": "#dl1", "class": "dl-horizontal brdr-0", "live": true}, {"action": "toggle", "toggle": ".cl-dl-brdr", "live": true}]'>Horizontal without borders</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </form>
-          </div>
-          <!-- Field flow appearance -->
-          <div class="col-md-8">
-            <div class="ds-example">
-              <div class="wb-tabs">
-                <div class="tabpanels">
-                  <details id="app7">
-                    <summary>Appearance</summary>
-                    <div class="panel panel-body brdr-0 brdr-rds-0">
-                      <dl id="dl1">
-                        <dt>Term 1</dt>
-                        <dd>Description of term 1</dd>
-                        <dt>Term 2</dt>
-                        <dd>Description of term 2</dd>
-                        <dt>Term 3</dt>
-                        <dd>Description of term 3</dd>
-                      </dl>
-                    </div>
-                  </details>
-                  <!-- Field flow code -->
-                  <details id="app8">
-                    <summary>HTML code</summary>
-                    <pre><code>&lt;dl class="<strong><span class="hidden cl-dl-horizontal">dl-horizontal</span><span class="hidden cl-dl-brdr">dl-horizontal brdr-0</span></strong>"&gt;
+              </form>
+            </div>
+            <!-- Field flow appearance -->
+            <div class="col-md-8">
+              <div class="ds-example">
+                <div class="wb-tabs">
+                  <div class="tabpanels">
+                    <details id="app7">
+                      <summary>Appearance</summary>
+                      <div class="panel panel-body brdr-0 brdr-rds-0">
+                        <dl id="dl1">
+                          <dt>Term 1</dt>
+                          <dd>Description of term 1</dd>
+                          <dt>Term 2</dt>
+                          <dd>Description of term 2</dd>
+                          <dt>Term 3</dt>
+                          <dd>Description of term 3</dd>
+                        </dl>
+                      </div>
+                    </details>
+                    <!-- Field flow code -->
+                    <details id="app8">
+                      <summary>HTML code</summary>
+                      <pre><code>&lt;dl class="<strong><span class="hidden cl-dl-horizontal">dl-horizontal</span><span class="hidden cl-dl-brdr">dl-horizontal brdr-0</span></strong>"&gt;
     &lt;dt&gt;Term 1&lt;/dt&gt;
     &lt;dd&gt;Description of term 1&lt;/dd&gt;
     &lt;dt&gt;Term 2&lt;/dt&gt;
@@ -1454,34 +1456,34 @@
     &lt;dd&gt;Description of term 3&lt;/dd&gt;
   &lt;/dl&gt;
   </code></pre>
-                    <p><strong>Coding considerations:</strong></p>
-                    <ul class="fa-ul">
-                      <li><span class="fas fa-check fa-li text-success"></span>Use datalists (<code>&lt;dl&gt;</code>) for terms (<code>&lt;dt&gt;</code>) and the associated descriptions (<code>&lt;dd&gt;</code>) that follow them</li>
-                      <li><span class="fas fa-check fa-li text-success"></span>A horizontal description list will stack like the default <code>&lt;dl&gt;</code> on smaller screen resolutions</li>
-                    </ul>
-                  </details>
-                  </details>
+                      <p><strong>Coding considerations:</strong></p>
+                      <ul class="fa-ul">
+                        <li><span class="fas fa-check fa-li text-success"></span>Use datalists (<code>&lt;dl&gt;</code>) for terms (<code>&lt;dt&gt;</code>) and the associated descriptions (<code>&lt;dd&gt;</code>) that follow them</li>
+                        <li><span class="fas fa-check fa-li text-success"></span>A horizontal description list will stack like the default <code>&lt;dl&gt;</code> on smaller screen resolutions</li>
+                      </ul>
+                    </details>
+                    </details>
 
+                  </div>
                 </div>
               </div>
+              <!-- Field flow warnings -->
+              <div class="mrgn-tp-md "></div>
             </div>
-            <!-- Field flow warnings -->
-            <div class="mrgn-tp-md "></div>
+          </div>
+
+
+        </div>
+        <div class="container">
+          <div class="pagedetails">
+            <dl id="wb-dtmd">
+              <dt>Date modified:&#32;</dt>
+              <dd>
+                <time property="dateModified">2023-01-23</time>
+              </dd>
+            </dl>
           </div>
         </div>
-
-
-      </div>
-      <div class="container">
-        <div class="pagedetails">
-          <dl id="wb-dtmd">
-            <dt>Date modified:&#32;</dt>
-            <dd>
-              <time property="dateModified">2023-01-23</time>
-            </dd>
-          </dl>
-        </div>
-      </div>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
   <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
