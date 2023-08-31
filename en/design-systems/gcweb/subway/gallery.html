@@ -82,7 +82,7 @@
                   <img alt="Banner: Subway design" class="img-responsive" src="../../../../assets/images/banners/gcweb/subway-en.jpg">
                </div>
             </div>
-            <p >Subway navigation helps people accomplish a series of related tasks that are broken down into steps. It is ideal for displaying services and products.</p>
+            <p >Subway navigation helps people accomplish a series of related tasks that are broken down into steps, to reach an end goal (or accomplishment). It is ideal for displaying services and products.</p>
             <h2 class="h3">On this page</h2>
             <ul>
                <li><a href="#h-1">When to use</a></li>
@@ -104,7 +104,7 @@
                <div class="col-md-8">
                   <h2 id="h-1">When to use</h2>
                   <ul>
-                     <li>To break up long and complex content over a small group of pages</li>
+                     <li>To break up long and complex content over a group of related pages</li>
                      <li>To provide persistent navigation that follows the user journey through a specific service or product</li>
                   </ul>
                   <h2 id="h-2">What to avoid</h2>
@@ -178,11 +178,31 @@
                      </li>
                   </ul>
                   </div>
-                  <p class="mrgn-bttm-lg mrgn-tp-lg">These patterns create the IA framework for the content. Details about each pattern type are provided below.</p>
+		  <h4>Subway pattern in mobile</h4>
+		   <p>The subway pattern code is defaulted to "mobile" first.  However, for reference, this documentation will show examples mostly in desktop.</p>
+		    <p>The main visible differences between the subway pattern in mobile versus desktop (in step and side-step pages) is:</p>
+<div class="row">
+	<div class="col-sm-6">
+<h5 class="text-muted mrgn-tp-0">Mobile</h5>
+		<ul><li>The first <code>h1</code> sits above the subway navigation </li>	
+		<li>The term "Sections" is an invisible lead in <code>p</code> tag element above the subway navigation</li>
+		<li>The subway navigation is visibly separated with a surrounding border above the content of the page</li>	
+		</ul>
+	</div>
+	<div class="col-sm-6">
+<h5 class="text-muted mrgn-tp-0">Desktop</h5>
+		<ul><li>The first <code>h1</code> sits to the left of the subway navigation above the second <code>h1</code></li>
+		<li>The term "Sections" is a visible header above the subway navigation</li>
+		<li>The subway navigation is visibly seperated by floating to the right of the content of the page</li>	
+		</ul>
+	</div>
+</div>
+		    
+                  <p class="mrgn-bttm-lg mrgn-tp-lg">Details about each pattern type are provided below.</p>
                </li>
                <li>
                   <h3 id="h-3-2"> Determine the structure and flow of content</h3>
-                  <p>The flow of content across the various subway pages creates a "happy path" for the user to view the content in a logical progression.  It starts with the basic details and then move the user through the detailed process. The "happy path" flow:</p>
+                  <p>The flow of content across the various subway pages creates a "happy path" for the user to view the content in a logical progression.  The "Happy path" starts with the basic details and then move the user through the detailed process in a clear and open path. The "happy path" flow:</p>
                   <ol class="lst-stps-sub">
                      <li>
                         <h4>Introduce the concept</h4>
@@ -203,7 +223,23 @@
                            <li class="cnjnctn-col">
                               <h6 class="text-muted h5">If it's complicated to describe</h6>
                               <p>Sometimes the concept is too complex to reasonably describe on the index page.  When this happens, feature basic details on the index page and use the first step page in the subway to provide more detail.</p>
-                              <p>For example:</p>
+                             <p>Common link text to consider for subway navigation:</p>
+<ul>
+                                 <li>
+                                    What is the [enter product name here] <br>Example for: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">Disability tax credit (DTC)</a>
+                                    <ul>
+                                       <li>First step page has more detail: <br> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit/about-dtc.html">What is the DTC</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="mrgn-tp-lg">
+                                  What are [enter product name here] <br> 
+        Example for: <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html">Scientific Research and Experimental Development (SR&amp;ED) tax incentives</a>
+                                    <ul>
+                                       <li>First step page has more detail:  <br> <a href="https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/what-are-sred-tax-incentives.html">What are SR&amp;ED tax incentives</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+				   
                               <ul>
                                  <li>
                                     Index page the basic details:<br> 
@@ -228,6 +264,8 @@
                         <p>This is often where eligibility information goes. </p>
                         <p>Common link text to consider in for the subway navigation: </p>
                         <ul>
+				<li>Define the eligibility critieria (choose one):
+					<ul>
                            <li>Who can apply</li>
                            <li>Who can claim</li>
                            <li>Who can file</li>
@@ -237,29 +275,43 @@
                                  <summary>"Who is eligible" should rarely be used</summary>
                                  <p>Use the plain language terms "apply" or "claim" instead of "eligble".  However, in rare situations, "eligible" may be used if the other terms might cause user confusion.</p>
                               </details>
-                           </li>
+                           </li></ul></li>
+				<li>Provide extra information (as needed):
+					<ul>
                            <li>How much you can get</li>
                            <li>Determine if you need to register</li>
                            <li>Periods you can apply for</li>
                            <li>Expenses you can claim</li>
                            <li>Which of your employees qualify</li>
-                        </ul>
+                        </ul></li>
                      </li>
                      <li>
                         <h4>Explain what core activity the user has to do</h4>
                         <p>This where the core activity goes.  The core activitiy  typically deals with calculating, applying, claiming, registering, filing and submitting. </p>
                         <p>Common link text to consider in for the subway navigation: </p>
                         <ul>
+				<li>Prepare (choose one):
+				<ul>	
                            <li>Get ready to apply</li>
                            <li>Get ready to claim</li>
                            <li>Get ready to file</li>
+				</ul></li>
+			<li>Give timelines (choose one):
+				<ul>
                            <li>When to apply</li>
                            <li>When to claim</li>
                            <li>When to file</li>
+				</ul></li>
+			<li>Provide assistance:
+				<ul>
                            <li>Calculate your [x]</li>
+				</ul></li>
+				<li>How to complete a main goal (choose one):
+					<ul>
                            <li>How to apply</li>
                            <li>How to claim</li>
                            <li>How to file</li>
+					</ul></li>
                         </ul>
                      </li>
                      <li>
@@ -267,16 +319,22 @@
                         <p>This where the activities go that happen after the core activity has been done.</p>
                         <p>Common link text to consider in for the subway navigation:</p>
                         <ul>
-                           <li>Validating your application</li>
-                           <li>Our review and decision</li>
-                           <li>After you apply</li>
+				<li>Explain what happens after (choose one):
+					<ul>
+ <li>After you apply</li>
                            <li>After you claim</li>
                            <li>After you file</li>
+					</ul>
+			<li>Post application tasks or information (as needed as part of "After you [x]" or another step):		
+                           <ul>
+				<li>Validating your application</li>
+                           <li>Our review and decision</li>
                            <li>When and how to get your payment</li>
                            <li>Impact on your taxes</li>
                            <li>Change or cancel your claim</li>
                            <li>Return a payment</li>
                            <li>Keep getting your payments</li>
+			   </ul></li>
                         </ul>
                      </li>
                      <li>
@@ -286,20 +344,6 @@
                         <ul>
                            <li>Contact us</li>
                         </ul>
-                     </li>
-                     <li>
-                        <h4>Ensure the subway navigation is persistent</h4>
-                        <p>The subway menu is a persistent design. You must consider this when planning your subway IA, as the menu must follow the users throughout the entire process.</p>
-                        <p>This means:</p>
-                        <ul class="list-unstyled cnjnctn-type-and cnjnctn-sm">
-                           <li class="cnjnctn-col-70">
-                              Links that take the user away from the subway pattern cannot be featured in the subway menu.  Instead, those links should be  in the content area of a page, at the point-of-need.
-                           </li>
-                           <li class="cnjnctn-col">
-                              If you are linking across different page owners or domains (for example, the content pages are on canada.ca but the calculator is on an application server), you must still carry across the subway menu if you cross-link within the subway menu.
-                           </li>
-                        </ul>
-                        <p>This persistent navigation ensures that no subway link  takes the user to a page that detaches them from the  "happy path".</p>
                      </li>
                   </ol>
                </li>
@@ -320,7 +364,7 @@
                            <dd>
                               <p>The <code>h1</code> heading on the index page is the main heading for the service or product.  The heading you choose will automatically be repurposed as the page's <code>title</code>, which is an invisible tag that search engines use for their search results.</p>
 								<p>In order to have quality search engine results, the <code>h1</code> on the index page must be 100% unique within the <strong>entire Government of Canada</strong>.  A unique <code>h1</code> ensures that a search engine will display meaningful results, and not show links that seem to compete with or overlap each other.</p>
-                              <p>						   If your heading is vague, it risks user confusion as other pages on canada.ca may  have similar headings, causing those pages to also appear on the user's search results. </p>
+                              <p> If your heading is vague, it risks user confusion as other pages on canada.ca may  have similar headings, causing those pages to also appear on the user's search results. </p>
                               <p>For clarity, make the heading unique enough that it doesn't  overlap or duplicate any current or future page another department or agency creates.</p>
                               <p>Typically the subway pattern is applied to a product (a noun). In those cases, there is less chance of other Government of Canada pages showing up in search results and competing with your content.</p>
                               <p>For example:</p>
@@ -368,7 +412,9 @@
                            <dd>
                               <ul>
                                  <li>Must be displayed in the main content area</li>
-                                 <li>
+                                 <li>Has a header called "Sections"</li>
+				      <li>Has plain language, task-based content that helps the user to complete the step</li> 
+				      <li>
                                     Must feature the links to the subway step pages<ul>
 <li>Links									should be as concise as possible, as the double <code>h1</code> design that appears on the subsequent step pages carries over the name of the service or product. For example: 
                                     <ul class="fa-ul">
@@ -535,11 +581,9 @@
                         <dt>Subway navigation</dt>
                         <dd>
                            <ul>
-                              <li>Has a header called "Sections"</li>
-                              <li>Has a vertical line that connects the step pages together</li>
-                              <li>Has a solid fill circle on the active page</li>
-                              <li>Has plain language, task-based content that helps the user to complete the step</li>
-                              <li>Links to pages that have the assoicated subway menu (you can't link to pages outside the subway menu from a subway link)</li>
+                              <li>It is a condensed version of the subway navigation from the index page, without the doormats</li>
+                     <li>The active (current) page is indicated in the navigation having a solid fill circle, and disabled hyperlink</li>
+                    <li>Links to pages that have the assoicated subway menu (you can't link to pages outside the subway menu from a subway link)</li>
                            </ul>
                         </dd>
                         <dt>Supportive links</dt>
@@ -549,7 +593,7 @@
                            <ul class="list-unstyled lst-spcd">
                               <li>Backwards button:
 <ul>
-                                    <li>							  Do not use a previous button as you want to encourage users to move forward</li>
+                                    <li>Do not use a previous button as you want to encourage users to move forward</li>
 									</ul>
 									</li>
                               <li>
@@ -564,6 +608,7 @@
                         </dd>
                         <dt><code>title</code> tag</dt>
                         <dd>Format:  <code>&lt;title&gt;[Step page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
+			 <dd>In AEM, the title will need to be adjusted in the properties tab to include both the service or product name, and the current page title</dd>    
                      </dl>
                      <ul>
                   </div>
@@ -654,7 +699,7 @@
                   </div>
                </li>
                <li>
-                  <h3 id="h-3-5"  >Creating <span class="nowrap">side-step</span> pages, if needed </h3>
+                  <h3 id="h-3-5">Creating <span class="nowrap">side-step</span> pages, if needed </h3>
                   <div class="row">
                      <div class="col-md-8">
                         <p ><span class="nowrap">Side-step</span> pages are an <strong>optional</strong> element that can be added when you need to break up a large step into smaller steps or to outline a side journey for specific audiences related to the main step.</p>
@@ -664,7 +709,7 @@
                   <ul class="cnjnctn-type-or cnjnctn-sm mrgn-bttm-md">
                      <li class="cnjnctn-col">
                         <h4><span class="nowrap">Non-connected</span> <span class="nowrap">side-steps</span></h4>
-                        <p class="pull-left">Use this navigation for when <span class="nowrap">side-steps</span> are <strong>not</strong> part of a sequential flow</p>
+                        <p class="pull-left">Use this navigation for when <span class="nowrap">side-steps</span> are tasks that are only related to parent step, but not each other</p>
                         <nav class="gc-subway provisional wb-init gc-subway-inited no-blink pull-right" id="wb-auto-4">
                            <hgroup>
                               <h1>[Service or product name]</h1>
@@ -689,7 +734,7 @@
                      </li>
                      <li class="cnjnctn-col">
                         <h4>Connected <span class="nowrap">side-steps</span></h4>
-                        <p class="pull-left">Use this navigation for when <span class="nowrap">side-steps</span> are part of a sequential flow</p>
+                        <p class="pull-left">Use this navigation for when <span class="nowrap">side-steps</span> are steps that are to be done in an ordered way to complete the goal of the main step</p>
                         <nav class="gc-subway provisional wb-init gc-subway-inited no-blink pull-right" id="wb-auto-4">
                            <hgroup>
                               <h1>[Service or product name]</h1>
@@ -811,7 +856,7 @@
                                  <li>The user can likely get what they need from the step page content section</li>
                                  <li>The <span class="nowrap">side-step</span> only contains supportive or secondary content</li>
                               </ul>
-                              <p>							In this situation, populate the step page content as normal, and then feature the links to the <span class="nowrap">side-steps</span> at the point-of-need in that content.</p>
+                              <p>In this situation, populate the step page content as normal, and then feature the links to the <span class="nowrap">side-steps</span> at the point-of-need in that content.</p>
                            <li>
                               Sample: 
                               <div class="panel panel-default brdr-rds-0">
@@ -860,7 +905,7 @@
                                           This is the larger black heading and...
                                        </li>
                                     </ul>
-									<p>This is discussed in Service Canada's: <a href="https://wet-boew.github.io/wet-boew-documentation/decision/12.html">Design decision 12 - Double H1 on a single page</a></p>
+					<p>This is discussed in Service Canada's: <a href="https://wet-boew.github.io/wet-boew-documentation/decision/12.html">Design decision 12 - Double H1 on a single page</a></p>
                                  </dd>
                                  <dt>Breadcrumb</dt>
                                  <dd>The breadcrumb of these pages should link to both the main index page and the parent step page that contains the <span class="nowrap">side-steps</span> (e.g. Index page &gt; Step page &gt; <span class="nowrap">side-step</span> page).</dd>
@@ -876,10 +921,9 @@
                                  <dt>Subway navigation</dt>
                                  <dd>
                                     <ul>
-                                       <li>Has a header called "Sections"</li>
-                                       <li>Has a vertical line that connects the step pages together</li>
-                                       <li>Has a solid fill circle on the active page</li>
-                                       <li>Has plain language, task-based content that helps the user to complete the step</li>
+					  <li>Side step navigation is only visible when in a side-step page</li>
+					     <li>The active (current) page is indicated in the navigation having a solid fill circle, and disabled hyperlink</li>
+                                       <li>Each side-step has the same link text as the parent step page's navigation links</li>
                                        <li>Links to pages that have the assoicated subway menu (you can't link to pages outside the subway menu from a subway link)</li>
                                     </ul>
                                  </dd>
@@ -928,7 +972,8 @@
                                  </dd>
                                  <dt><code>title</code> tag</dt>
                                  <dd>Format:  <code>&lt;title&gt;[<span class="nowrap">Side-step</span> page] - [Service or product name] - Canada.ca&lt;/title&gt;</code></dd>
-                              </dl>
+                              <dd>In AEM, the title will need to be adjusted in the properties tab to include both the service or product name, and the current page title</dd>
+			      </dl>
                               <ul>
                               </ul>
                            </div>
