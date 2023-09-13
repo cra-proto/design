@@ -533,8 +533,7 @@
                            <summary>Appearance</summary>
                            <main class="panel-body">
                               <h1 property="name" id="wb-cont" class="gc-thickline">[Product or service name]</h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                              <!-- GC Subway navigation -->
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
                               <nav class="gc-subway provisional">
                                  <h2>Sections</h2>
                                  <dl>
@@ -565,8 +564,10 @@
                            <summary>Code</summary>
                            <pre><code>&lt;main&gt;
   &lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Product or service name]&lt;/h1&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-	&lt;!-- GC Subway navigation --&gt;
+  
+  &lt;p&gt;...&lt;/p&gt;
+  
+	&lt;!-- Navigation menu --&gt;
 	&lt;nav class="gc-subway provisional"&gt;
 		&lt;h2&gt;Sections&lt;/h2&gt;
 		&lt;dl&gt;
@@ -584,6 +585,8 @@
 			&lt;dd&gt;Short description&lt;/dd&gt;
 		&lt;/dl&gt;
 	&lt;/nav&gt;
+	
+	&lt;!-- Supporting links --&gt;
 	&lt;aside&gt;
 	   &lt;h2 class="h3"&gt;Related&lt;/h2&gt;
 	   &lt;ul&gt;
@@ -723,37 +726,36 @@
                         </details>
                         <details id="step-code">
                            <summary>Code</summary>
-                           <pre><code class="language-html" data-lang="html"><span class="nt">&lt;main&gt;</span>
-	<span class="c">&lt;!-- 1: GC Subway navigation --&gt;</span>
-	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway provisional"</span><span class="nt">&gt;</span>
-		<span class="nt">&lt;h1&gt;</span>[Product or service name]<span class="nt">&lt;/h1&gt;</span>
-		<span class="nt">&lt;ul&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section1-en.html"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span><span class="nt">&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section3-en.html"</span><span class="nt">&gt;</span>[Page 3]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section4-en.html"</span><span class="nt">&gt;</span>[Page 4]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section5-en.html"</span><span class="nt">&gt;</span>[Page 5]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-			<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section6-en.html"</span><span class="nt">&gt;</span>[Page 6]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-		<span class="nt">&lt;/ul&gt;</span>
-	<span class="nt">&lt;/nav&gt;</span>
+                           <pre><code>&lt;main&gt;
+	&lt;!-- Navigation menu and first H1 --&gt;
+	&lt;nav class="gc-subway provisional"&gt;
+		&lt;h1&gt;[Product or service name]&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 1]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="active"&gt;[Page 2]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 3]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 4]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 5]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 6]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
 
-	<span class="c">&lt;!-- 2: Title --&gt;</span>
-	<span class="nt">&lt;h1</span> <span class="na">property=</span><span class="s">"name"</span> <span class="na">id=</span><span class="s">"wb-cont"</span> <span class="na">class=</span><span class="s">"gc-thickline"</span><span class="nt">&gt;</span>[Page 1]<span class="nt">&lt;/h1&gt;</span>
+	&lt;!-- Second H1 --&gt;
+	&lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Page 2]&lt;/h1&gt;
 
-	<span class="c">&lt;!-- 3: Page content --&gt;</span>
-	<span class="nt">&lt;p&gt;</span>Introductory statement (recommended for SEO)<span class="nt">&lt;/p&gt;</span>
+	&lt;!-- Page content --&gt;
+	&lt;p&gt;Introductory statement (recommended for SEO)&lt;/p&gt;
 	...
 
-	<span class="c">&lt;!-- 4: Document navigation --&gt;</span>
-	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"gc-subway-pagination"</span><span class="nt">&gt;</span>
-		<span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Document navigation<span class="nt">&lt;/h2&gt;</span>
-		<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"pager"</span><span class="nt">&gt;</span>
-			<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"next"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"section2-en.html"</span> <span class="na">rel=</span><span class="s">"next"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"wb-inv"</span><span class="nt">&gt;</span>Next: <span class="nt">&lt;/span&gt;</span>[Page 2]<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-		<span class="nt">&lt;/ul&gt;</span>
-	<span class="nt">&lt;/nav&gt;</span>
+	&lt;!-- Pagination --&gt;
+	&lt;nav class="gc-subway-pagination"&gt;
+		&lt;h2 class="wb-inv"&gt;Document navigation&lt;/h2&gt;
+		&lt;ul class="pager"&gt;
+			&lt;li class="next"&gt;&lt;a href="#" rel="next"&gt;&lt;span class="wb-inv"&gt;Next: &lt;/span&gt;[Page 3]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
 
-	
-<span class="nt">&lt;/main&gt;</span></code></pre>
+&lt;/main&gt;</code></pre>
                         </details>
                      </div>
                   </div>
@@ -857,8 +859,26 @@
                                           </div>
                                           <details class="mrgn-tp-lg">
                                              <summary>View code</summary>
-                                             <pre><code>adsfdas</pre>
-                                             </code>
+<pre><code>&lt;div class="wb-eqht row"&gt;
+	&lt;div class="col-md-6"&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Link 1]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-6"&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Link 2]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-6"&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Link 3]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-6"&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Link 4]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</code>
                                           </details>
                                        </div>
                                        <div class="panel-footer">Live example:</strong> <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/who-claim.html">Who can claim - Home office expenses for employees</a>
@@ -900,7 +920,25 @@
                                           </ol>
                                           <details class="mrgn-tp-lg">
                                              <summary>View code</summary>
-                                             <pre><code>adsfdas</pre>
+<pre><code>&lt;h2&gt;Steps&lt;/h2&gt;
+&lt;ol class="lst-stps"&gt;
+	&lt;li&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[First task]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Second task]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Third task]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h3&gt;&lt;a href="#"&gt;[Fourth task]&lt;/a&gt;&lt;/h3&gt;
+		&lt;p&gt;Short description&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ol&gt;</pre>
                                              </code>
                                           </details>
                                        </div>
@@ -1164,54 +1202,81 @@
                               </details>
                               <details id="nonconnected-code">
                                  <summary>Code: <span class="nowrap"><span class="nowrap">Non-connected</span></span></summary>
-                                 <pre><code>&lt;main&gt;
-  &lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Product or service name]&lt;/h1&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-	&lt;!-- GC Subway navigation --&gt;
+                                <pre><code>&lt;main&gt;
+	&lt;!-- Navigation menu and first H1 --&gt;
 	&lt;nav class="gc-subway provisional"&gt;
-		&lt;h2&gt;Sections&lt;/h2&gt;
-		&lt;dl&gt;
-			&lt;dt&gt;&lt;a href="section1-en.html"&gt;[Page 1]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section2-en.html"&gt;[Page 2]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section3-en.html"&gt;[Page 3]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section4-en.html"&gt;[Page 4]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section5-en.html"&gt;[Page 5]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section6-en.html"&gt;[Page 6]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-		&lt;/dl&gt;
+		&lt;h1&gt;[Product or service name]&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 1]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 2]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 3]&lt;/a&gt;
+				&lt;ul class="noline"&gt;
+					&lt;li&gt;&lt;a href="#"&gt;[Page 3a]&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#" class="active"&gt;[Page 3b]&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;[Page 3c]&lt;/a&gt;&lt;/li&gt;
+			  &lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 4]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 5]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 6]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
 	&lt;/nav&gt;
+
+	&lt;!-- Second H1 --&gt;
+	&lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Page 3a]&lt;/h1&gt;
+
+	&lt;!-- Page content --&gt;
+	&lt;p&gt;Introductory statement (recommended for SEO)&lt;/p&gt;
 	...
+
+	&lt;!-- Pagination --&gt;
+	&lt;nav class="gc-subway-pagination"&gt;
+		&lt;h2 class="wb-inv"&gt;Document navigation&lt;/h2&gt;
+		&lt;ul class="pager"&gt;
+			&lt;li class="previous"&gt;&lt;a href="#" rel="prev"&gt;&lt;span class="wb-inv"&gt;Previous: &lt;/span&gt;[Page 3]&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="next"&gt;&lt;a href="#" rel="next"&gt;&lt;span class="wb-inv"&gt;Next: &lt;/span&gt;[Page 4]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+
 &lt;/main&gt;</code></pre>
                               </details>
                               <details id="connected-code">
                                  <summary>Code: Connected</summary>
                                  <pre><code>&lt;main&gt;
-  &lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Product or service name]&lt;/h1&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-	&lt;!-- GC Subway navigation --&gt;
+	&lt;!-- Navigation menu and first H1 --&gt;
 	&lt;nav class="gc-subway provisional"&gt;
-		&lt;h2&gt;Sections&lt;/h2&gt;
-		&lt;dl&gt;
-			&lt;dt&gt;&lt;a href="section1-en.html"&gt;[Page 1]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section2-en.html"&gt;[Page 2]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section3-en.html"&gt;[Page 3]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section4-en.html"&gt;[Page 4]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section5-en.html"&gt;[Page 5]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-			&lt;dt&gt;&lt;a href="section6-en.html"&gt;[Page 6]&lt;/a&gt;&lt;/dt&gt;
-			&lt;dd&gt;Short description&lt;/dd&gt;
-		&lt;/dl&gt;
+		&lt;h1&gt;[Product or service name]&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 1]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 2]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 3]&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="#"&gt;[Page 3a]&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#" class="active"&gt;[Page 3b]&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;[Page 3c]&lt;/a&gt;&lt;/li&gt;
+			  &lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 4]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 5]&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;[Page 6]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
 	&lt;/nav&gt;
+
+	&lt;!-- Second H1 --&gt;
+	&lt;h1 property="name" id="wb-cont" class="gc-thickline"&gt;[Page 3a]&lt;/h1&gt;
+
+	&lt;!-- Page content --&gt;
+	&lt;p&gt;Introductory statement (recommended for SEO)&lt;/p&gt;
 	...
+
+	&lt;!-- Pagination --&gt;
+	&lt;nav class="gc-subway-pagination"&gt;
+		&lt;h2 class="wb-inv"&gt;Document navigation&lt;/h2&gt;
+		&lt;ul class="pager"&gt;
+			&lt;li class="next"&gt;&lt;a href="#" rel="next"&gt;&lt;span class="wb-inv"&gt;Next: &lt;/span&gt;[Page 3c]&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+
 &lt;/main&gt;</code></pre>
                               </details>
                            </div>
