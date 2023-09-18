@@ -5,7 +5,7 @@
     "description_en": "A comprehensive source on how to write good, usable content. This updates and combines guidance from the Canada.ca Content Style Guide and the Writing Guide for the CRA. It also includes new guidance on a variety of topics like considering the needs of your audience.",
     "description_fr": "Une ressource complète sur la façon de rédiger un contenu de qualité et convivial. Elle met à jour et combine les lignes directrices du Guide de rédaction du contenu du site Canada.ca et du Guide sur la rédaction à l'ARC. Elle comprend également de nouvelles lignes directrices sur une variété de sujets tels que la prise en compte des besoins de votre public.",
     "linkText_en": "Writing",
-    "linkUrl_en": "en/writing/index.html",
+    "linkUrl_en": "../writing/index.html",
     "linkText_fr": "Rédaction",
     "linkUrl_fr": "fr/redaction/index.html",
     "date_en": "September 15, 2023",
