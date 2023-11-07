@@ -3,7 +3,7 @@
 "title_en": "Changed the heading of the support links section ",
 "title_fr": "Changement du sous-titre de la section réservée aux liens de soutien",
 "description_en": "In the metro navigation index page, the heading of the section containing support links was changed from \"Related\" to \"Related information\".",
-"description_fr": "Dans la page d’index de la navigation de style métro, le nom de la section comportant les liens de soutien est passé de « Connexe » à « Informations connexes ».",
+"description_fr": "Dans la page d’index de la navigation de style métro, le nom de la section comportant les liens de soutien est passé de «&nbsp;Connexe&nbsp;» à «&nbsp;Informations connexes&nbsp;».",
 "linkText_en": "Subway pattern",
 "linkUrl_en": "../design-systems/gcweb/subway/index.html",
 "linkText_fr": "Navigation de style métro",
