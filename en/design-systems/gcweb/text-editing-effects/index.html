@@ -98,6 +98,7 @@
   <li data-wb-fieldflow='[{"action": "removeClass", "source": "#text2", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text2", "live": true}]'>Deleted</li>
   <li data-wb-fieldflow='[{"action": "removeClass", "source": "#text3", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text3", "live": true}]'>Strikethrough</li>
   <li data-wb-fieldflow='[{"action": "removeClass", "source": "#text4", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text4, #hidden-ins", "live": true}]'>Inserted</li>
+    <li data-wb-fieldflow='[{"action": "removeClass", "source": "#text5", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text5", "live": true}]'>Redacted</li>
   </ul>
   </div>
   </div>
@@ -115,15 +116,16 @@
   <p id="text0">Regular text</p>
   <p class="hidden" id="text1">Regular text plus <mark>marked text</mark></p>
   <p class="hidden" id="text2">Regular text plus <del>deleted text</del></p>
-  <p class="hidden" id="text3">Regular text plus <s>strikethrough text</s></p>
+  <p class="hidden" id="text3">Regular text plus <s>strikethrough text</s> replacement text</p>
   <p class="hidden" id="text4">Regular text plus <ins>inserted text</ins></p>
+     <p class="hidden" id="text5">Regular text plus <span class="bg-dark text-white redacted">[redacted content]</span></p>
   </div>
   </details>
   <!-- Field flow code -->
   <details id="app2">
   <summary>HTML code</summary>
     <div class="wb-clipboard" data-wb-clipboard='{"noTextStyle": true, "border": false}'>
-  <pre><code><span class="cl-text0" id="def">&lt;p&gt;Regular text&lt;/p&gt;</span><span class="hidden cl-text1">&lt;p&gt;Regular text plus <strong>&lt;mark&gt;</strong>marked text<strong>&lt;/mark&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text2">&lt;p&gt;Regular text plus <strong>&lt;del&gt;</strong>deleted text<strong>&lt;/del&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text3">&lt;p&gt;Regular text plus <strong>&lt;s&gt;</strong>strikethrough text<strong>&lt;/s&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text4">&lt;p&gt;Regular text plus <strong>&lt;ins&gt;</strong>inserted text<strong>&lt;/ins&gt;</strong>&lt;/p&gt;</span>
+  <pre><code><span class="cl-text0" id="def">&lt;p&gt;Regular text&lt;/p&gt;</span><span class="hidden cl-text1">&lt;p&gt;Regular text plus <strong>&lt;mark&gt;</strong>marked text<strong>&lt;/mark&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text2">&lt;p&gt;Regular text plus <strong>&lt;del&gt;</strong>deleted text<strong>&lt;/del&gt;</strong>&lt;/p&gt;</span><span class="hidden cl-text3">&lt;p&gt;Regular text plus <strong>&lt;/s&gt;&lt;span class="wb-inv"&gt;<i>original text description</i>&lt;/span&gt;&lt;s&gt;</strong>strikethrough text<strong>&lt;/s&gt;&lt;span class="wb-inv"&gt;<i>replacement text description</i>&lt;/span&gt;</strong>replacement text&lt;/p&gt;</span><span class="hidden cl-text4">&lt;p&gt;Regular text plus <strong>&lt;ins&gt;</strong>inserted text<strong>&lt;/ins&gt;</strong>&lt;/p&gt;</span>
   </code></pre>
     </div>
   </details>
@@ -165,9 +167,15 @@
   <ul>
   <li>Use to show record changes to an official document, such as meeting minutes or a law</li>
   <li>Use as a temporary effect on a page</li>
+    <li><mark>Use for corrections or update to text (i.e. replacement text)</mark></li>
+    
   </ul>
   </li>
-  
+  <li><span class="fas fa-check fa-li text-success"></span><mark>Use <strong>redacted content</strong> to indicate parts of the page that are protected or not available for viewing</mark>
+  <ul>
+  <li><mark>Use in-text, or as part part of full paragraphs (use class <code>full-width</code> to extend the background to the entire width of the content</mark></li>
+  </ul>
+  </li>
   </ul>
   </div>
   <div class="col-md-5">
@@ -183,6 +191,8 @@
               <li>It  mimics the visual appearance of a link, which  causes usability problems</li>
               <li>Non-links <strong>should not </strong>look like links </li>
             </ul>
+  </li>
+    <li><span class="fas fa-times fa-li text-danger"></span><mark>Do not use <strong>strikethrough text</strong> in place of redacted content</mark>
   </li>
   </ul>
   </div>
