@@ -20,7 +20,7 @@
 	<meta content="width=device-width,initial-scale=1" name="viewport">
 	<meta name="dcterms.language" title="ISO639-2/T" content="eng">
 	<meta name="dcterms.title" content="Text editing effects">
-	<meta name="dcterms.description" content="Use of effects like marked text, deleted text and replacement text">
+	<meta name="dcterms.description" content="Use of effects like marked text, deleted text and strikethrough">
 	<meta name="robots" content="noindex, nofollow">
 	<!--[if gte IE 9 | !IE ]><!-->
 	<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
@@ -98,7 +98,7 @@
 									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text0", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text0", "live": true}]'>Default</li>
 									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text1", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text1", "live": true}]'>Marked</li>
 									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text2", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text2", "live": true}]'>Deleted</li>
-									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text3", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text3", "live": true}]'>Replacement text</li>
+									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text3", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text3", "live": true}]'>Strikethrough</li>
 									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text4", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text4, #hidden-ins", "live": true}]'>Inserted</li>
 									<li data-wb-fieldflow='[{"action": "removeClass", "source": "#text5", "class": "hidden", "live": true}, {"action": "toggle", "toggle": ".cl-text5", "live": true}]'>Redacted</li>
 								</ul>
@@ -119,7 +119,7 @@
 												<p id="text0">Regular text</p>
 												<p class="hidden" id="text1">Regular text plus <mark>marked text</mark></p>
 												<p class="hidden" id="text2">Regular text plus <del>deleted text</del></p>
-												<p class="hidden" id="text3">Regular text plus <s>Replacement text</s></p>
+												<p class="hidden" id="text3">Regular text plus <s>Strikethrough</s> replacement text</p>
 												<p class="hidden" id="text4">Regular text plus <ins>inserted text</ins></p>
 												<p class="hidden" id="text5">Regular text plus <span class="bg-dark text-white redacted">[redacted content]</span></p>
 											</div>
@@ -166,14 +166,14 @@
 								<li>Use as a temporary effect on a page</li>
 							</ul>
 						</li>
-						<li><span class="fas fa-check fa-li text-success"></span>Use <strong>replacement text</strong> to indicate text that is no longer accurate or no longer relevant, but use it sparingly, as it makes a page difficult to read
+						<li><span class="fas fa-check fa-li text-success"></span>Use <strong>strikethrough</strong> to indicate text that is no longer accurate or no longer relevant, but use it sparingly, as it makes a page difficult to read
 							<ul>
 								<li>Use to show changes to an official document, such as meeting minutes or a law</li>
 								<li>Use as a temporary effect on a page</li>
 								<li>Use for corrections or updates to text, such as with price changes in which both old and new prices are displayed:
 									<ul>
 										<li>Add class <code>original text description</code> to the old price</li>
-										<li>Add class <code>replacement text description</code> to the new price</li>
+										<li>Add class <code>strikethrough description</code> to the new price</li>
 									</ul>
 								</li>
 
@@ -201,7 +201,7 @@
 								<li>Non-links <strong>should not </strong>look like links </li>
 							</ul>
 						</li>
-						<li><span class="fas fa-times fa-li text-danger"></span>Do not use <strong>replacement text</strong> in place of redacted content
+						<li><span class="fas fa-times fa-li text-danger"></span>Do not use <strong>strikethrough</strong> in place of redacted content
 						</li>
 					</ul>
 				</div>
