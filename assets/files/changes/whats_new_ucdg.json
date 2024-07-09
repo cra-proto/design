@@ -1,21 +1,35 @@
 [
   {
     "title_en": "Moved the contractions guidelines to the Short forms page",
+		"title_fr": "",
     "description_en": "Guidance on contractions has been moved from the Punctuation page to the Short forms page. A recovery link is still available on the Punctuation page.",
+		"description_fr": "",
     "linkText_en": "Contractions",
     "linkUrl_en": "../writing/short-forms.html#h_2",
+		"linkText_fr": "",
+		"linkUrl_fr": "",
     "date_en": "July 5, 2024",
+		"date_fr": "",
     "modified_en": "Updated",
+		"modified_fr": "",
     "keywords_en": "developers, Web Content Accessibility Guideline, WCAG",
+		"keywords_fr": ""
   },
     {
     "title_en": "Reorganized the Short forms page content",
+		"title_fr": "",
     "description_en": "The headings were revised and the content was reordered to improve clarity on the Short forms page.",
+		"description_fr": "",
     "linkText_en": "Short forms",
     "linkUrl_en": "../writing/short-forms.html",
+		"linkText_fr": "",
+		"linkUrl_fr": "",
     "date_en": "July 5, 2024",
+		"date_fr": "",
     "modified_en": "Updated",
+		"modified_fr": "",
     "keywords_en": "developers, Web Content Accessibility Guideline, WCAG",
+		"keywords_fr": ""
   },
   {
     "title_en": "Published the first UCD blog article: “Creating Accessible Web Content”",
