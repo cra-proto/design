@@ -84,10 +84,12 @@
         <h2 class="h3">On this page</h2>
         <ul>
           <li><a href="#h-1">When to use the and/or design</a></li>
+            <li><a href="#h-2">Enhancing conjunction accessibility</a></li>
           <li><a href="#h-3">Design options</a></li>
           <li><a href="#h-4">Complementary components and functions</a></li>
   
         </ul>
+          <section>
         <h2 id="h-1">When to use the and/or design</h2>
         <div class="row">
           <div class=" col-sm-6">
@@ -107,6 +109,24 @@
             </ul>
           </div>
         </div>
+          </section>
+          <section>
+              <h2 id="h-2">Enhancing conjunction accessibility</h2>
+ <p>Most screen readers can read CSS text these days, but it's still good practice to use text to convey that  the options are either mutually exclusive (or), or part of an entire concept (and).</p>
+    <p>Some recommendations are:</p>
+    <ul>
+      <li>Adding in a lead in statement to explain there are options that are mutually exclusive (or), or mutually connected (and)</li>
+      <li>Creating the and/or using the list (<code>&lt;ul&gt;</code>) element to better indicate that the items are connected</li>
+      <li>Use headers that indicate the items are mutually exclusive or part of an entire concept
+        <ul>
+          <li>Additionally append an invisible phrase such as &quot;option X of X&quot; to all headers</li>
+        </ul>
+      </li>
+      <li>Adding the word &quot;or&quot;, or &quot;and&quot; as part of the statement to connect each part of content</li>
+      <li>Use a <code>&lt;section&gt;</code> element instead of a <code>&lt;div&gt;</code> element when working with headers to semantically contain the design's content</li>
+    </ul>
+              
+          </section>
         <h2 id="h-3">Design options</h2>
           <div class="well max-content"><p><span class="fas fa-file-upload fa-lg"></span> If you are using this component on Adobe Experience Manager (AEM) you have to include the latest experimental files (that contain the 2021-05-conjunction component) for the design to be properly applied.</p>
 <p>Refer to: <a href="https://wet-boew.github.io/GCWeb/m%C3%A9li-m%C3%A9lo/m%C3%A9li-m%C3%A9lo-en.html">GCWeb experimental features</a></p></div>
