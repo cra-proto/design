@@ -220,7 +220,7 @@
         <li>For example: &quot;Find out if you can renew your passport online&quot; or &quot;Confirm you have completed the calculations&quot;</li>
       </ul>
     </li>
-    <li>Avoid using terms like &quot;wizard&quot;,       &quot;decision tree&quot; or even &quot;interactive questions&quot; in the heading title</li>
+    <li>Avoid using terms like &quot;wizard&quot;, &quot;decision tree&quot; or even &quot;interactive questions&quot; in the heading title</li>
     <li>Provide a brief overview of what to expect from completing the task, along with instructions (if needed) to simplify answering the questions</li>
     <li>Help people with navigating by providing an opening statement on what to expect
       <ul>
@@ -327,7 +327,7 @@
     </li>
     <li>To add information after the question has been asked, add an expand/hide below the question
       <ul>
-        <li>Screen reader devices will read the question,  the expand/hide summary and then the person can navigate to the options </li>
+        <li>Screen reader devices will read the question, the expand/hide summary and then the person can navigate to the options </li>
       </ul>
     </li>
   </ul>
@@ -340,13 +340,13 @@
     <li>Default results: use info alert </li>
     <li>Positive and negative results: use success and warning alerts </li>
   </ul>
-  <p>Add a header to the alert to provide an overview of what the answer is. Start   with a clear statement, such as &quot;The result is&quot; or  &quot;Your answer is &quot; to help people understand that it is the end of the questions.</p>
+  <p>Add a header to the alert to provide an overview of what the answer is. Start with a clear statement, such as &quot;The result is&quot; or  &quot;Your answer is &quot; to help people understand that it is the end of the questions.</p>
   <p>Refer to: <a href="#h-5">Design options</a></p>
   <h4>Use attributes to allow navigation out of the questions</h4>
   <p>There are different ways to code for accessibility depending on if the answer is shorter or longer. You can help persons using screen readers, navigate out of the form elements in 1 of 2 ways:</p>
   <ul>
     <li>Wrap the set of answers with a block element (e.g. <code>&lt;div&gt;</code> or <code>&lt;section&gt;</code>) and use the <code>aria-live=&quot;polite&quot;</code> attribute so that the answers are announced to the person through the screen reader </li>
-    <li>Alternatively use the <code>tabindex=&quot;0&quot;</code> attribute to the header of the answers so the person can tab to the answer if using keyboard navigation       (or the entire answer if it's short)
+    <li>Alternatively use the <code>tabindex=&quot;0&quot;</code> attribute to the header of the answers so the person can tab to the answer if using keyboard navigation (or the entire answer if it's short)
       <ul>
         <li>Do not use <code>aria-live=&quot;polite&quot;</code> if you are wrapping <code>tabindex=&quot;0&quot;</code> around the entire answer </li>
       </ul>
