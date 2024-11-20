@@ -317,7 +317,7 @@
   <ul>
     <li>Add a short plain text statement above or below the question
       <ul>
-        <li>Use <code>aria-describedby</code> to bind the question and statement, so a screen reader device will read them together</li>
+        <li>Use <code>aria-describedby</code> or <code>aria-labelledby</code> to bind the question and statement (in correct order), so a screen reader device will read them together</li>
       </ul>
     </li>
     <li>To add information that includes structured content such as <a href="../lists/index.html">lists</a>, or interactive elements like <a href="../links/index.html">links</a>, place the content inside an <a href="https://design.canada.ca/common-design-patterns/collapsible-content.html">expand/hide</a> element with a descriptive summary
@@ -370,18 +370,23 @@
     </li>
   </ul>
   <h2 id="h-5">Design options</h2>
-  <p>Due to limitations, the appearance examples may not be fully accessible. Copy the code from the HTML code tab.</p>
-  <p>To keep your HTML code readable, use <code>&lt;!--code comments--&gt;</code> to track the questions and answers.</p>
-  <div class="row">
+  <p>Due to limitations, the appearance examples may not be fully accessible. Copy the code from the HTML code tab.</p>	      
+  <p>Things to consider:</p>
+	      <ul>
+	      <li>Use <code>&lt;!--code comments--&gt;</code> to identify questions and answers and keep the field flow readable</li>
+		      <li>Wrap your content in an additional <code>&lt;div&gt;</code> tag if the content order is reversed</li>
+		      <li>Lead in statements should only appear after an initial question has been answered</li>
+	      </ul>
+<div class="row">
     <div class="col-md-4">
       <div class="radioselected">
         <form>
-          <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{"action": "addClass", "source": ".ff-header, .ff-info-support, .ff-info-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]}'>
+          <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{"action": "addClass", "source": ".ff-header, .ff-support-before, .ff-lead-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]}'>
             <p><span class="h4 mrgn-tp-0">Additional information options</span></p>
             <ul>
-              <li data-wb-fieldflow='[{"action": "addClass", "source": ".ff-info-support, .ff-info-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]'>Default</li>
-              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-info-support", "class": "hidden", "live": true}]'>Supportive statement</li>
-              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-info-before", "class": "hidden", "live": true}]'>Complex information before question</li>
+              <li data-wb-fieldflow='[{"action": "addClass", "source": ".ff-support-before, .ff-lead-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]'>Default</li>
+              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-support-before", "class": "hidden", "live": true}]'>Supportive statement after question</li>
+              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-lead-before", "class": "hidden", "live": true}]'>Lead in  statement before question</li>
               <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-info-after", "class": "hidden", "live": true}]'>Complex information after question</li>
             </ul>
           </div>
@@ -401,15 +406,8 @@
                 <form>
                   <div class="wb-fieldflow gc-font-2019" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
                     <div class="wb-fieldflow-header">
-                      <div class="ff-info-before hidden">
-                        <p id="q1-desc-bf">[Lead in statement here if necessary]</p>
-                        <details>
-                          <summary aria-describedby="q1-desc-bf">[Summary text here if necessary]</summary>
-                          <p>Content, links, tables, etc. goes here</p>
-                        </details>
-                      </div>
                       <p class="wb-fieldflow-label"><span aria-describedby="q1-desc">Have you calculated the subsidy amount for your business?</span></p>
-                      <p class="ff-info-support hidden" id="q1-desc">[Supportive statement here if necessary]</strong></p>
+                      <p class="ff-support-before hidden" id="q1-desc">[Supportive statement here if necessary]</strong></p>
                       <div class="ff-info-after hidden">
                         <details>
                           <summary>[Summary statement here if necessary]</summary>
@@ -421,15 +419,11 @@
                       <li>Yes
                         <div class="wb-fieldflow-sub gc-font-2019" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
                           <div class="wb-fieldflow-header">
-                            <div class="ff-info-before hidden">
+                            <div class="ff-lead-before hidden">
                               <p id="q2-desc-bf">[Lead in statement here if necessary]</p>
-                              <details>
-                                <summary aria-describedby="q2-desc-bf">[Summary text here if necessary]</summary>
-                                <p>Content, links, tables, etc. goes here</p>
-                              </details>
                             </div>
                             <p class="wb-fieldflow-label" ><span aria-describedby="q2-desc">Do you expect a payment of $25 million or more?</span></p>
-                            <p class="ff-info-support hidden" id="q2-desc">[Supportive statement here if necessary]</p>
+                            <p class="ff-support-before hidden" id="q2-desc">[Supportive statement here if necessary]</p>
                             <div class="ff-info-after hidden">
                               <details>
                                 <summary>[Summary statement here if necessary]</summary>
@@ -475,83 +469,54 @@
             <!-- Field flow code -->
             <details id="code1">
               <summary>HTML code</summary>
-                  <div class="wb-clipboard" data-wb-clipboard='{"noTextStyle": true, "border": false}'>
               <pre><code><div class="mrgn-lft-md mrgn-rght-md">&lt;div class="<strong>wb-frmvld fieldflow-lg</strong>"&gt;
-   &lt;form&gt;
-    &lt;div class="<strong>wb-fieldflow gc-font-2019</strong>" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-info-support hidden"><strong>, "attributes": {"aria-describedby": "q1-desc"}</strong></span>}'&gt;<span class="ff-header hidden"> &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span><span class="ff-info-before hidden"> &lt;p id="<strong>q1-desc</strong>"&gt;[Lead in statement here if necessary]&lt;/p&gt;
-     &lt;details&gt;
-      &lt;summary <strong>aria-describedby="q1-desc"</strong>&gt;[Summary statement here if necessary]&lt;/summary&gt;
-      &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
-     &lt;/details&gt;</span>
-     &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;Have you calculated the subsidy amount for your business?&lt;/p&gt;
-   <span class="ff-header hidden"><span class="ff-info-support hidden">  &lt;p id="<strong>q1-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span>
-   <span class="ff-info-after hidden">  &lt;details&gt;
-      &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
-      &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
-     &lt;/details&gt;</span> 
-    &lt;/div&gt; </span>
-    &lt;ul&gt;
-     &lt;li&gt;Yes
-      &lt;div class="<strong>wb-fieldflow-sub gc-font-2019</strong>" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-info-support hidden"><strong>, "attributes": {"aria-describedby": "q2-desc"}</strong></span>}'&gt;<span class="ff-header hidden"> &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span>
-    <span class="ff-info-before hidden">   &lt;p id="<strong>q2-desc</strong>"&gt;[Lead in statement here if necessary]&lt;/p&gt;
-       &lt;details&gt;
-        &lt;summary <strong>aria-describedby="q2-desc"</strong>&gt;[Summary text here if necessary]&lt;/summary&gt;
-        &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
-       &lt;/details&gt;</span>
-       &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;Do you expect a payment of $25 million or more?&lt;/p&gt;
-     <span class="ff-header hidden"><span class="ff-info-support hidden">  &lt;p id="<strong>q2-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span>
-     <span class="ff-info-after hidden">  &lt;details&gt;
-        &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
-        &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
-       &lt;/details&gt;</span>
-      &lt;/div&gt;</span>
-      &lt;ul&gt;
-       &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-2", "class": "hidden", "live": true}'&gt;Yes&lt;/li&gt;
-       &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-3", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
-      &lt;/ul&gt;
-     &lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-1", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
-   &lt;/ul&gt;
-  &lt;/div&gt;
- &lt;/form&gt;
-&lt;/div&gt;
-&lt;div id="answers1" aria-live="polite"&gt;
-	&lt;div id="answer1-1" class="hidden alert alert-warning alert-result"&gt;
-		&lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;You need to calculate the subsidy first&lt;/h3&gt;
-       	&lt;p&gt;In order to apply, you need to calculate your subsidy amount for your eligible employees first.&lt;/p&gt;
-           &lt;p&gt;&lt;a href="calculate-subsidy-amount.html"&gt;Calculate your subsidy amount&lt;/a&gt;&lt;/p&gt;
-   &lt;/div&gt;
-	&lt;div class="hidden alert alert-info alert-result" id="answer1-2"&gt;
-		&lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;You need to report the payment first&lt;/h3&gt;
-			&lt;p&gt;Before you apply you must:&lt;/p&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Register for the Large Value Transfer System (LVTS) by sending an email to &lt;a href="mailto:email@cra-arc.gc.ca"&gt;email@cra-arc.gc.ca&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;&lt;a href="#deposit"&gt;&lt;span class="nowrap"&gt;&lt;span class="fa-stack fa-xs mrgn-rght-sm"&gt;&lt;span class="far fa-circle fa-stack-2x"&gt;&lt;/span&gt;&lt;span class="fas fa-dollar-sign fa-stack-1x"&gt;&lt;/span&gt;&lt;/span&gt;Set up&lt;/span&gt; direct deposit&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-	&lt;/div&gt;
-   &lt;div class="hidden alert alert-success alert-result" id="answer1-3"&gt;
-		&lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;You can apply&lt;/h3&gt;
-			&lt;p&gt;You can go ahead and &lt;a href="#"&gt;apply for this benefit&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Or, if needed: &lt;a href="#deposit"&gt;&lt;span class="nowrap"&gt;&lt;span class="fa-stack fa-xs mrgn-rght-sm"&gt;&lt;span class="far fa-circle fa-stack-2x"&gt;&lt;/span&gt;&lt;span class="fas fa-dollar-sign fa-stack-1x"&gt;&lt;/span&gt;&lt;/span&gt;Set up&lt;/span&gt; direct deposit&lt;/a&gt;.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</div></code></pre>
-                  </div>
+              &lt;form&gt;
+              &lt;div class="<strong>wb-fieldflow gc-font-2019</strong>" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q1-desc"}</strong></span>}'&gt;
+              &lt;!--Question 1 --&gt; <span class="ff-header hidden">&lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;[Question 1]&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q1-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
+                &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
+                &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
+                &lt;/details&gt;</span> &lt;/div&gt; </span> &lt;ul&gt;
+              &lt;li&gt;Yes
+              &lt;div class="<strong>wb-fieldflow-sub gc-font-2019</strong>" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q2-desc"}</strong></span><span class="ff-lead-before hidden"><strong>, "attributes": {"aria-labelledby": "q2-desc q2"}</strong></span>}'&gt;<span class="ff-header hidden"> &lt;!--Question 2 --&gt;  
+                &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> <span class="ff-lead-before hidden"> &lt;p id="<strong>q2-desc</strong>"&gt;[Lead in statement here if necessary]&lt;/p&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;<span class="ff-lead-before">&lt;span id="q2"&gt;</span>[Question 2]<span class="ff-lead-before">&lt;/span&gt;</span>&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q2-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
+                &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
+                &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
+                &lt;/details&gt;</span> &lt;/div&gt;</span> &lt;ul&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-2", "class": "hidden", "live": true}'&gt;Yes&lt;/li&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-3", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;/div&gt;
+              &lt;/li&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-1", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;/div&gt;
+              &lt;/form&gt;
+              &lt;/div&gt;
+              &lt;div id="answers1" aria-live="polite"&gt;
+              &lt;!--Answer 1 --&gt;
+              &lt;div id="answer-1" class="hidden alert alert-warning alert-result"&gt;
+              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 1 header]&lt;/h3&gt;
+              &lt;p&gt;[Answer 1 statement]&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;!-- Answer 2 --&gt;
+              &lt;div class="hidden alert alert-info alert-result" id="answer-2"&gt;
+              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 2 header]&lt;/h3&gt;
+              &lt;p&gt;[Answer 2 statement]&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;!-- Answer 3 --&gt;
+              &lt;div class="hidden alert alert-success alert-result" id="answer-3"&gt;
+              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 3 header&lt;/h3&gt;
+              &lt;p&gt;[Answer 3 statement]&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;/div&gt;</div></code></pre>
             </details>
             <details id="logic1">
               <summary>Logic map</summary>
               <p>These are a couple of ideas on how to map out interactive questions.</p>
               <p class="h4 mrgn-tp-0">Option 1</p>
               <ul>
-                <li>
-                  <div class="ff-info-before hidden">
-                    <p>[Lead in statement here if necessary]</p>
-                    <p><strong>Expand/hide:</strong><br>
-                      <strong>Summary:</strong>[Summary text here if necessary]</p>
-                    <p>Content, links, tables, etc. goes here</p>
-                  </div>
-                  <strong>Q1:</strong> Have you calculated the subsidy amount for your business?<br>
-                  <span class="ff-info-support hidden"><br>
+                <li> <strong>Q1:</strong> [Question 1]?<br>
+                  <span class="ff-support-before hidden"><br>
                   [Supportive statement here if necessary]</span>
                   <div class="ff-info-after hidden">
                     <p><strong>Expand/hide</strong><br>
@@ -562,14 +527,11 @@
                     <li> Yes
                       <ul>
                         <li>
-                          <div class="ff-info-before hidden">
+                          <div class="ff-lead-before hidden">
                             <p>[Lead in statement here if necessary]</p>
-                            <p><strong>Expand/hide</strong><br>
-                              <strong>Summary:</strong> [Summary text here if necessary]</p>
-                            <p>Content, links, tables, etc. goes here</p>
                           </div>
-                          <strong>Q2:</strong> Do you expect a payment of $25 million or more?<br>
-                          <span class="ff-info-support hidden"><br>
+                          <strong>Q2:</strong> [Question 2]?<br>
+                          <span class="ff-support-before hidden"><br>
                           [Supportive statement here if necessary]</span>
                           <div class="ff-info-after hidden">
                             <p><strong>Expand/hide</strong><br>
@@ -580,21 +542,16 @@
                             <li>Yes
                               <ul>
                                 <li>
-                                  <p>Answer:</p>
-                                  <p>Before you apply you must:</p>
-                                  <ul>
-                                    <li>Register for the Large Value Transfer System (LVTS) by sending an email to email@cra-arc.gc.ca (add link)</li>
-                                    <li>Set up direct deposit (add link)</li>
-                                  </ul>
+                                  <p>Answer [1]:</p>
+                                  <p>[Answer 1 statement]</p>
                                 </li>
                               </ul>
                             </li>
                             <li>No
                               <ul>
                                 <li>
-                                  <p>Answer:</p>
-                                  <p>You can apply for CEWS (add link).</p>
-                                  <p>Or, if needed: Set up direct deposit (add link).</p>
+                                  <p>Answer [2]:</p>
+                                  <p>[Answer 2 statement]</p>
                                 </li>
                               </ul>
                             </li>
@@ -605,8 +562,8 @@
                     <li>No
                       <ul>
                         <li>
-                          <p>Answer:</p>
-                          <p>You need to calculate your subsidy amount for your eligible employees <strong>before</strong> you can apply for CEWS.</p>
+                          <p>Answer [3]:</p>
+                          <p>[Answer 3 statement]</p>
                           <p>Calculate your subsidy amount (add link)</p>
                         </li>
                       </ul>
@@ -616,14 +573,8 @@
               </ul>
               <p class="h4 mrgn-tp-0">Option 2</p>
               <p class="h5">Question 1</p>
-              <div class="ff-info-before hidden">
-                <p>[Lead in statement here if necessary]</p>
-                <p><strong>Expand/hide:</strong><br>
-                  <strong>Summary:</strong>[Summary text here if necessary]</p>
-                <p>Content, links, tables, etc. goes here</p>
-              </div>
-              <p><strong>Q:</strong> Have you calculated the subsidy amount for your business?</p>
-              <p class="ff-info-support hidden">[Supportive statement here if necessary]</p>
+              <p><strong>Q:</strong> [Question 1]?</p>
+              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong>[Summary text here if necessary]
@@ -636,14 +587,11 @@
                 <li>No (Go to answer 1)</li>
               </ul>
               <p class="h5">Question 2</p>
-              <div class="ff-info-before hidden">
-                <p>[Lead in statement here]</p>
-                <p><strong>Expand/hide</strong><br>
-                  <strong>Summary:</strong> [Summary text here if necessary]</p>
-                <p>Content, links, tables, etc. goes here</p>
+              <div class="ff-lead-before hidden">
+                <p>[Lead in statement here if necessary]</p>
               </div>
-              <p><strong>Q:</strong> Do you expect a payment of $25 million or more?</p>
-              <p class="ff-info-support hidden">[Supportive statement here if necessary]</p>
+              <p><strong>Q:</strong> [Question 2]?</p>
+              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong> [Summary text here]</p>
@@ -653,23 +601,18 @@
                 <li>Yes (Go to answer 2)</li>
                 <li>No (Go to answer 3)</li>
               </ul>
-              <p class="h5">Answer 1</p>
-              <p>You need to calculate your subsidy amount for your eligible employees <strong>before</strong> you can apply for CEWS.</p>
-              <p>Calculate your subsidy amount (add link)</p>
-              <p class="h5">Answer 2</p>
-              <p>Before you apply you must:</p>
-              <ul>
-                <li>Register for the Large Value Transfer System (LVTS) by sending an email to email@cra-arc.gc.ca (add link)</li>
-                <li>Set up direct deposit (add link)</li>
-              </ul>
-              <p class="h5">Answer 3</p>
-              <p>You can apply for CEWS (add link).</p>
-              <p>Or, if needed: Set up direct deposit (add link).</p>
+              <p class="h5">Answer [1]</p>
+              <p>[Answer 1 statement]</p>
+              <p class="h5">Answer [2]</p>
+              <p>[Answer 2 statement]</p>
+              <p class="h5">Answer [3]</p>
+              <p>[Answer 3 statement]</p>
             </details>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <h3 id="h-5-1">Configuration options</h3>
   <p>For instructions on how to configure the component that supports interactive questions, refer to: <a href="https://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-en.html" rel="external">Field flow for GCWeb design guide</a>.</p>
