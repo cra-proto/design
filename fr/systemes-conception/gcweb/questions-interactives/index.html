@@ -367,91 +367,91 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <li>
     </li>
 </ul>
-  <h2 id="h-5">Options de conception</h2>
-  <p>Due to limitations, the appearance examples may not be fully accessible. Copy the code from the HTML code tab.</p>	      
-  <p>Things to consider:</p>
-	      <ul>
-	      <li>Use <code>&lt;!--code comments--&gt;</code> to identify questions and answers and keep the field flow readable</li>
-		      <li>Wrap your content in an additional <code>&lt;div&gt;</code> tag if the content order is reversed</li>
-		      <li>Lead in statements should only appear after an initial question has been answered</li>
-	      </ul>
+<h2 id="h-5">Options de conception</h2>
+  <p>En raison de certaines limites, les exemples d'apparence peuvent ne pas être entièrement accessibles. Copiez le code à partir de l'onglet Code HTML.</p>	      
+  <p>Éléments à  prendre en considération :</p>
+<ul>
+    <li>Utilisez&nbsp;<code>&lt;!--code comments--&gt;</code>&nbsp;pour identifier les questions et les réponses et assurer la lisibilité du déroulement de champs.</li>
+    <li>Enveloppez votre contenu dans une balise <code>&lt;div&gt;</code> supplémentaire si l&rsquo;ordre du contenu est inversé.</li>
+    <li>Les énoncés introductifs ne doivent apparaître qu&rsquo;après avoir répondu à une question initiale. </li>
+  </ul>
 <div class="row">
     <div class="col-md-4">
       <div class="radioselected">
         <form>
           <div class="wb-fieldflow" data-wb-fieldflow='{"renderas":"radio", "isoptional": true, "noForm": true, "reset": [{"action": "addClass", "source": ".ff-header, .ff-support-before, .ff-lead-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]}'>
-            <p><span class="h4 mrgn-tp-0">Additional information options</span></p>
+            <p><span class="h4 mrgn-tp-0">Options d'information supplémentaire</span></p>
             <ul>
-              <li data-wb-fieldflow='[{"action": "addClass", "source": ".ff-support-before, .ff-lead-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]'>Default</li>
-              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-support-before", "class": "hidden", "live": true}]'>Supportive statement after question</li>
-              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-lead-before", "class": "hidden", "live": true}]'>Lead in  statement before question</li>
-              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-info-after", "class": "hidden", "live": true}]'>Complex information after question</li>
+              <li data-wb-fieldflow='[{"action": "addClass", "source": ".ff-support-before, .ff-lead-before, .ff-info-after, .ff-info-def", "class": "hidden", "live": true}]'>Par défaut</li>
+              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-support-before", "class": "hidden", "live": true}]'>Texte complémentaire après la question</li>
+              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-lead-before", "class": "hidden", "live": true}]'>Énoncé introductif avant la question</li>
+              <li data-wb-fieldflow='[{"action": "removeClass", "source": ".ff-header, .ff-info-after", "class": "hidden", "live": true}]'>Informations complexes après la question</li>
             </ul>
           </div>
         </form>
       </div>
-    </div>
+  </div>
     <!-- Field flow appearance -->
     <div class="col-md-8">
       <div class="ds-example">
         <div class="wb-tabs">
           <div class="tabpanels">
-            <details id="app1">
-              <summary>Appearance</summary>
+            <detail id="app1">
+              <summary>Apparence</summary>
 <div class="ff-lead-before hidden">
-		    <div class="alert alert-info"><p>This appears in the second question, if you select "Yes" for the first question.</p></div>
+		    <div class="alert alert-info"><p>Cela s’affiche à la deuxième question, si vous sélectionnez « Oui » comme réponse à la première question.</p></div>
 </div>
-              <h3 id="confirm-calculations">Confirm you have completed the calculations</h3>
-              <p>Make a selection and then scroll down to see the next set of options or your result.</p>
+              <h3 id="confirm-calculations">Confirmez que vous avez effectué les calculs</h3>
+              <p>Faites un choix, puis faites défiler vers le bas pour voir le prochain ensemble d'options ou votre résultat.</p>
               <div class="wb-frmvld fieldflow-lg">
                 <form>
                   <div class="wb-fieldflow gc-font-2019" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
                     <div class="wb-fieldflow-header">
-                      <p class="wb-fieldflow-label"><span aria-describedby="q1-desc">Have you calculated the subsidy amount for your business?</span></p>
-                      <p class="ff-support-before hidden" id="q1-desc">[Supportive statement here if necessary]</strong></p>
+                      <p class="wb-fieldflow-label"><span aria-describedby="q1-desc">Avez-vous calculé le montant de la subvention pour votre entreprise?</span></p>
+                      <p class="ff-support-before hidden" id="q1-desc">[Texte complémentaire ici, si nécessaire]</strong></p>
                       <div class="ff-info-after hidden">
                         <details>
-                          <summary>[Summary statement here if necessary]</summary>
+                          <summary>[Résumé ici, si nécessaire]</summary>
                           <p>Content, links, tables, etc. goes here</p>
                         </details>
                       </div>
                     </div>
                     <ul>
-                      <li>Yes
+                      <li>Oui
                         <div class="wb-fieldflow-sub gc-font-2019" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
                           <div class="wb-fieldflow-header">
                             <div class="ff-lead-before hidden">
-                              <p id="q2-desc-bf">[Lead in statement here if necessary]</p>
+                              <p id="q2-desc-bf">[Énoncé introductif ici, si nécessaire]</p>
                             </div>
-                            <p class="wb-fieldflow-label" ><span aria-describedby="q2-desc">Do you expect a payment of $25 million or more?</span></p>
-                            <p class="ff-support-before hidden" id="q2-desc">[Supportive statement here if necessary]</p>
+                            <p class="wb-fieldflow-label" ><span aria-describedby="q2-desc">Vous attendez-vous à recevoir un paiement de 25 millions de dollars ou plus?</span></p>
+                            <p class="ff-support-before hidden" id="q2-desc">[Texte complémentaire ici, si nécessaire]</p>
                             <div class="ff-info-after hidden">
                               <details>
-                                <summary>[Summary statement here if necessary]</summary>
+                                <summary>[Résumé ici, si nécessaire]</summary>
                                 <p>Content, links, tables, etc. goes here</p>
                               </details>
                             </div>
                           </div>
                           <ul>
-                            <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-2", "class": "hidden", "live": true}'>Yes</li>
-                            <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-3", "class": "hidden", "live": true}'>No</li>
+                            <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-2", "class": "hidden", "live": true}'>Oui</li>
+                            <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-3", "class": "hidden", "live": true}'>Non</li>
                           </ul>
                         </div>
                       </li>
-                      <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-1", "class": "hidden", "live": true}'>No</li>
+                      <li data-wb-fieldflow='{"action": "removeClass", "source": "#answer1-1", "class": "hidden", "live": true}'>Non</li>
                     </ul>
                   </div>
                 </form>
               </div>
               <div id="answers1" aria-live="polite">
                 <div id="answer1-1" class="hidden alert alert-warning alert-result">
-                  <h3><small>The result is</small><br>
+                  <h3><small>Voici le résultat</small><br>
                     You need to calculate the subsidy first</h3>
                   <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
                   <p><a href="calculate-subsidy-amount.html">Calculate your subsidy amount</a></p>
                 </div>
                 <div class="hidden alert alert-info alert-result" id="answer1-2">
-                  <h3><small>The result is</small><br>
+                  <h3><small>Voici le résultat</small><br>
                     You need to report the payment first</h3>
                   <p>Before you apply you must:</p>
                   <ul>
@@ -460,7 +460,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                   </ul>
                 </div>
                 <div class="hidden alert alert-success alert-result" id="answer1-3">
-                  <h3><small>The result is</small><br>
+                  <h3><small>Voici le résultat</small><br>
                     You can apply</h3>
                   <p>You can go ahead and <a href="#">apply for this benefit.</a></p>
                   <p>Or, if needed: <a href="#deposit"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a>.</p>
@@ -473,17 +473,17 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               <pre><code><div class="mrgn-lft-md mrgn-rght-md">&lt;div class="<strong>wb-frmvld fieldflow-lg</strong>"&gt;
               &lt;form&gt;
               &lt;div class="<strong>wb-fieldflow gc-font-2019</strong>" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q1-desc"}</strong></span>}'&gt;
-              &lt;!--Question 1 --&gt; <span class="ff-header hidden">&lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;[Question 1]&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q1-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
-                &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
+              &lt;!--Question 1 --&gt; <span class="ff-header hidden">&lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;[Question 1]&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q1-desc</strong>"&gt;[Texte complémentaire ici, si nécessaire]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
+                &lt;summary&gt;[Résumé ici, si nécessaire]&lt;/summary&gt;
                 &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
                 &lt;/details&gt;</span> &lt;/div&gt; </span> &lt;ul&gt;
-              &lt;li&gt;Yes
+              &lt;li&gt;Oui
               &lt;div class="<strong>wb-fieldflow-sub gc-font-2019</strong>" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q2-desc"}</strong></span><span class="ff-lead-before hidden"><strong>, "attributes": {"aria-labelledby": "q2-desc q2"}</strong></span>}'&gt;<span class="ff-header hidden"> &lt;!--Question 2 --&gt;  
-                &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> <span class="ff-lead-before hidden"> &lt;p id="<strong>q2-desc</strong>"&gt;[Lead in statement here if necessary]&lt;/p&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;<span class="ff-lead-before">&lt;span id="q2"&gt;</span>[Question 2]<span class="ff-lead-before">&lt;/span&gt;</span>&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q2-desc</strong>"&gt;[Supportive statement here if necessary]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
-                &lt;summary&gt;[Summary statement here if necessary]&lt;/summary&gt;
+                &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> <span class="ff-lead-before hidden"> &lt;p id="<strong>q2-desc</strong>"&gt;[Énoncé introductif ici, si nécessaire]&lt;/p&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;<span class="ff-lead-before">&lt;span id="q2"&gt;</span>[Question 2]<span class="ff-lead-before">&lt;/span&gt;</span>&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q2-desc</strong>"&gt;[Texte complémentaire ici, si nécessaire]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
+                &lt;summary&gt;[Résumé ici, si nécessaire]&lt;/summary&gt;
                 &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
                 &lt;/details&gt;</span> &lt;/div&gt;</span> &lt;ul&gt;
-              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-2", "class": "hidden", "live": true}'&gt;Yes&lt;/li&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-2", "class": "hidden", "live": true}'&gt;Oui&lt;/li&gt;
               &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-3", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
               &lt;/ul&gt;
               &lt;/div&gt;
@@ -496,17 +496,17 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               &lt;div id="answers1" aria-live="polite"&gt;
               &lt;!--Answer 1 --&gt;
               &lt;div id="answer-1" class="hidden alert alert-warning alert-result"&gt;
-              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 1 header]&lt;/h3&gt;
+              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 1 header]&lt;/h3&gt;
               &lt;p&gt;[Answer 1 statement]&lt;/p&gt;
               &lt;/div&gt;
               &lt;!-- Answer 2 --&gt;
               &lt;div class="hidden alert alert-info alert-result" id="answer-2"&gt;
-              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 2 header]&lt;/h3&gt;
+              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 2 header]&lt;/h3&gt;
               &lt;p&gt;[Answer 2 statement]&lt;/p&gt;
               &lt;/div&gt;
               &lt;!-- Answer 3 --&gt;
               &lt;div class="hidden alert alert-success alert-result" id="answer-3"&gt;
-              &lt;h3&gt;&lt;small&gt;The result is&lt;/small&gt; &lt;br&gt;[Answer 3 header&lt;/h3&gt;
+              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 3 header&lt;/h3&gt;
               &lt;p&gt;[Answer 3 statement]&lt;/p&gt;
               &lt;/div&gt;
               &lt;/div&gt;</div></code></pre>
@@ -518,29 +518,29 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               <ul>
                 <li> <strong>Q1:</strong> [Question 1]?<br>
                   <span class="ff-support-before hidden"><br>
-                  [Supportive statement here if necessary]</span>
+                  [Texte complémentaire ici, si nécessaire]</span>
                   <div class="ff-info-after hidden">
                     <p><strong>Expand/hide</strong><br>
                       <strong>Summary:</strong>[Summary text here if necessary]</p>
                     <p>Content, links, tables, etc. goes here</p>
                   </div>
                   <ul>
-                    <li> Yes
+                    <li> Oui
                       <ul>
                         <li>
                           <div class="ff-lead-before hidden">
-                            <p>[Lead in statement here if necessary]</p>
+                            <p>[Énoncé introductif ici, si nécessaire]</p>
                           </div>
                           <strong>Q2:</strong> [Question 2]?<br>
                           <span class="ff-support-before hidden"><br>
-                          [Supportive statement here if necessary]</span>
+                          [Texte complémentaire ici, si nécessaire]</span>
                           <div class="ff-info-after hidden">
                             <p><strong>Expand/hide</strong><br>
                               <strong>Summary:</strong> [Summary text here if necessary]</p>
                             <p>Content, links, tables, etc. goes here</p>
                           </div>
                           <ul>
-                            <li>Yes
+                            <li>Oui
                               <ul>
                                 <li>
                                   <p>Answer [1]:</p>
@@ -548,7 +548,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                                 </li>
                               </ul>
                             </li>
-                            <li>No
+                            <li>Non
                               <ul>
                                 <li>
                                   <p>Answer [2]:</p>
@@ -560,7 +560,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                         </li>
                       </ul>
                     </li>
-                    <li>No
+                    <li>Non
                       <ul>
                         <li>
                           <p>Answer [3]:</p>
@@ -575,7 +575,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               <p class="h4 mrgn-tp-0">Option 2</p>
               <p class="h5">Question 1</p>
               <p><strong>Q:</strong> [Question 1]?</p>
-              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
+              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong>[Summary text here if necessary]
@@ -584,23 +584,23 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                 <p>Content, links, tables, etc. goes here</p>
               </div>
               <ul>
-                <li>Yes (Go to question 2)</li>
-                <li>No (Go to answer 1)</li>
+                <li>Oui (Go to question 2)</li>
+                <li>Non (Go to answer 1)</li>
               </ul>
               <p class="h5">Question 2</p>
               <div class="ff-lead-before hidden">
-                <p>[Lead in statement here if necessary]</p>
+                <p>[Énoncé introductif ici, si nécessaire]</p>
               </div>
               <p><strong>Q:</strong> [Question 2]?</p>
-              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
+              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong> [Summary text here]</p>
                 <p>Content, links, tables, etc. goes here</p>
               </div>
               <ul>
-                <li>Yes (Go to answer 2)</li>
-                <li>No (Go to answer 3)</li>
+                <li>Oui (Go to answer 2)</li>
+                <li>Non (Go to answer 3)</li>
               </ul>
               <p class="h5">Answer [1]</p>
               <p>[Answer 1 statement]</p>
@@ -613,35 +613,35 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
         </div>
       </div>
     </div>
+</div>
   </div>
-  </div>
-  <h3 id="h-5-1">Options de configuration</h3>
-  <p>For instructions on how to configure the component that supports interactive questions, refer to: <a href="https://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-en.html" rel="external">Field flow for GCWeb design guide</a>.</p>
-  <h2 id="h-6">Satisfaire aux exigences en matière d&rsquo;accessibilité</h2>
-  <p>The Accessible Canada Act (ACA) requires content created for the Canada Revenue Agency (CRA) meets the goal of realizing a barrier-free Canada by 2040. For our digital products, Accessibility Standards Canada follows the <a href="https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services">European harmonized standard on Information and Communication Technology (ICT)</a>. The CRA uses the Web Content Accessibility Guidelines (WCAG) 2.1 to meet the ACA, and must be compliant to WCAG level A and AA.</p>
-  <p>By following the guidance in the UCD Guide, your web content should meet the following WCAG success criteria: </p>
-  <ul>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">2.1.1 Keyboard (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html">2.1.2 No Keyboard trap (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">2.4.3 Focus order (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">2.4.7 Focus visible (Level AA)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html">3.3.4 Error prevention (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">3.3.2 Labels or instructions (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">1.3.1 Info and relationships (Level A)</a> </li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html" >1.3.2 Meaningful sequence (Level A)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/help.html">3.3.5 Help and guidance (Level AAA)</a></li>
-  </ul>
+<h3 id="h-5-1">Options de configuration</h3>
+  <p>Pour obtenir des  instructions sur la configuration de la composante qui prend en charge les questions  interactives, consultez <a href="https://wet-boew.github.io/GCWeb/components/wb-fieldflow/fieldflow-fr.html">Déroulement e dchamps du guide de conception GCWeb</a>. </p>
+<h2 id="h-6">Satisfaire aux exigences en matière d&rsquo;accessibilité</h2>
+  <p>La <em>Loi canadienne  sur l'accessibilité (LCA)</em> exige que le contenu créé pour l'Agence du revenu  du Canada (ARC) atteigne l'objectif de faire du Canada un pays exempt  d'obstacles d'ici 2040. Pour ses produits numériques, Normes d'accessibilité  Canada suit la <a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic-resume">norme harmonisée européenne  sur les technologies de l'information et des communications (TIC).</a> L'ARC utilise les  <em>Règles pour  l&rsquo;accessibilité des contenus Web (WCAG) 2.1 </em>pour respecter la LCA et doit  se conformer aux niveaux A et AA des WCAG.  </p>
+<p>En suivant les  directives du GCAU, votre contenu Web devrait répondre aux critères de réussite  WCAG suivants  : </p>
+<ul>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">2.1.1  Clavier (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap">2.1.2 Pas de piège au clavier (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#focus-order">2.4.3 Parcours du focus (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">2.4.7 Visibilité du focus (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#focus-visible">3.3.4 Prévention des erreurs (Niveau AA)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions">3.3.2 Étiquettes ou instructions (Niveau  A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships">1.3.1 Information et relations (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence">1.3.2 Ordre séquentiel logique (Niveau A)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG21-fr/#help">3.3.5 Aide  (Niveau AAA)</a></li>
+</ul>
   <h2 id="h-7">Article de blogue à l&rsquo;appui</h2>
   <div class="panel panel-default panel-body brdr-rds-0 ">
     <div class="row">
       <div class="col-sm-3">
-        <p class="h3 mrgn-tp-0"><a class="stretched-link" href="https://blog.canada.ca/2021/04/08/using-interactive-questions.html">The magic of using interactive questions</a></p>
+        <p class="h3 mrgn-tp-0"><a class="stretched-link" href="https://blogue.canada.ca/2021/04/08/utilisation-de-questions-interactives.html">Les questions interactives pour aider les gens</a></p>
       </div>
       <div class="col-sm-6">
-        <p>The interactive question component provides simple and clear answers to someone when they try to accomplish a task.</p>
-        <p><small>[8 April 2021]</small> </p>
+        <p>La composante de questions interactives fournit des réponses simples et claires à une personne lorsqu'elle essaie d'accomplir une tâche.</p>
+        <p><small>[8 avril 2021]</small> </p>
       </div>
-      <div class="col-sm-3"> <a href="https://blog.canada.ca/2021/04/08/using-interactive-questions.html"><img class="img-responsive hidden-xs thumbnail" src="../../../../assets/images/banners/gcweb/fieldflow/gcweb-interactive-questions-pattern-eng.jpg"></a> </div>
+      <div class="col-sm-3"> <a href="https://blogue.canada.ca/2021/04/08/utilisation-de-questions-interactives.html" title="Les questions interactives pour aider les gens"><img class="img-responsive hidden-xs thumbnail" src="../../../../assets/images/banners/gcweb/fieldflow/gcweb-interactive-questions-pattern-fra.jpg" alt=""></a> </div>
     </div>
   </div>
   </div>
