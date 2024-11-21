@@ -108,152 +108,150 @@
     <li><a href="#h-7">Article de blogue à l&rsquo;appui</a></li>
     <li><a href="#h-8">Composantes et fonctionnalités  complémentaires</a></li>
   </ul>
-  <h2 id="h-1">Prendre en compte les besoins des utilisateurs</h2>
-  <p>Using this pattern with UCD guidance supports: </p>
+<h2 id="h-1">Prendre en compte les besoins des utilisateurs</h2>
+  <p>L'utilisation de ce modèle en plus des lignes directrices du GCAE permet :</p>
   <ul>
-    <li>People&rsquo;s understanding of what is expected of them by providing clear instructions at each step </li>
-    <li>People navigating the content with a screen reader and keyboard-only inputs </li>
-    <li>A logical and intuitive order to questions, giving people the information they need to respond to a question </li>
-    <li>Visual cues to show progress, which is especially helpful for people with cognitive disabilities </li>
-    <li>Providing people with multiple ways to access information</li>
+    <li>aux gens de comprendre ce que l'on attend d'eux en fournissant des instructions claires à chaque étape</li>
+    <li>aux gens de naviguer dans le contenu avec un lecteur d'écran ou des entrées clavier uniquement</li>
+    <li>un ordre logique et intuitif des questions, donnant aux gens les informations dont ils ont besoin pour répondre à une question</li>
+    <li>de fournir des repères visuels pour montrer les progrès, ce qui est particulièrement utile pour les personnes ayant des déficiences cognitives</li>
+    <li>d&rsquo;offrir aux gens de multiples façons d'accéder à l'information</li>
   </ul>
   <h2 id="h-2">Quand les utiliser</h2>
-  <p>Use interactive questions to help people find an answer to their specific situation or condition.</p>
-  <p>This component is well suited to helping people understand: </p>
+  <p>Utilisez des questions interactives pour aider les gens à trouver une réponse à leur situation ou condition spécifique. </p>
+  <p>Cette composante est bien adaptée pour aider les gens à comprendre : </p>
   <ul>
-    <li>Compliance requirements that depend on specific situations or conditions </li>
-    <li>Applicability of rules </li>
-  </ul>
+    <li>les exigences en matière de conformité qui dépendent de situations ou de conditions particulières</li>
+    <li>comment appliquer les règles</li>
+</ul>
   <h3 id="h-2-1">Autre façon de fournir des réponses</h3>
-  <p>The content should already exist in a text format.  This text version is the authoritative content, and the interactive questions are the supportive feature.</p>
-  <p>People who need a full text equivalent are those who:  </p>
+  <p>Le contenu devrait déjà exister dans un format texte. Cette version texte est le contenu faisant autorité, et les questions interactives sont un élément de soutien. </p>
+  <p>Les personnes qui ont besoin d'un équivalent en texte intégral sont celles : </p>
   <ul>
-    <li>Cannot run scripts on their device, including instances where scripts are not performing properly </li>
-    <li>Need to scan the entire scope of all situations  (e.g. lawyers, accountants, call centre agents) </li>
-    <li>Prefer not to interact with interactive questions</li>
-  </ul>
+    <li>pour qui il est impossible d'exécuter des scripts sur leur appareil, y compris les cas où les scripts ne fonctionnent pas correctement</li>
+    <li>qui ont besoin d'analyser la portée complète de toutes les situations (par exemple, avocats, comptables, agents de centres d'appels)</li>
+    <li>qui préfèrent ne pas interagir avec les questions interactives</li>
+</ul>
   <h2 id="h-3">Quand envisager des solutions de rechange</h2>
-  <p>If most answers can be reached in 1 or 2 questions, consider one of the following ways to present the information: </p>
+  <p>Si la plupart des réponses peuvent être obtenues à l&rsquo;aide d&rsquo;une ou deux questions, envisagez l'une des façons suivantes de présenter l'information : </p>
   <ul>
-    <li>Expand/hides (for mutually exclusive options) </li>
-    <li>Tabs (alternative ways to get to the same answer) </li>
-    <li>Eligibility checklists </li>
-    <li>Lists</li>
-    <li>Other types of content restructuring </li>
+    <li>Menus afficher/masquer (pour les options qui s&rsquo;excluent l&rsquo;une l&rsquo;autre)</li>
+    <li>Onglets  (autres moyens d'obtenir la même réponse)</li>
+    <li>Listes de vérification de l'admissibilité</li>
+    <li>Liste </li>
+    <li>Autres types de restructuration de contenu</li>
   </ul>
-  <p>These other ways of presenting the information remove the requirement of providing a full text equivalent as they do not hide content with scripts. </p>
-  <h2 id="h-4">Comment les applique</h2>
-  <p>Interactive questions should follow these fundamental principles:</p>
+  <p>Ces autres façons de présenter l'information permettent de ne pas avoir à fournir un équivalent en texte intégral car elles ne cachent pas le contenu avec des scripts. </p>
+<h2 id="h-4">Comment les applique</h2>
+  <p>Les questions interactives doivent suivre les principes fondamentaux suivants : </p>
   <ul>
-    <li>Use clear and easy to understand questions and options</li>
-    <li>Require as few questions as possible to reach an answer</li>
-    <li>Prioritize the most common scenarios instead of providing answers for every situation</li>
+    <li>Les questions et les options devraient être claires et faciles à comprendre.</li>
+    <li>L&rsquo;obtention d&rsquo;une réponse devrait être obtenue avec le moins de questions possible.</li>
+    <li>Les scénarios les plus courants devraient être priorisés au lieu de fournir des réponses à chaque situation.</li>
   </ul>
-  <p>On Canada.ca, interactive questions use the GCWeb component <a href="https://wet-boew.github.io/GCWeb/components/wb-fieldflow/fieldflow-doc-en.html">Field flow</a>, which has not been optimized for complex interactive questions. Be cautious when designing content as there are limitations on how the code can function or be displayed.</p>
-  <h3 id="h-4-1">Créer des questions interactives </h3>
-  <h4>Focus on the majority of the audience </h4>
+  <p>Sur le site Canada.ca, les questions interactives utilisent la composante GCWeb <a href="https://wet-boew.github.io/GCWeb/components/wb-fieldflow/fieldflow-doc-fr.html">Déroulement de champs</a>, qui n'a pas été optimisée pour les questions interactives complexes. Soyez prudent lors de la conception de contenu car il existe des limites sur la façon dont le code peut fonctionner ou être affiché. </p>
+<h3 id="h-4-1">Créer des questions interactives </h3>
+  <h4>Concentrez-vous sur une majorité du public</h4>
   <ul>
-    <li>Prioritize keeping interactive questions as simple and short as possible </li>
-    <li>Consider only including answers for the most common situations </li>
-    <li>For situations that affect a smaller number of people, refer them to the full text version or other governance provided </li>
-    <li>Get people to an answer as quickly as possible
+    <li>Choisissez des questions interactives aussi simples et courtes que possible.</li>
+    <li>Envisagez d&rsquo;inclure des réponses seulement pour les situations les plus courantes.</li>
+    <li>Pour les situations qui touchent un plus petit nombre de personnes, référez-les à la version en texte intégral ou à toute autre gouvernance fournie.</li>
+    <li>Dirigez les gens vers une réponse le plus rapidement possible.
       <ul>
-        <li>For example, if all Canadians are exempt from something, start with &quot;Are you a Canadian citizen?&quot; </li>
+        <li>Par exemple, si tous les Canadiens sont exemptés de quelque chose, commencez par « Êtes-vous citoyen canadien? ».</li>
       </ul>
     </li>
-    <li>If most answers are found after the first question, move those situations out of and before the interactive questions
+    <li>Si la plupart des réponses sont obtenues après la première question, déplacez ces situations en dehors et avant les questions interactives.
       <ul>
-        <li>Use interactive questions for those who need to provide more information about their situation</li>
+        <li>Utilisez des questions interactives pour ceux qui ont besoin de fournir plus d'informations sur leur situation.    </li>
       </ul>
     </li>
-  </ul>
-  <h4>Keep options unique</h4>
-  <p>Each option in the same question should lead to different answers or next questions. Consider using the options Yes/No/Unsure for questions where multiple options may have the same answer. </p>
-  <p>If multiple options in one question must lead to the same result, each result or answer should be personalized to each option. </p>
-  <div class="well max-content">
-    <h5 class="mrgn-tp-0">Example</h5>
-    <p>If the options are:</p>
+</ul>
+  <h4>Choisissez des options uniques</h4>
+  <p>Chaque option d'une même question devrait mener à des réponses différentes ou à des questions suivantes. Envisagez d'utiliser les options Oui/Non/Incertain pour les questions dans lesquelles plusieurs options peuvent avoir la même réponse. </p>
+  <p>Si plusieurs options dans une question doivent mener au même résultat, chaque résultat ou réponse doit être personnalisé pour chaque option. </p>
+<div class="well max-content">
+  <h5 class="mrgn-tp-0">Exemple</h5>
+    <p>Si les options sont les suivantes : </p>
     <ul>
-      <li> Canadian citizen</li>
-      <li>Permanent resident</li>
-      <li>Non-resident</li>
+      <li>Citoyen canadien </li>
+      <li>Résident permanent </li>
+      <li>Non-résident </li>
     </ul>
-    <p>and choosing either Canadian citizen or Permanent resident both provide the same result, consider restructuring the question to be:</p>
+  <p>Et que choisir soit « citoyen canadien » ou  « résident permanent » donnent le même résultat, envisagez de restructurer la question comme suit&nbsp;: </p>
     <ul>
-      <li>&quot;Are you a Canadian citizen or Permanent resident?&quot;
+      <li>« Êtes-vous citoyen canadien ou résident permanent? » 
         <ul>
-          <li>Yes
+          <li>Oui 
             <ul>
-              <li>Proceed to next part</li>
+              <li>Passez à la partie suivante </li>
             </ul>
           </li>
-          <li>No
+          <li>Non 
             <ul>
-              <li>&quot;Are you a non-resident?&quot;
-                <ul>
-                  <li>Yes</li>
-                  <li>No</li>
-                </ul>
-              </li>
+              <li>« Êtes-vous un non-résident? » </li>
+              <li>Oui</li>
+              <li>Non</li>
             </ul>
-          </li>
-        </ul>
+        </li></ul>
       </li>
     </ul>
-  </div>
-  <h4>Map out interactive questions </h4>
-  <p>For most situations, you can map interactive questions out as a nested list. </p>
-  <p>Refer to the logic map tab in the <a href="#h-5">Options de conception</a>.</p>
-  <p>Common actions that are used after a choice has been made are:</p>
+       
+</div>
+  <h4>Schématisez les questions interactives </h4>
+  <p>Pour la plupart des situations, vous pouvez schématiser les questions interactives sous la forme d'une liste imbriquée. </p>
+Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception</a>.
+  <p>Les actions courantes utilisées après qu'un choix a été fait sont les suivantes : </p>
   <ul>
-    <li>Show another question and a new set of options</li>
-    <li>Show a result or an answer</li>
-    <li>Redirect people to another web page</li>
-    <li>Add or remove a specific visual cue to dynamically change the page</li>
+    <li>Afficher une autre question et un nouvel ensemble d'options</li>
+    <li>Afficher un résultat ou une réponse</li>
+    <li>Rediriger la personne vers une autre page Web</li>
+    <li>Ajouter ou supprimer un repère visuel spécifique pour modifier la page de façon dynamique</li>
   </ul>
   <h3 id="h-4-2">Introduire des questions interactives sur la page</h3>
   <ul>
-    <li>The heading for a set of interactive questions should state the task
+    <li>Le titre d'une série de questions interactives doit indiquer la tâche.
       <ul>
-        <li>For example: &quot;Find out if you can renew your passport online&quot; or &quot;Confirm you have completed the calculations&quot;</li>
+        <li>Par exemple : « Vérifiez si vous pouvez renouveler votre passeport en ligne » ou « Confirmez que vous avez effectué les calculs ».</li>
       </ul>
     </li>
-    <li>Avoid using terms like &quot;wizard&quot;, &quot;decision tree&quot; or even &quot;interactive questions&quot; in the heading title</li>
-    <li>Provide a brief overview of what to expect from completing the task, along with instructions (if needed) to simplify answering the questions</li>
-    <li>Help people with navigating by providing an opening statement on what to expect
+    <li>Évitez d'utiliser des termes comme « assistant », « arbre décisionnel » ou même «  questions interactives » dans le titre.</li>
+    <li>Donnez un bref aperçu de ce à quoi vous pouvez vous attendre de l'exécution de la tâche, ainsi que des instructions (au besoin) pour simplifier la réponse aux questions.</li>
+    <li>Aidez les gens à s'y retrouver en leur fournissant un énoncé introductif sur ce à  quoi ils peuvent s'attendre.
       <ul>
-        <li>For example: &quot;Make a selection and then scroll down to see the next set of options or your result&quot;</li>
+        <li>Par exemple : « Faites un choix, puis faites défiler vers le bas pour voir la prochaine série d'options ou votre résultat ».</li>
       </ul>
     </li>
   </ul>
   <h4>Placement of interactive questions within existing content</h4>
-  <p>If the interactive questions are part of the content on the page (a step in a larger task), use headers before and after interactive questions to <strong>separate</strong> the rest of them from the rest of the content.</p>
-  <p>Additionally to headers, consider using visual indicators to show when the interactive questions start and stop (for example, tabs, icon, indenting, border and well are all acceptable options).</p>
-  <h3 id="h-4-3">Présenter les questions</h3>
+  <p>Si les questions interactives font partie du contenu de la page (une étape dans une tâche plus vaste), utilisez des en-têtes avant et après les questions interactives pour les <strong>séparer</strong> du reste du contenu. </p>
+  <p>En plus des en-têtes, envisagez d'utiliser des indicateurs visuels pour indiquer quand les questions interactives commencent et s'arrêtent (par exemple, les tabulations, un icône, la mise en retrait, une bordure et le puits sont toutes des options acceptables). </p>
+<h3 id="h-4-3">Présenter les questions</h3>
   <ul>
-    <li>Add any important information, concepts, or explanations <strong>before</strong> the interactive questions. </li>
-    <li>Use radio buttons as shown in the <a href="#h-5">design options</a>, to show the choices: </li>
-    <ul>
-      <li>It is better to have less options to choose from and more questions to ask when using radio buttons, especially when using a mobile device </li>
-    </ul>
-    <li>When there are a lot of options use the select (dropdown) method</li>
-    <li>Avoid using lightboxes and overlays as they do not always perform as intended</li>
-    <li>Links should open in a new tab or window</li>
-    <li>Having more questions is better than  &quot;front-loading&quot; a lot of information in a single question </li>
-    <li>Order the more commonly chosen options (based on evidence) towards the top of the list, or sort alphabetically
+    <li>Ajoutez les informations, les explications et les concepts importants <strong>avant</strong> les questions interactives.</li>
+    <li>Utilisez les boutons radio comme indiqué dans les <a href="#h-5">options de conception</a>, pour afficher les choix :
       <ul>
-        <li>This does not apply to default choices like Yes/No/Unsure; keep their order consistent</li>
+        <li>Il est préférable d'avoir moins d'options à  choisir et plus de questions à poser lors de l'utilisation des boutons radio, en particulier lors de l'utilisation d'un appareil mobile.</li>
       </ul>
     </li>
-    <li>Avoid introducing new terms or concepts within interactive questions; provide this information before the questions
+    <li>Lorsqu'il y a beaucoup d'options, utilisez la méthode de sélection (liste déroulante).</li>
+    <li>Évitez d'utiliser des fenêtres contextuelles et du contenu superposé, car ils ne fonctionnent pas toujours comme prévu.</li>
+    <li>Les liens doivent s'ouvrir dans un nouvel onglet ou une nouvelle fenêtre.</li>
+    <li>Avoir plus de questions est mieux que d&rsquo;ajouter beaucoup d'informations dans une seule question.</li>
+    <li>Classez les options les plus couramment choisies (en fonction des données probantes) vers le haut de la liste, ou triez par ordre alphabétique.
       <ul>
-        <li>To remind people of terms or concepts use rescues such as <a href="../links/index.html">links</a> or <a href="https://wet-boew.github.io/v4.0-ci/demos/data-ajax/data-ajax-en.html">AJAX pulls</a></li>
+        <li>Cela ne s'applique pas aux choix par défaut comme Oui/Non/Incertain; gardez un ordre cohérent pour ceux-ci.</li>
       </ul>
     </li>
-    <li>Only create interactive questions for parts of a task that require decision making and place them in between the rest of the process</li>
+    <li>Évitez d'introduire de nouveaux termes ou concepts dans les questions interactives; fournissez ces renseignements avant les questions.
+      <ul>
+        <li>Pour rappeler des termes ou des concepts, utilisez des <a href="../liens/index.html">liens</a> de secours ou du texte <a href="https://wet-boew.github.io/v4.0-ci/demos/data-ajax/data-ajax-fr.html">AJAX</a>.</li>
+      </ul>
+    </li>
+    <li>Créez uniquement des questions interactives pour les parties d'une tâche qui nécessitent une prise de décision et placez-les à l&rsquo;intérieur du reste du processus.</li>
   </ul>
   <div class="well max-content gc-font-2019">
-    <h4 class="mrgn-tp-0">Example</h4>
+    <h4 class="mrgn-tp-0">Exemple</h4>
     <div class="row">
       <div class="col-md-4">
         <p><span class="fas fa-check text-success mrgn-rght-sm"></span>Preferred:</p>
@@ -261,112 +259,114 @@
           <form>
             <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
               <div class="wb-fieldflow-header">
-                <p class="wb-fieldflow-label">Are you a Canadian citizen or permanent resident?</p>
+                <p class="wb-fieldflow-label">Option privilégiée :</p>
               </div>
               <ul>
-                <li> Yes </li>
-                <li>No</li>
+                <li>Oui</li>
+                <li>Non</li>
               </ul>
             </div>
           </form>
         </div>
       </div>
       <div class="col-md-4">
-        <p><span class="fas fa-check text-success mrgn-rght-sm"></span>An acceptable alternative:</p>
+        <p><span class="fas fa-check text-success mrgn-rght-sm"></span>Option acceptable :</p>
         <div class="wb-frmvld fieldflow-lg mrgn-lft-lg">
           <form>
             <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
               <div class="wb-fieldflow-header">
-                <p class="wb-fieldflow-label">What is your residency status?</p>
+                <p class="wb-fieldflow-label">Quel est votre statut de résidence?</p>
               </div>
               <ul>
-                <li>Canadian citizen</li>
-                <li>Permanent resident</li>
-                <li>Non-resident</li>
+                <li>Citoyen canadien</li>
+                <li>Résident permanent</li>
+                <li>Non-résident</li>
               </ul>
             </div>
           </form>
         </div>
       </div>
       <div class="col-md-4">
-        <p><span class="fas fa-ban text-danger mrgn-rght-sm"></span>Can cause issues:</p>
+        <p><span class="fas fa-ban text-danger mrgn-rght-sm"></span>Option pouvant causer des problèmes :</p>
         <div class="wb-frmvld fieldflow-lg mrgn-lft-lg">
           <form>
             <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
               <div class="wb-fieldflow-header">
-                <p class="wb-fieldflow-label">Are you one of the following:</p>
+                <p class="wb-fieldflow-label">Êtes-vous l'une des personnes suivantes :</p>
                 <ul>
-                  <li>A Canadian citizen</li>
-                  <li>A permanent resident</li>
+                  <li>Un citoyen canadien</li>
+                  <li>Un résident permanent</li>
                 </ul>
               </div>
               <ul>
-                <li> Yes </li>
-                <li>No</li>
+                <li>Oui</li>
+                <li>Non</li>
               </ul>
             </div>
           </form>
         </div>
       </div>
     </div>
-  </div>
-  <h3 id="h-4-4">Ajouter du texte complémentaire</h3>
-  <p>If a specific question requires additional information and it cannot be added before the interactive questions, consider these options: </p>
+</div>
+<h3 id="h-4-4">Ajouter du texte complémentaire</h3>
+  <p>Si une question spécifique nécessite des informations supplémentaires et qu'elles ne peuvent pas être ajoutées avant les questions interactives, envisagez les options suivantes : </p>
+<ul>
+  <li>Ajoutez un court énoncé en texte simple au-dessus ou en-dessous de la question.
+      <ul>
+        <li>Utilisez <code>aria-describedby</code> ou <code>aria-labelledby</code> tpour lier la question et l’énoncé (dans le bon ordre) afin qu’un lecteur d’écran les lise ensemble.</li>
+      </ul>
+  </li>
+    <li>Pour ajouter des informations qui comportent du contenu structuré tel que des <a href="../listes/index.html">listes</a>, ou des éléments interactifs tels que des <a href="../liens/index.html">liens</a>, placez le contenu dans un  élément <a href="https://conception.canada.ca/configurations-conception-communes/contenu-reductible.html">afficher/masquer</a> avec un résumé  descriptif.
+      <ul>
+        <li>Cela permet à ceux qui naviguent avec des claviers de se concentrer sur le contenu lorsqu'ils parcourent les éléments du formulaire de questions interactives.</li>
+      </ul>
+    </li>
+    <li>Pour ajouter des informations après que la question a été posée, ajoutez un module afficher/masquer sous la question.
+      <ul>
+        <li>Les lecteurs d'écran liront la question, le résumé du module afficher/masquer, puis la personne pourra accéder aux options.</li>
+      </ul>
+    </li>
+    </ul>
+  <p>Consultez : <a href="#h-5">Options de conception</a></p>
+<h3 id="h-4-5">Présenter les réponses</h3>
+  <h4>Utilisez des alertes pour fournir des réponses</h4>
+  <p>Utilisez des <a href="https://conception.canada.ca/configurations-conception-communes/alertes-contextuelles.html">alertes</a> pour indiquer qu'une série de questions est terminée et qu'une conclusion a été fournie.</p>
+  <p>Utilisez l'alerte appropriée en fonction du type de réponse : </p>
   <ul>
-    <li>Add a short plain text statement above or below the question
-      <ul>
-        <li>Use <code>aria-describedby</code> or <code>aria-labelledby</code> to bind the question and statement (in correct order), so a screen reader device will read them together</li>
-      </ul>
-    </li>
-    <li>To add information that includes structured content such as <a href="../lists/index.html">lists</a>, or interactive elements like <a href="../links/index.html">links</a>, place the content inside an <a href="https://design.canada.ca/common-design-patterns/collapsible-content.html">expand/hide</a> element with a descriptive summary
-      <ul>
-        <li>This allows those who navigate with keyboards to focus on the content when going through the interactive questions' form elements</li>
-      </ul>
-    </li>
-    <li>To add information after the question has been asked, add an expand/hide below the question
-      <ul>
-        <li>Screen reader devices will read the question, the expand/hide summary and then the person can navigate to the options </li>
-      </ul>
-    </li>
-  </ul>
-  <p>Refer to: <a href="#h-5">Options de conception</a></p>
-  <h3 id="h-4-5">Présenter les réponses</h3>
-  <h4>Use alerts to provide answers </h4>
-  <p>Use <a href="https://design.canada.ca/common-design-patterns/contextual-alerts.html">alerts</a> to show that a series of questions has ended and a conclusion has been made. </p>
-  <p>Use the correct alert based on the type of answer:</p>
+    <li>Résultats par défaut : utilisez l'alerte d&rsquo;information</li>
+    <li>Résultats positifs et négatifs : utilisez des alertes de succès et d'avertissement</li>
+</ul>
+  <p>Ajoutez un en-tête à  l'alerte pour fournir un résumé de la réponse. Commencez par un énoncé clair tel que «&nbsp;Voici le résultat&nbsp;» ou «&nbsp;Voici votre réponse&nbsp;» pour aider les gens à comprendre que c'est la fin des questions. </p>
+<p>Consultez : <a href="#h-5">Options de conception</a></p>
+  <h4>Utilisez des attributs pour permettre la navigation en dehors des questions</h4>
+  <p>Il existe différentes façons de coder pour avoir un contenu accessible selon que la réponse est plus courte ou plus longue. Vous pouvez aider les personnes utilisant des lecteurs d'écran à naviguer en dehors des éléments du formulaire de l'une des 2 façons suivantes : </p>
   <ul>
-    <li>Default results: use info alert </li>
-    <li>Positive and negative results: use success and warning alerts </li>
-  </ul>
-  <p>Add a header to the alert to provide an overview of what the answer is. Start with a clear statement, such as &quot;The result is&quot; or  &quot;Your answer is &quot; to help people understand that it is the end of the questions.</p>
-  <p>Refer to: <a href="#h-5">Options de conception</a></p>
-  <h4>Use attributes to allow navigation out of the questions</h4>
-  <p>There are different ways to code for accessibility depending on if the answer is shorter or longer. You can help persons using screen readers, navigate out of the form elements in 1 of 2 ways:</p>
-  <ul>
-    <li>Wrap the set of answers with a block element (e.g. <code>&lt;div&gt;</code> or <code>&lt;section&gt;</code>) and use the <code>aria-live=&quot;polite&quot;</code> attribute so that the answers are announced to the person through the screen reader </li>
-    <li>Alternatively use the <code>tabindex=&quot;0&quot;</code> attribute to the header of the answers so the person can tab to the answer if using keyboard navigation (or the entire answer if it's short)
+    <li>Enveloppez l'ensemble des réponses avec un élément de bloc (par exemple <code>&lt;div&gt;</code> ou <code>&lt;section&gt;</code>) et utilisez l'attribut <code>aria-live=&quot;polite&quot;</code>  pour que les réponses soient annoncées à la personne au moyen du lecteur d'écran.</li>
+    <li>Vous pouvez é aussi utiliser l'attribut <code>tabindex=&quot;0&quot;</code>  dans l'en-tête des réponses afin que la personne puisse accéder à la réponse si elle utilise la navigation clavier (ou la réponse entière si elle est courte).
       <ul>
-        <li>Do not use <code>aria-live=&quot;polite&quot;</code> if you are wrapping <code>tabindex=&quot;0&quot;</code> around the entire answer </li>
+        <li>N'utilisez pas les  <code>aria-live=&quot;polite&quot;</code> si vous enveloppez <code>tabindex=&quot;0&quot;</code> la réponse complète.</li>
       </ul>
     </li>
-    <li>If putting the interactive questions in a tab design (to support the full text equivalent), consider adding a link to navigate to the next header</li>
-  </ul>
+    <li>Si vous placez les questions interactives dans un onglet (pour avoir l'équivalent en texte intégral), envisagez d'ajouter un lien pour accéder à l'en-tête suivant.</li>
+</ul>
   <h3 id="h-4-6">Présenter la version texte</h3>
-  <p>The full text version can be displayed: </p>
+  <p>La version en texte intégral peut être affichée : </p>
   <ul>
-    <li>As part of a tab design with interactive questions on the first tab and the full text on the second
+    <li>dans le cadre d'une conception avec onglets comportant des questions interactives dans le premier onglet et le texte intégral dans le deuxième
       <ul>
-        <li>Provide links within both tabs for navigating between tabs</li>
-        <li>Keep the formatting in the full text version simple, similar to a publication (e.g. no expand/hides or stylized components)</li>
+        <li>Fournissez des liens dans les 2 onglets pour naviguer de l&rsquo;un à l&rsquo;autre.</li>
+        <li>Gardez la mise en forme simple dans la version texte intégral, semblable à une publication (par exemple, pas de module afficher/masquer ou de composantes stylisées)</li>
       </ul>
     </li>
-    <li>On a different page, accessed by a link near the interactive questions </li>
-    <li>On the same page, but in a different location
+    <li>sur une autre page, accessible au moyen d&rsquo;un lien près des questions interactives</li>
+    <li>sur la même page, mais à un emplacement différent
       <ul>
-        <li>It should be clear (visually or contextually) that the information is mutually exclusive and a person does not need to interact with both parts</li>
+        <li>Il doit être clair (visuellement ou contextuellement) que les informations s'excluent l&rsquo;une l&rsquo;autre et qu'une personne n'a pas besoin d'interagir avec les deux sections.</li>
       </ul>
     </li>
-  </ul>
+    <li>
+    </li>
+</ul>
   <h2 id="h-5">Options de conception</h2>
   <p>Due to limitations, the appearance examples may not be fully accessible. Copy the code from the HTML code tab.</p>	      
   <p>Things to consider:</p>
