@@ -396,7 +396,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
       <div class="ds-example">
         <div class="wb-tabs">
           <div class="tabpanels">
-            <detail id="app1">
+            <details id="app1">
               <summary>Apparence</summary>
 <div class="ff-lead-before hidden">
 		    <div class="alert alert-info"><p>Cela s’affiche à la deuxième question, si vous sélectionnez « Oui » comme réponse à la première question.</p></div>
@@ -519,43 +519,48 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               <p>These are a couple of ideas on how to map out interactive questions.</p>
               <p class="h4 mrgn-tp-0">Option 1</p>
               <ul>
-                <li> <strong>Q1:</strong> [Question 1]?<br>
+                <li> <strong>Q1:</strong> Have you calculated the subsidy amount for your business?<br>
                   <span class="ff-support-before hidden"><br>
-                  [Texte complémentaire ici, si nécessaire]</span>
+                  [Supportive statement here if necessary]</span>
                   <div class="ff-info-after hidden">
                     <p><strong>Expand/hide</strong><br>
                       <strong>Summary:</strong>[Summary text here if necessary]</p>
                     <p>Content, links, tables, etc. goes here</p>
                   </div>
                   <ul>
-                    <li> Oui
+                    <li>Yes
                       <ul>
                         <li>
                           <div class="ff-lead-before hidden">
-                            <p>[Énoncé introductif ici, si nécessaire]</p>
+                            <p>[Lead in statement here if necessary]</p>
                           </div>
-                          <strong>Q2:</strong> [Question 2]?<br>
+                          <strong>Q2:</strong> Do you expect a payment of $25 million or more?<br>
                           <span class="ff-support-before hidden"><br>
-                          [Texte complémentaire ici, si nécessaire]</span>
+                          [Supportive statement here if necessary]</span>
                           <div class="ff-info-after hidden">
                             <p><strong>Expand/hide</strong><br>
                               <strong>Summary:</strong> [Summary text here if necessary]</p>
                             <p>Content, links, tables, etc. goes here</p>
                           </div>
                           <ul>
-                            <li>Oui
+                            <li>Yes
                               <ul>
                                 <li>
-                                  <p>Answer [1]:</p>
-                                  <p>[Answer 1 statement]</p>
+                                  <p>Answer [1]: You need to calculate the subsidy first</p>
+                                  <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
+                  <p>[Calculate your subsidy amount (Link: URL goes here)]</p>
                                 </li>
                               </ul>
                             </li>
-                            <li>Non
+                            <li>No
                               <ul>
                                 <li>
-                                  <p>Answer [2]:</p>
-                                  <p>[Answer 2 statement]</p>
+                                  <p>Answer [2]: You need to report the payment first</p>
+                                  <p>Before you apply you must:</p>
+					<ul>
+						<li>Register for the Large Value Transfer System (LVTS) by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
+						<li>[Set up direct deposit (Link: URL goes here)]</li>
+					</ul>
                                 </li>
                               </ul>
                             </li>
@@ -563,12 +568,12 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                         </li>
                       </ul>
                     </li>
-                    <li>Non
+                    <li>No
                       <ul>
                         <li>
-                          <p>Answer [3]:</p>
-                          <p>[Answer 3 statement]</p>
-                          <p>Calculate your subsidy amount (add link)</p>
+                          <p>Answer [3]: You can apply</p>
+                          <p>You can go ahead and [apply for this benefit (Link: URL goes here)].</a></p>
+		    <p>Or, if needed: [Set up direct deposit (Link: URL goes here)].</p>
                         </li>
                       </ul>
                     </li>
@@ -577,8 +582,8 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </ul>
               <p class="h4 mrgn-tp-0">Option 2</p>
               <p class="h5">Question 1</p>
-              <p><strong>Q:</strong> [Question 1]?</p>
-              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
+              <p><strong>Q:</strong> Have you calculated the subsidy amount for your business?</p>
+              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong>[Summary text here if necessary]
@@ -587,30 +592,36 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                 <p>Content, links, tables, etc. goes here</p>
               </div>
               <ul>
-                <li>Oui (Go to question 2)</li>
-                <li>Non (Go to answer 1)</li>
+                <li>Yes (Go to question 2)</li>
+                <li>No (Go to answer 1)</li>
               </ul>
               <p class="h5">Question 2</p>
               <div class="ff-lead-before hidden">
-                <p>[Énoncé introductif ici, si nécessaire]</p>
+                <p>[Lead in statement here if necessary]</p>
               </div>
-              <p><strong>Q:</strong> [Question 2]?</p>
-              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
+              <p><strong>Q:</strong> Do you expect a payment of $25 million or more?</p>
+              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
               <div class="ff-info-after hidden">
                 <p><strong>Expand/hide</strong><br>
                   <strong>Summary:</strong> [Summary text here]</p>
                 <p>Content, links, tables, etc. goes here</p>
               </div>
               <ul>
-                <li>Oui (Go to answer 2)</li>
-                <li>Non (Go to answer 3)</li>
+                <li>Yes (Go to answer 2)</li>
+                <li>No (Go to answer 3)</li>
               </ul>
-              <p class="h5">Answer [1]</p>
-              <p>[Answer 1 statement]</p>
-              <p class="h5">Answer [2]</p>
-              <p>[Answer 2 statement]</p>
-              <p class="h5">Answer [3]</p>
-              <p>[Answer 3 statement]</p>
+              <p class="h5">Answer 1: You need to calculate the subsidy first</p>
+            <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
+                  <p>[Calculate your subsidy amount (Link: URL goes here)]</p>
+              <p class="h5">Answer 2: You need to report the payment first</p>
+            <p>Before you apply you must:</p>
+                  <ul>
+                    <li>Register for the Large Value Transfer System (LVTS) by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
+                    <li>[Set up direct deposit (Link: URL goes here)]</li>
+                  </ul>
+              <p class="h5">Answer 3: You can apply</p>
+              <p>You can go ahead and [apply for this benefit (Link: URL goes here)].</a></p>
+		    <p>Or, if needed: [Set up direct deposit (Link: URL goes here)].</p>
             </details>
           </div>
         </div>
