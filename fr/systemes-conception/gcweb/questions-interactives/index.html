@@ -19,7 +19,7 @@
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta name="dcterms.language" title="ISO639-2/T" content="fra">
   <meta name="dcterms.title" content="Questions interactives">
-  <meta name="dcterms.description" content="[description here]">
+  <meta name="dcterms.description" content="Présenter aux utilisateurs une séquence de questions simples qui mènent à la réponse précise dont ils ont besoin pour poursuivre leur tâche ou la terminer">
   <meta name="robots" content="noindex, nofollow">
   <!--[if gte IE 9 | !IE ]><!-->
   <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
@@ -392,15 +392,17 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
       </div>
   </div>
     <!-- Field flow appearance -->
-    <div class="col-md-8">
+  <div class="col-md-8">
       <div class="ds-example">
         <div class="wb-tabs">
-          <div class="tabpanels">
+          <div class="tabpanels"><!-- Field flow code -->
             <details id="app1">
               <summary>Apparence</summary>
-<div class="ff-lead-before hidden">
-		    <div class="alert alert-info"><p>Cela s’affiche à la deuxième question, si vous sélectionnez « Oui » comme réponse à la première question.</p></div>
-</div>
+              <div class="ff-lead-before hidden">
+                <div class="alert alert-info">
+                  <p>Cela s’affiche à la deuxième question, si vous sélectionnez « Oui » comme réponse à la première question.</p>
+                </div>
+              </div>
               <h3 id="confirm-calculations">Confirmez que vous avez effectué les calculs</h3>
               <p>Faites un choix, puis faites défiler vers le bas pour voir le prochain ensemble d'options ou votre résultat.</p>
               <div class="wb-frmvld fieldflow-lg">
@@ -408,11 +410,11 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                   <div class="wb-fieldflow gc-font-2019" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
                     <div class="wb-fieldflow-header">
                       <p class="wb-fieldflow-label"><span aria-describedby="q1-desc">Avez-vous calculé le montant de la subvention pour votre entreprise?</span></p>
-                      <p class="ff-support-before hidden" id="q1-desc">[Texte complémentaire ici, si nécessaire]</strong></p>
+                      <p class="ff-support-before hidden" id="q1-desc">[Texte complémentaire ici, si nécessaire]</p>
                       <div class="ff-info-after hidden">
                         <details>
                           <summary>[Résumé ici, si nécessaire]</summary>
-                          <p>Content, links, tables, etc. goes here</p>
+                          <p>Le contenu, les liens et les tableaux vont ici.</p>
                         </details>
                       </div>
                     </div>
@@ -428,7 +430,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                             <div class="ff-info-after hidden">
                               <details>
                                 <summary>[Résumé ici, si nécessaire]</summary>
-                                <p>Content, links, tables, etc. goes here</p>
+                                <p>Le contenu, les liens et les tableaux vont ici.</p>
                               </details>
                             </div>
                           </div>
@@ -448,55 +450,54 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                   <h3><small>Voici le résultat</small><br>
                     You need to calculate the subsidy first</h3>
                   <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
-                  <p><a href="calculate-subsidy-amount.html">Calculate your subsidy amount</a></p>
+                  <p><a href="#">Calculez le montant de votre subvention</a></p>
                 </div>
                 <div class="hidden alert alert-info alert-result" id="answer1-2">
                   <h3><small>Voici le résultat</small><br>
                     You need to report the payment first</h3>
-                  <p>Before you apply you must:</p>
+                  <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Register for the Large Value Transfer System (LVTS) by sending an email to <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
-                    <li><a href="#deposit"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a></li>
+                    <li>Register for this program by sending an email to <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
+                    <li><a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a></li>
                   </ul>
                 </div>
                 <div class="hidden alert alert-success alert-result" id="answer1-3">
                   <h3><small>Voici le résultat</small><br>
                     You can apply</h3>
                   <p>You can go ahead and <a href="#">apply for this benefit.</a></p>
-                  <p>Or, if needed: <a href="#deposit"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a>.</p>
+                  <p>Or, if needed: <a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a>.</p>
                 </div>
               </div>
             </details>
-            <!-- Field flow code -->
             <details id="code1">
-              <summary>HTML code</summary>
-		  <p>Removed specific text from appearance and logic map for easy copy and paste.</p>
+              <summary>code HTML</summary>
+		  <p>Removed example text from appearance and logic map for easy copy and paste.</p>
 		    <div class="wb-clipboard" data-wb-clipboard='{"noTextStyle": true, "border": false}'>   
               <pre><code><div class="mrgn-lft-md mrgn-rght-md">&lt;div class="<strong>wb-frmvld fieldflow-lg</strong>"&gt;
               &lt;form&gt;
               &lt;div class="<strong>wb-fieldflow gc-font-2019</strong>" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q1-desc"}</strong></span>}'&gt;
               &lt;!--Question 1 --&gt; <span class="ff-header hidden">&lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;[Question 1]&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q1-desc</strong>"&gt;[Texte complémentaire ici, si nécessaire]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
                 &lt;summary&gt;[Résumé ici, si nécessaire]&lt;/summary&gt;
-                &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
+                &lt;p&gt;Le contenu, les liens et les tableaux vont ici.&lt;/p&gt;
                 &lt;/details&gt;</span> &lt;/div&gt; </span> &lt;ul&gt;
               &lt;li&gt;Oui
               &lt;div class="<strong>wb-fieldflow-sub gc-font-2019</strong>" data-wb-fieldflow='{"renderas": "radio", "gcChckbxrdio":true, "isoptional": true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}<span class="ff-support-before hidden"><strong>, "attributes": {"aria-describedby": "q2-desc"}</strong></span><span class="ff-lead-before hidden"><strong>, "attributes": {"aria-labelledby": "q2-desc q2"}</strong></span>}'&gt;<span class="ff-header hidden"> &lt;!--Question 2 --&gt;  
                 &lt;div class="<strong>wb-fieldflow-header</strong>"&gt;</span> <span class="ff-lead-before hidden"> &lt;p id="<strong>q2-desc</strong>"&gt;[Énoncé introductif ici, si nécessaire]&lt;/p&gt;</span> &lt;p<span class="ff-header hidden"> class="wb-fieldflow-label"</span>&gt;<span class="ff-lead-before">&lt;span id="q2"&gt;</span>[Question 2]<span class="ff-lead-before">&lt;/span&gt;</span>&lt;/p&gt; <span class="ff-header hidden"><span class="ff-support-before hidden">&lt;p id="<strong>q2-desc</strong>"&gt;[Texte complémentaire ici, si nécessaire]&lt;/p&gt;</span> <span class="ff-info-after hidden">&lt;details&gt;
                 &lt;summary&gt;[Résumé ici, si nécessaire]&lt;/summary&gt;
-                &lt;p&gt;Content, links, tables, etc. go here.&lt;/p&gt;
+                &lt;p&gt;Le contenu, les liens et les tableaux vont ici.&lt;/p&gt;
                 &lt;/details&gt;</span> &lt;/div&gt;</span> &lt;ul&gt;
               &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-2", "class": "hidden", "live": true}'&gt;Oui&lt;/li&gt;
-              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-3", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-3", "class": "hidden", "live": true}'&gt;Non&lt;/li&gt;
               &lt;/ul&gt;
               &lt;/div&gt;
               &lt;/li&gt;
-              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-1", "class": "hidden", "live": true}'&gt;No&lt;/li&gt;
+              &lt;li data-wb-fieldflow='{"action": "removeClass", "source": "#answer-1", "class": "hidden", "live": true}'&gt;Non&lt;/li&gt;
               &lt;/ul&gt;
               &lt;/div&gt;
               &lt;/form&gt;
               &lt;/div&gt;
               &lt;div id="answers1" aria-live="polite"&gt;
-              &lt;!--Answer 1 --&gt;
+              &lt;!--Réponse 1 --&gt;
               &lt;div id="answer-1" class="hidden alert alert-warning alert-result"&gt;
               &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 1 header]&lt;/h3&gt;
               &lt;p&gt;[Answer 1 statement]&lt;/p&gt;
@@ -508,58 +509,58 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               &lt;/div&gt;
               &lt;!-- Answer 3 --&gt;
               &lt;div class="hidden alert alert-success alert-result" id="answer-3"&gt;
-              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 3 header&lt;/h3&gt;
+              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 3 header]&lt;/h3&gt;
               &lt;p&gt;[Answer 3 statement]&lt;/p&gt;
               &lt;/div&gt;
               &lt;/div&gt;</div></code></pre>
 		    </div>
             </details>
             <details id="logic1">
-              <summary>Logic map</summary>
-              <p>These are a couple of ideas on how to map out interactive questions.</p>
+              <summary>Schéma logique</summary>
+              <p>Voici quelques idées sur la façon de schématiser les questions interactives.</p>
               <p class="h4 mrgn-tp-0">Option 1</p>
               <ul>
-                <li> <strong>Q1:</strong> Have you calculated the subsidy amount for your business?<br>
+                <li> <strong>Q1:</strong> Avez-vous calculé le montant de la subvention pour votre entreprise?<br>
                   <span class="ff-support-before hidden"><br>
-                  [Supportive statement here if necessary]</span>
+                  [Texte complémentaire ici, si nécessaire]</span>
                   <div class="ff-info-after hidden">
-                    <p><strong>Expand/hide</strong><br>
-                      <strong>Summary:</strong>[Summary text here if necessary]</p>
-                    <p>Content, links, tables, etc. goes here</p>
+                    <p><strong>Afficher/masquer</strong><br>
+                      <strong>Résumé :</strong>[Texte résumé ici, si nécessaire]</p>
+                    <p>Le contenu, les liens et les tableaux vont ici.</p>
                   </div>
                   <ul>
-                    <li>Yes
+                    <li>Oui
                       <ul>
                         <li>
                           <div class="ff-lead-before hidden">
-                            <p>[Lead in statement here if necessary]</p>
+                            <p>[Énoncé introductif ici, si nécessaire]</p>
                           </div>
-                          <strong>Q2:</strong> Do you expect a payment of $25 million or more?<br>
+                          <strong>Q2:</strong> Vous attendez-vous à recevoir un paiement de 25 millions de dollars ou plus?<br>
                           <span class="ff-support-before hidden"><br>
-                          [Supportive statement here if necessary]</span>
+                          [Texte complémentaire ici, si nécessaire]</span>
                           <div class="ff-info-after hidden">
-                            <p><strong>Expand/hide</strong><br>
-                              <strong>Summary:</strong> [Summary text here if necessary]</p>
-                            <p>Content, links, tables, etc. goes here</p>
+                            <p><strong>Afficher/masquer</strong><br>
+                              <strong>Résumé :</strong> [Texte résumé ici, si nécessaire]</p>
+                            <p>Le contenu, les liens et les tableaux vont ici.</p>
                           </div>
                           <ul>
-                            <li>Yes
+                            <li>Oui
                               <ul>
                                 <li>
-                                  <p>Answer [1]: You need to calculate the subsidy first</p>
+                                  <p>Réponse [1]: You need to calculate the subsidy first</p>
                                   <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
-                  <p>[Calculate your subsidy amount (Link: URL goes here)]</p>
+                  <p>[Calculez le montant de votre subvention (Lien : URL goes here)]</p>
                                 </li>
                               </ul>
                             </li>
                             <li>No
                               <ul>
                                 <li>
-                                  <p>Answer [2]: You need to report the payment first</p>
-                                  <p>Before you apply you must:</p>
+                                  <p>Réponse [2]: You need to report the payment first</p>
+                                  <p>Avant de faire une demande, vous devez :</p>
 					<ul>
-						<li>Register for the Large Value Transfer System (LVTS) by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
-						<li>[Set up direct deposit (Link: URL goes here)]</li>
+						<li>Register for this program by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
+						<li>[Set up direct deposit (Lien : URL goes here)]</li>
 					</ul>
                                 </li>
                               </ul>
@@ -571,9 +572,9 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                     <li>No
                       <ul>
                         <li>
-                          <p>Answer [3]: You can apply</p>
-                          <p>You can go ahead and [apply for this benefit (Link: URL goes here)].</a></p>
-		    <p>Or, if needed: [Set up direct deposit (Link: URL goes here)].</p>
+                          <p>Réponse [3]: You can apply</p>
+                          <p>You can go ahead and [apply for this benefit (Lien : URL goes here)].</a></p>
+		    <p>Or, if needed: [Set up direct deposit (Lien : URL goes here)].</p>
                         </li>
                       </ul>
                     </li>
@@ -582,46 +583,46 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </ul>
               <p class="h4 mrgn-tp-0">Option 2</p>
               <p class="h5">Question 1</p>
-              <p><strong>Q:</strong> Have you calculated the subsidy amount for your business?</p>
-              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
+              <p><strong>Q:</strong> Avez-vous calculé le montant de la subvention pour votre entreprise?</p>
+              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
               <div class="ff-info-after hidden">
-                <p><strong>Expand/hide</strong><br>
-                  <strong>Summary:</strong>[Summary text here if necessary]
+                <p><strong>Afficher/masquer</strong><br>
+                  <strong>Résumé :</strong>[Texte résumé ici, si nécessaire]
                   </summary>
                 </p>
-                <p>Content, links, tables, etc. goes here</p>
+                <p>Le contenu, les liens et les tableaux vont ici.</p>
               </div>
               <ul>
-                <li>Yes (Go to question 2)</li>
-                <li>No (Go to answer 1)</li>
+                <li>Oui (passez à la question 2)</li>
+                <li>No (passez à la réponse 1)</li>
               </ul>
               <p class="h5">Question 2</p>
               <div class="ff-lead-before hidden">
-                <p>[Lead in statement here if necessary]</p>
+                <p>[Énoncé introductif ici, si nécessaire]</p>
               </div>
-              <p><strong>Q:</strong> Do you expect a payment of $25 million or more?</p>
-              <p class="ff-support-before hidden">[Supportive statement here if necessary]</p>
+              <p><strong>Q:</strong> Vous attendez-vous à recevoir un paiement de 25 millions de dollars ou plus?</p>
+              <p class="ff-support-before hidden">[Texte complémentaire ici, si nécessaire]</p>
               <div class="ff-info-after hidden">
-                <p><strong>Expand/hide</strong><br>
-                  <strong>Summary:</strong> [Summary text here]</p>
-                <p>Content, links, tables, etc. goes here</p>
+                <p><strong>Afficher/masquer</strong><br>
+                  <strong>Résumé :</strong> [Summary text here]</p>
+                <p>Le contenu, les liens et les tableaux vont ici.</p>
               </div>
               <ul>
-                <li>Yes (Go to answer 2)</li>
-                <li>No (Go to answer 3)</li>
+                <li>Oui (passez à la réponse 2)</li>
+                <li>No (passez à la réponse 3)</li>
               </ul>
-              <p class="h5">Answer 1: You need to calculate the subsidy first</p>
+              <p class="h5">Réponse 1: You need to calculate the subsidy first</p>
             <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
-                  <p>[Calculate your subsidy amount (Link: URL goes here)]</p>
-              <p class="h5">Answer 2: You need to report the payment first</p>
-            <p>Before you apply you must:</p>
+                  <p>[Calculez le montant de votre subvention (Lien : URL goes here)]</p>
+              <p class="h5">Réponse 2: You need to report the payment first</p>
+            <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Register for the Large Value Transfer System (LVTS) by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
-                    <li>[Set up direct deposit (Link: URL goes here)]</li>
+                    <li>Register for this program by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
+                    <li>[Set up direct deposit (Lien : URL goes here)]</li>
                   </ul>
-              <p class="h5">Answer 3: You can apply</p>
-              <p>You can go ahead and [apply for this benefit (Link: URL goes here)].</a></p>
-		    <p>Or, if needed: [Set up direct deposit (Link: URL goes here)].</p>
+              <p class="h5">Réponse 3: You can apply</p>
+              <p>You can go ahead and [apply for this benefit (Lien : URL goes here)].</a></p>
+		    <p>Or, if needed: [Set up direct deposit (Lien : URL goes here)].</p>
             </details>
           </div>
         </div>
@@ -662,7 +663,28 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
   <h2 id="h-4">Composantes et fonctionnalités complémentaires</h2>
   
   <p>Des fonctionnalités et des comportements supplémentaires sont disponibles.</p>
-<!--complementary components go here //-->
+<ul class="list-unstyled row wb-eqht-grd list-grid-hover">
+    <!-- forms -->
+    <li class="col-md-4" id="forms">
+      <div class="panel panel-default brdr-rds-0 position-relative hght-inhrt outset">
+        <div class="panel-body p-0"> <img class="img-responsive hidden-xs" src="../../../../assets/images/banners/gcweb/forms-fr.jpg" alt="">
+          <div class="panel-body">
+            <h3 class="mrgn-tp-md"><a class="stretched-link" href="https://conception.canada.ca/configurations-conception-communes/cases-cocher-boutons-radio.html">Formulaires et éléments de formulaire</a></h3>
+          </div>
+        </div>
+      </div>
+    </li>
+    <!-- alerts -->
+    <li class="col-md-4" id="alerts">
+      <div class="panel panel-default brdr-rds-0 position-relative hght-inhrt outset">
+        <div class="panel-body p-0"> <img class="img-responsive hidden-xs" src="../../../../assets/images/banners/gcweb/alerts-fr.jpg" alt="">
+          <div class="panel-body">
+            <h3 class="mrgn-tp-md"><a class="stretched-link" href="https://conception.canada.ca/configurations-conception-communes/alertes-contextuelles.html">Alertes</a></h3>
+          </div>
+        </div>
+      </div>
+    </li>
+</ul>
     <div class="container">
       <div class="pagedetails">
         <dl id="wb-dtmd">
