@@ -336,7 +336,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <li>Résultats par défaut : utilisez l'alerte d&rsquo;information</li>
     <li>Résultats positifs et négatifs : utilisez des alertes de succès et d'avertissement</li>
 </ul>
-  <p>Ajoutez un en-tête à  l'alerte pour fournir un résumé de la réponse. Commencez par un énoncé clair tel que «&nbsp;Voici le résultat&nbsp;» ou «&nbsp;Voici votre réponse&nbsp;» pour aider les gens à comprendre que c'est la fin des questions. </p>
+  <p>Ajoutez un en-tête à  l'alerte pour fournir un résumé de la réponse. Commencez par un énoncé clair tel que «&nbsp;Le résultat est&nbsp;» ou «&nbsp;Voici votre réponse&nbsp;» pour aider les gens à comprendre que c'est la fin des questions. </p>
 <p>Consultez : <a href="#h-5">Options de conception</a></p>
   <h4>Utilisez des attributs pour permettre la navigation en dehors des questions</h4>
   <p>Il existe différentes façons de coder pour avoir un contenu accessible selon que la réponse est plus courte ou plus longue. Vous pouvez aider les personnes utilisant des lecteurs d'écran à naviguer en dehors des éléments du formulaire de l'une des 2 façons suivantes : </p>
@@ -447,31 +447,31 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </div>
               <div id="answers1" aria-live="polite">
                 <div id="answer1-1" class="hidden alert alert-warning alert-result">
-                  <h3><small>Voici le résultat</small><br>
-                    You need to calculate the subsidy first</h3>
-                  <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
+                  <h3><small>Le résultat est</small><br>
+                    Vous devez d’abord calculer la subvention</h3>
+                  <p>Pour faire une demande, vous devez d’abord calculer le montant de votre subvention pour vos employés admissibles.</p>
                   <p><a href="#">Calculez le montant de votre subvention</a></p>
                 </div>
                 <div class="hidden alert alert-info alert-result" id="answer1-2">
-                  <h3><small>Voici le résultat</small><br>
-                    You need to report the payment first</h3>
+                  <h3><small>Le résultat est</small><br>
+                    Vous devez d’abord déclarer le paiement</h3>
                   <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Register for this program by sending an email to <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
-                    <li><a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a></li>
+                    <li>Inscrivez-vous à ce programme en envoyant un courriel à <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
+                    <li><a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Configurez le</span> dépôt direct</a></li>
                   </ul>
                 </div>
                 <div class="hidden alert alert-success alert-result" id="answer1-3">
-                  <h3><small>Voici le résultat</small><br>
-                    You can apply</h3>
+                  <h3><small>Le résultat est</small><br>
+                    Vous pouvez présenter une demande</h3>
                   <p>You can go ahead and <a href="#">apply for this benefit.</a></p>
-                  <p>Or, if needed: <a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Set up</span> direct deposit</a>.</p>
+                  <p>Ou, au besoin : <a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Configurez le</span> dépôt direct</a>.</p>
                 </div>
               </div>
             </details>
             <details id="code1">
               <summary>code HTML</summary>
-		  <p>Removed example text from appearance and logic map for easy copy and paste.</p>
+		  <p>Suppression du texte de l’exemple de l’apparence et de la carte logique pour faciliter le copier-coller.</p>
 		    <div class="wb-clipboard" data-wb-clipboard='{"noTextStyle": true, "border": false}'>   
               <pre><code><div class="mrgn-lft-md mrgn-rght-md">&lt;div class="<strong>wb-frmvld fieldflow-lg</strong>"&gt;
               &lt;form&gt;
@@ -499,18 +499,18 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               &lt;div id="answers1" aria-live="polite"&gt;
               &lt;!--Réponse 1 --&gt;
               &lt;div id="answer-1" class="hidden alert alert-warning alert-result"&gt;
-              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 1 header]&lt;/h3&gt;
-              &lt;p&gt;[Answer 1 statement]&lt;/p&gt;
+              &lt;h3&gt;&lt;small&gt;Le résultat est&lt;/small&gt; &lt;br&gt;[En-tête de la réponse 1]&lt;/h3&gt;
+              &lt;p&gt;[Énoncé de la réponse 1]&lt;/p&gt;
               &lt;/div&gt;
               &lt;!-- Answer 2 --&gt;
               &lt;div class="hidden alert alert-info alert-result" id="answer-2"&gt;
-              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 2 header]&lt;/h3&gt;
-              &lt;p&gt;[Answer 2 statement]&lt;/p&gt;
+              &lt;h3&gt;&lt;small&gt;Le résultat est&lt;/small&gt; &lt;br&gt;[En-tête de la réponse 2]&lt;/h3&gt;
+              &lt;p&gt;[Énoncé de la réponse 2]&lt;/p&gt;
               &lt;/div&gt;
               &lt;!-- Answer 3 --&gt;
               &lt;div class="hidden alert alert-success alert-result" id="answer-3"&gt;
-              &lt;h3&gt;&lt;small&gt;Voici le résultat&lt;/small&gt; &lt;br&gt;[Answer 3 header]&lt;/h3&gt;
-              &lt;p&gt;[Answer 3 statement]&lt;/p&gt;
+              &lt;h3&gt;&lt;small&gt;Le résultat est&lt;/small&gt; &lt;br&gt;[En-tête de la réponse 3]&lt;/h3&gt;
+              &lt;p&gt;[Énoncé de la réponse 3]&lt;/p&gt;
               &lt;/div&gt;
               &lt;/div&gt;</div></code></pre>
 		    </div>
@@ -547,20 +547,20 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                             <li>Oui
                               <ul>
                                 <li>
-                                  <p>Réponse [1]: You need to calculate the subsidy first</p>
-                                  <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
-                  <p>[Calculez le montant de votre subvention (Lien : URL goes here)]</p>
+                                  <p>Réponse [1]: Vous devez d’abord calculer la subvention</p>
+                                  <p>Pour faire une demande, vous devez d’abord calculer le montant de votre subvention pour vos employés admissibles.</p>
+                  <p>[Calculez le montant de votre subvention (lien : l’URL va ici)]</p>
                                 </li>
                               </ul>
                             </li>
                             <li>No
                               <ul>
                                 <li>
-                                  <p>Réponse [2]: You need to report the payment first</p>
+                                  <p>Réponse [2]: Vous devez d’abord déclarer le paiement</p>
                                   <p>Avant de faire une demande, vous devez :</p>
 					<ul>
-						<li>Register for this program by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
-						<li>[Set up direct deposit (Lien : URL goes here)]</li>
+						<li>Inscrivez-vous à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici))]</li>
+						<li>[configurer le dépôt direct (lien : l’URL va ici)]</li>
 					</ul>
                                 </li>
                               </ul>
@@ -572,9 +572,9 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                     <li>No
                       <ul>
                         <li>
-                          <p>Réponse [3]: You can apply</p>
-                          <p>You can go ahead and [apply for this benefit (Lien : URL goes here)].</a></p>
-		    <p>Or, if needed: [Set up direct deposit (Lien : URL goes here)].</p>
+                          <p>Réponse [3]: Vous pouvez présenter une demande</p>
+                          <p>Vous pouvez continuer et [demander cette prestation (lien : l’URL va ici)].</a></p>
+		    <p>Ou, au besoin : [configurer le dépôt direct (lien : l’URL va ici)].</p>
                         </li>
                       </ul>
                     </li>
@@ -611,18 +611,18 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                 <li>Oui (passez à la réponse 2)</li>
                 <li>No (passez à la réponse 3)</li>
               </ul>
-              <p class="h5">Réponse 1: You need to calculate the subsidy first</p>
-            <p>In order to apply, you need to calculate your subsidy amount for your eligible employees first.</p>
-                  <p>[Calculez le montant de votre subvention (Lien : URL goes here)]</p>
-              <p class="h5">Réponse 2: You need to report the payment first</p>
+              <p class="h5">Réponse 1: Vous devez d’abord calculer la subvention</p>
+            <p>Pour faire une demande, vous devez d’abord calculer le montant de votre subvention pour vos employés admissibles.</p>
+                  <p>[Calculez le montant de votre subvention (lien : l’URL va ici)]</p>
+              <p class="h5">Réponse 2: Vous devez d’abord déclarer le paiement</p>
             <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Register for this program by sending an email to [email@cra-arc.gc.ca (Email: email address goes here)]</li>
-                    <li>[Set up direct deposit (Lien : URL goes here)]</li>
+                    <li>Inscrivez-vous à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici))]</li>
+                    <li>[configurer le dépôt direct (lien : l’URL va ici)]</li>
                   </ul>
-              <p class="h5">Réponse 3: You can apply</p>
-              <p>You can go ahead and [apply for this benefit (Lien : URL goes here)].</a></p>
-		    <p>Or, if needed: [Set up direct deposit (Lien : URL goes here)].</p>
+              <p class="h5">Réponse 3: Vous pouvez présenter une demande</p>
+              <p>Vous pouvez continuer et [demander cette prestation (lien : l’URL va ici)].</a></p>
+		    <p>Ou, au besoin : [configurer le dépôt direct (lien : l’URL va ici)].</p>
             </details>
           </div>
         </div>
