@@ -134,9 +134,74 @@
 
         <h2 id="h_2">Purpose of tables</h2>
 
+        <p>Tables organize and present data, such as financial, statistical, comparative or numerical information. </p>
+
+        <p>Common user tasks in tables include: </p>
+
+        <ul>
+            <li>Scan and find records that fit specific criteria</li>
+            <li>View a single record or row of data</li>
+            <li>Understand and compare data</li>
+            <li>Take actions or make a decision based on data</li>
+        </ul>
+
         <h2 id="h_3">When to use</h2>
 
+        <ul class="fa-ul">
+            <li><span class="fas fa-check fa-li text-success"></span>To organize related information (for example, <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html#tbl-personal">Telephone numbers for personal taxes, benefits and trusts</a>)</li>
+            <li><span class="fas fa-check fa-li text-success"></span>To make complex information easier to understand by presenting it in a clear structure (for example, <a href="https://www.canada.ca/en/revenue-agency/services/wage-rent-subsidies/claim-periods-dates-deadlines.html">Claim period dates and deadlines</a>)</li>
+            <li><span class="fas fa-check fa-li text-success"></span>To enable users to look up specific information (for example, <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information/office-locations.html">CRA Office and drop box locations</a> or <a href="https://travel.gc.ca/travelling/advisories">Travel advice and advisories</a>) </li>
+            <li><span class="fas fa-check fa-li text-success"></span>To highlight trends or patterns in data, although a graph may be better than a table to highlight patterns in data (for example, see graphs and tables in the <a href="https://cra-arc.alpha.canada.ca/en/overview/summary">Usability Performance Dashboard</a>)</li>
+            <li><span class="fas fa-check fa-li text-success"></span>To organize data that is too detailed or precise to be described properly in text (for example, <a href="https://www.canada.ca/content/dam/cra-arc/prog-policy/stats/tfsa-celi/2019/table1a-en.pdf">Tax-Free Savings Account (TFSA) holders by age group</a>) </li>
+        </ul>
+
         <h2 id="h_4">When to consider alternatives</h2>
+
+        <ul>
+            <li>When forcing text layout, consider using flexboxes, grids, or column count for lists</li>
+            <li>When the information can be presented in a list or summarized simply in the text</li>
+        </ul>
+
+        <details>
+            <summary>Example of using a list instead of a table</summary>
+            <h3>Before: poorly designed table</h3>
+            <p>The following table is complex and poorly designed. It would be difficult for someone using a screen reader or a mobile device to access and understand the information. </p>
+            <table class="table table-bordered">
+                <caption>National Hockey League Stanley Cup Canadian winning teams (1927–2013) </caption>
+                  <thead>
+                    <tr>
+                        <th rowspan="6">Eastern Conference</th>
+                        <th rowspan="6">Western Conference </th>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <th>Wins</th>
+                        <th>Team</th>
+                        <th>Wins</th>
+                        <th>Team</th>
+                        <th>Wins</th>
+                        <th>Team</th>
+                        <th>Wins</th>
+                        <th>Team</th>
+                        <th>Wins</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>Montréal Canadiens</td>
+                        <td>22</td>
+                        <td>Toronto Maple Leafs</td>
+                        <td>11</td>
+                        <td>Ottawa Senators</td>
+                        <td>1</td>
+                        <td>Edmonton Oilers</td>
+                        <td>5</td>
+                        <td>Calgary Flames</td>
+                        <td>1</td>
+                    </tr>
+                  </tbody>
+                </table>
+        </details>
 
         <h2 id="h_5">How to</h2>
 
