@@ -216,14 +216,14 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
       </ul>
     </li>
     <li>Évitez d'utiliser des termes comme « assistant », « arbre décisionnel » ou même «  questions interactives » dans le titre.</li>
-    <li>Donnez un bref aperçu de ce à quoi vous pouvez vous attendre de l'exécution de la tâche, ainsi que des instructions (au besoin) pour simplifier la réponse aux questions.</li>
+    <li>Donnez un bref aperçu du résultat attendu de l'exécution de la tâche, ainsi que des instructions (au besoin) pour simplifier la réponse aux questions.</li>
     <li>Aidez les gens à s'y retrouver en leur fournissant un énoncé introductif sur ce à  quoi ils peuvent s'attendre.
       <ul>
         <li>Par exemple : « Faites un choix, puis faites défiler vers le bas pour voir la prochaine série d'options ou votre résultat ».</li>
       </ul>
     </li>
   </ul>
-  <h4>Placement of interactive questions within existing content</h4>
+  <h4>Placer les questions interactives dans le contenu existant</h4>
   <p>Si les questions interactives font partie du contenu de la page (une étape dans une tâche plus vaste), utilisez des en-têtes avant et après les questions interactives pour les <strong>séparer</strong> du reste du contenu. </p>
   <p>En plus des en-têtes, envisagez d'utiliser des indicateurs visuels pour indiquer quand les questions interactives commencent et s'arrêtent (par exemple, les tabulations, un icône, la mise en retrait, une bordure et le puits sont toutes des options acceptables). </p>
 <h3 id="h-4-3">Présenter les questions</h3>
@@ -245,7 +245,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     </li>
     <li>Évitez d'introduire de nouveaux termes ou concepts dans les questions interactives; fournissez ces renseignements avant les questions.
       <ul>
-        <li>Pour rappeler des termes ou des concepts, utilisez des <a href="../liens/index.html">liens</a> de secours ou du texte <a href="https://wet-boew.github.io/v4.0-ci/demos/data-ajax/data-ajax-fr.html">AJAX</a>.</li>
+        <li>Pour rappeler des termes ou des concepts, utilisez des <a href="../liens/index.html">liens</a> de secours ou un appel <a href="https://wet-boew.github.io/v4.0-ci/demos/data-ajax/data-ajax-fr.html">AJAX</a>.</li>
       </ul>
     </li>
     <li>Créez uniquement des questions interactives pour les parties d'une tâche qui nécessitent une prise de décision et placez-les à l&rsquo;intérieur du reste du processus.</li>
@@ -254,12 +254,12 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <h4 class="mrgn-tp-0">Exemple</h4>
     <div class="row">
       <div class="col-md-4">
-        <p><span class="fas fa-check text-success mrgn-rght-sm"></span>Preferred:</p>
+        <p><span class="fas fa-check text-success mrgn-rght-sm"></span>Option privilégiée :</p>
         <div class="wb-frmvld fieldflow-lg mrgn-lft-lg">
           <form>
             <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "isoptional": true, "renderas":"radio", "gcChckbxrdio":true, "reset": {"action": "addClass", "source": ".alert-result", "class": "hidden"}}'>
               <div class="wb-fieldflow-header">
-                <p class="wb-fieldflow-label">Option privilégiée :</p>
+                <p class="wb-fieldflow-label">Êtes-vous un citoyen canadien ou un résident permanent?</p>
               </div>
               <ul>
                 <li>Oui</li>
@@ -313,7 +313,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
 <ul>
   <li>Ajoutez un court énoncé en texte simple au-dessus ou en-dessous de la question.
       <ul>
-        <li>Utilisez <code>aria-describedby</code> ou <code>aria-labelledby</code> tpour lier la question et l’énoncé (dans le bon ordre) afin qu’un lecteur d’écran les lise ensemble.</li>
+        <li>Utilisez <code>aria-describedby</code> ou <code>aria-labelledby</code> pour lier la question et l’énoncé (dans le bon ordre) afin qu’un lecteur d’écran les lise ensemble.</li>
       </ul>
   </li>
     <li>Pour ajouter des informations qui comportent du contenu structuré tel que des <a href="../listes/index.html">listes</a>, ou des éléments interactifs tels que des <a href="../liens/index.html">liens</a>, placez le contenu dans un  élément <a href="https://conception.canada.ca/configurations-conception-communes/contenu-reductible.html">afficher/masquer</a> avec un résumé  descriptif.
@@ -344,7 +344,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <li>Enveloppez l'ensemble des réponses avec un élément de bloc (par exemple <code>&lt;div&gt;</code> ou <code>&lt;section&gt;</code>) et utilisez l'attribut <code>aria-live=&quot;polite&quot;</code>  pour que les réponses soient annoncées à la personne au moyen du lecteur d'écran.</li>
     <li>Vous pouvez é aussi utiliser l'attribut <code>tabindex=&quot;0&quot;</code>  dans l'en-tête des réponses afin que la personne puisse accéder à la réponse si elle utilise la navigation clavier (ou la réponse entière si elle est courte).
       <ul>
-        <li>N'utilisez pas les  <code>aria-live=&quot;polite&quot;</code> si vous enveloppez <code>tabindex=&quot;0&quot;</code> la réponse complète.</li>
+        <li>N'utilisez pas <code>aria-live=&quot;polite&quot;</code> si vous enveloppez la réponse complète à l'aide de <code>tabindex=&quot;0&quot;</code>.</li>
       </ul>
     </li>
     <li>Si vous placez les questions interactives dans un onglet (pour avoir l'équivalent en texte intégral), envisagez d'ajouter un lien pour accéder à l'en-tête suivant.</li>
@@ -355,7 +355,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <li>dans le cadre d'une conception avec onglets comportant des questions interactives dans le premier onglet et le texte intégral dans le deuxième
       <ul>
         <li>Fournissez des liens dans les 2 onglets pour naviguer de l&rsquo;un à l&rsquo;autre.</li>
-        <li>Gardez la mise en forme simple dans la version texte intégral, semblable à une publication (par exemple, pas de module afficher/masquer ou de composantes stylisées)</li>
+        <li>Gardez la mise en forme simple dans la version en texte intégral, semblable à une publication (par exemple, pas de module afficher/masquer ou de composantes stylisées)</li>
       </ul>
     </li>
     <li>sur une autre page, accessible au moyen d&rsquo;un lien près des questions interactives</li>
@@ -363,8 +363,6 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
       <ul>
         <li>Il doit être clair (visuellement ou contextuellement) que les informations s'excluent l&rsquo;une l&rsquo;autre et qu'une personne n'a pas besoin d'interagir avec les deux sections.</li>
       </ul>
-    </li>
-    <li>
     </li>
 </ul>
 <h2 id="h-5">Options de conception</h2>
@@ -457,7 +455,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                     Vous devez d’abord déclarer le paiement</h3>
                   <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Inscrivez-vous à ce programme en envoyant un courriel à <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
+                    <li>vous inscrire à ce programme en envoyant un courriel à <a href="mailto:email@cra-arc.gc.ca">email@cra-arc.gc.ca</a></li>
                     <li><a href="#"><span class="nowrap"><span class="fa-stack fa-xs mrgn-rght-sm"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-dollar-sign fa-stack-1x"></span></span>Configurez le</span> dépôt direct</a></li>
                   </ul>
                 </div>
@@ -470,7 +468,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </div>
             </details>
             <details id="code1">
-              <summary>code HTML</summary>
+              <summary>Code HTML</summary>
 		  <p>Suppression du texte de l’exemple de l’apparence et de la carte logique pour faciliter le copier-coller.</p>
 		    <div class="wb-clipboard" data-wb-clipboard='{"noTextStyle": true, "border": false}'>   
               <pre><code><div class="mrgn-lft-md mrgn-rght-md">&lt;div class="<strong>wb-frmvld fieldflow-lg</strong>"&gt;
@@ -559,7 +557,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
                                   <p>Réponse [2]: Vous devez d’abord déclarer le paiement</p>
                                   <p>Avant de faire une demande, vous devez :</p>
 					<ul>
-						<li>Inscrivez-vous à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici))]</li>
+						<li>vous inscrire à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici))]</li>
 						<li>[configurer le dépôt direct (lien : l’URL va ici)]</li>
 					</ul>
                                 </li>
@@ -594,7 +592,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </div>
               <ul>
                 <li>Oui (passez à la question 2)</li>
-                <li>No (passez à la réponse 1)</li>
+                <li>Non (passez à la réponse 1)</li>
               </ul>
               <p class="h5">Question 2</p>
               <div class="ff-lead-before hidden">
@@ -609,7 +607,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               </div>
               <ul>
                 <li>Oui (passez à la réponse 2)</li>
-                <li>No (passez à la réponse 3)</li>
+                <li>Non (passez à la réponse 3)</li>
               </ul>
               <p class="h5">Réponse 1: Vous devez d’abord calculer la subvention</p>
             <p>Pour faire une demande, vous devez d’abord calculer le montant de votre subvention pour vos employés admissibles.</p>
@@ -617,7 +615,7 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
               <p class="h5">Réponse 2: Vous devez d’abord déclarer le paiement</p>
             <p>Avant de faire une demande, vous devez :</p>
                   <ul>
-                    <li>Inscrivez-vous à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici))]</li>
+                    <li>vous inscrire à ce programme en envoyant un courriel à [email@cra-arc.gc.ca (courriel : l’adresse de courriel va ici)]</li>
                     <li>[configurer le dépôt direct (lien : l’URL va ici)]</li>
                   </ul>
               <p class="h5">Réponse 3: Vous pouvez présenter une demande</p>
@@ -631,9 +629,9 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
 </div>
   </div>
 <h3 id="h-5-1">Options de configuration</h3>
-  <p>Pour obtenir des  instructions sur la configuration de la composante qui prend en charge les questions  interactives, consultez <a href="https://wet-boew.github.io/GCWeb/components/wb-fieldflow/fieldflow-fr.html">Déroulement e dchamps du guide de conception GCWeb</a>. </p>
+  <p>Pour obtenir des  instructions sur la configuration de la composante qui prend en charge les questions  interactives, consultez <a href="https://wet-boew.github.io/GCWeb/components/wb-fieldflow/fieldflow-fr.html">Déroulement de champs du guide de conception GCWeb</a>. </p>
 <h2 id="h-6">Satisfaire aux exigences en matière d&rsquo;accessibilité</h2>
-  <p>La <em>Loi canadienne  sur l'accessibilité (LCA)</em> exige que le contenu créé pour l'Agence du revenu  du Canada (ARC) atteigne l'objectif de faire du Canada un pays exempt  d'obstacles d'ici 2040. Pour ses produits numériques, Normes d'accessibilité  Canada suit la <a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic-resume">norme harmonisée européenne  sur les technologies de l'information et des communications (TIC).</a> L'ARC utilise les  <em>Règles pour  l&rsquo;accessibilité des contenus Web (WCAG) 2.1 </em>pour respecter la LCA et doit  se conformer aux niveaux A et AA des WCAG.  </p>
+  <p>La <em>Loi canadienne  sur l'accessibilité (LCA)</em> exige que le contenu créé pour l'Agence du revenu  du Canada (ARC) atteigne l'objectif de faire du Canada un pays exempt  d'obstacles d'ici 2040. Pour ses produits numériques, Normes d'accessibilité  Canada suit la <a href="https://accessibilite.canada.ca/en-301-549-exigences-daccessibilite-pour-les-produits-et-services-tic-resume">norme harmonisée européenne  sur les technologies de l'information et des communications (TIC).</a> L'ARC utilise les <em>Règles pour l&rsquo;accessibilité des contenus Web (WCAG) 2.1 </em>pour respecter la LCA et doit  se conformer aux niveaux A et AA des WCAG.  </p>
 <p>En suivant les  directives du GCAU, votre contenu Web devrait répondre aux critères de réussite  WCAG suivants  : </p>
 <ul>
   <li><a href="https://www.w3.org/Translations/WCAG21-fr/#keyboard">2.1.1  Clavier (Niveau A)</a></li>
@@ -667,9 +665,9 @@ Consultez l'onglet Schéma logique dans les <a href="#h-5">options de conception
     <!-- forms -->
     <li class="col-md-4" id="forms">
       <div class="panel panel-default brdr-rds-0 position-relative hght-inhrt outset">
-        <div class="panel-body p-0"> <img class="img-responsive hidden-xs" src="../../../../assets/images/banners/gcweb/forms-fr.jpg" alt="">
+        <div class="panel-body p-0"> <img class="img-responsive hidden-xs" src="../../../../assets/images/banners/gcweb/checkbox-radio-fr.jpg" alt="">
           <div class="panel-body">
-            <h3 class="mrgn-tp-md"><a class="stretched-link" href="https://conception.canada.ca/configurations-conception-communes/cases-cocher-boutons-radio.html">Formulaires et éléments de formulaire</a></h3>
+            <h3 class="mrgn-tp-md"><a class="stretched-link" href="https://conception.canada.ca/configurations-conception-communes/cases-cocher-boutons-radio.html">Cases à cocher et boutons radio</a></h3>
           </div>
         </div>
       </div>
