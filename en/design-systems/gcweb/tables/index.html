@@ -1652,18 +1652,7 @@
     <script src="../../../../assets/js/components.js"></script>
     <!-- <script src="../../../../assets/js/clipboard.js"></script>//-->
     <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/méli-mélo/2024-09-kejimkujik.js"></script>
-    <script>
-        let table = new DataTable('#tablefilter');
 
-        table.search((d) => d.includes('Vaccine')).draw();
-
-        // note that the above can also be rewritten as:
-        table
-            .search(function (d) {
-                return d.includes('Vaccine');
-            })
-            .draw();
-    </script>
     <div id="footer-include"></div>
 </body>
 
