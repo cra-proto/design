@@ -97,7 +97,7 @@
             <li><a href="#h_2">Purpose of tables</a></li>
             <li><a href="#h_3">When to use</a></li>
             <li><a href="#h_4">When to consider alternatives</a></li>
-            <li><a href="#h_5">How to</a>
+            <li><a href="#h_5">How to use</a>
                 <ul>
                     <li><a href="#h_5_1">Provide captions for tables</a></li>
                     <li><a href="#h_5_2">Include clear and concise table headers</a></li>
@@ -168,7 +168,7 @@
             <p>The following table is complex and poorly designed. It would be difficult for someone using a screen reader or a mobile device to access and understand the information. </p>
             <table class="table table-bordered">
                 <caption>National Hockey League Stanley Cup Canadian winning teams (1927–2013) </caption>
-                  <thead>
+                <thead>
                     <tr>
                         <th colspan="6">Eastern Conference</th>
                         <th colspan="6">Western Conference </th>
@@ -185,8 +185,8 @@
                         <th>Team</th>
                         <th>Wins</th>
                     </tr>
-                  </thead>
-                  <tbody>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Montréal Canadiens</td>
                         <td>22</td>
@@ -199,17 +199,201 @@
                         <td>Calgary Flames</td>
                         <td>1</td>
                     </tr>
-                  </tbody>
-                </table>
+                </tbody>
+            </table>
+
+            <h3>After: bulleted lists (instead of complex table)</h3>
+
+            <p>This complex table can instead be presented as 2 bulleted lists. This is easier for someone using a screen reader or a mobile device to access and understand the information. </p>
+
+            <p><strong>National Hockey League Stanley Cup Canadian winning teams from 1927 to 2013</strong></p>
+
+            <p>Eastern conference:</p>
+
+            <ul>
+                <li>Montreal Canadiens had 22 wins</li>
+                <li>Toronto Maple Leafs had 11 wins</li>
+                <li>Ottawa Senators had 1 win</li>
+            </ul>
+
+            <p>Western conference:</p>
+
+            <ul>
+                <li>Edmonton Oilers had 5 wins</li>
+                <li>Calgary Flames had 1 win</li>
+            </ul>
+
         </details>
 
-        <h2 id="h_5">How to</h2>
+        <details>
+            <summary>Example of presenting the information in text instead of in a table</summary>
+            <h3>Before: Complex table</h3>
+
+            <table class="table table-bordered">
+                <caption>National Hockey League Stanley Cup Canadian winning teams (1927–2013) </caption>
+                <thead>
+                    <tr>
+                        <th colspan="6" scope="col">Eastern Conference</th>
+                        <th colspan="6" scope="col">Western Conference </th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Team</th>
+                        <th scope="col">Wins</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Wins</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Wins</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Wins</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Wins</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Montréal Canadiens</td>
+                        <td>22</td>
+                        <td>Toronto Maple Leafs</td>
+                        <td>11</td>
+                        <td>Ottawa Senators</td>
+                        <td>1</td>
+                        <td>Edmonton Oilers</td>
+                        <td>5</td>
+                        <td>Calgary Flames</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>After: Text presentation (instead of complex table)</h3>
+
+            <p>If users don’t need information at such a high level of detail or precision, present the information in text. In this case, users likely only need to know which Canadian team won the most Stanley cups during a certain time period. </p>
+
+            <p><strong>National Hockey League Stanley Cup top Canadian winning team</strong></p>
+
+            <p>From 1927 to 2013, the Montreal Canadiens won 22 Stanley Cups and that was the most won by a Canadian team. </p>
+
+        </details>
+
+        <h2 id="h_5">How to use</h2>
 
         <h3 id="h_5_1">Provide captions for tables</h3>
 
+        <p>Captions provide information that can help people find, navigate, and understand tables.</p>
+
+        <p>If there is a heading and a caption provided for one table, keep the caption and use the <code>wb-inv</code> class so it can only be seen by screen readers.</p>
+
+        <h4>Captions for tables</h4>
+
+        <p>A caption describes the table’s purpose.</p>
+
+        <p>Captions help people:</p>
+
+        <ul>
+            <li>Find a table</li>
+            <li>Understand what the table is about</li>
+            <li>Decide if they want to read the table</li>
+        </ul>
+
+        <p>A table caption should:</p>
+
+        <ul class="fa-ul">
+            <li><span class="fas fa-check fa-li text-success"></span>Give a clear idea of what is in the table</li>
+            <li><span class="fas fa-check fa-li text-success"></span>Be unique within the context of the page</li>
+            <li><span class="fas fa-check fa-li text-success"></span>Be short and have no unnecessary words</li>
+            <li><span class="fas fa-check fa-li text-success"></span>Start with the most relevant terms</li>
+            <li><span class="fas fa-check fa-li text-success"></span>Make sense on its own</li>
+            <li><span class="fas fa-check fa-li text-success"></span>Follow best practices similar as Headings and titles</li>
+        </ul>
+
+        <p>A table caption should <strong>not</strong>:</p>
+
+        <ul class="fa-ul">
+            <li><span class="fas fa-times fa-li text-danger"></span>Give an interpretation of the data</li>
+            <li><span class="fas fa-times fa-li text-danger"></span>End with punctuation</li>
+            <li><span class="fas fa-times fa-li text-danger"></span>Contain abbreviations (unless the audience knows the abbreviation better than its long-form equivalent)</li>
+            <li><span class="fas fa-times fa-li text-danger"></span>Include promotional messaging (for example subjective claims)</li>
+        </ul>
+
+        <p>Most screen readers announce the content of captions. When multiple tables are on a page, screen reader users can list all tables along with their captions. A unique caption makes it easier for screen reader users to identify and jump to the specific table they are interested in. </p>
+
+        <details>
+            <summary>Example of a caption for a table</summary>
+            <p>Caption: Availability of holiday accommodation</p>
+        </details>
+
         <h3 id="h_5_2">Include clear and concise table headers</h3>
 
+        <p>There are 2 types of table headers: </p>
+
+        <ul>
+            <li>Column headers</li>
+            <li>Row headers</li>
+        </ul>
+
+        <h4>Column and row headers</h4>
+
+        <ul>
+            <li>Give each column and row a unique header that describes the data in that column or row.</li>
+            <li>Keep headers as short as possible</li>
+            <li>Add units of measure in a row or column header, instead of repeating them in each data cell.</li>
+        </ul>
+
+        <details>
+            <summary>Example: Column headers with units of measure</summary>
+            <table class="table table-bordered">
+                <caption class="wb-inv">Example: Column headers with units of measure</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">City</th>
+                        <th scope="col">Minimum temperature (&deg;C)</th>
+                        <th scope="col">Maximum temperature (&deg;C)</th>
+                        <th scope="col">Rainfall <br>(mm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Canberra</td>
+                        <td>10.7</td>
+                        <td>24.4</td>
+                        <td>52.6</td>
+                    </tr>
+                    <tr>
+                        <td>London</td>
+                        <td>3.8</td>
+                        <td>10.3</td>
+                        <td>48.0</td>
+                    </tr>
+                    <tr>
+                        <td>Nairobi</td>
+                        <td>13.1</td>
+                        <td>25.6</td>
+                        <td>92.8</td>
+                    </tr>
+                    <tr>
+                        <td>New Delhi</td>
+                        <td>15.4</td>
+                        <td>29.7</td>
+                        <td>14.7</td>
+                    </tr>
+                    <tr>
+                        <td>Tokyo</td>
+                        <td>5.6</td>
+                        <td>13.3</td>
+                        <td>117.5</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>By looking at the column headers "City", "Minimum temperature (°C)" and " Maximum temperature (°C)" and “Rainfall (mm)”, people can understand that the city of Nairobi has a minimum temperature of 13.1 °C, a maximum temperature of 25.6 °C, and rainfall of 92.8 mm. </p>
+
+        </details>
+
+        <p>People using screen readers can have the row and column headers read aloud as they navigate through the table. Screen readers speak one cell at a time and reference the associated header cells, so the reader doesn’t lose context. </p>
+
         <h3 id="h_5_3">Use the simplest table structure</h3>
+
+
 
         <h3 id="h_5_4">Align data in columns</h3>
 
