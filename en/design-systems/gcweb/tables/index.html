@@ -1530,7 +1530,7 @@
                         <td>Zoonotic (tick-borne)(vaccine-preventable)</td>
                     </tr>
                     <tr>
-                        <td><a href="http://www.ccohs.ca/oshanswers/diseases/toxoplasmosis.html" rel="external">Toxoplasmosis</a></td> 
+                        <td><a href="http://www.ccohs.ca/oshanswers/diseases/toxoplasmosis.html" rel="external">Toxoplasmosis</a></td>
                         <td>Zoonotic (cats)</td>
                     </tr>
                     <tr>
@@ -1619,7 +1619,90 @@
 
         <h3 id="h_5_8">Add pagination controls for large tables</h3>
 
+        <p>Pagination controls in tables give people the choice of how many table rows are displayed on a page. They help people navigate and view large tables in digestible amounts.</p>
+
+        <p>If there are more than 12 rows in a table, consider adding pagination controls.</p>
+
+        <p>The default number of rows displayed often varies between 5 and 25 rows. Choose the default number of rows based on what makes sense in the context of the table and how people use the data:</p>
+
+        <ul>
+            <li>If there is content on the page after the table, consider a lower default number of rows so that it’s easy for people to see the content that appears after the table</li>
+            <li>If the data for each row is concise, consider a higher default number of rows</li>
+            <li>If the data for each row is lengthy, consider a lower default number of rows</li>
+        </ul>
+
+        <!--
+        <details>
+            <summary>Example: Table with pagination controls </summary>
+        </details>
+    -->
+
         <h3 id="h_5_9">Code responsive tables based on screen size</h3>
+
+        <p>Some devices may have screens that are too small to display the full width of the table content.</p>
+
+        <p>Responsive tables are able to:</p>
+
+        <ul>
+            <li>Adapt to different screen sizes while maintaining the logical order and structure of the data</li>
+            <li>Prevent the need for horizontal scrolling or zooming on smaller screens</li>
+        </ul>
+
+        <p>Coding responsive tables ensures that: </p>
+
+        <ul>
+            <li>People can easily read and interact with table data regardless of the device they are using</li>
+            <li>People with disabilities who are using assistive devices can navigate and understand the table content effectively</li>
+        </ul>
+
+        <p>For screens that are too small to display the full width of content, a responsive table can be coded to either: </p>
+
+        <ul class="list-unstyled cnjnctn-type-or cnjnctn-sm">
+            <li class="cnjnctn-col">
+                <p>Display a horizontal scroll bar</p>
+            </li>
+            <li class="cnjnctn-col">
+                <p>Split the table into separate smaller tables</p>
+            </li>
+        </ul>
+
+        <details>
+            <summary>Example: Responsive table based on screen sizes</summary>
+            <div class="pattern-demo pattern-demo-component">
+                <div class="component-demo example-frame-bkg" id="basic-demo">
+                    <div class="layout-demo example-frame-bkg" id="unfiltered-layout">
+                        <h3 class="h4 hidden-xs hidden-sm">
+                            Screen size:
+                        </h3>
+                        <div class="btn-group hidden-xs hidden-sm">
+                            <button class="btn btn-default" id="resize-iframe-mobile">
+                                <span class="fas fa-mobile-alt">
+                                </span>
+                                <strong>
+                                    Small
+                                </strong>
+                            </button>
+                            <button class="btn btn-default" id="resize-iframe-tablet">
+                                <span class="fas fa-tablet-alt">
+                                </span>
+                                <strong>
+                                    Medium
+                                </strong>
+                            </button>
+                            <button class="btn btn-default" id="resize-iframe-desktop">
+                                <span class="fas fa-desktop">
+                                </span>
+                                <strong>
+                                    Large
+                                </strong>
+                            </button>
+                        </div>
+                        <iframe class="example-frame example-frame-resizable example-frame-m" loading="lazy" onload="resizeIframe(this);" src="https://design.canada.ca/common-design-patterns/fragments/basic.html" title="Basic table example">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </details>
 
         <h3 id="h_5_10">Rows with alternating colours or zebra stripes</h3>
 
